@@ -1,39 +1,27 @@
-Detective Lee:
+Character Profiles:
 
-Backstory: Detective Lee was born and raised in the bustling city, but her grandmother, a renowned storyteller, often regaled her with tales of Jeju Island's myths and legends. This instilled in her a deep sense of justice and a desire to uncover the truth.
+1. Yoon:
+   - Backstory: Yoon is a skilled detective from the mainland who has been called to Jeju Island to investigate the mysterious death of the island's governor. He is known for his sharp mind and ability to solve complex cases.
+   - Motivation: Yoon is driven by his desire to uncover the truth behind the governor's death and bring the perpetrator to justice.
+   - Secret: Yoon has a personal connection to Jeju Island, as his mother was born there, and he has always been fascinated by the island's myths and legends.
+   - Relationships: Yoon initially clashes with Hae-won, but they eventually develop a grudging respect for each other as they work together to solve the mystery.
 
-Motivation: Detective Lee is determined to solve the murder case and uncover the truth behind the family's curse, as she believes it is her duty to bring justice to those who have suffered.
+2. Hae-won:
+   - Backstory: Hae-won is the governor's wife, a powerful and enigmatic figure who is rumored to possess healing powers, drawing from the mythical status of Jeju women. She is deeply involved in the island's political intrigues.
+   - Motivation: Hae-won is determined to protect her husband's legacy and maintain her own power, even if it means concealing the truth about his death.
+   - Secret: Hae-won is hiding a dark secret from her past, which could jeopardize her position on the island if it were to be revealed.
+   - Relationships: Hae-won has a complex relationship with In-ho, who is both a confidant and a rival. She initially distrusts Yoon, but comes to see him as a potential ally in her struggle for power.
 
-Secret: Detective Lee has a deep-seated fear of the supernatural, stemming from her grandmother's stories of Jeju Island's spiritual world.
+3. In-ho:
+   - Backstory: In-ho is the governor's advisor, who is both a confidant and a rival to Hae-won. He is deeply involved in the island's political intrigues and is willing to do whatever it takes to seize control of the island.
+   - Motivation: In-ho is driven by his desire for power and wealth, and will stop at nothing to achieve his goals.
+   - Secret: In-ho is secretly plotting against Hae-won, and is willing to use any means necessary to take control of the island.
+   - Relationships: In-ho has a complicated relationship with Hae-won, who he both admires and resents. He initially tries to manipulate Yoon, but eventually comes to see him as a threat to his plans.
 
-Relationships: Detective Lee has a professional relationship with Heo, as they both seek to uncover the truth behind the murder. She also has a close friendship with Yoon, as they share a mutual interest in Jeju Island's history and culture.
+4. Seong-hee:
+   - Backstory: Seong-hee is a young and ambitious artist from the mainland, who has been commissioned to paint a portrait of Hae-won. She is drawn to the island's myths and legends, and is eager to uncover the truth behind the governor's death.
+   - Motivation: Seong-hee is driven by her desire to create a masterpiece and to uncover the truth behind the governor's death.
+   - Secret: Seong-hee has a hidden talent for detecting lies, which she uses to help Yoon solve the mystery.
+   - Relationships: Seong-hee initially clashes with Hae-won, but eventually comes to see her as a mentor and role model. She also develops a romantic relationship with Yoon, which complicates their investigation.
 
-Heo:
-
-Backstory: Heo is the wealthy businessman's estranged son, who returns to the mansion after years of absence. He is haunted by the ghosts of his past, including the memory of his mother, who was rumored to be a powerful shaman with ties to Jeju Island's spiritual world.
-
-Motivation: Heo is driven by a desire to uncover the truth about his mother's disappearance and the curse that has plagued his family for generations.
-
-Secret: Heo has a deep-seated fear of the supernatural, stemming from his mother's rumored ties to Jeju Island's spiritual world.
-
-Relationships: Heo has a strained relationship with his father, as he resents the latter's shady dealings and illicit activities. He also has a professional relationship with Detective Lee, as they both seek to uncover the truth behind the murder.
-
-Yoon:
-
-Backstory: Yoon is a local journalist with a keen interest in Jeju Island's history and culture. He has spent years researching the island's legends and myths, and is determined to uncover the truth behind the murder, believing it to be connected to a centuries-old curse that has plagued the family for generations.
-
-Motivation: Yoon is driven by a desire to uncover the truth and expose the family's dark secrets, as he believes it is his duty to bring justice to those who have suffered.
-
-Secret: Yoon has a deep-seated fear of the supernatural, stemming from his research into Jeju Island's spiritual world.
-
-Relationships: Yoon has a close friendship with Detective Lee, as they share a mutual interest in Jeju Island's history and culture. He also has a professional relationship with Heo, as they both seek to uncover the truth behind the murder.
-
-Park:
-
-Backstory: Park is a former employee of the businessman, who holds a deep-seated grudge against him. Park knows the dark secrets of the family and is willing to do whatever it takes to see justice served.
-
-Motivation: Park is driven by a desire for revenge against the businessman, as he believes the latter deserves to be brought to justice for his shady dealings and illicit activities.
-
-Secret: Park has a deep-seated fear of the supernatural, stemming from his knowledge of the family's dark secrets.
-
-Relationships: Park has a strained relationship with the businessman, as he resents the latter's shady dealings and illicit activities. He also has a professional relationship with Detective Lee, as she seeks to uncover the truth behind the murder.
+Each character has a unique personality and story, and their relationships with each other are complex and constantly evolving as they navigate the island's political intrigues and uncover the truth behind the governor's death.

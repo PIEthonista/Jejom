@@ -1,21 +1,25 @@
-The murder mystery unfolds in a bustling city, far from the tranquil shores of Jeju Island, but the influence of its legends, history, and culture permeates the story. The crime scene is a grand mansion, once the residence of a wealthy businessman with roots on Jeju Island. The mansion, now abandoned, is a testament to the opulence and extravagance of its former owner, who amassed his fortune through shady deals and illicit activities.
+Background Setting:
+
+The story unfolds in the late 19th century, during the Joseon Dynasty, when Jeju Island was known as a place of exile and isolation. The island's unique cultural and historical context, influenced by the mythical status of Jeju women, the influence of animism, and the island's geographical features, provides a rich backdrop for the murder mystery.
+
+Crime Scene Setting:
+
+The crime scene is set in the Seongeomdang Palace, a historical residence on Jeju Island that was once the seat of power for the local governors. The palace, with its intricate architecture and lush gardens, is a symbol of the island's rich history and the power dynamics at play.
+
+Course of the Case:
 
 The story revolves around four key characters:
 
-1. Detective Lee, a tenacious and resourceful investigator with a deep-seated connection to Jeju Island. Her grandmother, a renowned storyteller, often regaled her with tales of the island's myths and legends, instilling in her a sense of justice and a desire to uncover the truth.
+1. Yoon, a skilled detective from the mainland, who is called to Jeju Island to investigate the mysterious death of the island's governor.
+2. Hae-won, the governor's wife, a powerful and enigmatic figure who is rumored to possess healing powers, drawing from the mythical status of Jeju women.
+3. In-ho, the governor's advisor, who is both a confidant and a rival to Hae-won, and is deeply involved in the island's political intrigues.
+4. Seong-hee, a young and ambitious artist from the mainland, who has been commissioned to paint a portrait of Hae-won, and becomes entangled in the mystery.
 
-2. Heo, the wealthy businessman's estranged son, who returns to the mansion after years of absence. Heo is haunted by the ghosts of his past, including the memory of his mother, who was rumored to be a powerful shaman with ties to Jeju Island's spiritual world.
+Key Event Descriptions:
 
-3. Yoon, a local journalist with a keen interest in the island's history and culture. Yoon is determined to uncover the truth behind the murder, believing it to be connected to a centuries-old curse that has plagued the family for generations.
+1. The Mysterious Death: The governor is found dead in his study, with no apparent cause of death. Yoon arrives on the island to investigate, and soon discovers that the governor's death may not have been natural.
+2. The Healing Ceremony: Hae-won, in an attempt to protect her husband's legacy and maintain her own power, organizes a healing ceremony, drawing on the animistic beliefs of the island. Yoon, skeptical of the ceremony's authenticity, begins to suspect that Hae-won may be involved in the governor's death.
+3. The Political Intrigue: As Yoon delves deeper into the investigation, he uncovers a complex web of political intrigue involving In-ho, who is revealed to be plotting against Hae-won to seize control of the island.
+4. The Artist's Discovery: Seong-hee, while working on Hae-won's portrait, discovers a hidden message that leads her to believe that the governor's death was not an accident. She shares this information with Yoon, who realizes that the key to solving the mystery lies in the island's cultural and historical context.
 
-4. Park, a former employee of the businessman, who holds a deep-seated grudge against him. Park knows the dark secrets of the family and is willing to do whatever it takes to see justice served.
-
-The course of the case is fraught with danger and intrigue, as the characters navigate the complex web of secrets and lies that surround the murder. As they delve deeper into the mystery, they uncover a series of key events that shed light on the family's past and the curse that has haunted them for generations.
-
-One such event is the tragic love story of the businessman's grandparents, who were separated by the turbulent history of Jeju Island. Their unfulfilled love is believed to be the source of the curse that has plagued the family, and it is this curse that drives the characters to uncover the truth.
-
-Another key event is the mysterious disappearance of the businessman's wife, who was rumored to be a powerful shaman with ties to Jeju Island's spiritual world. Her disappearance is believed to be connected to the curse, and the characters must unravel the mystery of her fate to solve the case.
-
-As the investigation progresses, the characters must confront their own demons and come to terms with the legacy of Jeju Island's history and culture. In the end, the truth is revealed, and the characters are forced to confront the consequences of their actions.
-
-The murder mystery is a testament to the enduring power of Jeju Island's legends, history, and culture, and the influence they have on the lives of those who are connected to them. The story is a gripping tale of love, betrayal, and redemption, set against the backdrop of a rich and atmospheric world that draws players in and keeps them engaged until the very end.
+Throughout the story, the characters are influenced by the myths and legends of Jeju Island, as well as the island's unique geographical features. The setting plays a crucial role in shaping the characters' actions and motivations, creating a rich and atmospheric backdrop for the murder mystery.

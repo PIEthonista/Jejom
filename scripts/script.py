@@ -4,14 +4,23 @@ from crewai import Agent, Task, Crew, Process
 from langchain_upstage import ChatUpstage
 from crewai_tools import PDFSearchTool
 from openai import OpenAI
+import gradio as gr
+import re
+import json
+from fpdf import FPDF
+from docx import Document
+import gradio as gr
+from docx.shared import Pt
 
 # Set environment variables
 os.environ["UPSTAGE_API_BASE"] = "https://api.upstage.ai/v1/solar"
 os.environ["UPSTAGE_API_KEY"] = "up_sxQRRcrbTmgfXVNaxuWpTgkd5Yuig"
 
 class ScriptGenerator:
-    def __init__(self, characters_num):
+    def __init__(self, characters_num,cafe_name,cafe_environment):
         self.characters_num = characters_num
+        self.cafe_name= cafe_name
+        self.cafe_environment = cafe_environment
         self.llm = ChatUpstage()
         self.rag_tool = PDFSearchTool(
             pdf='/Users/debbiechoonghuitian/Jejom-1/scripts/outputs/Jeju.pdf',
@@ -43,7 +52,7 @@ class ScriptGenerator:
             llm=self.llm
         )
         self.titler = Agent(
-            role="Titler",
+            role="Title",
             goal=f"Design a title for the murder mystery game",
             backstory="""You are an experienced storyteller, well-versed in the essence of humanity and drama. You excel at constructing tight plots that immerse players.""",
             verbose=True,
@@ -51,8 +60,8 @@ class ScriptGenerator:
             llm=self.llm
         )
         self.timer = Agent(
-            role="Timer",
-            goal=f"Write the duration of the time it takes to play the murder mystery game",
+            role="Duration",
+            goal=f"Write the duration of the time.",
             backstory="""You are an experienced storyteller, well-versed in the essence of humanity and drama. You excel at constructing tight plots that immerse players.""",
             verbose=True,
             allow_delegation=False,
@@ -118,7 +127,7 @@ class ScriptGenerator:
 
         self.script_writing_task = Task(
             description=f"""Write a complete 4-day event log leading to the crime day for all the {self.characters_num} characters. Ensure each log is fully written, with no unfinished sentences or thoughts. Include specific dates, key events, thoughts, plans, and interactions that provide insight into the character's motives and actions. Each event log should conclude with a summary or reflective thought that naturally completes the narrative.""",
-            expected_output="A complete murder mystery script for each character. Write for all characters",
+            expected_output="A complete 4-day event log for each character. Write for all characters",
             agent=self.script_writer_agent,
             output_file="character_event_log.txt"
         )
@@ -145,8 +154,8 @@ class ScriptGenerator:
             output_file="title.txt"
         )
         self.time = Task(
-            description="""Write the time taken to play the game""",
-            expected_output=" Write in the format'2-3 hours'. Thats's app.",
+            description="""Write the game duraction""",
+            expected_output=" Just right the answer as '2-3hours'. Don't write full sentences, just a direct duration",
             agent=self.timer,
             output_file="time_taken.txt"
         )
@@ -178,30 +187,57 @@ class ScriptGenerator:
         
         print("All task outputs have been saved to:", output_json_path)
 
-        return output_json_path
+        return output_json_path, self.cafe_name
 
+
+
+import json
 
 class Translator:
     def __init__(self, api_key):
         self.client = OpenAI(api_key=api_key, base_url="https://api.upstage.ai/v1/solar")
 
-    def translate_text(self, text, model="solar-1-mini-translate-enko"):
-        stream = self.client.chat.completions.create(
-            model=model,
-            messages=[
-                {
-                    "role": "assistant",
-                    "content": text
-                }
-            ],
-            stream=True,
-        )
+    def translate_text(self, text, model="solar-1-mini-translate-enko", chunk_size=1600):
+        # Split the text into chunks, making sure not to split in the middle of a sentence
+        import re
         
+        # Split text into chunks, trying to avoid splitting sentences
+        def split_text(text, chunk_size):
+            sentences = re.split(r'(?<=[.!?]) +', text)
+            chunks, current_chunk = [], ""
+            for sentence in sentences:
+                if len(current_chunk) + len(sentence) + 1 <= chunk_size:
+                    if current_chunk:
+                        current_chunk += " " + sentence
+                    else:
+                        current_chunk = sentence
+                else:
+                    chunks.append(current_chunk)
+                    current_chunk = sentence
+            if current_chunk:
+                chunks.append(current_chunk)
+            return chunks
+
+        chunks = split_text(text, chunk_size)
         translated_text = ""
-        for chunk in stream:
-            if chunk.choices[0].delta.content is not None:
-                translated_text += chunk.choices[0].delta.content
+
+        for chunk in chunks:
+            stream = self.client.chat.completions.create(
+                model=model,
+                messages=[
+                    {
+                        "role": "assistant",
+                        "content": chunk
+                    }
+                ],
+                stream=True,
+            )
+            for chunk in stream:
+                if chunk.choices[0].delta.content:
+                    translated_text += chunk.choices[0].delta.content
+
         return translated_text
+
 
     def translate_and_save(self, input_file, output_file):
         with open(input_file, 'r', encoding='utf-8') as file:
@@ -211,21 +247,205 @@ class Translator:
         for key, text in data.items():
             print(f"Translating {key}...")
             translated_text = self.translate_text(text)
+            print(translated_text)
             translated_data[key] = translated_text
 
         with open(output_file, 'w', encoding='utf-8') as file:
             json.dump(translated_data, file, ensure_ascii=False, indent=4)
 
-        print("Translation complete. Check 'translated_file.json' for results.")
+        return output_file
 
+        print(f"Translation complete. Check '{output_file}' for results.")
+
+
+
+def create_docx(json_data,docx_name,cafe_name):
+    docx_path = f"{docx_name}.docx"
+    doc = Document()
+
+    
+    heading = doc.add_heading("Murder Mystery Game Script", level=1)
+    run = heading.runs[0]
+    run.font.size = Pt(24)
+    doc.add_heading(cafe_name, level=1)
+
+    # if 'title' in json_data:
+    #     doc.add_paragraph("Title")
+    #     doc.add_paragraph(json_data['title'])
+    # if 'Duration' in json_data:
+    #     doc.add_paragraph("Duration")
+    #     doc.add_paragraph(json_data['Duration'])
+    # if 'Script Planner' in json_data:
+    #     doc.add_paragraph("Storyline")
+    #     doc.add_paragraph(json_data['Script Planner'])
+    # if 'Character Designer' in json_data:
+    #     doc.add_paragraph("Characters")
+    #     doc.add_paragraph(json_data['Character Designer'])
+    # if 'Script Writer' in json_data:
+    #     doc.add_paragraph("Events before the crime scene")
+    #     doc.add_paragraph(json_data['Script Writer'])
+    # if 'Clue Generator' in json_data:
+    #     doc.add_paragraph("Clues")
+    #     doc.add_paragraph(json_data['Clue Generator'])
+    # if 'Player Instruction Writer' in json_data:
+    #     doc.add_paragraph("Player Instructions")
+    #     doc.add_paragraph(json_data['Player Instruction Writer'])
+
+    if docx_name=='english_script':
+        if 'Title' in json_data:
+            title_paragraph = doc.add_paragraph("Title")
+            run = title_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)  # Adjust the font size as needed
+            doc.add_paragraph(json_data['Title'])
+
+        if 'Duration' in json_data:
+            duration_paragraph = doc.add_paragraph("Duration")
+            run = duration_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Duration'])
+
+        if 'Script Planner' in json_data:
+            storyline_paragraph = doc.add_paragraph("Storyline")
+            run = storyline_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Script Planner'])
+
+        if 'Character Designer' in json_data:
+            characters_paragraph = doc.add_paragraph("Characters")
+            run = characters_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Character Designer'])
+
+        if 'Script Writer' in json_data:
+            events_paragraph = doc.add_paragraph("Events before the crime scene")
+            run = events_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Script Writer'])
+
+        if 'Clue Generator' in json_data:
+            clues_paragraph = doc.add_paragraph("Clues")
+            run = clues_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Clue Generator'])
+
+        if 'Player Instruction Writer' in json_data:
+            instructions_paragraph = doc.add_paragraph("Player Instructions")
+            run = instructions_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Player Instruction Writer'])
+
+    elif docx_name=='korean_script':
+        if 'Title' in json_data:
+            title_paragraph = doc.add_paragraph("제목")
+            run = title_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)  # Adjust the font size as needed
+            doc.add_paragraph(json_data['Title'])
+
+        if 'Duration' in json_data:
+            duration_paragraph = doc.add_paragraph("지속")
+            run = duration_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Duration'])
+
+        if 'Script Planner' in json_data:
+            storyline_paragraph = doc.add_paragraph("줄거리")
+            run = storyline_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Script Planner'])
+
+        if 'Character Designer' in json_data:
+            characters_paragraph = doc.add_paragraph("성격")
+            run = characters_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Character Designer'])
+
+        if 'Script Writer' in json_data:
+            events_paragraph = doc.add_paragraph("범죄 현장 이전의 사건")
+            run = events_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Script Writer'])
+
+        if 'Clue Generator' in json_data:
+            clues_paragraph = doc.add_paragraph("단서")
+            run = clues_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Clue Generator'])
+
+        if 'Player Instruction Writer' in json_data:
+            instructions_paragraph = doc.add_paragraph("플레이어 지침")
+            run = instructions_paragraph.runs[0]
+            run.bold = True
+            run.font.size = Pt(14)
+            doc.add_paragraph(json_data['Player Instruction Writer'])
+
+    # for key, value in json_data.items():
+    #     doc.add_paragraph(f"{key}: {value}")
+    
+    doc.save(docx_path)
+    return docx_path
+
+#generate riles 
+def generate_files(original_script,translated_script,cafe_name):
+    english_script = create_docx(original_script,"english_script",cafe_name)
+    korean_script = create_docx(translated_script,"korean_script",cafe_name)
+    return english_script, korean_script
+
+
+
+def generate_scripts(characters_num,cafe_name,cafe_environment):
+    script_generator = ScriptGenerator(characters_num,cafe_name,cafe_environment)
+    output_json_path, cafe_name = script_generator.run_tasks()
+    translator = Translator(api_key="up_sxQRRcrbTmgfXVNaxuWpTgkd5Yuig")
+    translator_json_path = translator.translate_and_save(input_file=output_json_path, output_file='translated_file.json')
+
+    with open(output_json_path, 'r', encoding='utf-8') as file:
+        original_script = json.load(file)
+
+    with open(translator_json_path, 'r', encoding='utf-8') as file:
+        translated_script = json.load(file)
+        
+    return generate_files(original_script,translated_script,cafe_name)
+
+
+
+
+
+    
+    
+with gr.Blocks() as demo:
+    gr.Markdown(
+    """
+    # Create Your Own Murder Mystery Script (剧本杀)
+
+    Begin crafting your story for your cafe below.
+
+    """)
+
+
+    cafe_name = gr.Textbox(label="What is the name of your cafe?")
+    characters_num = gr.Textbox(label="How many characters would you like to feature in your murder mystery script?")
+    cafe_environment= gr.Textbox(label="Briefly describe the ambience of your cafe",info="My cafe is a cozy, warm haven filled with natural light")
+
+    btn = gr.Button("Generate Script")
+
+    english_output = gr.File(label="Download English Version")
+    korean_output = gr.File(label="Download Korean Version")
+    
+    btn.click(fn=generate_scripts, inputs=[characters_num,cafe_name,cafe_environment],outputs=[english_output, korean_output])
 
 if __name__ == "__main__":
-    characters_num = input("How many characters? ")
-
-    # Generate scripts
-    script_generator = ScriptGenerator(characters_num)
-    output_json_path = script_generator.run_tasks()
-
-    # Translate results
-    translator = Translator(api_key="up_sxQRRcrbTmgfXVNaxuWpTgkd5Yuig")
-    translator.translate_and_save(input_file=output_json_path, output_file='translated_file.json')
+    demo.launch()
+        
