@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-
+import json
 from dotenv import load_dotenv
 from llama_index.core import Settings
 from llama_index.llms.groq import Groq
@@ -61,11 +61,20 @@ def get_destinations():
 def generate_trip():
     user_query = request.form.get('query')
     user_properties = request.form.get('user_props')
+    mode = request.form.get('mode')  # test
+    
     print("generate_trip: ", user_query, user_properties)
-    trip_dict = pipeline.generate_trip(end_user_specs=str(user_properties),
-                                       end_user_final_query=str(user_query)+str(user_properties),
-                                       max_json_try=MAX_JSON_TRY,
-                                       check_match_from_cache_top_k=CHECK_MATCH_FROM_CACHE_TOP_K)
+    print(str(mode).lower().strip())
+    
+    if "test" in str(mode).lower().strip():
+        with open('sample_usages/generate_trip.json', 'r') as file:
+            trip_dict = json.load(file)
+            trip_dict = trip_dict["data"]
+    else:
+        trip_dict = pipeline.generate_trip(end_user_specs=str(user_properties),
+                                        end_user_final_query=str(user_query)+str(user_properties),
+                                        max_json_try=MAX_JSON_TRY,
+                                        check_match_from_cache_top_k=CHECK_MATCH_FROM_CACHE_TOP_K)
     return jsonify({'data': trip_dict})
 
 if __name__ == '__main__':

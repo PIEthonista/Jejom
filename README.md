@@ -10,6 +10,9 @@ Create a file named <code>.env</code> at the same directory level as this <code>
 ## Python: Conda ENV Setup
 - <code>conda env create -f environment.yml</code>
 
+Due to different compatibility from machine to machine, if you happen to face any conflicts while resolving the above environment, please head to <code>requirements.txt</code> and install the dependencies one by one.
+
+
 
 <br/>
 

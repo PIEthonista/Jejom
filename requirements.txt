@@ -1,0 +1,16 @@
+flask
+Flask-Cors
+json-repair
+geopy
+llama-index
+llama-index-embeddings-openai
+llama-index-embeddings-upstage
+llama-index-llms-openai
+llama-index-llms-groq
+llama-parse
+openai
+pypdf
+python-dotenv
+scikit-learn
+torch
+tavily-python
