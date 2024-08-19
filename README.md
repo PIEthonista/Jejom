@@ -19,3 +19,11 @@ Due to different compatibility from machine to machine, if you happen to face an
 ## Running the Backend
 - <code>conda activate jejom-llama</code>
 - <code>python server.py</code>
+
+
+<br/>
+
+## Upstage API Usage
+Upstage API is being used int th below sections:
+- Upstage Query Embedding Model: This model is used to embed and cache information that has been searched and generated. This is to prevent the process of re-generation and research which is computationaly expensive. The cache functions just like VectorStores where cache information can be retrieved via cosine similarity computation.
+- Upstage Chat Model: This pipeline heavily relies on nested Multi-Orchestrated Agents. At the heart of it all lies the most important LLM Model for directing the whole pipeline. Both Upstage API's LLM or LLMs from other distributors that extend the OpenAI class and support function calling can be used here. 
