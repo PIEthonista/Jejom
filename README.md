@@ -9,6 +9,14 @@
 - <code>pip install tavily-python==0.2.8</code>
 - <code>pip install llama-index-tools-tavily-research</code>
 
+
+API Keys
+Create a file named .env at the same directory level as this README.md, and define the below:
+TAVILY_API_KEY = "get_your_tavily_api_key"
+UPSTAGE_API_KEY = "get_your_upstage_api_key"
+
+
+
 <!-- 
 - conda create -n jejom_lc python=3.10
 - conda acitvate jejom_lc
