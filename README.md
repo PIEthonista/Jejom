@@ -10,16 +10,16 @@
 - <code>pip install llama-index-tools-tavily-research</code>
 
 
-##API Keys
+## API Keys
 Create a file named .env at the same directory level as this README.md, and define the below:
 TAVILY_API_KEY = "get_your_tavily_api_key"
 UPSTAGE_API_KEY = "get_your_upstage_api_key"
 
-##Python: Conda ENV Setup
+## Python: Conda ENV Setup
 conda env create -f environment.yml
 
 
-##Run solution 
+## Run solution 
 conda activate jejom-llama 
 python scripts/scripts.py
 
