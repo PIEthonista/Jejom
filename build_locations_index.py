@@ -1,40 +1,38 @@
 import os
 import json
-import math
 import time
-import random
-import numpy as np
 from tqdm import tqdm
 from dotenv import load_dotenv
-from sklearn.cluster import DBSCAN
-from geopy.distance import great_circle
-from datetime import datetime, timedelta
+from datetime import datetime
 
 # https://github.com/mangiucugna/json_repair
 from json_repair import repair_json  # LLM JSON output fixing if necessary
 
-from tavily import TavilyClient
-from llama_index.core import PromptTemplate, Settings
+from llama_index.core import VectorStoreIndex, StorageContext, PromptTemplate, Settings
+from llama_index.vector_stores.milvus import MilvusVectorStore
 # from llama_index.llms.openai import OpenAI
 # from llama_index.llms.nvidia import NVIDIA
 from llama_index.llms.groq import Groq
 from llama_index.llms.upstage import Upstage
 from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.embeddings.upstage import UpstageEmbedding
-from llama_index.core.tools import QueryEngineTool, ToolMetadata, FunctionTool
-from llama_index.agent.openai import OpenAIAgent
+from llama_index.core.schema import TextNode
+
 
 load_dotenv()
 DETAILED_DIR = os.path.join("locations", "detailed")
 DESCRIPTION_DIR = os.path.join("locations", "descriptions")
-GENERATE_DESC = True     # generates description for vector db indexing, each location costs an LLM call
-GENERATE_VECTOR_INDEX = False   # takes each location as a Document object and embeds it into the vector space alongside its description
+VECTOR_DB_DIR = os.path.join("locations", "descriptions_vector_store")
+
+GENERATE_DESC = False     # generates description for vector db indexing, each location costs an LLM call
+GENERATE_VECTOR_INDEX = True   # takes each location as a Document object and embeds it into the vector space alongside its description
 
 TO_OMIT = ['.DS_Store']  # mac cache
 
 # Settings.llm = Groq(model='llama3-groq-70b-8192-tool-use-preview')
 Settings.llm = Upstage(model='solar-1-mini-chat')
 Settings.embed_model=UpstageEmbedding(model='solar-embedding-1-large')
+EMBED_MODEL_SIZE = 4096
 
 all_categories = [
     'hotels',
@@ -129,7 +127,9 @@ GENERATE_ATTRACTION_DESCRIPTION_PROMPT = PromptTemplate(
 )
 
 
+
 if GENERATE_DESC:
+    # this will generate the descriptions for each location bassed on the detailed info obtained from Places API
     for category in tqdm(all_categories):
         json_file = os.path.join(DETAILED_DIR, f"{category}_detailed.json")
         
@@ -200,3 +200,34 @@ if GENERATE_DESC:
             
             with open(os.path.join(DESCRIPTION_DIR, f"{category}_descriptions.json"), 'w') as f:
                 json.dump(description_dict, f, indent=4)
+
+
+
+if GENERATE_VECTOR_INDEX:
+    # This will embed the location name and descriptions into a vector database
+    for category in tqdm(all_categories):
+        with open(os.path.join(DESCRIPTION_DIR, f"{category}_descriptions.json"), 'r') as f:
+            data = json.load(f)
+        
+        nodes = []
+        for loc, loc_desc in data.items():
+            nodes.append(
+                TextNode(text=str(loc), metadata={"description": str(loc_desc)}, id=datetime.now().strftime('%Y%m%d%H%M%S%f'))
+            )
+        
+        uri = os.path.join(VECTOR_DB_DIR)
+        if not os.path.exists(uri):
+            os.makedirs(uri)
+        
+        start_time = time.time()
+        vector_store = MilvusVectorStore(uri=os.path.join(uri, f"{category}.db"), dim=EMBED_MODEL_SIZE, overwrite=True)
+        storage_context = StorageContext.from_defaults(vector_store=vector_store)
+        index = VectorStoreIndex(nodes=nodes, storage_context=storage_context, embed_model=Settings.embed_model)
+        end_time = time.time()
+        
+        print(f"[indexing] : {category} took {end_time - start_time} secs")
+        
+        # vector_store = MilvusVectorStore(uri=vector_store_path, dim=3072, overwrite=False)
+        # storage_context = StorageContext.from_defaults(vector_store=vector_store)
+        # # index = VectorStoreIndex(nodes=[], storage_context=storage_context, embed_model=OpenAIEmbedding(model="text-embedding-3-large"))
+        # index = VectorStoreIndex(nodes=[], storage_context=storage_context, embed_model=NVIDIAEmbedding(model="nvidia/nv-embedqa-mistral-7b-v2"))
