@@ -1,9 +1,10 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import os
 import json
 from dotenv import load_dotenv
 from llama_index.core import Settings
-from llama_index.llms.groq import Groq
+from llama_index.llms.upstage import Upstage
 from llama_index.embeddings.upstage import UpstageEmbedding
 
 
@@ -12,15 +13,22 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": ["http://10.168.105.128:5000", "*"]}})
 
 load_dotenv()
-MAX_JSON_TRY = 3
-CHECK_MATCH_FROM_CACHE_TOP_K = 2
-Settings.llm = Groq(model='llama3-groq-70b-8192-tool-use-preview')
+Settings.llm = Upstage(model='solar-1-mini-chat')
 Settings.embed_model=UpstageEmbedding(model='solar-embedding-1-large')
 
-from pipeline import Pipeline
-pipeline = Pipeline(USE_CACHE=True,
-                    accomodation_cache_file="./cache/accomodations.json", 
-                    destination_cache_file = "./cache/destinations.json")
+from pipelinev2 import PipelineV2
+pipeline = PipelineV2(
+    embed_model_size         = 4096,
+    accomodations_sim_top_k  = 500,
+    restaurants_sim_top_k    = 500,
+    tourist_spots_sim_top_k  = 500,
+    accomodations_vec_db_uri = os.path.join('locations', 'descriptions_vector_store', 'hotels.db'),
+    restaurants_vec_db_uri   = os.path.join('locations', 'descriptions_vector_store', 'restaurants.db'),
+    tourist_spots_vec_db_uri = os.path.join('locations', 'descriptions_vector_store', 'tourist_spots.db'),
+    accomodations_json       = os.path.join('locations', 'detailed', 'hotels_detailed.json'),
+    restaurants_json         = os.path.join('locations', 'detailed', 'restaurants_detailed.json'),
+    tourist_spots_json       = os.path.join('locations', 'detailed', 'tourist_spots_detailed.json')
+)
 
 
 
@@ -34,28 +42,6 @@ def check_init_input():
     print("check_init_input: ", query)
     check_result_dict = pipeline.check_query_detail(query=str(query))
     return jsonify(check_result_dict)
-
-@app.route('/get_accomodations', methods=['POST'])
-def get_accomodations():
-    query = request.form.get('query')
-    num_accomodations = request.form.get('num_accomodations')
-    print("get_accomodations: ", query, num_accomodations)
-    accomodations_list_of_dicts = pipeline.get_accomodations_json(query=str(query), 
-                                                                  num_accomodations=int(num_accomodations),
-                                                                  max_json_try=MAX_JSON_TRY,
-                                                                  check_match_from_cache_top_k=CHECK_MATCH_FROM_CACHE_TOP_K)
-    return jsonify({"data": accomodations_list_of_dicts})
-
-@app.route('/get_destinations', methods=['POST'])
-def get_destinations():
-    query = request.form.get('query')
-    num_destinations = request.form.get('num_destinations')
-    print("get_destinations: ", query, num_destinations)
-    destinations_list_of_dicts = pipeline.get_destinations_json(query=str(query), 
-                                                                  num_spots=int(num_destinations),
-                                                                  max_json_try=MAX_JSON_TRY,
-                                                                  check_match_from_cache_top_k=CHECK_MATCH_FROM_CACHE_TOP_K)
-    return jsonify({"data": destinations_list_of_dicts})
 
 @app.route('/generate_trip', methods=['POST'])
 def generate_trip():
@@ -71,11 +57,11 @@ def generate_trip():
             trip_dict = json.load(file)
             trip_dict = trip_dict["data"]
     else:
-        trip_dict = pipeline.generate_trip(end_user_specs=str(user_properties),
-                                        end_user_final_query=str(user_query)+str(user_properties),
-                                        max_json_try=MAX_JSON_TRY,
-                                        check_match_from_cache_top_k=CHECK_MATCH_FROM_CACHE_TOP_K)
+        trip_dict = pipeline.generate_trip(
+            end_user_specs=str(user_properties), 
+            end_user_query=str(user_query)
+        )
     return jsonify({'data': trip_dict})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='127.0.0.1')
+    app.run(debug=True, host='127.0.0.1', use_reloader=False)

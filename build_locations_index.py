@@ -25,7 +25,8 @@ DESCRIPTION_DIR = os.path.join("locations", "descriptions")
 VECTOR_DB_DIR = os.path.join("locations", "descriptions_vector_store")
 
 GENERATE_DESC = False     # generates description for vector db indexing, each location costs an LLM call
-GENERATE_VECTOR_INDEX = True   # takes each location as a Document object and embeds it into the vector space alongside its description
+GENERATE_VECTOR_INDEX = False   # takes each location as a Document object and embeds it into the vector space alongside its description
+TEST_VECTOR_INDEX = True   # for testing purposes only, always set to False
 
 TO_OMIT = ['.DS_Store']  # mac cache
 
@@ -226,8 +227,22 @@ if GENERATE_VECTOR_INDEX:
         end_time = time.time()
         
         print(f"[indexing] : {category} took {end_time - start_time} secs")
-        
-        # vector_store = MilvusVectorStore(uri=vector_store_path, dim=3072, overwrite=False)
-        # storage_context = StorageContext.from_defaults(vector_store=vector_store)
-        # # index = VectorStoreIndex(nodes=[], storage_context=storage_context, embed_model=OpenAIEmbedding(model="text-embedding-3-large"))
-        # index = VectorStoreIndex(nodes=[], storage_context=storage_context, embed_model=NVIDIAEmbedding(model="nvidia/nv-embedqa-mistral-7b-v2"))
+
+
+if TEST_VECTOR_INDEX:
+    # user_query = "Get me a restaurant that has a nice view beside the ocean. Also, i need halal food!"
+    user_query = "i love korean food! especially bibimbap. get me one near the jeju international airport"
+    similarity_top_k = 400
+    # uri = os.path.join("locations", "descriptions_vector_store", "hotels.db")
+    uri = os.path.join("locations", "descriptions_vector_store", "restaurants.db")
+    # uri = os.path.join("locations", "descriptions_vector_store", "tourist_spots.db")
+    
+    vector_store = MilvusVectorStore(uri=uri, dim=EMBED_MODEL_SIZE, overwrite=False)
+    storage_context = StorageContext.from_defaults(vector_store=vector_store)
+    index = VectorStoreIndex(nodes=[], storage_context=storage_context, embed_model=Settings.embed_model)
+    retriever = index.as_retriever(similarity_top_k=similarity_top_k)
+    nodes = retriever.retrieve(user_query)
+    for node in nodes:
+        print(node.text, node.metadata, node.score)
+
+print("\nDONE.")

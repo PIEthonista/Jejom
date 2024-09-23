@@ -172,3 +172,5 @@ if GET_DETAILED:
             json.dump(detailed_dict, f, indent=4)
         
         print(f"[{category}] : {len(list(detailed_dict.keys()))}")
+
+print("\nDONE.")
