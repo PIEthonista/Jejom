@@ -2,6 +2,7 @@ flask
 Flask-Cors
 json-repair
 geopy
+googlemaps
 llama-index
 llama-index-embeddings-openai
 llama-index-embeddings-upstage

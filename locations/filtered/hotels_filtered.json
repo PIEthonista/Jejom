@@ -1,231 +1,4 @@
 {
-    "Red lighthouse": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Geonip-dong, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.5226221,
-                "lng": 126.5300842
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.52397192989272,
-                    "lng": 126.5314340298927
-                },
-                "southwest": {
-                    "lat": 33.52127227010727,
-                    "lng": 126.5287343701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Red lighthouse",
-        "photos": [
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/116807698427944352850\">Jack</a>"
-                ],
-                "photo_reference": "AXCi2Q5oQxWUUTkSDHLBabokvSCmgOqPHw_DgkW9KiC_wPXQ2VqcRAMN2kjE3VwrPrL8Q-eUjP83X67xw1_LbfXhmA_DZvWb1ULeWqgskSJhDdJRCJjnwHWsNMQ4I1Q7Ik6e9tICMJ13FmL6yE7NGQP00VlxLRvDYn1VgD3ZP2y6Ri595M_J",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJNc3bdbDjDDUR6CT8z4dGfLo",
-        "rating": 4.8,
-        "reference": "ChIJNc3bdbDjDDUR6CT8z4dGfLo",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 9
-    },
-    "Red Horse Lighthouse": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "375-43 Iho 1(il)-dong, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.501757,
-                "lng": 126.4520594
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.50310682989272,
-                    "lng": 126.4534092298927
-                },
-                "southwest": {
-                    "lat": 33.50040717010727,
-                    "lng": 126.4507095701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Red Horse Lighthouse",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 2066,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/112140659914313753207\">Pheeraphat Kallapaphruk</a>"
-                ],
-                "photo_reference": "AXCi2Q4px1B4RbKz8BMMUcVcqUIaZEypw_CPcgRre8BzMhuKg6zO9kIirp334AIbNc6vu6PVyJ6E9pZ1xTWYw4LYNkFG-XrzkM9cRKQRVYGOFsCOWZvAkPxo5xd44zGGPVmpdXtQGjyJo4vaE4K7XpMFJjMrQ4ERliLLhBczg2M9v5PDCKfw",
-                "width": 3672
-            }
-        ],
-        "place_id": "ChIJx3Q3kK_7DDUR9BkXFkb7Z3Y",
-        "rating": 4.3,
-        "reference": "ChIJx3Q3kK_7DDUR9BkXFkb7Z3Y",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 1021
-    },
-    "White Horse Lighthouse": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "South Korea, Jeju-do, Jeju-si, Iho 1(il)-dong, \ub300\ud55c\ubbfc\uad6d \uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4",
-        "geometry": {
-            "location": {
-                "lat": 33.5025298,
-                "lng": 126.4521164
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.50387962989272,
-                    "lng": 126.4534662298927
-                },
-                "southwest": {
-                    "lat": 33.50117997010727,
-                    "lng": 126.4507665701072
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "White Horse Lighthouse",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 2140,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/108810600946916086098\">\uc774\uc885\uc2dd</a>"
-                ],
-                "photo_reference": "AXCi2Q5rjzjrTCgUL4LpOco6q1wOoZWu3dKlEvSnt1hxM3rmurcCQqu7DS8NXp_sssfa7nTBEmx7CDS9KlhEzFrYldrbmsANiC4QziWhwmU0bWe1f8FvYvs1EUegEvA64FIPPENwEs_KeU27BYFCdm_wSUn7E-fjmyjCkHiNB3Alm723IAGq",
-                "width": 3806
-            }
-        ],
-        "place_id": "ChIJcdQ-hY76DDURIAfwzTp1m1s",
-        "rating": 4.2,
-        "reference": "ChIJcdQ-hY76DDURIAfwzTp1m1s",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 390
-    },
-    "Ctesiphon house": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "135 Geumak-ri, Hallim-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.3469829,
-                "lng": 126.3280752
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.34833272989272,
-                    "lng": 126.3294250298927
-                },
-                "southwest": {
-                    "lat": 33.34563307010728,
-                    "lng": 126.3267253701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Ctesiphon house",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/117976419434837157900\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q7rXvfEqsJQNSbwrlBZD2JkuwrvhYewcVi-j9H1RLnmic09vatgp4iB8Y6W67ee-8w5O1xLwU0vSM3nIETp2eyAe8m7klrT0b8LSLgCHpqao3TFAv2rPX8lo6XCEF7QQO8MATxgAu5T46Orb1auvWaSNwZm234HSQkcqH_QAx9C2-es",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJE0fWZJ9eDDURNV4HQ300Oq0",
-        "rating": 4.1,
-        "reference": "ChIJE0fWZJ9eDDURNV4HQ300Oq0",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 845
-    },
-    "Gimnyeong Beach Lighthouse": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Gimnyeong-ri, Gujwa-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.5599237,
-                "lng": 126.7551788
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.56127352989272,
-                    "lng": 126.7565286298927
-                },
-                "southwest": {
-                    "lat": 33.55857387010727,
-                    "lng": 126.7538289701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Gimnyeong Beach Lighthouse",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/110052282593747177155\">Siriwarin Yongsiri</a>"
-                ],
-                "photo_reference": "AXCi2Q6ZWo2_Jycbs65AKMp2ymNS9J2_xE9Ao4hUfnE_Af6zdOkV6zWxjgYOWRNEwM2IPHNE_S1gNrsXXcyBwx5nqjo9rBVJsDOuap-Q8VNTZuF1QxbhLFZHQFPw_gbm16W4UpR-lkuPtow6afyZ9s4ZAxP0eMcg1XGokc0jS_FGN24o7FRi",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJo66WJAwZDTURXO0L-wtpxrk",
-        "rating": 4.6,
-        "reference": "ChIJo66WJAwZDTURXO0L-wtpxrk",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 119
-    },
     "Harbor Hotel": {
         "business_status": "OPERATIONAL",
         "formatted_address": "260 Imhang-ro, Jeju-si, Jeju-do, South Korea",
@@ -314,49 +87,6 @@
             "establishment"
         ],
         "user_ratings_total": 916
-    },
-    "White House": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "2572-4 Yongdam 3(sam)-dong, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.512345,
-                "lng": 126.484564
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.51369482989273,
-                    "lng": 126.4859138298927
-                },
-                "southwest": {
-                    "lat": 33.51099517010729,
-                    "lng": 126.4832141701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "White House",
-        "photos": [
-            {
-                "height": 2268,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/110814239398132141187\">Ildragon Song</a>"
-                ],
-                "photo_reference": "AXCi2Q4fG-nTD17zjOTeBRTvHfhmVX8Ik-2yqMlY1gZxFXkDXzwMiFG4LXzy28z50SFqWnDMVSvEf0VrK7MpIp_n45aqJa0Eaa1xXUaom7tDU_p4S2Ef8wxyITN44RVQTZpddttxQ4sgp7R_dpFWOtpFbH_iloqxtihHaTEEnuo4LZ2YLuqy",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJWxRhDib7DDURZJgySdUZMB8",
-        "rating": 3.8,
-        "reference": "ChIJWxRhDib7DDURZJgySdUZMB8",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 200
     },
     "Jeju Seongsan Golden View Hotel": {
         "business_status": "OPERATIONAL",
@@ -486,52 +216,6 @@
             "establishment"
         ],
         "user_ratings_total": 259
-    },
-    "Cordelia S Hotel": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "South Korea, Jeju-do, Seogwipo-si, Seongsan-eup, Ojo-ri, 990-1 \ub300\ud55c\ubbfc\uad6d \uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4",
-        "geometry": {
-            "location": {
-                "lat": 33.4549689,
-                "lng": 126.9104055
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.45631872989272,
-                    "lng": 126.9117553298927
-                },
-                "southwest": {
-                    "lat": 33.45361907010728,
-                    "lng": 126.9090556701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Cordelia S Hotel",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 3000,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/109735710964316959773\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q5LFz28r-jPFAsD0LyIT4ymk9wpOK0SPSR8vlEtlZMSIkYFy_eNn5um-tNiBeAOI0B8k7Ji5AB5hLZdJB5mG72-7LbTvWYSwnUaIPVpvgbUx5uyLhWDj-dqI7cHnsg_vfJLKzBoHKPBrP7VDWDbS-vE2mFEJNfAUH3phPU9ylk-5XAE",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJt_EM8H8UDTURxTiGxjfjE18",
-        "rating": 3.5,
-        "reference": "ChIJt_EM8H8UDTURxTiGxjfjE18",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 1001
     },
     "M. stay in Jeju": {
         "business_status": "OPERATIONAL",
@@ -2345,49 +2029,6 @@
         ],
         "user_ratings_total": 105
     },
-    "Jeju Beach House": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "2384-1 \uc6a9\ub2f42\ub3d9 Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.5180385,
-                "lng": 126.4885274
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.51938832989271,
-                    "lng": 126.4898772298927
-                },
-                "southwest": {
-                    "lat": 33.51668867010727,
-                    "lng": 126.4871775701072
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Jeju Beach House",
-        "photos": [
-            {
-                "height": 1960,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/109217385269603473128\">\uc774\uc885\uc784</a>"
-                ],
-                "photo_reference": "AXCi2Q7cPD6OyqwUcwdt6rZqRjFAaVPS7TrpdsRnNxr6E5-iM_PVMEfJ5LklrvQRFpmTyOp3ENgWmDNGIlABWdKqTIBwrG2c4W8keUtIwkcwDPto7uLn8OoY25fnoLjh1BjOqcwsc85rtBZYLXxEP0yfEinmwEgATPnNLlpDXs-OpZduJveQ",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJC0qRvwX7DDURoWSadXSWyyU",
-        "rating": 3.8,
-        "reference": "ChIJC0qRvwX7DDURoWSadXSWyyU",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 27
-    },
     "Ebenezer Hotel": {
         "business_status": "OPERATIONAL",
         "formatted_address": "South Korea, Jeju-si, KR\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \uc870\ucc9c\uc74d \ud568\ub355\ub9ac 1269-19\ubc88\uc9c0 \uace8\ub4e0\ud2a4\ub9bd\uc81c\uc8fc\ud568\ub355\ud638\ud154",
@@ -3134,52 +2775,6 @@
             "establishment"
         ],
         "user_ratings_total": 12
-    },
-    "Aewol Brick House": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "South Korea, Jeju-do, Jeju-si, \ud2b9\ubcc4\uc790\uce58\ub3c4, Aewol-eup, Sineom-ri, 2667-4\ubc88\uc9c0 KR",
-        "geometry": {
-            "location": {
-                "lat": 33.4749542,
-                "lng": 126.3649177
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.47630402989273,
-                    "lng": 126.3662675298927
-                },
-                "southwest": {
-                    "lat": 33.47360437010729,
-                    "lng": 126.3635678701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Aewol Brick House",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 2048,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/116988151389668778447\">junmo8157 .</a>"
-                ],
-                "photo_reference": "AXCi2Q5hU56kKG_Jy7y8gNcsnXba0xKq6HB3cNFJtgKlqbwJ5k3oaPekko6n6c0JvsHGZkNb_rKZMhghjjIs8X5nNfrDMzCc75EJw5NpXS6fhytpW5nN32rMeJHORdF_1Z8sGikvZsuMrtlkr0NDkWg4n_LOeDUdFg-hL2c1AgLbezD5aV-j",
-                "width": 1536
-            }
-        ],
-        "place_id": "ChIJCV-XFbr2DDURIKeuf3YYkg4",
-        "rating": 4.9,
-        "reference": "ChIJCV-XFbr2DDURIKeuf3YYkg4",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 8
     },
     "Standford Hotel & Resort": {
         "business_status": "OPERATIONAL",
@@ -4429,49 +4024,6 @@
             "establishment"
         ],
         "user_ratings_total": 5
-    },
-    "Jaafari House": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "South Korea, Jeju-do, Jeju-si, Aewol-eup, aewol-ri, 769-58",
-        "geometry": {
-            "location": {
-                "lat": 33.4192377,
-                "lng": 126.40125
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.42058752989271,
-                    "lng": 126.4025998298927
-                },
-                "southwest": {
-                    "lat": 33.41788787010727,
-                    "lng": 126.3999001701072
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Jaafari House",
-        "photos": [
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/115403103220149693316\">\uc870\uc900\ud615</a>"
-                ],
-                "photo_reference": "AXCi2Q5UzDRZv2w9HMZ_x0ogLkFOvSCD26zs8NpLARh3fdtXFuQTQXlrimdrsviusqHHHwk3miMXlTejSshDIgZ9Ni1qmQoBWjxbiH08S3YeUe37LT15jDqhZD-nMP0HIgopsZYf10O7kjTpw4qQtxKBPeoNlcU2EE1YQR6ys9hULwZghudi",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJR9W8arf3DDURGRkiMaFAnm4",
-        "rating": 4.6,
-        "reference": "ChIJR9W8arf3DDURGRkiMaFAnm4",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 21
     },
     "\uc2e0\uc131\uc758\uc232(sacredforest) \uba85\uc0c1\ub9ac\uc870\ud2b8": {
         "business_status": "OPERATIONAL",
@@ -7543,49 +7095,6 @@
         ],
         "user_ratings_total": 68
     },
-    "T Island": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Seogwipo, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2335722,
-                "lng": 126.5117063
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.23492202989272,
-                    "lng": 126.5130561298927
-                },
-                "southwest": {
-                    "lat": 33.23222237010727,
-                    "lng": 126.5103564701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "T Island",
-        "photos": [
-            {
-                "height": 4000,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/113450622294889430438\">\uad8c\uae30\uc6c5</a>"
-                ],
-                "photo_reference": "AXCi2Q4sVpU_ukaSj404t9qIkjVWrFawGHB32i0gb_u0vgDZNEJJw68BSLFQsydYtZXpwuI1nOqy1lMPZy5ohoQPOqG6yv8RKpGxtrHlTRxLn1nTajFjxTVGdbClrRLKsNEuixXM3NfhjiFpdP0NkeSAa26vDviNwQNqRt-qlrAlPtkW3Bxy",
-                "width": 2252
-            }
-        ],
-        "place_id": "ChIJf5HYzppRDDUR7oX9b3Tv5rg",
-        "rating": 4.2,
-        "reference": "ChIJf5HYzppRDDUR7oX9b3Tv5rg",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 133
-    },
     "Ocean Palade Hotel and Resort": {
         "business_status": "OPERATIONAL",
         "formatted_address": "122 Seohaean-ro, Jeju-si, Jeju-do, South Korea",
@@ -8004,49 +7513,6 @@
             "establishment"
         ],
         "user_ratings_total": 87
-    },
-    "Gongam Guest House": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1289-2 Ilgwa-ri, Daejeong-eup, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2379694,
-                "lng": 126.2294709
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.23931922989271,
-                    "lng": 126.2308207298927
-                },
-                "southwest": {
-                    "lat": 33.23661957010727,
-                    "lng": 126.2281210701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Gongam Guest House",
-        "photos": [
-            {
-                "height": 3000,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/113188826885382083367\">David Kim</a>"
-                ],
-                "photo_reference": "AXCi2Q4QesEP8asVtqwm7hWRKI8R56B1BB53thdNWk5xFu4LLsFIvSg-aZi_Qh2djWUKaT22PKuaPAfOumhyAtPUJjMP3SuctShjAWepkuBLxyeva6Yo7u02J2mmwObbpDN6_B6btGFkDtdMPIgveC0m6QPIO8cKsalr8-d1OJ8CA3c-wa0Z",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJrVpDwhhpDDUR9m7qab-WNVQ",
-        "rating": 4.4,
-        "reference": "ChIJrVpDwhhpDDUR9m7qab-WNVQ",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 63
     },
     "Pine Hill Hotel": {
         "business_status": "OPERATIONAL",
@@ -9902,49 +9368,6 @@
         ],
         "user_ratings_total": 25
     },
-    "Jeju Neulpooreun House Pension": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "210-36, Hyeopjae-ro Hallim-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.376842,
-                "lng": 126.2499
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.37819182989271,
-                    "lng": 126.2512498298927
-                },
-                "southwest": {
-                    "lat": 33.37549217010727,
-                    "lng": 126.2485501701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Jeju Neulpooreun House Pension",
-        "photos": [
-            {
-                "height": 1908,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/108574267310314958146\">\uc804\uc9c0\uc120</a>"
-                ],
-                "photo_reference": "AXCi2Q7o1o_3s_uk8L5TWizdubGXOZRTNdzcAkh5rYKXTRrVbY39IumJRkwKW0KtNOH2svdap8gSF2BO4hMIwrJLNp98_GZnsa9Uuepxq3cb_aJyeMShvTaUdEZLT57hcLXB6n94OdJ3s1imE3gqiG7KcTzMuV3zKehw0CSWDcXMxVODpiEZ",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJpd6vULBgDDURU0_JopdJeRc",
-        "rating": 4.5,
-        "reference": "ChIJpd6vULBgDDURU0_JopdJeRc",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 23
-    },
     "\ub9ac\ubc84\ud480\uc564\uc2a4\ud30c": {
         "business_status": "OPERATIONAL",
         "formatted_address": "South Korea, Jeju-do, Jeju-si, \ud2b9\ubcc4\uc790\uce58\ub3c4, Hallim-eup, Myeongjae-ro, 38-18 KR",
@@ -10464,49 +9887,6 @@
         ],
         "user_ratings_total": 23
     },
-    "Owl House Bed and Breakfast": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "24 Ongpo 2-gil, Hallim-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.3986803,
-                "lng": 126.2502668
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.40003012989271,
-                    "lng": 126.2516166298927
-                },
-                "southwest": {
-                    "lat": 33.39733047010726,
-                    "lng": 126.2489169701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Owl House Bed and Breakfast",
-        "photos": [
-            {
-                "height": 2268,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/111964489730565629541\">thierry</a>"
-                ],
-                "photo_reference": "AXCi2Q71ReVgIOy9GYvj1hcq4PujcNu8hWEfY3v2SUkKy8SpTgBPFisNcLEapbKvnVoDDSwtPKAhsoedfZpowavRjSFXL-9900_KOQceUkvax9E36-QYslEvxVtxA1mZEop-YMBGDiZ3DPEk-fo60AEIHi1g7FpViQrpE6JPxf22FTqm74qI",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJUYq4QLpgDDURLbAv1bJMHbQ",
-        "rating": 4.5,
-        "reference": "ChIJUYq4QLpgDDURLbAv1bJMHbQ",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 24
-    },
     "Koinonia Pension": {
         "business_status": "OPERATIONAL",
         "formatted_address": "19 Geumneung 6-gil, Hallim-eup, Jeju-si, Jeju-do, South Korea",
@@ -10714,49 +10094,6 @@
             "establishment"
         ],
         "user_ratings_total": 1
-    },
-    "Manon Guest House": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "9 Geumseong 3-gil, Aewol-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4453043,
-                "lng": 126.3012275
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.44665412989272,
-                    "lng": 126.3025773298927
-                },
-                "southwest": {
-                    "lat": 33.44395447010728,
-                    "lng": 126.2998776701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Manon Guest House",
-        "photos": [
-            {
-                "height": 6936,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/104837693413623188783\">\ub2c8\ub77c</a>"
-                ],
-                "photo_reference": "AXCi2Q7DkLvQ1hQ3fzQvCwydp-JDf6UPLB-KPDX3aogiBMYL4grIVMw40I2hyEWO-GoZNbC-kZwq_VHHqhKkFMXu51JvMxOis561y9imlOvT77xlgSe7KKP3RhHtXl0VTjkpIDtTn3ozCnamDMlproGSpdJKE-1r7NPVaU8tD-l4NmaQVsl7",
-                "width": 9248
-            }
-        ],
-        "place_id": "ChIJLXohC3T1DDURyPExg2EKfPE",
-        "rating": 4.5,
-        "reference": "ChIJLXohC3T1DDURyPExg2EKfPE",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 30
     },
     "Punggyeongsori Pension Jeju": {
         "business_status": "OPERATIONAL",
@@ -12914,53 +12251,6 @@
         ],
         "user_ratings_total": 4
     },
-    "The Meditator's House": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "South Korea, Jeju-do, Jeju-si, \ud2b9\ubcc4\uc790\uce58\ub3c4, Jocheon-eup, Jungsangandong-ro, 1513-54 KR \uba85\uc0c1\uac00\uc758\uc9d1",
-        "geometry": {
-            "location": {
-                "lat": 33.4949643,
-                "lng": 126.7211088
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.49631412989272,
-                    "lng": 126.7224586298927
-                },
-                "southwest": {
-                    "lat": 33.49361447010727,
-                    "lng": 126.7197589701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "The Meditator's House",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 480,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/113538800402229137765\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q6lkhDzFqK7txEqNzBEOTN1fr5h6qca0vWGyzJJ262soqf4YlXOCBQ0gmZflFxfMlBghf8WBchcNZcMTJDwgftpryWCYQin47xSqHNqEmNbhT_BNEuKtuAEpAP9bdGmuNk3SU_btJpG_fHneK2DXYFds8kjWXtXxta7fdhhpDJisrRO",
-                "width": 640
-            }
-        ],
-        "place_id": "ChIJFw0II7wbDTUR6VVICBGLgsM",
-        "rating": 5,
-        "reference": "ChIJFw0II7wbDTUR6VVICBGLgsM",
-        "types": [
-            "park",
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 15
-    },
     "\ub290\ub9ac\uac8c\uac00\ub294\uad6c\ub984": {
         "business_status": "OPERATIONAL",
         "formatted_address": "South Korea, Jeju-do, Seogwipo-si, Seongsan-eup, Samdal-ri, 126 \uc0bc\ub2ec \ub85c",
@@ -13082,49 +12372,6 @@
             "establishment"
         ],
         "user_ratings_total": 64
-    },
-    "Jeju Mendorong House": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "173 Nansan-ro, Seongsan-eup, \ud2b9\ubcc4\uc790\uce58\ub3c4 Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.403229,
-                "lng": 126.8571012
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.40457882989271,
-                    "lng": 126.8584510298927
-                },
-                "southwest": {
-                    "lat": 33.40187917010727,
-                    "lng": 126.8557513701072
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Jeju Mendorong House",
-        "photos": [
-            {
-                "height": 1081,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/114493599231786781346\">\uc8fc\ubbfc\ud638</a>"
-                ],
-                "photo_reference": "AXCi2Q5gMkfg7euYaNTFDA2b62Nz57Dj51BFs5K9pB2LNG9FM0ABoJgy7CcyfOA_RQwqLMPrAVdDv8vmJNroi6VSaBsEKNCfMfwh1EXYCdHuE5mK8If6Sp8OmTT8Wcl94az0xxxITCRGMzghutQYiFfP0GHltf420ZbOTSrqMJ21EDamqnjW",
-                "width": 1440
-            }
-        ],
-        "place_id": "ChIJ2Sd9U58RDTURpwF1a5ZnVsM",
-        "rating": 4,
-        "reference": "ChIJ2Sd9U58RDTURpwF1a5ZnVsM",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 1
     },
     "Wind Jeju Cafe & Pension": {
         "business_status": "OPERATIONAL",

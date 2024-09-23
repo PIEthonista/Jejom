@@ -5,12 +5,16 @@ import googlemaps
 from tqdm import tqdm
 
 
+# google maps api console: https://console.cloud.google.com/google/maps-apis/quotas?project=tough-volt-335906
+# places api documentation: https://developers.google.com/maps/documentation/places/web-service/search-text
+
+
 # set all to TRUE for a one-shot setup of the whole locations database
 REFRESH_GMAPS = False    # 1: True to re-crawl all raw locations from google-maps
 FILTER_RAW = False   # 2: filters out irrelevant locations from raw data
-GET_DETAILED = True  # 3: get detailed information about each location
+GET_DETAILED = False  # 3: get detailed information about each location
 
-API_KEY = "AIzaSyD3W5PNMkYXp7NqU5RZjIhrf_GNt2GOM64"
+API_KEY = "<place-your-google-maps-api-key-here>"
 gmaps = googlemaps.Client(key=API_KEY)
 
 RAW_DIR = os.path.join("locations", "raw")
@@ -26,8 +30,13 @@ PLACE_TYPES = {
 }
 PLACE_TYPES_KEYWORDS = {
     "tourist_spots": ['tourist', 'attraction'],
-    "hotels": ['hotel', 'inn', 'accomodation', 'guesthouse', 'house', 'lodging'],
+    "hotels": ['hotel', 'inn', 'accomodation', 'guesthouse', 'house', 'lodging', 'resort'],
     "restaurants": ['cafe', 'restaurant', 'eatery', 'bakery', 'food'],
+}
+PLACE_TYPES_KEYWORDS_TO_OMIT = {
+    "tourist_spots": [],
+    "hotels": ['lighthouse'],
+    "restaurants": [],
 }
 KEY_REGIONS = [
     'Jeju City (North)',
@@ -93,6 +102,7 @@ if FILTER_RAW:
         
         filtered_data = {}
         for loc, loc_detail in data.items():
+            # keywords shoud be in
             name_splits = str(loc).lower().split(' ')
             in_name = False
             for keyword in keywords:
@@ -106,7 +116,21 @@ if FILTER_RAW:
                     if (keyword in type) or (type in keyword):
                         in_type = True
             
-            if in_name or in_type:
+            # keywords should not be in
+            keywords_to_omit = PLACE_TYPES_KEYWORDS_TO_OMIT[category]
+            to_omit_in_name = False
+            for keyword in keywords_to_omit:
+                for name_split in name_splits:
+                    if (keyword in name_split) or (name_split in keyword):
+                        to_omit_in_name = True
+            
+            to_omit_in_type = False
+            for keyword in keywords_to_omit:
+                for type in loc_detail['types']:
+                    if (keyword in type) or (type in keyword):
+                        to_omit_in_type = True
+            
+            if (in_name or in_type) and not (to_omit_in_name or to_omit_in_type):
                 filtered_data[loc] = loc_detail
         
         if not os.path.exists(FILTERED_DIR):
