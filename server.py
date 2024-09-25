@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 import json
+import time
 from dotenv import load_dotenv
 from llama_index.core import Settings
 from llama_index.llms.upstage import Upstage
@@ -57,10 +58,12 @@ def generate_trip():
             trip_dict = json.load(file)
             trip_dict = trip_dict["data"]
     else:
+        start_time = time.time()
         trip_dict = pipeline.generate_trip(
             end_user_specs=str(user_properties), 
             end_user_query=str(user_query)
         )
+        print(f"[Generate Trip took {time.time() - start_time} secs]")
     return jsonify({'data': trip_dict})
 
 if __name__ == '__main__':

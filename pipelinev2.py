@@ -150,6 +150,38 @@ generate_tourist_attraction_preference_prompt = PromptTemplate(
     """
 )
 
+tourist_attraction_pipeline_selection_prompt = PromptTemplate(
+    """
+    You are a decision-making model that selects the most suitable type of destinations based on the user's preferences and query about a trip to Jeju Island. 
+    The goal is to determine whether the recommended destinations should be:
+    - any locations (any rating, any number of ratings),
+    - locations with high ratings but any number of ratings, or
+    - locations with both high ratings and a high number of ratings.
+
+    --Context--
+    Keep in mind the following:
+    1. Locations with both high ratings and a high number of ratings are usually more popular and crowded with tourists. They may not be suitable for individuals who prefer quiet or peaceful environments.
+    2. Locations with high ratings but fewer ratings could offer quality experiences without large crowds.
+    3. Any locations (regardless of rating) might appeal to users who are open to exploring unconventional or less touristy spots, or those seeking a variety of experiences.
+
+    --Goal--
+    Your task is to review the user preferences and trip query provided below, and decide which type of locations should be recommended.
+
+    --Output Criteria--
+    Based on your analysis, output strictly:
+    - 0 for any locations (any rating, any number of ratings),
+    - 1 for locations with high ratings but any number of ratings,
+    - 2 for locations with both high ratings and a high number of ratings (while noting that these locations are typically crowded and may not suit individuals seeking quieter settings).
+
+    --User Data--
+    User Preferences: {user_specs}
+    Trip Query: {user_query}
+
+    --Output--
+    Based on the user's preferences and query, output either 0, 1, or 2:
+    """
+)
+
 generate_trip_title_prompt = PromptTemplate(
     """
     You are a title generating assistant. 
@@ -240,7 +272,7 @@ class PipelineV2():
         return accoms_list
 
 
-    def get_destinations_list(self, query: str, num_spots: int = 5) -> list[BaseNode]:
+    def get_destinations_list(self, query: str) -> list[BaseNode]:
         # end_user_specs = 'City Lover, Male, 30, ENTJ, Loves beachball'
         # end_user_specs = "Loves a chill life, doesnt like crowded places, loves coffee, artistic, female, 25, ENTP"
         
@@ -248,11 +280,7 @@ class PipelineV2():
         destinations_preference = Settings.llm.complete(formatted_destination_prompt)
         
         destinations_list = self.tourist_spots_retriever.retrieve(str(destinations_preference))
-        
-        if len(destinations_list) <= num_spots:
-            return destinations_list
-        else:
-            return destinations_list[:num_spots]
+        return destinations_list
 
 
     def generate_dates(self, start_date, end_date):
@@ -287,16 +315,11 @@ class PipelineV2():
         print(dates)
 
 
-        # TODO: FIX
-        DESTINATIONS_PER_DAY = 2
-        TOTAL_DESTINATIONS = len(dates)*DESTINATIONS_PER_DAY
-        
         query = f"User Details: {end_user_specs}. \n User Query: {end_user_query}"
         accomodations_nodelist = self.get_accomodations_list(query=query)
-        destinations_nodelist = self.get_destinations_list(query=query, num_spots=TOTAL_DESTINATIONS)
+        destinations_nodelist = self.get_destinations_list(query=query)
         
         destinations_list_of_dict = []
-        destinations_long_lat = []
         for node in destinations_nodelist:
             dest_name = str(node.text)
             price = "Not available"  # TODO: FIX
@@ -327,7 +350,6 @@ class PipelineV2():
             else:
                 photos = []
             
-            destinations_long_lat.append((lat, lng))
             destinations_list_of_dict.append(
                 {
                     "Name": dest_name,
@@ -345,16 +367,52 @@ class PipelineV2():
             )
         
         
+        # rerank destinations based on both rating & number of ratings, or based on ratings only
+        need_reranking = Settings.llm.complete(tourist_attraction_pipeline_selection_prompt.format(user_specs=end_user_specs, user_query=end_user_query))
+        try:
+            reranking_mode = int(str(need_reranking))
+            print(f"[reranking_mode={reranking_mode}]")
+        except:
+            reranking_mode = 1
+            print(f"[Exception: Default to reranking_mode=1, need_reranking={need_reranking}]")
+        
+        # - 0 for any locations (any rating, any number of ratings)
+        if reranking_mode == 0:
+            # keep destinations_list_of_dict the same
+            pass
+        
+        # - 1 for locations with high ratings but any number of ratings,
+        elif (reranking_mode == 1) or reranking_mode > 2:  # >2 for fallback in case
+            destinations_list_of_dict = sorted(destinations_list_of_dict, key=lambda x: x["Rating"], reverse=True)
+        
+        # - 2 for locations with both high ratings and a high number of ratings (while noting that these locations are typically crowded and may not suit individuals seeking quieter settings).
+        elif reranking_mode == 2:
+            def custom_f1(x):
+                num_rating_normalized = x["NumRating"] / 1e6
+                rating_normalized = x["Rating"] / 5
+                f1 = 2 * (num_rating_normalized * rating_normalized) / (num_rating_normalized + rating_normalized)
+                return f1
+            destinations_list_of_dict = sorted(destinations_list_of_dict, key=custom_f1, reverse=True)
+        
+        # TODO: FIX
+        DESTINATIONS_PER_DAY = 2
+        TOTAL_DESTINATIONS = len(dates)*DESTINATIONS_PER_DAY
+        if len(destinations_list_of_dict) <= TOTAL_DESTINATIONS:
+            pass
+        else:
+            destinations_list_of_dict = destinations_list_of_dict[:TOTAL_DESTINATIONS]
+        
         # custom distance function
         def haversine_distance(coord1, coord2):
             return great_circle(coord1, coord2).km
 
         # Perform DBSCAN clustering, eps in km
+        destinations_long_lat = [(i["Latitude"], i["Longitude"]) for i in destinations_list_of_dict]
         destinations_long_lat_np = np.array(destinations_long_lat)
         dbscan = DBSCAN(eps=CLUSTER_DESTINATION_DISTANCE, min_samples=1, metric=haversine_distance)
         clusters = dbscan.fit_predict(destinations_long_lat_np)
         clusters = clusters.tolist()
-        assert len(clusters) == len(destinations_nodelist)
+        assert len(clusters) == len(destinations_list_of_dict)
 
 
         def order_indices_by_values(lst):
