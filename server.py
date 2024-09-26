@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": ["http://10.168.105.128:5000", "*"]}})
 
 load_dotenv()
-Settings.llm = Upstage(model='solar-1-mini-chat')
+Settings.llm = Upstage(model='solar-pro')
 Settings.embed_model=UpstageEmbedding(model='solar-embedding-1-large')
 
 from pipelinev2 import PipelineV2
@@ -54,7 +54,7 @@ def generate_trip():
     print(str(mode).lower().strip())
     
     if "test" in str(mode).lower().strip():
-        with open('sample_usages/generate_trip.json', 'r') as file:
+        with open('sample_usages/generate_trip_v2.json', 'r') as file:
             trip_dict = json.load(file)
             trip_dict = trip_dict["data"]
     else:
