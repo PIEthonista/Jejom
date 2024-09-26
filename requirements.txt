@@ -15,3 +15,5 @@ python-dotenv
 scikit-learn
 torch
 tavily-python
+serpapi
+google-search-results

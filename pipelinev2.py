@@ -6,6 +6,7 @@ import random
 import numpy as np
 from tqdm import tqdm
 from dotenv import load_dotenv
+from serpapi import GoogleSearch
 from sklearn.cluster import DBSCAN
 from geopy.distance import great_circle
 from datetime import datetime, timedelta
@@ -25,6 +26,7 @@ from llama_index.embeddings.upstage import UpstageEmbedding
 from llama_index.core.tools import QueryEngineTool, ToolMetadata, FunctionTool
 from llama_index.agent.openai import OpenAIAgent
 from llama_index.core.schema import BaseNode
+
 
 
 load_dotenv()
@@ -56,6 +58,20 @@ isBudget_check_prompt = PromptTemplate(
     If the query does contain information about budget, respond with "yes". 
     If it does not contain information about budget, respond with "no".
     Query: {query_str}
+    """
+)
+
+numPersons_check_prompt = PromptTemplate(
+    """
+    You are given a user query about generating a trip. Based on the query, strictly follow these instructions:
+
+    - If the query does **not** mention any number of people involved in the trip, output only the word "no".
+    - If the query mentions the **exact number of people** (in digit form), output only the number itself as an integer.
+    - If the query mentions a **group of people** (e.g., "a family," "friends," "team") but does **not** specify an exact number, output only the word "yes".
+
+    Query: {query_str}
+
+    Your response should strictly follow the above rules and contain **no additional text**.
     """
 )
 
@@ -248,16 +264,27 @@ class PipelineV2():
 
 
     def check_query_detail(self, query: str):
-        isDestination = True if str(Settings.llm.complete(isDestination_check_prompt.format(query_str=query))).lower().strip() == "yes" else False
-        isDuration    = True if str(Settings.llm.complete(isDuration_check_prompt.format(query_str=query))).lower().strip() == "yes" else False
-        isBudget      = True if str(Settings.llm.complete(isBudget_check_prompt.format(query_str=query))).lower().strip() == "yes" else False
-        isInterest    = True if str(Settings.llm.complete(isInterest_check_prompt.format(query_str=query))).lower().strip() == "yes" else False
+        # isDestination    = True if str(Settings.llm.complete(isDestination_check_prompt.format(query_str=query))).lower().strip() == "yes" else False
+        # isInterest       = True if str(Settings.llm.complete(isInterest_check_prompt.format(query_str=query))).lower().strip() == "yes" else False
+        isDuration       = True if str(Settings.llm.complete(isDuration_check_prompt.format(query_str=query))).lower().strip() == "yes" else False
+        isBudget         = True if str(Settings.llm.complete(isBudget_check_prompt.format(query_str=query))).lower().strip() == "yes" else False
+        numPerson_output = str(Settings.llm.complete(numPersons_check_prompt.format(query_str=query))).lower().strip()
+        # mention group but not number of people
+        if "yes" in numPerson_output:
+            IsNumPerson = False
+        # no mention group, assume 1
+        elif "no" in numPerson_output:
+            IsNumPerson = True
+        # mentions exact number
+        else:
+            IsNumPerson = True
         
         return {
-            "isDestination": isDestination,
+            # "isDestination": isDestination,
+            # "isInterest": isInterest,
             "isDuration": isDuration,
             "isBudget": isBudget,
-            "isInterest": isInterest
+            "isNumPerson": IsNumPerson
         }
 
 
@@ -297,6 +324,18 @@ class PipelineV2():
         
         return dates
 
+
+    def get_flights(self, query):
+        numPerson_output = str(Settings.llm.complete(numPersons_check_prompt.format(query_str=query))).lower().strip()
+        # mention group but not number of people
+        if "yes" in numPerson_output:
+            IsNumPerson = False
+        # no mention group, assume 1
+        elif "no" in numPerson_output:
+            IsNumPerson = True
+        # mentions exact number
+        else:
+            IsNumPerson = True
 
 
     def generate_trip(self, end_user_specs: str, end_user_query: str):
