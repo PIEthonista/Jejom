@@ -1,12 +1,13 @@
 ## API Keys
 Create a file named <code>.env</code> at the same directory level as this <code>README.md</code>, and define the below:
 - <code>UPSTAGE_API_KEY = "<a href='https://developers.upstage.ai/docs/getting-started/quick-start'>get_your_upstage_api_key_here</a>"</code>
+- <code>SERPAPI_API_KEY = "<a href='https://serpapi.com/integrations/python'>get_your_serp_api_key_here</a>"</code>
 
 
 <br/>
 
 ## Python: Conda ENV Setup
-- <code>conda env create -f environment.yml</code>
+- <code>cconda env create -n jejom-llama --file environment.yml</code>
 
 Due to different compatibility from machine to machine, if you happen to face any conflicts while resolving the above environment, please head to <code>requirements.txt</code> and install the dependencies one by one.
 
@@ -42,4 +43,4 @@ We have run the scripts necessary to create the knowledge base where the pipelin
 
 <br/>
 
-Both these script will take quite some time to run as the first one involves scraping the Places API, filtering the data and further scraping the details about the filtered locations, and the second script will utilise an LLM and an Embedding Model to Index the refined locations. However, please note that although they are time-consuming processes, they are not resource intensive. The first script will ustilize barely 0.5% of your free Google Cloud Project quota and the second script will consume only about USD 0.50 worth of credits for the Upstage <code>solar-1-mini-chat</code> LLM and <code>solar-embedding-1-large</code> Embedding Model.
+Both these script will take quite some time to run as the first one involves scraping the Places API, filtering the data and further scraping the details about the filtered locations, and the second script will utilise an LLM and an Embedding Model to Index the refined locations. However, please note that although they are time-consuming processes, they are not resource intensive. The first script will ustilize barely 0.5% of your free Google Cloud Project quota and the second script will consume only about USD 0.50 worth of credits for the Upstage <code>solar-1-pro</code> LLM and <code>solar-embedding-1-large</code> Embedding Model.

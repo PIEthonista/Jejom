@@ -1,26 +1,15 @@
 import os
 import json
+from openai import OpenAI
 from crewai import Agent, Task, Crew, Process
 from langchain_upstage import ChatUpstage
 
 from crewai_tools import PDFSearchTool
-from openai import OpenAI
-import gradio as gr
-import re
-import json
-from fpdf import FPDF
-from docx import Document
-import gradio as gr
-from docx.shared import Pt
 # from llama_index.llms.upstage import Upstage
 from dotenv import load_dotenv
 
 load_dotenv()
-# Set environment variables
-# os.environ["UPSTAGE_API_BASE"] = "https://api.upstage.ai/v1/solar"
-# os.environ["UPSTAGE_API_KEY"] = "up_sxQRRcrbTmgfXVNaxuWpTgkd5Yuig"
-
-UPSTAGE_API_BASE = os.getenv("UPSTAGE_API_BASE")
+UPSTAGE_API_BASE = "https://api.upstage.ai/v1/solar"
 UPSTAGE_API_KEY = os.getenv("UPSTAGE_API_KEY")
 
 class ScriptGenerator:
@@ -29,9 +18,8 @@ class ScriptGenerator:
         self.cafe_name= cafe_name
         self.cafe_environment = cafe_environment
         self.llm = ChatUpstage()
-        # self.llm = Upstage(model='solar-1-mini-chat', api_key="up_sxQRRcrbTmgfXVNaxuWpTgkd5Yuig", api_base="https://api.upstage.ai/v1/solar")
         self.rag_tool = PDFSearchTool(
-            pdf='/Users/debbiechoonghuitian/Jejom/scripts/Jeju.pdf',
+            pdf=os.path.join('scripts', 'Jeju.pdf'),
             config=dict(
                 llm=dict(
                     provider="openai",
@@ -208,8 +196,8 @@ import json
 
 class Translator:
     
-    def __init__(self, api_key):
-        self.client = OpenAI(api_key=api_key, base_url=UPSTAGE_API_BASE)
+    def __init__(self):
+        self.client = OpenAI(api_key=UPSTAGE_API_KEY, base_url=UPSTAGE_API_BASE)
 
     def translate_text(self, text, model="solar-1-mini-translate-enko", chunk_size=1600):
         # Split the text into chunks, making sure not to split in the middle of a sentence

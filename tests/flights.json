@@ -1,14 +1,14 @@
 {
     "search_metadata": {
-        "id": "66f599a8fc183d48c9250f71",
+        "id": "66f684b74300ce5ed00df9a0",
         "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/c302b2da50cd0673/66f599a8fc183d48c9250f71.json",
-        "created_at": "2024-09-26 17:28:08 UTC",
-        "processed_at": "2024-09-26 17:28:08 UTC",
+        "json_endpoint": "https://serpapi.com/searches/c302b2da50cd0673/66f684b74300ce5ed00df9a0.json",
+        "created_at": "2024-09-27 10:11:03 UTC",
+        "processed_at": "2024-09-27 10:11:03 UTC",
         "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhoeEgoyMDI0LTEyLTAxagcIARIDS1VMcgcIARIDQ0pVGh4SCjIwMjQtMTItMjBqBwgBEgNDSlVyBwgBEgNLVUxCAQFIAXABmAEB",
-        "raw_html_file": "https://serpapi.com/searches/c302b2da50cd0673/66f599a8fc183d48c9250f71.html",
-        "prettify_html_file": "https://serpapi.com/searches/c302b2da50cd0673/66f599a8fc183d48c9250f71.prettify",
-        "total_time_taken": 7.66
+        "raw_html_file": "https://serpapi.com/searches/c302b2da50cd0673/66f684b74300ce5ed00df9a0.html",
+        "prettify_html_file": "https://serpapi.com/searches/c302b2da50cd0673/66f684b74300ce5ed00df9a0.prettify",
+        "total_time_taken": 0.58
     },
     "search_parameters": {
         "engine": "google_flights",
@@ -29,76 +29,6 @@
         "show_hidden": true
     },
     "best_flights": [
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 00:10"
-                    },
-                    "arrival_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-12-01 06:35"
-                    },
-                    "duration": 385,
-                    "airplane": "Airbus A330",
-                    "airline": "Air China",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "CA 872",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "In-seat power outlet",
-                        "Carbon emissions estimate: 355 kg"
-                    ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-12-01 18:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-01 21:35"
-                    },
-                    "duration": 155,
-                    "airplane": "Boeing 737",
-                    "airline": "Air China",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "CA 711",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Carbon emissions estimate: 134 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 685,
-                    "name": "Beijing Capital International Airport",
-                    "id": "PEK"
-                }
-            ],
-            "total_duration": 1225,
-            "carbon_emissions": {
-                "this_flight": 490000,
-                "typical_for_this_route": 415000,
-                "difference_percent": 18
-            },
-            "price": 562334,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3REUVRnM01ueERRVGN4TVJvTENKNnBJaEFBR2dOTFVsYzRISERFelFJPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlBFSyIsbnVsbCwiQ0EiLCI4NzIiXSxbIlBFSyIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIkNBIiwiNzExIl1dXQ=="
-        },
         {
             "flights": [
                 {
@@ -169,253 +99,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": -3
             },
-            "price": 624111,
+            "price": 625924,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZH.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3RhU0RNek5IeGFTRFkwTVJvTENPK0xKaEFBR2dOTFVsYzRISENXOGdJPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNaWCIsbnVsbCwiWkgiLCIzMzQiXSxbIlNaWCIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIlpIIiwiNjQxIl1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 21:40"
-                    },
-                    "arrival_airport": {
-                        "name": "Singapore Changi Airport",
-                        "id": "SIN",
-                        "time": "2024-12-01 22:50"
-                    },
-                    "duration": 70,
-                    "airplane": "Airbus A320",
-                    "airline": "Scoot",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
-                    "travel_class": "Economy",
-                    "flight_number": "TR 467",
-                    "legroom": "28 in",
-                    "extensions": [
-                        "Below average legroom (28 in)",
-                        "Carbon emissions estimate: 47 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Singapore Changi Airport",
-                        "id": "SIN",
-                        "time": "2024-12-02 00:25"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-02 07:25"
-                    },
-                    "duration": 360,
-                    "airplane": "Airbus A321neo",
-                    "airline": "Scoot",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
-                    "travel_class": "Economy",
-                    "flight_number": "TR 812",
-                    "legroom": "28 in",
-                    "extensions": [
-                        "Below average legroom (28 in)",
-                        "Carbon emissions estimate: 242 kg"
-                    ],
-                    "overnight": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 95,
-                    "name": "Singapore Changi Airport",
-                    "id": "SIN"
-                }
-            ],
-            "total_duration": 525,
-            "carbon_emissions": {
-                "this_flight": 289000,
-                "typical_for_this_route": 415000,
-                "difference_percent": -30
-            },
-            "price": 880400,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3RVVWpRMk4zeFVVamd4TWhvTENKRGVOUkFBR2dOTFVsYzRISENZaWdRPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNJTiIsbnVsbCwiVFIiLCI0NjciXSxbIlNJTiIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlRSIiwiODEyIl1dXQ=="
-        }
-    ],
-    "other_flights": [
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 04:30"
-                    },
-                    "arrival_airport": {
-                        "name": "Shenzhen Bao'an International Airport",
-                        "id": "SZX",
-                        "time": "2024-12-01 08:35"
-                    },
-                    "duration": 245,
-                    "airplane": "Boeing 737",
-                    "airline": "Shenzhen",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZH.png",
-                    "travel_class": "Economy",
-                    "flight_number": "ZH 334",
-                    "ticket_also_sold_by": [
-                        "Air China"
-                    ],
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "Carbon emissions estimate: 232 kg"
-                    ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Shenzhen Bao'an International Airport",
-                        "id": "SZX",
-                        "time": "2024-12-01 13:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-12-01 16:15"
-                    },
-                    "duration": 195,
-                    "airplane": "Airbus A330",
-                    "airline": "Air China",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "CA 1332",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 234 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-12-01 18:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-01 21:35"
-                    },
-                    "duration": 155,
-                    "airplane": "Boeing 737",
-                    "airline": "Air China",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "CA 711",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Carbon emissions estimate: 134 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 265,
-                    "name": "Shenzhen Bao'an International Airport",
-                    "id": "SZX"
-                },
-                {
-                    "duration": 105,
-                    "name": "Beijing Capital International Airport",
-                    "id": "PEK"
-                }
-            ],
-            "total_duration": 965,
-            "carbon_emissions": {
-                "this_flight": 601000,
-                "typical_for_this_route": 415000,
-                "difference_percent": 45
-            },
-            "price": 832502,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEphU0RNek5IeERRVEV6TXpKOFEwRTNNVEVhQ3dqMjV6SVFBQm9EUzFKWE9CeHc0KzBEIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU1pYIixudWxsLCJaSCIsIjMzNCJdLFsiU1pYIiwiMjAyNC0xMi0wMSIsIlBFSyIsbnVsbCwiQ0EiLCIxMzMyIl0sWyJQRUsiLCIyMDI0LTEyLTAxIiwiQ0pVIixudWxsLCJDQSIsIjcxMSJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 19:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Singapore Changi Airport",
-                        "id": "SIN",
-                        "time": "2024-12-01 20:40"
-                    },
-                    "duration": 50,
-                    "airplane": "Boeing 787",
-                    "airline": "Scoot",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
-                    "travel_class": "Economy",
-                    "flight_number": "TR 469",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power outlet",
-                        "Carbon emissions estimate: 43 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Singapore Changi Airport",
-                        "id": "SIN",
-                        "time": "2024-12-02 00:25"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-02 07:25"
-                    },
-                    "duration": 360,
-                    "airplane": "Airbus A321neo",
-                    "airline": "Scoot",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
-                    "travel_class": "Economy",
-                    "flight_number": "TR 812",
-                    "legroom": "28 in",
-                    "extensions": [
-                        "Below average legroom (28 in)",
-                        "Carbon emissions estimate: 242 kg"
-                    ],
-                    "overnight": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 225,
-                    "name": "Singapore Changi Airport",
-                    "id": "SIN"
-                }
-            ],
-            "total_duration": 635,
-            "carbon_emissions": {
-                "this_flight": 286000,
-                "typical_for_this_route": 415000,
-                "difference_percent": -31
-            },
-            "price": 876096,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3RVVWpRMk9YeFVVamd4TWhvTENNQzhOUkFBR2dOTFVsYzRISERSaHdRPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNJTiIsbnVsbCwiVFIiLCI0NjkiXSxbIlNJTiIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlRSIiwiODEyIl1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3RhU0RNek5IeGFTRFkwTVJvTENJU2FKaEFBR2dOTFVsYzRISENsOUFJPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNaWCIsbnVsbCwiWkgiLCIzMzQiXSxbIlNaWCIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIlpIIiwiNjQxIl1dXQ=="
         },
         {
             "flights": [
@@ -511,11 +198,229 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 1
             },
-            "price": 939345,
+            "price": 942073,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpXVGpZM05ueFdUalF5TW54TFJURTFNakVhQ3dqUnFqa1FBQm9EUzFKWE9CeHdrNjBFIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0dOIixudWxsLCJWTiIsIjY3NiJdLFsiU0dOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiVk4iLCI0MjIiXSxbIlBVUyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTUyMSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpXVGpZM05ueFdUalF5TW54TFJURTFNakVhQ3dqNXZ6a1FBQm9EUzFKWE9CeHdxckFFIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0dOIixudWxsLCJWTiIsIjY3NiJdLFsiU0dOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiVk4iLCI0MjIiXSxbIlBVUyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTUyMSJdXV0="
         },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-12-01 21:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-12-01 22:50"
+                    },
+                    "duration": 70,
+                    "airplane": "Airbus A320",
+                    "airline": "Scoot",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TR 467",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 47 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-12-02 00:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-02 07:25"
+                    },
+                    "duration": 360,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Scoot",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TR 812",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 242 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 95,
+                    "name": "Singapore Changi Airport",
+                    "id": "SIN"
+                }
+            ],
+            "total_duration": 525,
+            "carbon_emissions": {
+                "this_flight": 289000,
+                "typical_for_this_route": 415000,
+                "difference_percent": -30
+            },
+            "price": 1071140,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3RVVWpRMk4zeFVVamd4TWhvTENLU3dRUkFBR2dOTFVsYzRISENNL1FRPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNJTiIsbnVsbCwiVFIiLCI0NjciXSxbIlNJTiIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlRSIiwiODEyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-12-01 17:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-12-01 22:00"
+                    },
+                    "duration": 250,
+                    "airplane": "Airbus A330",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 724",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 213 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-12-02 02:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-02 06:40"
+                    },
+                    "duration": 170,
+                    "airplane": "Airbus A321",
+                    "airline": "Hong Kong Express",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UO.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UO 676",
+                    "ticket_also_sold_by": [
+                        "Cathay Pacific"
+                    ],
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Carbon emissions estimate: 144 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 290,
+                    "name": "Hong Kong International Airport",
+                    "id": "HKG",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 710,
+            "carbon_emissions": {
+                "this_flight": 357000,
+                "typical_for_this_route": 415000,
+                "difference_percent": -14
+            },
+            "price": 1137754,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3REV0RjeU5IeFZUelkzTmhvTENOcTRSUkFBR2dOTFVsYzRISERicEFVPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIkhLRyIsbnVsbCwiQ1giLCI3MjQiXSxbIkhLRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlVPIiwiNjc2Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-12-01 23:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Incheon International Airport",
+                        "id": "ICN",
+                        "time": "2024-12-02 07:15"
+                    },
+                    "duration": 380,
+                    "airplane": "Boeing 787",
+                    "airline": "Korean Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+                    "travel_class": "Economy",
+                    "flight_number": "KE 672",
+                    "legroom": "33 in",
+                    "extensions": [
+                        "Above average legroom (33 in)",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 357 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Gimpo International Airport",
+                        "id": "GMP",
+                        "time": "2024-12-02 10:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-02 11:20"
+                    },
+                    "duration": 75,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Korean Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+                    "travel_class": "Economy",
+                    "flight_number": "KE 1065",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 60 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 170,
+                    "name": "Gimpo International Airport",
+                    "id": "ICN"
+                }
+            ],
+            "total_duration": 625,
+            "carbon_emissions": {
+                "this_flight": 417000,
+                "typical_for_this_route": 415000,
+                "difference_percent": 0
+            },
+            "price": 1151458,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV3TmpVYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTA2NSJdXV0="
+        }
+    ],
+    "other_flights": [
         {
             "flights": [
                 {
@@ -610,10 +515,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 1
             },
-            "price": 939345,
+            "price": 942073,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpXVGpZM05ueFdUalF5TW54TFJURTFNelVhQ3dqUnFqa1FBQm9EUzFKWE9CeHdrNjBFIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0dOIixudWxsLCJWTiIsIjY3NiJdLFsiU0dOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiVk4iLCI0MjIiXSxbIlBVUyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTUzNSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpXVGpZM05ueFdUalF5TW54TFJURTFNelVhQ3dqNXZ6a1FBQm9EUzFKWE9CeHdxckFFIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0dOIixudWxsLCJWTiIsIjY3NiJdLFsiU0dOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiVk4iLCI0MjIiXSxbIlBVUyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTUzNSJdXV0="
         },
         {
             "flights": [
@@ -712,10 +617,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 1
             },
-            "price": 939345,
+            "price": 942073,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpXVGpZM05ueFdUalF5TW54TFJURTFORGthQ3dqUnFqa1FBQm9EUzFKWE9CeHdrNjBFIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0dOIixudWxsLCJWTiIsIjY3NiJdLFsiU0dOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiVk4iLCI0MjIiXSxbIlBVUyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTU0OSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpXVGpZM05ueFdUalF5TW54TFJURTFORGthQ3dqNXZ6a1FBQm9EUzFKWE9CeHdxckFFIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0dOIixudWxsLCJWTiIsIjY3NiJdLFsiU0dOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiVk4iLCI0MjIiXSxbIlBVUyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTU0OSJdXV0="
         },
         {
             "flights": [
@@ -813,85 +718,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 2
             },
-            "price": 939345,
+            "price": 942073,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpXVGpZM05ueFdUalF5TW54TFJURTFOVE1hQ3dqUnFqa1FBQm9EUzFKWE9CeHdrNjBFIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0dOIixudWxsLCJWTiIsIjY3NiJdLFsiU0dOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiVk4iLCI0MjIiXSxbIlBVUyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTU1MyJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 17:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Hong Kong International Airport",
-                        "id": "HKG",
-                        "time": "2024-12-01 22:00"
-                    },
-                    "duration": 250,
-                    "airplane": "Airbus A330",
-                    "airline": "Cathay Pacific",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
-                    "travel_class": "Economy",
-                    "flight_number": "CX 724",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 213 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Hong Kong International Airport",
-                        "id": "HKG",
-                        "time": "2024-12-02 02:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-02 06:40"
-                    },
-                    "duration": 170,
-                    "airplane": "Airbus A321",
-                    "airline": "Hong Kong Express",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UO.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UO 676",
-                    "ticket_also_sold_by": [
-                        "Cathay Pacific"
-                    ],
-                    "legroom": "29 in",
-                    "extensions": [
-                        "Below average legroom (29 in)",
-                        "Carbon emissions estimate: 144 kg"
-                    ],
-                    "overnight": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 290,
-                    "name": "Hong Kong International Airport",
-                    "id": "HKG",
-                    "overnight": true
-                }
-            ],
-            "total_duration": 710,
-            "carbon_emissions": {
-                "this_flight": 357000,
-                "typical_for_this_route": 415000,
-                "difference_percent": -14
-            },
-            "price": 1014400,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3REV0RjeU5IeFZUelkzTmhvTENJRDFQUkFBR2dOTFVsYzRISERWMlFRPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIkhLRyIsbnVsbCwiQ1giLCI3MjQiXSxbIkhLRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlVPIiwiNjc2Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpXVGpZM05ueFdUalF5TW54TFJURTFOVE1hQ3dqNXZ6a1FBQm9EUzFKWE9CeHdxckFFIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0dOIixudWxsLCJWTiIsIjY3NiJdLFsiU0dOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiVk4iLCI0MjIiXSxbIlBVUyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTU1MyJdXV0="
         },
         {
             "flights": [
@@ -956,10 +786,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": -30
             },
-            "price": 1068038,
+            "price": 1071140,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3RVVWpRMU0zeFVVamd4TWhvTENJYVlRUkFBR2dOTFVsYzRISEM5K1FRPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNJTiIsbnVsbCwiVFIiLCI0NTMiXSxbIlNJTiIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlRSIiwiODEyIl1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3RVVWpRMU0zeFVVamd4TWhvTENLU3dRUkFBR2dOTFVsYzRISENNL1FRPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNJTiIsbnVsbCwiVFIiLCI0NTMiXSxbIlNJTiIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlRSIiwiODEyIl1dXQ=="
         },
         {
             "flights": [
@@ -967,72 +797,69 @@
                     "departure_airport": {
                         "name": "Kuala Lumpur International Airport",
                         "id": "KUL",
-                        "time": "2024-12-01 07:05"
+                        "time": "2024-12-01 19:50"
                     },
                     "arrival_airport": {
-                        "name": "Shanghai Pudong International Airport",
-                        "id": "PVG",
-                        "time": "2024-12-01 12:35"
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-12-01 20:40"
                     },
-                    "duration": 330,
-                    "airplane": "Boeing 737",
-                    "airline": "Shanghai Airlines",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FM.png",
+                    "duration": 50,
+                    "airplane": "Boeing 787",
+                    "airline": "Scoot",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
                     "travel_class": "Economy",
-                    "flight_number": "FM 864",
-                    "ticket_also_sold_by": [
-                        "China Eastern"
-                    ],
-                    "legroom": "30 in",
+                    "flight_number": "TR 469",
+                    "legroom": "31 in",
                     "extensions": [
-                        "Average legroom (30 in)",
-                        "In-seat USB outlet",
-                        "Carbon emissions estimate: 320 kg"
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Carbon emissions estimate: 43 kg"
                     ]
                 },
                 {
                     "departure_airport": {
-                        "name": "Shanghai Pudong International Airport",
-                        "id": "PVG",
-                        "time": "2024-12-02 10:10"
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-12-02 00:25"
                     },
                     "arrival_airport": {
                         "name": "Jeju International Airport",
                         "id": "CJU",
-                        "time": "2024-12-02 12:50"
+                        "time": "2024-12-02 07:25"
                     },
-                    "duration": 100,
-                    "airplane": "Airbus A320",
-                    "airline": "China Eastern",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
+                    "duration": 360,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Scoot",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
                     "travel_class": "Economy",
-                    "flight_number": "MU 5059",
-                    "legroom": "30 in",
+                    "flight_number": "TR 812",
+                    "legroom": "28 in",
                     "extensions": [
-                        "Average legroom (30 in)",
-                        "Carbon emissions estimate: 81 kg"
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 242 kg"
                     ],
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 }
             ],
             "layovers": [
                 {
-                    "duration": 1295,
-                    "name": "Shanghai Pudong International Airport",
-                    "id": "PVG",
-                    "overnight": true
+                    "duration": 225,
+                    "name": "Singapore Changi Airport",
+                    "id": "SIN"
                 }
             ],
-            "total_duration": 1725,
+            "total_duration": 635,
             "carbon_emissions": {
-                "this_flight": 401000,
+                "this_flight": 286000,
                 "typical_for_this_route": 415000,
-                "difference_percent": -3
+                "difference_percent": -31
             },
-            "price": 1104589,
+            "price": 1071140,
             "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hHVFRnMk5IeE5WVFV3TlRrYUN3ak50VU1RQUJvRFMxSlhPQnh3bEk4RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlBWRyIsbnVsbCwiRk0iLCI4NjQiXSxbIlBWRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk1VIiwiNTA1OSJdXV0="
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3RVVWpRMk9YeFVVamd4TWhvTENLU3dRUkFBR2dOTFVsYzRISENNL1FRPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNJTiIsbnVsbCwiVFIiLCI0NjkiXSxbIlNJTiIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlRSIiwiODEyIl1dXQ=="
         },
         {
             "flights": [
@@ -1076,10 +903,12 @@
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
                     "travel_class": "Economy",
                     "flight_number": "MU 2881",
-                    "legroom": "32 in",
+                    "legroom": "31 in",
                     "extensions": [
-                        "Above average legroom (32 in)",
+                        "Average legroom (31 in)",
                         "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
                         "Carbon emissions estimate: 74 kg"
                     ]
                 },
@@ -1127,85 +956,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 22
             },
-            "price": 1114122,
+            "price": 1117357,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaFJOVlRJNU56QjhUVlV5T0RneGZFMVZOVEExT1JvTENJcUFSQkFBR2dOTFVsYzRISERvbEFVPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIk5LRyIsbnVsbCwiTVUiLCIyOTcwIl0sWyJOS0ciLCIyMDI0LTEyLTAyIiwiUFZHIixudWxsLCJNVSIsIjI4ODEiXSxbIlBWRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk1VIiwiNTA1OSJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 13:30"
-                    },
-                    "arrival_airport": {
-                        "name": "Hong Kong International Airport",
-                        "id": "HKG",
-                        "time": "2024-12-01 17:40"
-                    },
-                    "duration": 250,
-                    "airplane": "Airbus A330",
-                    "airline": "Cathay Pacific",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
-                    "travel_class": "Economy",
-                    "flight_number": "CX 722",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "In-seat power outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 207 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Hong Kong International Airport",
-                        "id": "HKG",
-                        "time": "2024-12-02 02:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-02 06:40"
-                    },
-                    "duration": 170,
-                    "airplane": "Airbus A321",
-                    "airline": "Hong Kong Express",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UO.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UO 676",
-                    "ticket_also_sold_by": [
-                        "Cathay Pacific"
-                    ],
-                    "legroom": "29 in",
-                    "extensions": [
-                        "Below average legroom (29 in)",
-                        "Carbon emissions estimate: 144 kg"
-                    ],
-                    "overnight": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 550,
-                    "name": "Hong Kong International Airport",
-                    "id": "HKG",
-                    "overnight": true
-                }
-            ],
-            "total_duration": 970,
-            "carbon_emissions": {
-                "this_flight": 352000,
-                "typical_for_this_route": 415000,
-                "difference_percent": -15
-            },
-            "price": 1134459,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3REV0RjeU1ueFZUelkzTmhvTENQdWVSUkFBR2dOTFVsYzRISER3b0FVPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIkhLRyIsbnVsbCwiQ1giLCI3MjIiXSxbIkhLRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlVPIiwiNjc2Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaFJOVlRJNU56QjhUVlV5T0RneGZFMVZOVEExT1JvTENLMlpSQkFBR2dOTFVsYzRISERLbUFVPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIk5LRyIsbnVsbCwiTVUiLCIyOTcwIl0sWyJOS0ciLCIyMDI0LTEyLTAyIiwiUFZHIixudWxsLCJNVSIsIjI4ODEiXSxbIlBWRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk1VIiwiNTA1OSJdXV0="
         },
         {
             "flights": [
@@ -1277,10 +1031,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": -22
             },
-            "price": 1134460,
+            "price": 1137754,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3REV0Rjek1IeFZUelkzTmhvTENQeWVSUkFBR2dOTFVsYzRISER3b0FVPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIkhLRyIsbnVsbCwiQ1giLCI3MzAiXSxbIkhLRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlVPIiwiNjc2Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3REV0Rjek1IeFZUelkzTmhvTENOcTRSUkFBR2dOTFVsYzRISERicEFVPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIkhLRyIsbnVsbCwiQ1giLCI3MzAiXSxbIkhLRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlVPIiwiNjc2Il1dXQ=="
         },
         {
             "flights": [
@@ -1288,73 +1042,74 @@
                     "departure_airport": {
                         "name": "Kuala Lumpur International Airport",
                         "id": "KUL",
-                        "time": "2024-12-01 23:55"
+                        "time": "2024-12-01 13:30"
                     },
                     "arrival_airport": {
-                        "name": "Incheon International Airport",
-                        "id": "ICN",
-                        "time": "2024-12-02 07:15"
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-12-01 17:40"
                     },
-                    "duration": 380,
-                    "airplane": "Boeing 787",
-                    "airline": "Korean Air",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+                    "duration": 250,
+                    "airplane": "Airbus A330",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
                     "travel_class": "Economy",
-                    "flight_number": "KE 672",
-                    "legroom": "33 in",
+                    "flight_number": "CX 722",
+                    "legroom": "32 in",
                     "extensions": [
-                        "Above average legroom (33 in)",
-                        "In-seat power & USB outlets",
+                        "Above average legroom (32 in)",
+                        "In-seat power outlet",
                         "On-demand video",
-                        "Carbon emissions estimate: 357 kg"
+                        "Carbon emissions estimate: 207 kg"
                     ],
-                    "overnight": true,
                     "often_delayed_by_over_30_min": true
                 },
                 {
                     "departure_airport": {
-                        "name": "Gimpo International Airport",
-                        "id": "GMP",
-                        "time": "2024-12-02 10:05"
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-12-02 02:50"
                     },
                     "arrival_airport": {
                         "name": "Jeju International Airport",
                         "id": "CJU",
-                        "time": "2024-12-02 11:20"
+                        "time": "2024-12-02 06:40"
                     },
-                    "duration": 75,
-                    "airplane": "Airbus A321neo",
-                    "airline": "Korean Air",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+                    "duration": 170,
+                    "airplane": "Airbus A321",
+                    "airline": "Hong Kong Express",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UO.png",
                     "travel_class": "Economy",
-                    "flight_number": "KE 1065",
-                    "legroom": "31 in",
+                    "flight_number": "UO 676",
+                    "ticket_also_sold_by": [
+                        "Cathay Pacific"
+                    ],
+                    "legroom": "29 in",
                     "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 60 kg"
-                    ]
+                        "Below average legroom (29 in)",
+                        "Carbon emissions estimate: 144 kg"
+                    ],
+                    "overnight": true
                 }
             ],
             "layovers": [
                 {
-                    "duration": 170,
-                    "name": "Gimpo International Airport",
-                    "id": "ICN"
+                    "duration": 550,
+                    "name": "Hong Kong International Airport",
+                    "id": "HKG",
+                    "overnight": true
                 }
             ],
-            "total_duration": 625,
+            "total_duration": 970,
             "carbon_emissions": {
-                "this_flight": 417000,
+                "this_flight": 352000,
                 "typical_for_this_route": 415000,
-                "difference_percent": 0
+                "difference_percent": -15
             },
-            "price": 1135730,
+            "price": 1137754,
             "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV3TmpVYUN3anlxRVVRQUJvRFMxSlhPQnh3MEtFRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTA2NSJdXV0="
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3REV0RjeU1ueFZUelkzTmhvTENOcTRSUkFBR2dOTFVsYzRISERicEFVPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIkhLRyIsbnVsbCwiQ1giLCI3MjIiXSxbIkhLRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlVPIiwiNjc2Il1dXQ=="
         },
         {
             "flights": [
@@ -1382,8 +1137,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -1422,10 +1176,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 1
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV3TmpjYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTA2NyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV3TmpjYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTA2NyJdXV0="
         },
         {
             "flights": [
@@ -1453,8 +1207,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -1495,10 +1248,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 2
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV3T0RNYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTA4MyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV3T0RNYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTA4MyJdXV0="
         },
         {
             "flights": [
@@ -1526,8 +1279,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -1566,10 +1318,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 1
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV3T0RVYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTA4NSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV3T0RVYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTA4NSJdXV0="
         },
         {
             "flights": [
@@ -1597,8 +1349,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -1639,10 +1390,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 5
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV4TURVYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTEwNSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV4TURVYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTEwNSJdXV0="
         },
         {
             "flights": [
@@ -1670,8 +1421,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -1713,10 +1463,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 0
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV4TWpVYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTEyNSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV4TWpVYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTEyNSJdXV0="
         },
         {
             "flights": [
@@ -1744,8 +1494,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -1787,10 +1536,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 0
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV4TWprYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTEyOSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV4TWprYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTEyOSJdXV0="
         },
         {
             "flights": [
@@ -1818,8 +1567,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -1858,10 +1606,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 1
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV4TXpFYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTEzMSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV4TXpFYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTEzMSJdXV0="
         },
         {
             "flights": [
@@ -1889,8 +1637,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -1930,10 +1677,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 1
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV4TkRjYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTE0NyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV4TkRjYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTE0NyJdXV0="
         },
         {
             "flights": [
@@ -1961,8 +1708,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2003,10 +1749,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 5
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV4TnprYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTE3OSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV4TnprYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTE3OSJdXV0="
         },
         {
             "flights": [
@@ -2034,8 +1780,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2074,10 +1819,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 1
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV5TURVYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTIwNSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV5TURVYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTIwNSJdXV0="
         },
         {
             "flights": [
@@ -2105,8 +1850,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2147,10 +1891,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 2
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV5TXpNYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTIzMyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV5TXpNYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTIzMyJdXV0="
         },
         {
             "flights": [
@@ -2178,8 +1922,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2220,10 +1963,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 2
             },
-            "price": 1148124,
+            "price": 1151458,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hMUlRZM01ueExSVEV5TkRFYUN3amNpVVlRQUJvRFMxSlhPQnh3L2FnRiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTI0MSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hMUlRZM01ueExSVEV5TkRFYUN3amlvMFlRQUJvRFMxSlhPQnh3N3F3RiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTI0MSJdXV0="
         },
         {
             "flights": [
@@ -2251,8 +1994,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2321,10 +2063,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 11
             },
-            "price": 1209455,
+            "price": 1212967,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaE5MUlRZM01ueExSVEU0TVRWOFMwVXhOVE0xR2dzSTcraEpFQUFhQTB0U1Z6Z2NjSzdOQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTgxNSJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTM1Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaE5MUlRZM01ueExSVEU0TVRWOFMwVXhOVE0xR2dzSXA0UktFQUFhQTB0U1Z6Z2NjTG5SQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTgxNSJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTM1Il1dXQ=="
         },
         {
             "flights": [
@@ -2352,8 +2094,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2422,10 +2163,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 11
             },
-            "price": 1209455,
+            "price": 1212967,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaE5MUlRZM01ueExSVEU0TVRGOFMwVXhOVE0xR2dzSTcraEpFQUFhQTB0U1Z6Z2NjSzdOQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTgxMSJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTM1Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaE5MUlRZM01ueExSVEU0TVRGOFMwVXhOVE0xR2dzSXA0UktFQUFhQTB0U1Z6Z2NjTG5SQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTgxMSJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTM1Il1dXQ=="
         },
         {
             "flights": [
@@ -2453,8 +2194,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2523,10 +2263,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 12
             },
-            "price": 1210408,
+            "price": 1213923,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaE5MUlRZM01ueExSVEUwTURkOFMwVXhOVE0xR2dzSXFQQkpFQUFhQTB0U1Z6Z2NjUGJOQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIklDTiIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTQwNyJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTM1Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaE5MUlRZM01ueExSVEUwTURkOFMwVXhOVE0xR2dzSTQ0dEtFQUFhQTB0U1Z6Z2NjSUxTQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIklDTiIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTQwNyJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTM1Il1dXQ=="
         },
         {
             "flights": [
@@ -2554,8 +2294,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2627,10 +2366,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 11
             },
-            "price": 1210408,
+            "price": 1213923,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaE5MUlRZM01ueExSVEUwTVRGOFMwVXhOVFE1R2dzSXFQQkpFQUFhQTB0U1Z6Z2NjUGJOQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIklDTiIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTQxMSJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTQ5Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaE5MUlRZM01ueExSVEUwTVRGOFMwVXhOVFE1R2dzSTQ0dEtFQUFhQTB0U1Z6Z2NjSUxTQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIklDTiIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTQxMSJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTQ5Il1dXQ=="
         },
         {
             "flights": [
@@ -2658,8 +2397,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2731,10 +2469,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 11
             },
-            "price": 1210408,
+            "price": 1213923,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaE5MUlRZM01ueExSVEUwTURkOFMwVXhOVFE1R2dzSXFQQkpFQUFhQTB0U1Z6Z2NjUGJOQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIklDTiIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTQwNyJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTQ5Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaE5MUlRZM01ueExSVEUwTURkOFMwVXhOVFE1R2dzSTQ0dEtFQUFhQTB0U1Z6Z2NjSUxTQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIklDTiIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTQwNyJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTQ5Il1dXQ=="
         },
         {
             "flights": [
@@ -2762,8 +2500,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2834,10 +2571,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 12
             },
-            "price": 1210408,
+            "price": 1213923,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaE5MUlRZM01ueExSVEUwTVRGOFMwVXhOVFV6R2dzSXFQQkpFQUFhQTB0U1Z6Z2NjUGJOQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIklDTiIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTQxMSJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTUzIl1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaE5MUlRZM01ueExSVEUwTVRGOFMwVXhOVFV6R2dzSTQ0dEtFQUFhQTB0U1Z6Z2NjSUxTQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIklDTiIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTQxMSJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTUzIl1dXQ=="
         },
         {
             "flights": [
@@ -2865,8 +2602,7 @@
                         "On-demand video",
                         "Carbon emissions estimate: 357 kg"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
@@ -2937,81 +2673,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 12
             },
-            "price": 1210408,
+            "price": 1213923,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaE5MUlRZM01ueExSVEUwTURkOFMwVXhOVFV6R2dzSXFQQkpFQUFhQTB0U1Z6Z2NjUGJOQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIklDTiIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTQwNyJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTUzIl1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 07:05"
-                    },
-                    "arrival_airport": {
-                        "name": "Shanghai Pudong International Airport",
-                        "id": "PVG",
-                        "time": "2024-12-01 12:35"
-                    },
-                    "duration": 330,
-                    "airplane": "Boeing 737",
-                    "airline": "Shanghai Airlines",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FM.png",
-                    "travel_class": "Economy",
-                    "flight_number": "FM 864",
-                    "ticket_also_sold_by": [
-                        "China Eastern"
-                    ],
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "In-seat USB outlet",
-                        "Carbon emissions estimate: 320 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Shanghai Pudong International Airport",
-                        "id": "PVG",
-                        "time": "2024-12-01 15:15"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-01 17:55"
-                    },
-                    "duration": 100,
-                    "airplane": "Airbus A320",
-                    "airline": "China Eastern",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
-                    "travel_class": "Economy",
-                    "flight_number": "MU 5027",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Carbon emissions estimate: 81 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 160,
-                    "name": "Shanghai Pudong International Airport",
-                    "id": "PVG"
-                }
-            ],
-            "total_duration": 590,
-            "carbon_emissions": {
-                "this_flight": 401000,
-                "typical_for_this_route": 415000,
-                "difference_percent": -3
-            },
-            "price": 1323897,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hHVFRnMk5IeE5WVFV3TWpjYUN3ajU1bEFRQUJvRFMxSlhPQnh3bnBFRyIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlBWRyIsbnVsbCwiRk0iLCI4NjQiXSxbIlBWRyIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIk1VIiwiNTAyNyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaE5MUlRZM01ueExSVEUwTURkOFMwVXhOVFV6R2dzSTQ0dEtFQUFhQTB0U1Z6Z2NjSUxTQlE9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiS0UiLCI2NzIiXSxbIklDTiIsIjIwMjQtMTItMDIiLCJQVVMiLG51bGwsIktFIiwiMTQwNyJdLFsiUFVTIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxNTUzIl1dXQ=="
         },
         {
             "flights": [
@@ -3111,10 +2776,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 6
             },
-            "price": 1337200,
+            "price": 1341083,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpOU0RZd04zeFBXamMxTW54UFdqZzVNalVhQ3dqd3psRVFBQm9EUzFKWE9CeHdrSmtHIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJNSCIsIjYwNyJdLFsiU0lOIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiT1oiLCI3NTIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODkyNSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpOU0RZd04zeFBXamMxTW54UFdqZzVNalVhQ3dpYjdWRVFBQm9EUzFKWE9CeHcwNTBHIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJNSCIsIjYwNyJdLFsiU0lOIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiT1oiLCI3NTIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODkyNSJdXV0="
         },
         {
             "flights": [
@@ -3213,10 +2878,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 7
             },
-            "price": 1337200,
+            "price": 1341083,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpOU0RZd04zeFBXamMxTW54UFdqZzVNamNhQ3dqd3psRVFBQm9EUzFKWE9CeHdrSmtHIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJNSCIsIjYwNyJdLFsiU0lOIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiT1oiLCI3NTIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODkyNyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpOU0RZd04zeFBXamMxTW54UFdqZzVNamNhQ3dpYjdWRVFBQm9EUzFKWE9CeHcwNTBHIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJNSCIsIjYwNyJdLFsiU0lOIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiT1oiLCI3NTIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODkyNyJdXV0="
         },
         {
             "flights": [
@@ -3316,10 +2981,154 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 6
             },
-            "price": 1337200,
+            "price": 1341083,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpOU0RZd04zeFBXamMxTW54UFdqZzVNekVhQ3dqd3psRVFBQm9EUzFKWE9CeHdrSmtHIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJNSCIsIjYwNyJdLFsiU0lOIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiT1oiLCI3NTIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODkzMSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpOU0RZd04zeFBXamMxTW54UFdqZzVNekVhQ3dpYjdWRVFBQm9EUzFKWE9CeHcwNTBHIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJNSCIsIjYwNyJdLFsiU0lOIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiT1oiLCI3NTIiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODkzMSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-12-01 07:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Shanghai Pudong International Airport",
+                        "id": "PVG",
+                        "time": "2024-12-01 12:35"
+                    },
+                    "duration": 330,
+                    "airplane": "Boeing 737",
+                    "airline": "Shanghai Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FM 864",
+                    "ticket_also_sold_by": [
+                        "China Eastern"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 320 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Shanghai Pudong International Airport",
+                        "id": "PVG",
+                        "time": "2024-12-01 15:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-01 17:55"
+                    },
+                    "duration": 100,
+                    "airplane": "Airbus A320",
+                    "airline": "China Eastern",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MU 5027",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 81 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 160,
+                    "name": "Shanghai Pudong International Airport",
+                    "id": "PVG"
+                }
+            ],
+            "total_duration": 590,
+            "carbon_emissions": {
+                "this_flight": 401000,
+                "typical_for_this_route": 415000,
+                "difference_percent": -3
+            },
+            "price": 1357974,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hHVFRnMk5IeE5WVFV3TWpjYUN3aVc4VklRQUJvRFMxSlhPQnh3MmFjRyIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlBWRyIsbnVsbCwiRk0iLCI4NjQiXSxbIlBWRyIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIk1VIiwiNTAyNyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-12-01 07:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Shanghai Pudong International Airport",
+                        "id": "PVG",
+                        "time": "2024-12-01 12:35"
+                    },
+                    "duration": 330,
+                    "airplane": "Boeing 737",
+                    "airline": "Shanghai Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FM 864",
+                    "ticket_also_sold_by": [
+                        "China Eastern"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 320 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Shanghai Pudong International Airport",
+                        "id": "PVG",
+                        "time": "2024-12-02 10:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-02 12:50"
+                    },
+                    "duration": 100,
+                    "airplane": "Airbus A320",
+                    "airline": "China Eastern",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MU 5059",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 81 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 1295,
+                    "name": "Shanghai Pudong International Airport",
+                    "id": "PVG",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1725,
+            "carbon_emissions": {
+                "this_flight": 401000,
+                "typical_for_this_route": 415000,
+                "difference_percent": -3
+            },
+            "price": 1357974,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hHVFRnMk5IeE5WVFV3TlRrYUN3aVc4VklRQUJvRFMxSlhPQnh3MmFjRyIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlBWRyIsbnVsbCwiRk0iLCI4NjQiXSxbIlBWRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk1VIiwiNTA1OSJdXV0="
         },
         {
             "flights": [
@@ -3389,10 +3198,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": -3
             },
-            "price": 1354042,
+            "price": 1357974,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hHVFRnNE5ueE5WVFV3TlRrYUN3aTYwbElRQUJvRFMxSlhPQnh3ajZNRyIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlBWRyIsbnVsbCwiRk0iLCI4ODYiXSxbIlBWRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk1VIiwiNTA1OSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3hHVFRnNE5ueE5WVFV3TlRrYUN3aVc4VklRQUJvRFMxSlhPQnh3MmFjRyIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlBWRyIsbnVsbCwiRk0iLCI4ODYiXSxbIlBWRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk1VIiwiNTA1OSJdXV0="
         },
         {
             "flights": [
@@ -3489,10 +3298,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 13
             },
-            "price": 1450328,
+            "price": 1454540,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpXVGpZM05ueE5WVEk0TW54TlZUVXdOVGthQ3dqWXdsZ1FBQm9EUzFKWE9CeHduZHdHIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0dOIixudWxsLCJWTiIsIjY3NiJdLFsiU0dOIiwiMjAyNC0xMi0wMiIsIlBWRyIsbnVsbCwiTVUiLCIyODIiXSxbIlBWRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk1VIiwiNTA1OSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpXVGpZM05ueE5WVEk0TW54TlZUVXdOVGthQ3dqTTQxZ1FBQm9EUzFKWE9CeHdrT0VHIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0dOIixudWxsLCJWTiIsIjY3NiJdLFsiU0dOIiwiMjAyNC0xMi0wMiIsIlBWRyIsbnVsbCwiTVUiLCIyODIiXSxbIlBWRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk1VIiwiNTA1OSJdXV0="
         },
         {
             "flights": [
@@ -3565,84 +3374,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 2
             },
-            "price": 1488700,
+            "price": 1592536,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZzFOU0RZMmZFdEZNVEEwT1NNeEdnc0l2TzVhRUFBYUEwdFNWemdjY1A3eUJnPT0iLFtbIktVTCIsIjIwMjQtMTItMDEiLCJJQ04iLG51bGwsIk1IIiwiNjYiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIktFIiwiMTA0OSJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 23:15"
-                    },
-                    "arrival_airport": {
-                        "name": "Incheon International Airport",
-                        "id": "ICN",
-                        "time": "2024-12-02 06:30"
-                    },
-                    "duration": 375,
-                    "airplane": "Airbus A330",
-                    "airline": "Malaysia Airlines",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MH.png",
-                    "travel_class": "Economy",
-                    "flight_number": "MH 66",
-                    "ticket_also_sold_by": [
-                        "Korean Air"
-                    ],
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 358 kg"
-                    ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Gimpo International Airport",
-                        "id": "GMP",
-                        "time": "2024-12-02 11:30"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-02 12:40"
-                    },
-                    "duration": 70,
-                    "airplane": "Boeing 737",
-                    "airline": "Korean Air",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
-                    "travel_class": "Economy",
-                    "flight_number": "KE 1085",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Carbon emissions estimate: 62 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 300,
-                    "name": "Gimpo International Airport",
-                    "id": "ICN"
-                }
-            ],
-            "total_duration": 745,
-            "carbon_emissions": {
-                "this_flight": 421000,
-                "typical_for_this_route": 415000,
-                "difference_percent": 1
-            },
-            "price": 1511700,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3ROU0RZMmZFdEZNVEE0TlJvTENKU2lYQkFBR2dOTFVsYzRISERRZ0FjPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiTUgiLCI2NiJdLFsiR01QIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxMDg1Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3ROU0RZMmZFdEZNVEEwT1JvTENOaVpZUkFBR2dOTFVsYzRISENhc3djPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiTUgiLCI2NiJdLFsiR01QIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxMDQ5Il1dXQ=="
         },
         {
             "flights": [
@@ -3716,10 +3451,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 1
             },
-            "price": 1587925,
+            "price": 1592536,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3ROU0RZMmZFdEZNVEEyTlJvTENOWDFZQkFBR2dOTFVsYzRISERyclFjPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiTUgiLCI2NiJdLFsiR01QIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxMDY1Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3ROU0RZMmZFdEZNVEEyTlJvTENOaVpZUkFBR2dOTFVsYzRISENhc3djPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiTUgiLCI2NiJdLFsiR01QIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxMDY1Il1dXQ=="
         },
         {
             "flights": [
@@ -3790,10 +3525,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 1
             },
-            "price": 1587925,
+            "price": 1592536,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3ROU0RZMmZFdEZNVEEyTnhvTENOWDFZQkFBR2dOTFVsYzRISERyclFjPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiTUgiLCI2NiJdLFsiR01QIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxMDY3Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3ROU0RZMmZFdEZNVEEyTnhvTENOaVpZUkFBR2dOTFVsYzRISENhc3djPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiTUgiLCI2NiJdLFsiR01QIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxMDY3Il1dXQ=="
         },
         {
             "flights": [
@@ -3866,10 +3601,84 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 2
             },
-            "price": 1587925,
+            "price": 1592536,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3ROU0RZMmZFdEZNVEE0TXhvTENOWDFZQkFBR2dOTFVsYzRISERyclFjPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiTUgiLCI2NiJdLFsiR01QIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxMDgzIl1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3ROU0RZMmZFdEZNVEE0TXhvTENOaVpZUkFBR2dOTFVsYzRISENhc3djPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiTUgiLCI2NiJdLFsiR01QIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxMDgzIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-12-01 23:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Incheon International Airport",
+                        "id": "ICN",
+                        "time": "2024-12-02 06:30"
+                    },
+                    "duration": 375,
+                    "airplane": "Airbus A330",
+                    "airline": "Malaysia Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MH 66",
+                    "ticket_also_sold_by": [
+                        "Korean Air"
+                    ],
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 358 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Gimpo International Airport",
+                        "id": "GMP",
+                        "time": "2024-12-02 11:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-02 12:40"
+                    },
+                    "duration": 70,
+                    "airplane": "Boeing 737",
+                    "airline": "Korean Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+                    "travel_class": "Economy",
+                    "flight_number": "KE 1085",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 62 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 300,
+                    "name": "Gimpo International Airport",
+                    "id": "ICN"
+                }
+            ],
+            "total_duration": 745,
+            "carbon_emissions": {
+                "this_flight": 421000,
+                "typical_for_this_route": 415000,
+                "difference_percent": 1
+            },
+            "price": 1592536,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3ROU0RZMmZFdEZNVEE0TlJvTENOaVpZUkFBR2dOTFVsYzRISENhc3djPSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIklDTiIsbnVsbCwiTUgiLCI2NiJdLFsiR01QIiwiMjAyNC0xMi0wMiIsIkNKVSIsbnVsbCwiS0UiLCIxMDg1Il1dXQ=="
         },
         {
             "flights": [
@@ -3970,10 +3779,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 32
             },
-            "price": 1661967,
+            "price": 1666793,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpDVWpJeE9IeENVakUzTUh4UFdqZzVOak1hQ3dpUHVHVVFBQm9EUzFKWE9CeHc0TmtIIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiVFBFIixudWxsLCJCUiIsIjIxOCJdLFsiVFBFIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiQlIiLCIxNzAiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODk2MyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpDVWpJeE9IeENVakUzTUh4UFdqZzVOak1hQ3dqcDNXVVFBQm9EUzFKWE9CeHdzTjhIIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiVFBFIixudWxsLCJCUiIsIjIxOCJdLFsiVFBFIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiQlIiLCIxNzAiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODk2MyJdXV0="
         },
         {
             "flights": [
@@ -4072,10 +3881,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 33
             },
-            "price": 1661967,
+            "price": 1666793,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpDVWpJeE9IeENVakUzTUh4UFdqZzVOalVhQ3dpUHVHVVFBQm9EUzFKWE9CeHc0TmtIIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiVFBFIixudWxsLCJCUiIsIjIxOCJdLFsiVFBFIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiQlIiLCIxNzAiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODk2NSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpDVWpJeE9IeENVakUzTUh4UFdqZzVOalVhQ3dqcDNXVVFBQm9EUzFKWE9CeHdzTjhIIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiVFBFIixudWxsLCJCUiIsIjIxOCJdLFsiVFBFIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiQlIiLCIxNzAiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODk2NSJdXV0="
         },
         {
             "flights": [
@@ -4175,10 +3984,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 17
             },
-            "price": 1666416,
+            "price": 1671255,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpDU1RnM05IeENTVFkxTVh4TFJURXdOalVhQ3dqdzJtVVFBQm9EUzFKWE9CeHdzdHdIIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiQldOIixudWxsLCJCSSIsIjg3NCJdLFsiQldOIiwiMjAyNC0xMi0wMyIsIklDTiIsbnVsbCwiQkkiLCI2NTEiXSxbIkdNUCIsIjIwMjQtMTItMDMiLCJDSlUiLG51bGwsIktFIiwiMTA2NSJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpDU1RnM05IeENTVFkxTVh4TFJURXdOalVhQ3dqWGdHWVFBQm9EUzFKWE9CeHdnK0lIIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiQldOIixudWxsLCJCSSIsIjg3NCJdLFsiQldOIiwiMjAyNC0xMi0wMyIsIklDTiIsbnVsbCwiQkkiLCI2NTEiXSxbIkdNUCIsIjIwMjQtMTItMDMiLCJDSlUiLG51bGwsIktFIiwiMTA2NSJdXV0="
         },
         {
             "flights": [
@@ -4275,10 +4084,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 17
             },
-            "price": 1666416,
+            "price": 1671255,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpDU1RnM05IeENTVFkxTVh4TFJURXdOamNhQ3dqdzJtVVFBQm9EUzFKWE9CeHdzdHdIIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiQldOIixudWxsLCJCSSIsIjg3NCJdLFsiQldOIiwiMjAyNC0xMi0wMyIsIklDTiIsbnVsbCwiQkkiLCI2NTEiXSxbIkdNUCIsIjIwMjQtMTItMDMiLCJDSlUiLG51bGwsIktFIiwiMTA2NyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpDU1RnM05IeENTVFkxTVh4TFJURXdOamNhQ3dqWGdHWVFBQm9EUzFKWE9CeHdnK0lIIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiQldOIixudWxsLCJCSSIsIjg3NCJdLFsiQldOIiwiMjAyNC0xMi0wMyIsIklDTiIsbnVsbCwiQkkiLCI2NTEiXSxbIkdNUCIsIjIwMjQtMTItMDMiLCJDSlUiLG51bGwsIktFIiwiMTA2NyJdXV0="
         },
         {
             "flights": [
@@ -4377,10 +4186,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 18
             },
-            "price": 1666416,
+            "price": 1671255,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEpDU1RnM05IeENTVFkxTVh4TFJURXdPRE1hQ3dqdzJtVVFBQm9EUzFKWE9CeHdzdHdIIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiQldOIixudWxsLCJCSSIsIjg3NCJdLFsiQldOIiwiMjAyNC0xMi0wMyIsIklDTiIsbnVsbCwiQkkiLCI2NTEiXSxbIkdNUCIsIjIwMjQtMTItMDMiLCJDSlUiLG51bGwsIktFIiwiMTA4MyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEpDU1RnM05IeENTVFkxTVh4TFJURXdPRE1hQ3dqWGdHWVFBQm9EUzFKWE9CeHdnK0lIIixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiQldOIixudWxsLCJCSSIsIjg3NCJdLFsiQldOIiwiMjAyNC0xMi0wMyIsIklDTiIsbnVsbCwiQkkiLCI2NTEiXSxbIkdNUCIsIjIwMjQtMTItMDMiLCJDSlUiLG51bGwsIktFIiwiMTA4MyJdXV0="
         },
         {
             "flights": [
@@ -4480,10 +4289,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 5
             },
-            "price": 1726793,
+            "price": 1731808,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEZUVVRFeU5YeFRVVFl4Tm53M1F6VXdOUm9MQ01teWFSQUFHZ05MVWxjNEhIQ2FnQWc9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNSJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiU1EiLCI2MTYiXSxbIlBVUyIsIjIwMjQtMTItMDMiLCJDSlUiLG51bGwsIjdDIiwiNTA1Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEZUVVRFeU5YeFRVVFl4Tm53M1F6VXdOUm9MQ09EWmFSQUFHZ05MVWxjNEhIQ0ZoZ2c9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNSJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiU1EiLCI2MTYiXSxbIlBVUyIsIjIwMjQtMTItMDMiLCJDSlUiLG51bGwsIjdDIiwiNTA1Il1dXQ=="
         },
         {
             "flights": [
@@ -4583,10 +4392,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 5
             },
-            "price": 1726793,
+            "price": 1731808,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEZUVVRFeU4zeFRVVFl4Tm53M1F6VXdOUm9MQ01teWFSQUFHZ05MVWxjNEhIQ2FnQWc9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNyJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiU1EiLCI2MTYiXSxbIlBVUyIsIjIwMjQtMTItMDMiLCJDSlUiLG51bGwsIjdDIiwiNTA1Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEZUVVRFeU4zeFRVVFl4Tm53M1F6VXdOUm9MQ09EWmFSQUFHZ05MVWxjNEhIQ0ZoZ2c9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNyJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIlBVUyIsbnVsbCwiU1EiLCI2MTYiXSxbIlBVUyIsIjIwMjQtMTItMDMiLCJDSlUiLG51bGwsIjdDIiwiNTA1Il1dXQ=="
         },
         {
             "flights": [
@@ -4685,10 +4494,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": -5
             },
-            "price": 1785582,
+            "price": 1790767,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEZUVVRFeU5YeFRVVFl3T0h3M1F6RXhPUm9MQ083OWJCQUFHZ05MVWxjNEhIQ0pvd2c9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNSJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiU1EiLCI2MDgiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIjdDIiwiMTE5Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEZUVVRFeU5YeFRVVFl3T0h3M1F6RXhPUm9MQ0srbWJSQUFHZ05MVWxjNEhIQ09xUWc9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNSJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiU1EiLCI2MDgiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIjdDIiwiMTE5Il1dXQ=="
         },
         {
             "flights": [
@@ -4787,10 +4596,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": -5
             },
-            "price": 1785582,
+            "price": 1790767,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEZUVVRFeU5YeFRVVFl3T0h3M1F6RXlNUm9MQ083OWJCQUFHZ05MVWxjNEhIQ0pvd2c9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNSJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiU1EiLCI2MDgiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIjdDIiwiMTIxIl1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEZUVVRFeU5YeFRVVFl3T0h3M1F6RXlNUm9MQ0srbWJSQUFHZ05MVWxjNEhIQ09xUWc9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNSJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiU1EiLCI2MDgiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIjdDIiwiMTIxIl1dXQ=="
         },
         {
             "flights": [
@@ -4889,10 +4698,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": -6
             },
-            "price": 1860259,
+            "price": 1865661,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEZUVVRFeU4zeFRVVFl3T0h3M1F6RXhPUm9MQ0tQRmNSQUFHZ05MVWxjNEhIQ3V6d2c9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNyJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiU1EiLCI2MDgiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIjdDIiwiMTE5Il1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEZUVVRFeU4zeFRVVFl3T0h3M1F6RXhPUm9MQ0wzdmNSQUFHZ05MVWxjNEhIRFUxUWc9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNyJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiU1EiLCI2MDgiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIjdDIiwiMTE5Il1dXQ=="
         },
         {
             "flights": [
@@ -4991,10 +4800,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": -6
             },
-            "price": 1860259,
+            "price": 1865661,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEZUVVRFeU4zeFRVVFl3T0h3M1F6RXlNUm9MQ0tQRmNSQUFHZ05MVWxjNEhIQ3V6d2c9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNyJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiU1EiLCI2MDgiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIjdDIiwiMTIxIl1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEZUVVRFeU4zeFRVVFl3T0h3M1F6RXlNUm9MQ0wzdmNSQUFHZ05MVWxjNEhIRFUxUWc9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNyJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiU1EiLCI2MDgiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIjdDIiwiMTIxIl1dXQ=="
         },
         {
             "flights": [
@@ -5093,10 +4902,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": -6
             },
-            "price": 1860259,
+            "price": 1865661,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEZUVVRFeU4zeFRVVFl3T0h3M1F6RXlNeG9MQ0tQRmNSQUFHZ05MVWxjNEhIQ3V6d2c9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNyJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiU1EiLCI2MDgiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIjdDIiwiMTIzIl1dXQ=="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaEZUVVRFeU4zeFRVVFl3T0h3M1F6RXlNeG9MQ0wzdmNSQUFHZ05MVWxjNEhIRFUxUWc9IixbWyJLVUwiLCIyMDI0LTEyLTAxIiwiU0lOIixudWxsLCJTUSIsIjEyNyJdLFsiU0lOIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiU1EiLCI2MDgiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIjdDIiwiMTIzIl1dXQ=="
         },
         {
             "flights": [
@@ -5228,246 +5037,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 36
             },
-            "price": 1935890,
+            "price": 1941511,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaGhOU0RZd00zeENVakl4Tm54Q1VqRTNNSHhQV2pnNU5qTWFDd2lTbEhZUUFCb0RTMUpYT0J4d25Qd0kiLFtbIktVTCIsIjIwMjQtMTItMDEiLCJTSU4iLG51bGwsIk1IIiwiNjAzIl0sWyJTSU4iLCIyMDI0LTEyLTAxIiwiVFBFIixudWxsLCJCUiIsIjIxNiJdLFsiVFBFIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiQlIiLCIxNzAiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODk2MyJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 02:10"
-                    },
-                    "arrival_airport": {
-                        "name": "Shanghai Pudong International Airport",
-                        "id": "PVG",
-                        "time": "2024-12-01 07:50"
-                    },
-                    "duration": 340,
-                    "airplane": "Boeing 737",
-                    "airline": "Shanghai Airlines",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FM.png",
-                    "travel_class": "Economy",
-                    "flight_number": "FM 862",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Carbon emissions estimate: 291 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Shanghai Pudong International Airport",
-                        "id": "PVG",
-                        "time": "2024-12-01 10:10"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-01 12:50"
-                    },
-                    "duration": 100,
-                    "airplane": "Airbus A320",
-                    "airline": "China Eastern",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
-                    "travel_class": "Economy",
-                    "flight_number": "MU 5059",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Carbon emissions estimate: 81 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 140,
-                    "name": "Shanghai Pudong International Airport",
-                    "id": "PVG"
-                }
-            ],
-            "total_duration": 580,
-            "carbon_emissions": {
-                "this_flight": 372000,
-                "typical_for_this_route": 415000,
-                "difference_percent": -10
-            },
-            "price": 2070800,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hHVFRnMk1ueE5WVFV3TlRrYUN3aVFzbjRRQUJvRFMxSlhPQnh3bjh3SiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlBWRyIsbnVsbCwiRk0iLCI4NjIiXSxbIlBWRyIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIk1VIiwiNTA1OSJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 02:10"
-                    },
-                    "arrival_airport": {
-                        "name": "Shanghai Pudong International Airport",
-                        "id": "PVG",
-                        "time": "2024-12-01 07:50"
-                    },
-                    "duration": 340,
-                    "airplane": "Boeing 737",
-                    "airline": "Shanghai Airlines",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FM.png",
-                    "travel_class": "Economy",
-                    "flight_number": "FM 862",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Carbon emissions estimate: 291 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Shanghai Pudong International Airport",
-                        "id": "PVG",
-                        "time": "2024-12-01 11:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-01 14:50"
-                    },
-                    "duration": 120,
-                    "airplane": "Airbus A320",
-                    "airline": "China Eastern",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
-                    "travel_class": "Economy",
-                    "flight_number": "MU 5037",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Carbon emissions estimate: 81 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 240,
-                    "name": "Shanghai Pudong International Airport",
-                    "id": "PVG"
-                }
-            ],
-            "total_duration": 700,
-            "carbon_emissions": {
-                "this_flight": 372000,
-                "typical_for_this_route": 415000,
-                "difference_percent": -10
-            },
-            "price": 2070800,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFZ3hHVFRnMk1ueE5WVFV3TXpjYUN3aVFzbjRRQUJvRFMxSlhPQnh3bjh3SiIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlBWRyIsbnVsbCwiRk0iLCI4NjIiXSxbIlBWRyIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIk1VIiwiNTAzNyJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kuala Lumpur International Airport",
-                        "id": "KUL",
-                        "time": "2024-12-01 04:30"
-                    },
-                    "arrival_airport": {
-                        "name": "Shenzhen Bao'an International Airport",
-                        "id": "SZX",
-                        "time": "2024-12-01 08:35"
-                    },
-                    "duration": 245,
-                    "airplane": "Boeing 737",
-                    "airline": "Shenzhen",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZH.png",
-                    "travel_class": "Business Class",
-                    "flight_number": "ZH 334",
-                    "extensions": [
-                        "Extra reclining seat",
-                        "Carbon emissions estimate: 348 kg"
-                    ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Shenzhen Bao'an International Airport",
-                        "id": "SZX",
-                        "time": "2024-12-01 11:35"
-                    },
-                    "arrival_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-12-01 14:45"
-                    },
-                    "duration": 190,
-                    "airplane": "Boeing 777",
-                    "airline": "Air China",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
-                    "travel_class": "Business Class",
-                    "flight_number": "CA 1394",
-                    "extensions": [
-                        "Lie flat seat",
-                        "Free Wi-Fi",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 797 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-12-01 18:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Jeju International Airport",
-                        "id": "CJU",
-                        "time": "2024-12-01 21:35"
-                    },
-                    "duration": 155,
-                    "airplane": "Boeing 737",
-                    "airline": "Air China",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "CA 711",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Carbon emissions estimate: 134 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 180,
-                    "name": "Shenzhen Bao'an International Airport",
-                    "id": "SZX"
-                },
-                {
-                    "duration": 195,
-                    "name": "Beijing Capital International Airport",
-                    "id": "PEK"
-                }
-            ],
-            "total_duration": 965,
-            "carbon_emissions": {
-                "this_flight": 1281000,
-                "typical_for_this_route": 415000,
-                "difference_percent": 209
-            },
-            "price": 2424478,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaEphU0RNek5IeERRVEV6T1RSOFEwRTNNVEVhREFpZS9aTUJFQUFhQTB0U1Z6Z2NjSUtlQ3c9PSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNaWCIsbnVsbCwiWkgiLCIzMzQiXSxbIlNaWCIsIjIwMjQtMTItMDEiLCJQRUsiLG51bGwsIkNBIiwiMTM5NCJdLFsiUEVLIiwiMjAyNC0xMi0wMSIsIkNKVSIsbnVsbCwiQ0EiLCI3MTEiXV1d"
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaGhOU0RZd00zeENVakl4Tm54Q1VqRTNNSHhQV2pnNU5qTWFDd2lId0hZUUFCb0RTMUpYT0J4dzRvSUoiLFtbIktVTCIsIjIwMjQtMTItMDEiLCJTSU4iLG51bGwsIk1IIiwiNjAzIl0sWyJTSU4iLCIyMDI0LTEyLTAxIiwiVFBFIixudWxsLCJCUiIsIjIxNiJdLFsiVFBFIiwiMjAyNC0xMi0wMiIsIklDTiIsbnVsbCwiQlIiLCIxNzAiXSxbIkdNUCIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIk9aIiwiODk2MyJdXV0="
         },
         {
             "flights": [
@@ -5564,10 +5137,10 @@
                 "typical_for_this_route": 415000,
                 "difference_percent": 11
             },
-            "price": 3514917,
+            "price": 3525124,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaFJEV2pVd09EQjhRMW8yTnpVeGZFMVZOVEF5TnhvTUNLWEUxZ0VRQUJvRFMxSlhPQnh3NUtRUSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNaWCIsbnVsbCwiQ1oiLCI1MDgwIl0sWyJTWlgiLCIyMDI0LTEyLTAxIiwiUFZHIixudWxsLCJDWiIsIjY3NTEiXSxbIlBWRyIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIk1VIiwiNTAyNyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaFJEV2pVd09EQjhRMW8yTnpVeGZFMVZOVEF5TnhvTUNJU1Uxd0VRQUJvRFMxSlhPQnh3MWJBUSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlNaWCIsbnVsbCwiQ1oiLCI1MDgwIl0sWyJTWlgiLCIyMDI0LTEyLTAxIiwiUFZHIixudWxsLCJDWiIsIjY3NTEiXSxbIlBWRyIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIk1VIiwiNTAyNyJdXV0="
         },
         {
             "flights": [
@@ -5613,11 +5186,11 @@
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CZ.png",
                     "travel_class": "Economy",
                     "flight_number": "CZ 8211",
-                    "legroom": "29 in",
+                    "legroom": "30 in",
                     "extensions": [
-                        "Below average legroom (29 in)",
+                        "Average legroom (30 in)",
                         "In-seat USB outlet",
-                        "Carbon emissions estimate: 138 kg"
+                        "Carbon emissions estimate: 130 kg"
                     ],
                     "often_delayed_by_over_30_min": true
                 },
@@ -5659,16 +5232,340 @@
             ],
             "total_duration": 875,
             "carbon_emissions": {
-                "this_flight": 489000,
+                "this_flight": 481000,
                 "typical_for_this_route": 415000,
-                "difference_percent": 18
+                "difference_percent": 16
             },
-            "price": 3514917,
+            "price": 3525124,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJTVhGa1luTXllbll0TlZGQlEzbE9SRUZDUnkwdExTMHRMUzB0TFhCcWVtb3hOVUZCUVVGQlIySXhiV0ZyUWsxQ2RWRkJFaFJEV2pnd056SjhRMW80TWpFeGZFMVZOVEF5TnhvTUNLWEUxZ0VRQUJvRFMxSlhPQnh3NUtRUSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIkNBTiIsbnVsbCwiQ1oiLCI4MDcyIl0sWyJDQU4iLCIyMDI0LTEyLTAxIiwiUFZHIixudWxsLCJDWiIsIjgyMTEiXSxbIlBWRyIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIk1VIiwiNTAyNyJdXV0="
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFaFJEV2pnd056SjhRMW80TWpFeGZFMVZOVEF5TnhvTUNJU1Uxd0VRQUJvRFMxSlhPQnh3MWJBUSIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIkNBTiIsbnVsbCwiQ1oiLCI4MDcyIl0sWyJDQU4iLCIyMDI0LTEyLTAxIiwiUFZHIixudWxsLCJDWiIsIjgyMTEiXSxbIlBWRyIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIk1VIiwiNTAyNyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-12-01 00:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Beijing Capital International Airport",
+                        "id": "PEK",
+                        "time": "2024-12-01 06:35"
+                    },
+                    "duration": 385,
+                    "airplane": "Airbus A330",
+                    "airline": "Air China",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CA 872",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat power outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 355 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Beijing Capital International Airport",
+                        "id": "PEK",
+                        "time": "2024-12-01 18:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-01 21:35"
+                    },
+                    "duration": 155,
+                    "airplane": "Boeing 737",
+                    "airline": "Air China",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CA 711",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Carbon emissions estimate: 139 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 685,
+                    "name": "Beijing Capital International Airport",
+                    "id": "PEK"
+                }
+            ],
+            "total_duration": 1225,
+            "carbon_emissions": {
+                "this_flight": 495000,
+                "typical_for_this_route": 415000,
+                "difference_percent": 19
+            },
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
+            "departure_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlExOWpTMUZDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXlhRXhuUTJOV05qWkJFZ3REUVRnM01ueERRVGN4TVRnYyIsW1siS1VMIiwiMjAyNC0xMi0wMSIsIlBFSyIsbnVsbCwiQ0EiLCI4NzIiXSxbIlBFSyIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIkNBIiwiNzExIl1dXQ=="
         }
     ],
+    "price_insights": {
+        "lowest_price": 625924,
+        "price_level": "typical",
+        "typical_price_range": [
+            540000,
+            830000
+        ],
+        "price_history": [
+            [
+                1722182400,
+                817377
+            ],
+            [
+                1722268800,
+                816187
+            ],
+            [
+                1722355200,
+                817244
+            ],
+            [
+                1722441600,
+                821394
+            ],
+            [
+                1722528000,
+                812386
+            ],
+            [
+                1722614400,
+                819054
+            ],
+            [
+                1722700800,
+                824472
+            ],
+            [
+                1722787200,
+                816016
+            ],
+            [
+                1722873600,
+                817012
+            ],
+            [
+                1722960000,
+                803856
+            ],
+            [
+                1723046400,
+                794856
+            ],
+            [
+                1723132800,
+                750352
+            ],
+            [
+                1723219200,
+                752873
+            ],
+            [
+                1723305600,
+                757109
+            ],
+            [
+                1723392000,
+                757109
+            ],
+            [
+                1723478400,
+                798515
+            ],
+            [
+                1723564800,
+                797296
+            ],
+            [
+                1723651200,
+                793994
+            ],
+            [
+                1723737600,
+                794607
+            ],
+            [
+                1723824000,
+                794424
+            ],
+            [
+                1723910400,
+                786253
+            ],
+            [
+                1723996800,
+                792220
+            ],
+            [
+                1724083200,
+                788771
+            ],
+            [
+                1724169600,
+                788627
+            ],
+            [
+                1724256000,
+                788916
+            ],
+            [
+                1724342400,
+                814303
+            ],
+            [
+                1724428800,
+                815646
+            ],
+            [
+                1724515200,
+                809216
+            ],
+            [
+                1724601600,
+                793462
+            ],
+            [
+                1724688000,
+                805280
+            ],
+            [
+                1724774400,
+                809974
+            ],
+            [
+                1724860800,
+                808640
+            ],
+            [
+                1724947200,
+                704565
+            ],
+            [
+                1725033600,
+                707060
+            ],
+            [
+                1725120000,
+                707221
+            ],
+            [
+                1725206400,
+                707221
+            ],
+            [
+                1725292800,
+                623135
+            ],
+            [
+                1725379200,
+                619302
+            ],
+            [
+                1725465600,
+                621329
+            ],
+            [
+                1725552000,
+                624072
+            ],
+            [
+                1725638400,
+                622381
+            ],
+            [
+                1725724800,
+                623266
+            ],
+            [
+                1725811200,
+                623266
+            ],
+            [
+                1725897600,
+                620059
+            ],
+            [
+                1725984000,
+                624693
+            ],
+            [
+                1726070400,
+                624640
+            ],
+            [
+                1726156800,
+                624959
+            ],
+            [
+                1726243200,
+                619524
+            ],
+            [
+                1726329600,
+                624139
+            ],
+            [
+                1726416000,
+                625078
+            ],
+            [
+                1726502400,
+                617793
+            ],
+            [
+                1726588800,
+                619603
+            ],
+            [
+                1726675200,
+                624568
+            ],
+            [
+                1726761600,
+                624508
+            ],
+            [
+                1726848000,
+                630730
+            ],
+            [
+                1726934400,
+                629962
+            ],
+            [
+                1727020800,
+                629962
+            ],
+            [
+                1727107200,
+                628816
+            ],
+            [
+                1727193600,
+                627575
+            ],
+            [
+                1727280000,
+                638481
+            ],
+            [
+                1727366400,
+                625924
+            ]
+        ]
+    },
     "airports": [
         {
             "departure": [

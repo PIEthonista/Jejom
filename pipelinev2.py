@@ -420,11 +420,129 @@ class PipelineV2():
         }
         try:
             search = GoogleSearch(search_params)
-            results = search.get_dict()
-            return results
+            flights_dict = search.get_dict()
         except Exception as e:
             print(f"[Get Flights] Error: {e}")
-            return None
+            flights_dict = None
+        
+        departure_flight_backup = {}   # final resort
+        found_departure = False
+        found_return = False
+        
+        if flights_dict is not None:
+            if "best_flights" in list(flights_dict.keys()):
+                departure_flight_backup = copy.deepcopy(flights_dict["best_flights"][0])
+                for idx in range(len(flights_dict["best_flights"])):
+                    departure_flight_dict = flights_dict["best_flights"][idx]
+                    found_departure = True
+                    departure_token = departure_flight_dict["departure_token"]
+                    
+                    # construct search params
+                    search_return_params = copy.deepcopy(search_params)
+                    search_return_params["departure_token"] = departure_token
+                    
+                    # search
+                    try:
+                        search_return = GoogleSearch(search_return_params)
+                        return_flights_dict = search_return.get_dict()
+                    except Exception as e:
+                        print(f"[Get Flights] Error: {e}")
+                        return_flights_dict = None
+                    
+                    # get return flight in obtained return dict
+                    if return_flights_dict is not None:
+                        if "best_flights" in list(return_flights_dict.keys()):
+                            return_flight_dict = return_flights_dict["best_flights"][0]
+                            found_return = True
+                        else:
+                            if "other_flights" in list(return_flights_dict.keys()):
+                                if len(return_flights_dict["other_flights"]) > 0:
+                                    return_flight_dict = return_flights_dict["other_flights"][0]
+                                    found_return = True
+        
+            if ("other_flights" in list(flights_dict.keys())) and (not found_return):
+                if len(flights_dict["other_flights"]) > 0:
+                    if not found_departure:
+                        departure_flight_backup = copy.deepcopy(flights_dict["other_flights"][0])
+                    for idx in range(len(flights_dict["other_flights"])):
+                        departure_flight_dict = flights_dict["other_flights"][idx]
+                        found_departure = True
+                        departure_token = departure_flight_dict["departure_token"]
+                        
+                        # construct search params
+                        search_return_params = copy.deepcopy(search_params)
+                        search_return_params["departure_token"] = departure_token
+                        
+                        # search
+                        try:
+                            search_return = GoogleSearch(search_return_params)
+                            return_flights_dict = search_return.get_dict()
+                        except Exception as e:
+                            print(f"[Get Flights] Error: {e}")
+                            return_flights_dict = None
+                        
+                        # get return flight in obtained return dict
+                        if return_flights_dict is not None:
+                            if "best_flights" in list(return_flights_dict.keys()):
+                                return_flight_dict = return_flights_dict["best_flights"][0]
+                                found_return = True
+                            else:
+                                if "other_flights" in list(return_flights_dict.keys()):
+                                    if len(return_flights_dict["other_flights"]) > 0:
+                                        return_flight_dict = return_flights_dict["other_flights"][0]
+                                        found_return = True
+        
+        # utility to format time from m to h:m
+        def convert_duration_to_string(data):
+            def convert_minutes_to_str(minutes):
+                hours = minutes // 60
+                minutes = minutes % 60
+                return f"{hours} hr {minutes} min" if hours else f"{minutes} min"
+
+            if isinstance(data, dict):
+                for key, value in data.items():
+                    if isinstance(value, (dict, list)):
+                        convert_duration_to_string(value)
+                    elif isinstance(value, int) and "duration" in str(key).lower():
+                        data[key] = convert_minutes_to_str(value)
+
+            elif isinstance(data, list):
+                for item in data:
+                    convert_duration_to_string(item)
+        
+        if found_departure and found_return:
+            _ = departure_flight_dict.pop("price")
+            price_total = return_flight_dict.pop("price")
+            
+            # convert time format
+            convert_duration_to_string(departure_flight_dict)
+            convert_duration_to_string(return_flight_dict)
+            
+            return {
+                "departureFlight": departure_flight_dict,
+                "returnFlight": return_flight_dict,
+                "priceTotal": int(price_total)
+            }
+
+        elif found_departure and (not found_return):
+            price_total = departure_flight_backup.pop("price")
+            
+            # convert time format
+            convert_duration_to_string(departure_flight_backup)
+            
+            return {
+                "departureFlight": departure_flight_backup,
+                "returnFlight": None,
+                "priceTotal": int(price_total)
+            }
+        else:
+            return {
+                "departureFlight": None,
+                "returnFlight": None,
+                "priceTotal": None
+            }
+
+
 
 
     def generate_trip(self, end_user_specs: str, end_user_query: str):
@@ -767,30 +885,7 @@ class PipelineV2():
         ending_date_obj_m1 = datetime.strptime(str(ending_date), "%Y-%m-%d") + timedelta(days=1)
         outbound_date = starting_date_obj_m1.strftime("%Y-%m-%d")
         return_date = ending_date_obj_m1.strftime("%Y-%m-%d")
-        flights_dict = self.get_flights(user_specs=end_user_specs, query=end_user_query, outbound_date=outbound_date, return_date=return_date)
-        
-        # for error inspection
-        with open("flights_raw.json", "w") as f:
-            json.dump(flights_dict, f, indent=4)
-        
-        if flights_dict is not None:
-            if "best_flights" in list(flights_dict.keys()):
-                flight_info_dict = flights_dict["best_flights"][0]
-            else:
-                if "other_flights" in list(flights_dict.keys()):
-                    if len(flights_dict["other_flights"]) > 0:
-                        flight_info_dict = flights_dict["other_flights"][0]
-                    else:
-                        flight_info_dict = None
-                else:
-                    flight_info_dict = None
-        else:
-            flight_info_dict = None
-        
-        if flight_info_dict is not None:
-            trip_dict["flightInfo"] = flight_info_dict
-        else:
-            trip_dict["flightInfo"] = None
+        trip_dict["flightInfo"] = self.get_flights(user_specs=end_user_specs, query=end_user_query, outbound_date=outbound_date, return_date=return_date)
 
 
         trip_details_string = ""
