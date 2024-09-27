@@ -1,4 +1,4 @@
-name: jejom-llama-debbie
+name: jejom-llama-2
 channels:
   - conda-forge
   - defaults
@@ -10,7 +10,7 @@ dependencies:
       - flask-cors==4.0.1
       - geopy==2.4.1
       - gitpython==3.1.43
-      - json_repair==0.28.0
+      - json_repair
       - llama-index==0.10.65
       - llama-index-agent-openai==0.2.9
       - llama-index-cli==0.1.13
