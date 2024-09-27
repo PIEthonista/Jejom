@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": ["http://10.168.105.128:5000", "*"]}})
 
 load_dotenv()
-Settings.llm = Upstage(model='solar-1-mini-chat')
+Settings.llm = Upstage(model='solar-pro')
 Settings.embed_model=UpstageEmbedding(model='solar-embedding-1-large')
 
 from pipelinev2 import PipelineV2
