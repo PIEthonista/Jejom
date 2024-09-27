@@ -1,47 +1,31 @@
-Detective Kim:
+Apprentice:
 
-Round 1: Introduce yourself as the detective investigating the case. Share details about the strange symbol carved into the rock near Eun-hee's body and the stolen artifacts from Jeju's cultural heritage sites.
+1. Round 1: Introduce yourself as the Apprentice and mention your close relationship with the elder. Express your shock and sadness about his death.
+2. Round 2: Listen carefully to the other players and collect clues. Use your Key Clues to guide your questions and observations.
+3. Round 3: Engage in an open discussion, sharing your thoughts and theories about the crime. Be cautious when discussing your relationship with the elder.
+4. Round 4: Collect more clues from the other players. Use your Key Clues to ask targeted questions.
+5. Round 5: Vote out the player you suspect is the murderer, based on the clues and your observations.
 
-Round 2: Collect clues from the other players, focusing on their connections to Eun-hee and their knowledge of the island's cultural heritage.
+Blacksmith:
 
-Round 3: Engage in an open discussion, subtly probing the other players' motivations and potential involvement in the crime.
+1. Round 1: Introduce yourself as the Blacksmith and mention your expertise in crafting weapons. Express your concern about the safety of the village.
+2. Round 2: Listen carefully to the other players and collect clues. Use your Key Clues to guide your questions and observations.
+3. Round 3: Engage in an open discussion, sharing your thoughts and theories about the crime. Be cautious when discussing the elder's murder.
+4. Round 4: Collect more clues from the other players. Use your Key Clues to ask targeted questions.
+5. Round 5: Vote out the player you suspect is the murderer, based on the clues and your observations.
 
-Round 4: Collect more clues by asking follow-up questions and observing the other players' reactions.
+Healer:
 
-Round 5: Vote out the player you suspect is the murderer, based on the clues and evidence collected throughout the game.
+1. Round 1: Introduce yourself as the Healer and mention your knowledge of the village's history and legends. Express your concern for the well-being of the villagers.
+2. Round 2: Listen carefully to the other players and collect clues. Use your Key Clues to guide your questions and observations.
+3. Round 3: Engage in an open discussion, sharing your thoughts and theories about the crime. Be cautious when discussing the amulet.
+4. Round 4: Collect more clues from the other players. Use your Key Clues to ask targeted questions.
+5. Round 5: Vote out the player you suspect is the murderer, based on the clues and your observations.
 
-Eun-hee:
+Storyteller:
 
-Round 1: Introduce yourself as a local artist who was found dead near Seongsan Ilchulbong. Share details about your painting and your plans to visit your family.
-
-Round 2: Collect clues from the other players, focusing on their connections to the island's cultural heritage and their knowledge of your personal life.
-
-Round 3: Engage in an open discussion, subtly probing the other players' motivations and potential involvement in the crime.
-
-Round 4: Collect more clues by asking follow-up questions and observing the other players' reactions.
-
-Round 5: Vote out the player you suspect is the murderer, based on the clues and evidence collected throughout the game.
-
-Tae-joon:
-
-Round 1: Introduce yourself as a local businessman with a passion for preserving Jeju's cultural heritage. Share details about your commitment to the cause and your plans to visit Eun-hee's family.
-
-Round 2: Collect clues from the other players, focusing on their connections to the island's cultural heritage and their knowledge of your personal life.
-
-Round 3: Engage in an open discussion, subtly probing the other players' motivations and potential involvement in the crime.
-
-Round 4: Collect more clues by asking follow-up questions and observing the other players' reactions.
-
-Round 5: Vote out the player you suspect is the murderer, based on the clues and evidence collected throughout the game.
-
-Soo-jin:
-
-Round 1: Introduce yourself as a researcher studying Jeju's myths and legends. Share details about your involvement with the "Guardians of Jeju" and your call to Eun-hee.
-
-Round 2: Collect clues from the other players, focusing on their connections to the island's cultural heritage and their knowledge of your research project.
-
-Round 3: Engage in an open discussion, subtly probing the other players' motivations and potential involvement in the crime.
-
-Round 4: Collect more clues by asking follow-up questions and observing the other players' reactions.
-
-Round 5: Vote out the player you suspect is the murderer, based on the clues and evidence collected throughout the game.
+1. Round 1: Introduce yourself as the Storyteller and mention your ability to weave tales and uncover hidden truths. Express your desire to solve the mystery.
+2. Round 2: Listen carefully to the other players and collect clues. Use your Key Clues to guide your questions and observations.
+3. Round 3: Engage in an open discussion, sharing your thoughts and theories about the crime. Be cautious when discussing the amulet and the elder's relationship with the Apprentice.
+4. Round 4: Collect more clues from the other players. Use your Key Clues to ask targeted questions.
+5. Round 5: Vote out the player you suspect is the murderer, based on the clues and your observations.

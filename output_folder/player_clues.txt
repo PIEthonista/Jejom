@@ -1,47 +1,27 @@
-Detective Kim:
+Apprentice:
 
-Key Clues:
+* Key Clue 1: The healer knows more about the amulet than she is letting on.
+* Key Clue 2: The blacksmith is hiding something about the elder's murder.
+* Misleading Clue 1: The storyteller is the one who killed the elder.
+* Misleading Clue 2: The amulet is cursed and should be left alone.
 
-1. The strange symbol carved into the rock near Eun-hee's body.
-2. The stolen artifacts from Jeju's cultural heritage sites.
+Blacksmith:
 
-Misleading Clues:
+* Key Clue 1: The healer is hiding something about the amulet.
+* Key Clue 2: The apprentice is hiding something about her relationship with the elder.
+* Misleading Clue 1: The storyteller is the one who killed the elder.
+* Misleading Clue 2: The amulet is cursed and should be left alone.
 
-1. The call from Eun-hee's father asking for help in finding his missing daughter.
-2. The research project on Jeju's myths and legends that Eun-hee was helping with.
+Healer:
 
-Eun-hee:
+* Key Clue 1: The apprentice is hiding something about her relationship with the elder.
+* Key Clue 2: The blacksmith is hiding something about the elder's murder.
+* Misleading Clue 1: The storyteller is the one who killed the elder.
+* Misleading Clue 2: The amulet is cursed and should be left alone.
 
-Key Clues:
+Storyteller:
 
-1. The painting Eun-hee was working on at the Seongsan Ilchulbong.
-2. The call from Soo-jin asking for help with a research project.
-
-Misleading Clues:
-
-1. The plans to visit Eun-hee's family with Tae-joon.
-2. The news of Eun-hee's pregnancy.
-
-Tae-joon:
-
-Key Clues:
-
-1. Tae-joon's commitment to preserving Jeju's cultural heritage.
-2. The call from Soo-jin asking for help in preserving Jeju's cultural heritage.
-
-Misleading Clues:
-
-1. Tae-joon's plans to make his ancestors proud by becoming a successful businessman.
-2. The plans to visit Eun-hee's family with Eun-hee.
-
-Soo-jin:
-
-Key Clues:
-
-1. Soo-jin's research project on Jeju's myths and legends.
-2. Soo-jin's involvement with the "Guardians of Jeju."
-
-Misleading Clues:
-
-1. Soo-jin's call to Eun-hee asking for help with the research project.
-2. Soo-jin's apparent lack of interest in Detective Kim's confession of his secret crush on her.
+* Key Clue 1: The apprentice is hiding something about her relationship with the elder.
+* Key Clue 2: The healer is hiding something about the amulet.
+* Misleading Clue 1: The blacksmith is the one who killed the elder.
+* Misleading Clue 2: The amulet is cursed and should be left alone.
