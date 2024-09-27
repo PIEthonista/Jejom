@@ -8,8 +8,8 @@ params = {
   "gl": "kr",  # "my"
   "departure_id": "KUL",
   "arrival_id": "CJU",
-  "outbound_date": "2024-09-27",
-  "return_date": "2024-10-03",
+  "outbound_date": "2024-12-01",
+  "return_date": "2024-12-20",
   "currency": "KRW",
   "type": "1",
   "travel_class": "1",

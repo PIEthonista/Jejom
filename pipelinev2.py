@@ -32,6 +32,7 @@ from llama_index.core.schema import BaseNode
 load_dotenv()
 VERBOSE = False
 CLUSTER_DESTINATION_DISTANCE = 15  # km
+SERPAPI_API_KEY_VAE_NAME = "SERPAPI_API_KEY"
 
 
 isDestination_check_prompt = PromptTemplate(
@@ -72,6 +73,62 @@ numPersons_check_prompt = PromptTemplate(
     Query: {query_str}
 
     Your response should strictly follow the above rules and contain **no additional text**.
+    """
+)
+
+numPersons_extraction = PromptTemplate(
+    """
+    You are given a user query about generating a trip. Based on the query, strictly follow these instructions:
+
+    - If the query mentions the **exact number of people** (in digit form or written out as words), output only the number itself as an integer.
+    - If the query mentions a **group of people** (e.g., "a family," "friends," "team") but does **not** specify an exact number, output an estimated default value of 3.
+    - If the query **does not mention** any other people or groups involved, or if you are uncertain about the number of people, output 1.
+
+    Query: {query_str}
+
+    Your response should strictly follow the above rules and contain **no additional text**.
+    """
+)
+
+departure_airport_IATA_extraction = PromptTemplate(
+    """
+    You are given a description about an end user that includes their residing address, area, or country. Based on the provided description, your task is to output the **3-character IATA code** of the most appropriate departure airport if the user were to travel on a direct flight to Jeju International Airport (CJU).
+
+    - The model must output only one single IATA code for the closest major airport suitable for a direct flight to CJU.
+    - If there are multiple possible airports, select the most prominent or largest one based on the user's location.
+
+    Query: {user_specs}
+
+    Output the airport's IATA code as a 3-character string with **no additional text**.
+    """
+)
+
+flight_class_selection_prompt = PromptTemplate(
+    """
+    You are a decision-making model that selects the most suitable flight class for a user's trip to Jeju Island. 
+    The user query will include information about their budget, preferences, and any additional details about the trip.
+
+    --Goal--
+    Your task is to review the provided user query and determine which of the following flight classes best suits the user's needs:
+    1 - Economy
+    2 - Premium economy
+    3 - Business
+    4 - First Class
+
+    --Steps--
+    1. Analyze the user's query, focusing on the budget and any preferences related to comfort or travel style.
+    2. Select the most appropriate flight class for the user based on the information provided.
+    3. Output strictly one of the following integers as your decision:
+       - 1 for Economy
+       - 2 for Premium economy
+       - 3 for Business
+       - 4 for First Class
+
+    --User Query--
+    {user_query}
+
+    --Output--
+    Output strictly one integer:
     """
 )
 
@@ -325,17 +382,49 @@ class PipelineV2():
         return dates
 
 
-    def get_flights(self, query):
-        numPerson_output = str(Settings.llm.complete(numPersons_check_prompt.format(query_str=query))).lower().strip()
-        # mention group but not number of people
-        if "yes" in numPerson_output:
-            IsNumPerson = False
-        # no mention group, assume 1
-        elif "no" in numPerson_output:
-            IsNumPerson = True
-        # mentions exact number
-        else:
-            IsNumPerson = True
+    def get_flights(self, user_specs, query, outbound_date, return_date):
+        try:
+            num_person = int(str(Settings.llm.complete(numPersons_extraction.format(query_str=query))))
+        except:
+            num_person = 1
+        
+        departure_IATA = str(Settings.llm.complete(departure_airport_IATA_extraction.format(user_specs=user_specs))).strip().upper()
+        
+        travel_class = int(str(Settings.llm.complete(flight_class_selection_prompt.format(user_query=query))).strip())
+        
+        search_params = {
+            "api_key": os.getenv(SERPAPI_API_KEY_VAE_NAME),
+            "engine": "google_flights",
+            "hl": "en",
+            "gl": "kr",  # "my"
+            "departure_id": str(departure_IATA),
+            "arrival_id": "CJU",
+            "outbound_date": str(outbound_date),
+            "return_date": str(return_date),
+            "currency": "KRW",
+            "type": "1",
+                # 1 - Round trip (default)
+                # 2 - One way
+                # 3 - Multi-city: multi_city_json required
+            "travel_class": str(travel_class),
+                # 1 - Economy (default)
+                # 2 - Premium economy
+                # 3 - Business
+                # 4 - First
+            "show_hidden": "true",
+            "adults": str(num_person),
+            # "children": "0",
+            # "infants_in_seat": "0",
+            # "infants_on_lap": "0",
+            "stops": "0"
+        }
+        try:
+            search = GoogleSearch(search_params)
+            results = search.get_dict()
+            return results
+        except Exception as e:
+            print(f"[Get Flights] Error: {e}")
+            return None
 
 
     def generate_trip(self, end_user_specs: str, end_user_query: str):
@@ -427,9 +516,11 @@ class PipelineV2():
         # - 2 for locations with both high ratings and a high number of ratings (while noting that these locations are typically crowded and may not suit individuals seeking quieter settings).
         elif reranking_mode == 2:
             def custom_f1(x):
-                num_rating_normalized = x["NumRating"] / 1e6
-                rating_normalized = x["Rating"] / 5
-                f1 = 2 * (num_rating_normalized * rating_normalized) / (num_rating_normalized + rating_normalized)
+                NumRating = x["NumRating"]
+                Rating = x["Rating"]
+                num_rating_normalized = (NumRating / 1e6) if isinstance(NumRating, int) else 0
+                rating_normalized = (Rating / 5) if isinstance(Rating, int) else 0
+                f1 = 2 * (num_rating_normalized * rating_normalized) / (num_rating_normalized + rating_normalized + 1e-10)
                 return f1
             destinations_list_of_dict = sorted(destinations_list_of_dict, key=custom_f1, reverse=True)
         
@@ -668,6 +759,38 @@ class PipelineV2():
             for destination_dict in details['destination']:
                 trip_dict_destinations.append(destination_dict)
         trip_dict['destinations'] = trip_dict_destinations
+
+
+
+        # flights
+        starting_date_obj_m1 = datetime.strptime(str(starting_date), "%Y-%m-%d") - timedelta(days=1)
+        ending_date_obj_m1 = datetime.strptime(str(ending_date), "%Y-%m-%d") + timedelta(days=1)
+        outbound_date = starting_date_obj_m1.strftime("%Y-%m-%d")
+        return_date = ending_date_obj_m1.strftime("%Y-%m-%d")
+        flights_dict = self.get_flights(user_specs=end_user_specs, query=end_user_query, outbound_date=outbound_date, return_date=return_date)
+        
+        # for error inspection
+        with open("flights_raw.json", "w") as f:
+            json.dump(flights_dict, f, indent=4)
+        
+        if flights_dict is not None:
+            if "best_flights" in list(flights_dict.keys()):
+                flight_info_dict = flights_dict["best_flights"][0]
+            else:
+                if "other_flights" in list(flights_dict.keys()):
+                    if len(flights_dict["other_flights"]) > 0:
+                        flight_info_dict = flights_dict["other_flights"][0]
+                    else:
+                        flight_info_dict = None
+                else:
+                    flight_info_dict = None
+        else:
+            flight_info_dict = None
+        
+        if flight_info_dict is not None:
+            trip_dict["flightInfo"] = flight_info_dict
+        else:
+            trip_dict["flightInfo"] = None
 
 
         trip_details_string = ""

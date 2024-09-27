@@ -1,0 +1,498 @@
+{
+    "search_metadata": {
+        "id": "66f5a2703166505b6c09fad2",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/c302b2da50cd0673/66f5a2703166505b6c09fad2.json",
+        "created_at": "2024-09-26 18:05:36 UTC",
+        "processed_at": "2024-09-26 18:05:36 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhoeEgoyMDI0LTExLTMwagcIARIDS1VMcgcIARIDQ0pVGh4SCjIwMjQtMTItMDhqBwgBEgNDSlVyBwgBEgNLVUxCAgEBSAJwAZgBAQ==",
+        "raw_html_file": "https://serpapi.com/searches/c302b2da50cd0673/66f5a2703166505b6c09fad2.html",
+        "prettify_html_file": "https://serpapi.com/searches/c302b2da50cd0673/66f5a2703166505b6c09fad2.prettify",
+        "total_time_taken": 1.58
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "kr",
+        "type": "1",
+        "departure_id": "KUL",
+        "arrival_id": "CJU",
+        "outbound_date": "2024-11-30",
+        "return_date": "2024-12-08",
+        "travel_class": 2,
+        "adults": 2,
+        "stops": 0,
+        "currency": "KRW",
+        "show_hidden": true
+    },
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-11-30 04:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Shenzhen Bao'an International Airport",
+                        "id": "SZX",
+                        "time": "2024-11-30 08:35"
+                    },
+                    "duration": 245,
+                    "airplane": "Boeing 737",
+                    "airline": "Shenzhen",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZH.png",
+                    "travel_class": "Premium Economy",
+                    "flight_number": "ZH 334",
+                    "legroom": "35 in",
+                    "extensions": [
+                        "Below average legroom (35 in)",
+                        "Carbon emissions estimate: 464 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Shenzhen Bao'an International Airport",
+                        "id": "SZX",
+                        "time": "2024-12-01 14:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-01 18:20"
+                    },
+                    "duration": 165,
+                    "airplane": "Airbus A320",
+                    "airline": "Shenzhen",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZH.png",
+                    "travel_class": "Premium Economy",
+                    "flight_number": "ZH 641",
+                    "legroom": "34 in",
+                    "extensions": [
+                        "Below average legroom (34 in)",
+                        "In-seat power & USB outlets",
+                        "Carbon emissions estimate: 336 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 1800,
+                    "name": "Shenzhen Bao'an International Airport",
+                    "id": "SZX",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 2210,
+            "carbon_emissions": {
+                "this_flight": 801000,
+                "typical_for_this_route": 1718000,
+                "difference_percent": -53
+            },
+            "price": 2045840,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZH.png",
+            "departure_token": "WyJDalJJVFVoSFRWRkVTek54UkVGQlJuQXRhRUZDUnkwdExTMHRMUzB0TFMxMmRHZDVNa0ZCUVVGQlIySXhiMjVKUTBsZlFqSkJFZ3RhU0RNek5IeGFTRFkwTVJvTENKRHZmQkFBR2dOTFVsYzRISEM0dlFrPSIsW1siS1VMIiwiMjAyNC0xMS0zMCIsIlNaWCIsbnVsbCwiWkgiLCIzMzQiXSxbIlNaWCIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIlpIIiwiNjQxIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-11-30 20:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Shenzhen Bao'an International Airport",
+                        "id": "SZX",
+                        "time": "2024-12-01 00:45"
+                    },
+                    "duration": 255,
+                    "airplane": "Airbus A320",
+                    "airline": "Shenzhen",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZH.png",
+                    "travel_class": "Premium Economy",
+                    "flight_number": "ZH 330",
+                    "ticket_also_sold_by": [
+                        "Air China"
+                    ],
+                    "legroom": "34 in",
+                    "extensions": [
+                        "Below average legroom (34 in)",
+                        "In-seat power & USB outlets",
+                        "Carbon emissions estimate: 466 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Shenzhen Bao'an International Airport",
+                        "id": "SZX",
+                        "time": "2024-12-01 14:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-01 18:20"
+                    },
+                    "duration": 165,
+                    "airplane": "Airbus A320",
+                    "airline": "Shenzhen",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "ZH 641",
+                    "ticket_also_sold_by": [
+                        "Air China"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 336 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 830,
+                    "name": "Shenzhen Bao'an International Airport",
+                    "id": "SZX",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1250,
+            "carbon_emissions": {
+                "this_flight": 803000,
+                "typical_for_this_route": 1718000,
+                "difference_percent": -53
+            },
+            "price": 2045840,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZH.png",
+            "departure_token": "WyJDalJJVFVoSFRWRkVTek54UkVGQlJuQXRhRUZDUnkwdExTMHRMUzB0TFMxMmRHZDVNa0ZCUVVGQlIySXhiMjVKUTBsZlFqSkJFZ3RhU0RNek1IeGFTRFkwTVJvTENKRHZmQkFBR2dOTFVsYzRISEM0dlFrPSIsW1siS1VMIiwiMjAyNC0xMS0zMCIsIlNaWCIsbnVsbCwiWkgiLCIzMzAiXSxbIlNaWCIsIjIwMjQtMTItMDEiLCJDSlUiLG51bGwsIlpIIiwiNjQxIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-11-30 11:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-11-30 12:55"
+                    },
+                    "duration": 65,
+                    "airplane": "Boeing 737",
+                    "airline": "Malaysia Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MH 603",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 101 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-11-30 15:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Taiwan Taoyuan International Airport",
+                        "id": "TPE",
+                        "time": "2024-11-30 20:15"
+                    },
+                    "duration": 270,
+                    "airplane": "Boeing 777",
+                    "airline": "EVA Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+                    "travel_class": "Premium Economy",
+                    "flight_number": "BR 216",
+                    "extensions": [
+                        "Extra reclining seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 935 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Taiwan Taoyuan International Airport",
+                        "id": "TPE",
+                        "time": "2024-12-01 07:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Incheon International Airport",
+                        "id": "ICN",
+                        "time": "2024-12-01 10:30"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A330",
+                    "airline": "EVA Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "BR 170",
+                    "extensions": [
+                        "Lie flat seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1100 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Gimpo International Airport",
+                        "id": "GMP",
+                        "time": "2024-12-01 13:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-01 14:45"
+                    },
+                    "duration": 70,
+                    "airplane": "Airbus A321",
+                    "airline": "Asiana",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "OZ 8955",
+                    "extensions": [
+                        "Standard recliner seat",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 227 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 170,
+                    "name": "Singapore Changi Airport",
+                    "id": "SIN"
+                },
+                {
+                    "duration": 650,
+                    "name": "Taiwan Taoyuan International Airport",
+                    "id": "TPE",
+                    "overnight": true
+                },
+                {
+                    "duration": 185,
+                    "name": "Gimpo International Airport",
+                    "id": "ICN"
+                }
+            ],
+            "total_duration": 1555,
+            "carbon_emissions": {
+                "this_flight": 2365000,
+                "typical_for_this_route": 1718000,
+                "difference_percent": 38
+            },
+            "price": 10266696,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJVFVoSFRWRkVTek54UkVGQlJuQXRhRUZDUnkwdExTMHRMUzB0TFMxMmRHZDVNa0ZCUVVGQlIySXhiMjVKUTBsZlFqSkJFaGhOU0RZd00zeENVakl4Tm54Q1VqRTNNSHhQV2pnNU5UVWFEQWpJMFBJRUVBQWFBMHRTVnpnY2NMWEpMdz09IixbWyJLVUwiLCIyMDI0LTExLTMwIiwiU0lOIixudWxsLCJNSCIsIjYwMyJdLFsiU0lOIiwiMjAyNC0xMS0zMCIsIlRQRSIsbnVsbCwiQlIiLCIyMTYiXSxbIlRQRSIsIjIwMjQtMTItMDEiLCJJQ04iLG51bGwsIkJSIiwiMTcwIl0sWyJHTVAiLCIyMDI0LTEyLTAxIiwiQ0pVIixudWxsLCJPWiIsIjg5NTUiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "time": "2024-11-30 11:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-11-30 12:15"
+                    },
+                    "duration": 70,
+                    "airplane": "Boeing 737",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SQ 107",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 110 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-11-30 15:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Taiwan Taoyuan International Airport",
+                        "id": "TPE",
+                        "time": "2024-11-30 20:15"
+                    },
+                    "duration": 270,
+                    "airplane": "Boeing 777",
+                    "airline": "EVA Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+                    "travel_class": "Premium Economy",
+                    "flight_number": "BR 216",
+                    "extensions": [
+                        "Extra reclining seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 935 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Taiwan Taoyuan International Airport",
+                        "id": "TPE",
+                        "time": "2024-12-01 07:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Incheon International Airport",
+                        "id": "ICN",
+                        "time": "2024-12-01 10:30"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A330",
+                    "airline": "EVA Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "BR 170",
+                    "extensions": [
+                        "Lie flat seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1100 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Gimpo International Airport",
+                        "id": "GMP",
+                        "time": "2024-12-01 13:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Jeju International Airport",
+                        "id": "CJU",
+                        "time": "2024-12-01 14:45"
+                    },
+                    "duration": 70,
+                    "airplane": "Airbus A321",
+                    "airline": "Asiana",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "OZ 8955",
+                    "extensions": [
+                        "Standard recliner seat",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 227 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 210,
+                    "name": "Singapore Changi Airport",
+                    "id": "SIN"
+                },
+                {
+                    "duration": 650,
+                    "name": "Taiwan Taoyuan International Airport",
+                    "id": "TPE",
+                    "overnight": true
+                },
+                {
+                    "duration": 185,
+                    "name": "Gimpo International Airport",
+                    "id": "ICN"
+                }
+            ],
+            "total_duration": 1600,
+            "carbon_emissions": {
+                "this_flight": 2374000,
+                "typical_for_this_route": 1718000,
+                "difference_percent": 38
+            },
+            "price": 10405881,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJVFVoSFRWRkVTek54UkVGQlJuQXRhRUZDUnkwdExTMHRMUzB0TFMxMmRHZDVNa0ZCUVVGQlIySXhiMjVKUTBsZlFqSkJFaGhUVVRFd04zeENVakl4Tm54Q1VqRTNNSHhQV2pnNU5UVWFEQWo1ai9zRUVBQWFBMHRTVnpnY2NQeWJNQT09IixbWyJLVUwiLCIyMDI0LTExLTMwIiwiU0lOIixudWxsLCJTUSIsIjEwNyJdLFsiU0lOIiwiMjAyNC0xMS0zMCIsIlRQRSIsbnVsbCwiQlIiLCIyMTYiXSxbIlRQRSIsIjIwMjQtMTItMDEiLCJJQ04iLG51bGwsIkJSIiwiMTcwIl0sWyJHTVAiLCIyMDI0LTEyLTAxIiwiQ0pVIixudWxsLCJPWiIsIjg5NTUiXV1d"
+        }
+    ],
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "KUL",
+                        "name": "Kuala Lumpur International Airport"
+                    },
+                    "city": "Federal Territory of Kuala Lumpur",
+                    "country": "Malaysia",
+                    "country_code": "MY",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQuSowhmCX7QqSGamT-j9yhwXPTaraV6ISXEsVKK5bKJysodBoAoLC5f586JXkNcYhWIQztMltZEVotRg",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaNgAT-mmythI0-3sA253R7rQp009OelCkOUiBd-uzB295hyXJe0GOOdGBsIhM7qslGYFktf2thAaVr-pHHe7IUy0RbYnAsS4Pbt9PNZE"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "CJU",
+                        "name": "Jeju International Airport"
+                    },
+                    "city": "Jeju-si",
+                    "country": "South Korea",
+                    "country_code": "KR",
+                    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHPyCSD11bK6OV89k-ilyF3ARZYLmtt1_5n6QboXt-S0T5hCZpEYnxA9MJl_oWezl75zVFRv-BS1rMBg",
+                    "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZevoFLtta3ssN-OhirEXOGqkfxh9kIG-mW52BkNchVKYEWIBftvUTOMBOAczX8-6WvIW2kPTZdVeanlgxnFBvuaqXFOPz2D0MoVvN8fA"
+                }
+            ]
+        },
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "CJU",
+                        "name": "Jeju International Airport"
+                    },
+                    "city": "Jeju-si",
+                    "country": "South Korea",
+                    "country_code": "KR",
+                    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHPyCSD11bK6OV89k-ilyF3ARZYLmtt1_5n6QboXt-S0T5hCZpEYnxA9MJl_oWezl75zVFRv-BS1rMBg",
+                    "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZevoFLtta3ssN-OhirEXOGqkfxh9kIG-mW52BkNchVKYEWIBftvUTOMBOAczX8-6WvIW2kPTZdVeanlgxnFBvuaqXFOPz2D0MoVvN8fA"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "KUL",
+                        "name": "Kuala Lumpur International Airport"
+                    },
+                    "city": "Federal Territory of Kuala Lumpur",
+                    "country": "Malaysia",
+                    "country_code": "MY",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQuSowhmCX7QqSGamT-j9yhwXPTaraV6ISXEsVKK5bKJysodBoAoLC5f586JXkNcYhWIQztMltZEVotRg",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaNgAT-mmythI0-3sA253R7rQp009OelCkOUiBd-uzB295hyXJe0GOOdGBsIhM7qslGYFktf2thAaVr-pHHe7IUy0RbYnAsS4Pbt9PNZE"
+                }
+            ]
+        }
+    ]
+}
