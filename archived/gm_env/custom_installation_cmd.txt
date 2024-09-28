@@ -1,0 +1,9 @@
+
+# this command will throw an error building wheels for chroma-hnswlib==0.7.3, omit, proceed with other commands below.
+conda env create -n jejom-llama-2 --file archived/gm_env/environment_2.yml
+
+
+conda activate jejom-llama-2
+pip install googlemaps
+pip install chroma-hnswlib==0.7.3
+pip install -r archived/gm_env/requirements.txt

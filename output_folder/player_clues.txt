@@ -1,27 +1,27 @@
-Detective Kim:
+Apprentice:
 
-* Key Clue 1: The murder weapon was a rare and expensive dagger, which suggests that the perpetrator has a connection to the criminal organization led by the Serpent.
-* Key Clue 2: The victim was found with a mysterious symbol etched into his skin, which is associated with the Dokkaebi and the Yeouija.
-* Misleading Clue 1: The victim was found with a wallet full of cash, which suggests that the murder was motivated by robbery.
-* Misleading Clue 2: The victim was found with a love letter from a secret admirer, which suggests that the murder was motivated by jealousy or a romantic dispute.
+* Key Clue 1: The healer knows more about the amulet than she is letting on.
+* Key Clue 2: The blacksmith is hiding something about the elder's murder.
+* Misleading Clue 1: The storyteller is the one who killed the elder.
+* Misleading Clue 2: The amulet is cursed and should be left alone.
 
-Soo:
+Blacksmith:
 
-* Key Clue 1: The victim was found with a rare and valuable artifact, which suggests that the murder is connected to the criminal organization led by the Serpent.
-* Key Clue 2: The victim was found with a map of the island, which suggests that the murder is connected to the legends of the Dokkaebi and the Yeouija.
-* Misleading Clue 1: The victim was found with a diary filled with personal secrets, which suggests that the murder was motivated by blackmail or revenge.
-* Misleading Clue 2: The victim was found with a note from a mysterious stranger, which suggests that the murder was motivated by a random act of violence.
+* Key Clue 1: The healer is hiding something about the amulet.
+* Key Clue 2: The apprentice is hiding something about her relationship with the elder.
+* Misleading Clue 1: The storyteller is the one who killed the elder.
+* Misleading Clue 2: The amulet is cursed and should be left alone.
 
-Hye-won:
+Healer:
 
-* Key Clue 1: The victim was found with a protective amulet, which suggests that the murder is connected to the mythical guardians of the island.
-* Key Clue 2: The victim was found with a letter from a shaman, which suggests that the murder is connected to the legends of the Dokkaebi and the Yeouija.
-* Misleading Clue 1: The victim was found with a love letter from a secret admirer, which suggests that the murder was motivated by jealousy or a romantic dispute.
-* Misleading Clue 2: The victim was found with a note from a mysterious stranger, which suggests that the murder was motivated by a random act of violence.
+* Key Clue 1: The apprentice is hiding something about her relationship with the elder.
+* Key Clue 2: The blacksmith is hiding something about the elder's murder.
+* Misleading Clue 1: The storyteller is the one who killed the elder.
+* Misleading Clue 2: The amulet is cursed and should be left alone.
 
-Joon:
+Storyteller:
 
-* Key Clue 1: The victim was found with a rare and valuable artifact, which suggests that the murder is connected to the criminal organization led by the Serpent.
-* Key Clue 2: The victim was found with a protective amulet, which suggests that the murder is connected to the mythical guardians of the island.
-* Misleading Clue 1: The victim was found with a wallet full of cash, which suggests that the murder was motivated by robbery.
-* Misleading Clue 2: The victim was found with a diary filled with personal secrets, which suggests that the murder was motivated by blackmail or revenge.
+* Key Clue 1: The apprentice is hiding something about her relationship with the elder.
+* Key Clue 2: The healer is hiding something about the amulet.
+* Misleading Clue 1: The blacksmith is the one who killed the elder.
+* Misleading Clue 2: The amulet is cursed and should be left alone.
