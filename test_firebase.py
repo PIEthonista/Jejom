@@ -24,23 +24,36 @@ def upload_restaurant_data():
             continue
         
         try:
-            address = place_data['formatted_address']
-            description = place_descriptions[place_name]
+            address = place_data.get('formatted_address', None)
+            description = place_descriptions.get(place_name, None)
             images = [photo['photo_reference'] for photo in place_data.get('photos', [])]
-            lat = place_data['geometry']['location']['lat']
-            long = place_data['geometry']['location']['lng']
-            name = place_data['name']
-            phone_num = place_data.get('formatted_phone_number', '')
+            lat = place_data.get('geometry', {}).get('location', {}).get('lat', None)
+            long = place_data.get('geometry', {}).get('location', {}).get('lng', None)
+            name = place_data.get('name', None)
+            business_status = place_data.get('business_status', None)
+            current_opening_hours = place_data.get('“current_opening_hours”', {}).get('weekday_text', None)
+            place_id = place_data.get('place_id', None)
+            rating = place_data.get('rating', None)
+            types = place_data.get('types', None)
+            url = place_data.get('url', None)
+            user_ratings_total = place_data.get('user_ratings_total', None)
+            website = place_data.get('website', None)
 
             restaurant_data = {
                 'address': address,
                 'description': description,
-                'image_url': images,
+                'images': images,
                 'lat': lat,
                 'long': long,
                 'name': name,
-                'phone_num': phone_num,
-                'name': name
+                'business_status': business_status,
+                'current_opening_hours': current_opening_hours,
+                'place_id': place_id,
+                'rating': rating,
+                'types': types,
+                'url': url,
+                'user_ratings_total': user_ratings_total,
+                'website': website
             }
 
             # Generate a uuid v4 for the document
