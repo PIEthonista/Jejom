@@ -14,7 +14,8 @@ REFRESH_GMAPS = False    # 1: True to re-crawl all raw locations from google-map
 FILTER_RAW = False   # 2: filters out irrelevant locations from raw data
 GET_DETAILED = False  # 3: get detailed information about each location
 
-API_KEY = "<place-your-google-maps-api-key-here>"
+# API_KEY = "<place-your-google-maps-api-key-here>"
+API_KEY = "AIzaSyD3W5PNMkYXp7NqU5RZjIhrf_GNt2GOM64"
 gmaps = googlemaps.Client(key=API_KEY)
 
 RAW_DIR = os.path.join("locations", "raw")
@@ -130,7 +131,13 @@ if FILTER_RAW:
                     if (keyword in type) or (type in keyword):
                         to_omit_in_type = True
             
-            if (in_name or in_type) and not (to_omit_in_name or to_omit_in_type):
+            NUM_RATINGS = 10
+            has_enough_rating = False
+            if "user_ratings_total" in list(loc_detail.keys()):
+                if int(loc_detail["user_ratings_total"]) > NUM_RATINGS:
+                    has_enough_rating = True
+            
+            if has_enough_rating and (in_name or in_type) and not (to_omit_in_name or to_omit_in_type):
                 filtered_data[loc] = loc_detail
         
         if not os.path.exists(FILTERED_DIR):

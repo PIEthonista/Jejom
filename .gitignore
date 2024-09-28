@@ -166,3 +166,4 @@ cython_debug/
 .DS_Store
 **/*.db.lock
 db/*
+jejom-*-firebase-adminsdk-*.json

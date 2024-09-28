@@ -701,49 +701,6 @@
         ],
         "user_ratings_total": 3676
     },
-    "Jeigag": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "56 Ohyeon-gil, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.510035,
-                "lng": 126.5266655
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.51138482989273,
-                    "lng": 126.5280153298927
-                },
-                "southwest": {
-                    "lat": 33.50868517010728,
-                    "lng": 126.5253156701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Jeigag",
-        "photos": [
-            {
-                "height": 2604,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/103168586295986194055\">\uae40\uc601\uc12d</a>"
-                ],
-                "photo_reference": "AXCi2Q7ZYIF6IXr6G8LKBma_LNddRXYcqVelfowm6Nyoe2AUd9c9VDAmxWTOnyvbBSpS1YRmzYwwU4uafD2cgV0kgbS6RixpEo6yTIolQI3_0dr4vlT9NoTS25t8T7JdOX_9aN_Lhy3bNcy23cGa6pSPHK1GkMhI6jRE3mYXRSYFgTE7F2NG",
-                "width": 4624
-            }
-        ],
-        "place_id": "ChIJV6UPHZ7jDDURIiOc2FfmqCQ",
-        "rating": 4.7,
-        "reference": "ChIJV6UPHZ7jDDURIiOc2FfmqCQ",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 3
-    },
     "Geomeun Oreum": {
         "business_status": "OPERATIONAL",
         "formatted_address": "South Korea, Jeju-do, Jeju-si, \uc5f0\ub3d9 \uc0b0110-1",
@@ -833,49 +790,6 @@
         ],
         "user_ratings_total": 212
     },
-    "\u0e40\u0e01\u0e32\u0e30\u0e40\u0e0b\u0e08\u0e39": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Cheju, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4890113,
-                "lng": 126.4983023
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.49036112989273,
-                    "lng": 126.4996521298927
-                },
-                "southwest": {
-                    "lat": 33.48766147010728,
-                    "lng": 126.4969524701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "\u0e40\u0e01\u0e32\u0e30\u0e40\u0e0b\u0e08\u0e39",
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/111784302167415726458\">MYNAMEPUI Fhk</a>"
-                ],
-                "photo_reference": "AXCi2Q4LwBMVN-xKcGjl9sE7jRvt0x64cGBBpz13bC90PuT5EtkpvPzEzPbLvZaKXE8Bby9QIq881bNjjOFjrGUfPsP94Qk4igTHydU8DZbOT1TG7bbEzmfAuhyTRr1htKHGa75jrqEuBAsnc7jyDXRkucHEWyCq2xHEF1Myn1NYy8oNv5Es",
-                "width": 3024
-            }
-        ],
-        "place_id": "ChIJM97S38b7DDURrd5oYxc71Zs",
-        "rating": 4.5,
-        "reference": "ChIJM97S38b7DDURrd5oYxc71Zs",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 2
-    },
     "Gwangot": {
         "business_status": "OPERATIONAL",
         "formatted_address": "777-1 Sinheung-ri, Jocheon-eup, Jeju-si, Jeju-do, South Korea",
@@ -963,49 +877,6 @@
         ],
         "user_ratings_total": 198
     },
-    "\ubd81\uc218\uad6c\uad11\uc7a5": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1232 Ildo 1(il)-dong, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.514481,
-                "lng": 126.527921
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.51583082989272,
-                    "lng": 126.5292708298927
-                },
-                "southwest": {
-                    "lat": 33.51313117010728,
-                    "lng": 126.5265711701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "\ubd81\uc218\uad6c\uad11\uc7a5",
-        "photos": [
-            {
-                "height": 2268,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/108810600946916086098\">\uc774\uc885\uc2dd</a>"
-                ],
-                "photo_reference": "AXCi2Q5rH0iuTZAJuoYRX9A_-FZBzISbra0DxiT-stCyl7Ln1r0WjpLTww4yme_7pyTBj9oChVNwVfH5VqPjtbV4OaYcACI0o_04XvuEqaKnMW80auirjKxL50gsFhkf5oyVmCSRly7I6dr13MeikvaSPzCV71tJ0_ffmozxxnzyZcYWqv4A",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJTYc8qqDjDDURTHUbRSi5VU0",
-        "rating": 3,
-        "reference": "ChIJTYc8qqDjDDURTHUbRSi5VU0",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 3
-    },
     "Iho Tewoo beach": {
         "business_status": "OPERATIONAL",
         "formatted_address": "1665-13 Iho 1(il)-dong, Jeju-si, Jeju-do, South Korea",
@@ -1049,52 +920,6 @@
             "establishment"
         ],
         "user_ratings_total": 3541
-    },
-    "Yong-Yeonjeong": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "South Korea, Jeju-do, Jeju-si, \uc6a9\ub2f41\ub3d9 2581-4",
-        "geometry": {
-            "location": {
-                "lat": 33.5146974,
-                "lng": 126.5146958
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.51604722989273,
-                    "lng": 126.5160456298927
-                },
-                "southwest": {
-                    "lat": 33.51334757010728,
-                    "lng": 126.5133459701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Yong-Yeonjeong",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 2187,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/108810600946916086098\">\uc774\uc885\uc2dd</a>"
-                ],
-                "photo_reference": "AXCi2Q710x3gaGakAzoADqxilFzOTVRwpeR7IuEl0-cSHtbGq63exqqNmiz1VLbzukEraACoklWfzeRLA-892uaYMaPnzXpAiwuSUP1lnFw9VeeRy9Nw87fTfVcvghiaxRwsCc9aMFKTnPi-jTB_Q-iR5PAZw42utY2hvjNMFS2Li3-Q0IGk",
-                "width": 3889
-            }
-        ],
-        "place_id": "ChIJva3ryQvlDDURqPdG2g1DOuE",
-        "rating": 4.8,
-        "reference": "ChIJva3ryQvlDDURqPdG2g1DOuE",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 6
     },
     "Jeju Folk Tour Town": {
         "business_status": "OPERATIONAL",
@@ -1186,39 +1011,6 @@
             "establishment"
         ],
         "user_ratings_total": 559
-    },
-    "\ub354\uc81c\uc8fc\uc2a4\ud1a0\ub9ac": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "53 Sindae-ro, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4929462,
-                "lng": 126.4966306
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.49429602989272,
-                    "lng": 126.4979804298927
-                },
-                "southwest": {
-                    "lat": 33.49159637010728,
-                    "lng": 126.4952807701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "\ub354\uc81c\uc8fc\uc2a4\ud1a0\ub9ac",
-        "place_id": "ChIJAx-rmA77DDURE5mnZqRwWtY",
-        "rating": 0,
-        "reference": "ChIJAx-rmA77DDURE5mnZqRwWtY",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 0
     },
     "Woldaecheon": {
         "business_status": "OPERATIONAL",
@@ -1355,49 +1147,6 @@
         ],
         "user_ratings_total": 86
     },
-    "Red lighthouse": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Geonip-dong, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.5226221,
-                "lng": 126.5300842
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.52397192989272,
-                    "lng": 126.5314340298927
-                },
-                "southwest": {
-                    "lat": 33.52127227010727,
-                    "lng": 126.5287343701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Red lighthouse",
-        "photos": [
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/116807698427944352850\">Jack</a>"
-                ],
-                "photo_reference": "AXCi2Q5oQxWUUTkSDHLBabokvSCmgOqPHw_DgkW9KiC_wPXQ2VqcRAMN2kjE3VwrPrL8Q-eUjP83X67xw1_LbfXhmA_DZvWb1ULeWqgskSJhDdJRCJjnwHWsNMQ4I1Q7Ik6e9tICMJ13FmL6yE7NGQP00VlxLRvDYn1VgD3ZP2y6Ri595M_J",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJNc3bdbDjDDUR6CT8z4dGfLo",
-        "rating": 4.8,
-        "reference": "ChIJNc3bdbDjDDUR6CT8z4dGfLo",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 9
-    },
     "Red Horse Lighthouse": {
         "business_status": "OPERATIONAL",
         "formatted_address": "375-43 Iho 1(il)-dong, Jeju-si, Jeju-do, South Korea",
@@ -1486,92 +1235,6 @@
             "establishment"
         ],
         "user_ratings_total": 35
-    },
-    "\uad11\uc774\uc624\ub984": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "\uc0b062 \uc5f0\ub3d9 Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.468104,
-                "lng": 126.4952574
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.46945382989271,
-                    "lng": 126.4966072298927
-                },
-                "southwest": {
-                    "lat": 33.46675417010727,
-                    "lng": 126.4939075701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "\uad11\uc774\uc624\ub984",
-        "photos": [
-            {
-                "height": 2272,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/102144978949735429324\">\uae40\ucc3d\uad6c</a>"
-                ],
-                "photo_reference": "AXCi2Q4Er1jMYdWhvbJ77nEJSuDtWJ83P_POnxassX-UpXM6IT34Ka2M46px7-Y8M3nU4SQ645vsKnZ3V7Yazsr5tnInM6X2-Hp1phplpAMk8lXBeFcZWaBZ6LUNkS3H-fISiKyON_kNRvL_auKo2oBanBxKix2a1aEbbC8-Bx_E37uK47-k",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJTQA6tT_7DDURCBFDVl4-zyA",
-        "rating": 4.6,
-        "reference": "ChIJTQA6tT_7DDURCBFDVl4-zyA",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 7
-    },
-    "\ud0d0\ub77c\ubb38\ud654\uad11\uc7a5": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1478-12 Ildo 1(il)-dong, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.5131806,
-                "lng": 126.5272487
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.51453042989272,
-                    "lng": 126.5285985298927
-                },
-                "southwest": {
-                    "lat": 33.51183077010728,
-                    "lng": 126.5258988701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "\ud0d0\ub77c\ubb38\ud654\uad11\uc7a5",
-        "photos": [
-            {
-                "height": 2115,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/108810600946916086098\">\uc774\uc885\uc2dd</a>"
-                ],
-                "photo_reference": "AXCi2Q4kfuGl5-OumOtLhVTait7NqfJEdzISpZQgGYIFoysbWyAr9ELJ27YBirQYh-WnPFLhQ8nFq1tfCUjvQMsoAx50D_RAqUm7-G_9QXTBfae7PDteKAj8Rr4b5DXS3TK7FUTl0UYcqEmc2sisqbfpq9PlDs6GsXaJBU26pd9TrmqqgoPs",
-                "width": 3761
-            }
-        ],
-        "place_id": "ChIJk7Vi0UPjDDURzopyBf02BMY",
-        "rating": 4.7,
-        "reference": "ChIJk7Vi0UPjDDURzopyBf02BMY",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 3
     },
     "Gwandeokjeong": {
         "business_status": "OPERATIONAL",
@@ -2218,49 +1881,6 @@
         ],
         "user_ratings_total": 2526
     },
-    "Maimos": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1956-23 Oedo-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4 Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4930195,
-                "lng": 126.4276205
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.49436932989272,
-                    "lng": 126.4289703298927
-                },
-                "southwest": {
-                    "lat": 33.49166967010727,
-                    "lng": 126.4262706701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Maimos",
-        "photos": [
-            {
-                "height": 3000,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/107630653893418083946\">Shi-Joon</a>"
-                ],
-                "photo_reference": "AXCi2Q4OB72sot-MIsR7zbhCO3_l8lKW99aa2AxBaUV6HT1FQ0UVkYG8l17l_b5cs7PTFFy8umgKvhqeULljC_ZlbV_E1oG1t7iC-7a_WMsAowxCk3rqZ55hTYDQHHJW5Xd34pY1NDnJIry-jbmD2KdRgkjzjZAopt2WqjUAM-akzQ1KZfFM",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJWwLsCefxDDUROvO9hvWZKlQ",
-        "rating": 0,
-        "reference": "ChIJWwLsCefxDDUROvO9hvWZKlQ",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 0
-    },
     "Gueom Stone Salt Flats": {
         "business_status": "OPERATIONAL",
         "formatted_address": "609-1 Gueom-ri, Aewol-eup, Jeju-si, Jeju-do, South Korea",
@@ -2491,39 +2111,6 @@
         ],
         "user_ratings_total": 199
     },
-    "Ibsul": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "680-26 Yeon-dong, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4516853,
-                "lng": 126.4902312
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.45303512989272,
-                    "lng": 126.4915810298927
-                },
-                "southwest": {
-                    "lat": 33.45033547010728,
-                    "lng": 126.4888813701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Ibsul",
-        "place_id": "ChIJEYGadND7DDURbyopZJOR_Hc",
-        "rating": 5,
-        "reference": "ChIJEYGadND7DDURbyopZJOR_Hc",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 2
-    },
     "Jeju National Museum": {
         "business_status": "OPERATIONAL",
         "formatted_address": "17 Iljudong-ro, Jeju-si, Jeju-do, South Korea",
@@ -2614,92 +2201,6 @@
             "establishment"
         ],
         "user_ratings_total": 34
-    },
-    "Mysterious Road Point": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "291-16 Nohyeong-dong, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4503842,
-                "lng": 126.4878628
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.45173402989272,
-                    "lng": 126.4892126298927
-                },
-                "southwest": {
-                    "lat": 33.44903437010728,
-                    "lng": 126.4865129701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Mysterious Road Point",
-        "photos": [
-            {
-                "height": 4284,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100322897587777509368\">\ubcc0\uc131\uc724</a>"
-                ],
-                "photo_reference": "AXCi2Q7CEC4EH-s13YDu6VZTok4bxzJU6Vox0jkL7VQPPhVp0j3SticOXmK0eZNn7Ej0RxR6-872VYlYB3guKyutd00CKQ3mcItXKySAfrbZt3P5gXeWwyGyd9EjSy2nGsoUcWuXs781csUIdM7znNaP3QKo6gTghNQnGW7Roby2r1WI-NsJ",
-                "width": 5712
-            }
-        ],
-        "place_id": "ChIJm4KgHgD7DDURIOQ8bj0nIHQ",
-        "rating": 1,
-        "reference": "ChIJm4KgHgD7DDURIOQ8bj0nIHQ",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 1
-    },
-    "Yongdam valley": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Yonghan-ro, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.5120363,
-                "lng": 126.5141684
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.51338612989272,
-                    "lng": 126.5155182298927
-                },
-                "southwest": {
-                    "lat": 33.51068647010727,
-                    "lng": 126.5128185701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Yongdam valley",
-        "photos": [
-            {
-                "height": 1816,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/114138684746558926576\">\uc774\ub300\ud611</a>"
-                ],
-                "photo_reference": "AXCi2Q40bNyh_sRv8tAGy-IC8SAVMjLsgZGoc7MYfd_e698j_6suNa83dssasasBD69Zb5WuyNoCmhsG1YwtfA_vobILPwozmHfA5AUbGvVc8KLZdkUJldmhn2yPmUNgbdRMnIEcemW00XwHydi27vmmZtKPIJHqvBBxQmMXcZ4gs_VtJEPd",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJFVn1msD7DDURKGhqHuIJ6o8",
-        "rating": 4.8,
-        "reference": "ChIJFVn1msD7DDURKGhqHuIJ6o8",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 6
     },
     "Handam Coastal Walk": {
         "business_status": "OPERATIONAL",
@@ -4619,49 +4120,6 @@
         ],
         "user_ratings_total": 75
     },
-    "Munseom Baby Island": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "\uc0b05 Seogwi-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2274934,
-                "lng": 126.5680487
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.22884322989272,
-                    "lng": 126.5693985298927
-                },
-                "southwest": {
-                    "lat": 33.22614357010728,
-                    "lng": 126.5666988701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Munseom Baby Island",
-        "photos": [
-            {
-                "height": 3000,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/115727034707989604861\">\ub098\ub3d9\uc8fc</a>"
-                ],
-                "photo_reference": "AXCi2Q70DjZ2kQrpxAuhu-dz64MJ2psGjDMbSciB78t8-eW_H2VP1wPrkHpBdDOAVrPUmQ0hfSi4uQGAEJUY-0OIRbCNLst8DtRALT9wnUw4xIPXBV6kVsuu-KT_USKWAhUXLTT8vP6iC72SVthKQUXLRZix4jhChgs-Tf72IvIoUD8qDZpS",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJQ5rkFotTDDURL0rN8EqO-PM",
-        "rating": 4.7,
-        "reference": "ChIJQ5rkFotTDDURL0rN8EqO-PM",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 3
-    },
     "Seogeondo Island": {
         "business_status": "OPERATIONAL",
         "formatted_address": "\uc0b01-1 Gangjeong-dong, Seogwipo-si, Jeju-do, South Korea",
@@ -4882,52 +4340,6 @@
             "establishment"
         ],
         "user_ratings_total": 20
-    },
-    "Dorippal Coast": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "2600 Daepo-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2357429,
-                "lng": 126.4286779
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.23709272989272,
-                    "lng": 126.4300277298927
-                },
-                "southwest": {
-                    "lat": 33.23439307010728,
-                    "lng": 126.4273280701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Dorippal Coast",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 2969,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/114471509052507068942\">Guo</a>"
-                ],
-                "photo_reference": "AXCi2Q5y4ZXR2uLVNQuoWqzVVs8dLxgmyKd3-FanXP0JF8oN8lc2XeYttVnV53wvXA_oZCOubP3130nMA--1yG6H-2fjWWWY9VMlV_s_F7ggU8xXL71tUFtIjpm7uYH4w19zf6Xh2bhYvnpRwSLorbfca-j-1YrA11mjoK8r23xTjX5unLkL",
-                "width": 3958
-            }
-        ],
-        "place_id": "ChIJVwROmtpbDDURHt22hulklPI",
-        "rating": 5,
-        "reference": "ChIJVwROmtpbDDURHt22hulklPI",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 5
     },
     "Seongeup Folk Village": {
         "business_status": "OPERATIONAL",
@@ -5155,95 +4567,6 @@
         ],
         "user_ratings_total": 3871
     },
-    "\uc790\uad6c\ub9ac\ubb3c": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "33 Seogwi-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4 Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2428074,
-                "lng": 126.568046
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24415722989272,
-                    "lng": 126.5693958298927
-                },
-                "southwest": {
-                    "lat": 33.24145757010727,
-                    "lng": 126.5666961701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "\uc790\uad6c\ub9ac\ubb3c",
-        "photos": [
-            {
-                "height": 2252,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/102716159374589371804\">\uad8c\uc0c1\ub3d9</a>"
-                ],
-                "photo_reference": "AXCi2Q4r0XISwQb2n-gbo2fRrXmKX9dAKiHzhdUHwIDpH1SY6E4vnfMWymFn67hedHIhUOfvvK7sWQa0wfPhvhWUFbto5-a93hbbffsf_ZFylXHPZQL_47wuAETTepsdAs9zbWYT958k93DoY0y3KKSiBlB92cc4ktOt6BBl8GgSoLpV38hW",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJI1pDSABTDDURrKmk3FIKvBU",
-        "rating": 0,
-        "reference": "ChIJI1pDSABTDDURrKmk3FIKvBU",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 0
-    },
-    "Olle Trail Course 7": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "795-4 Seohong-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2404612,
-                "lng": 126.5492556
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24181102989272,
-                    "lng": 126.5506054298927
-                },
-                "southwest": {
-                    "lat": 33.23911137010727,
-                    "lng": 126.5479057701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Olle Trail Course 7",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 3060,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/112347567043035531042\">Michael Chen</a>"
-                ],
-                "photo_reference": "AXCi2Q59tDqmG_cTYSJNQxjSbl071Zs0HYHpHi4vMJoonaTmczeD071g5sEj1Xs5i28_q8A3TL5C2Cbc8HrCSFp5_dwf0xo6LZ6fcGWAWYWxz2Is9-iytNCV8MWhR_m7cNwY4lOJBVvGYHpovc-rPi6NQ178uThGci9bJMv2ASnwv4mrj4Q",
-                "width": 4080
-            }
-        ],
-        "place_id": "ChIJH36r3l1TDDUR3SVSVOT_0OE",
-        "rating": 4.8,
-        "reference": "ChIJH36r3l1TDDUR3SVSVOT_0OE",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 6
-    },
     "Donnaeko Valley": {
         "business_status": "OPERATIONAL",
         "formatted_address": "1463 Sanghyo-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo-si, Jeju-do, South Korea",
@@ -5334,92 +4657,6 @@
             "establishment"
         ],
         "user_ratings_total": 3514
-    },
-    "\uac00\uc744\ub3d9\ud654\uac10\uade4\ubc2d": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1273-5 Seohong-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4 Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2549904,
-                "lng": 126.5513013
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25634022989271,
-                    "lng": 126.5526511298927
-                },
-                "southwest": {
-                    "lat": 33.25364057010727,
-                    "lng": 126.5499514701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "\uac00\uc744\ub3d9\ud654\uac10\uade4\ubc2d",
-        "photos": [
-            {
-                "height": 3000,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/113949978043194298440\">\uc0c1\uad50</a>"
-                ],
-                "photo_reference": "AXCi2Q7B0JONMO-0RGPcmJljVEk-sulW0A9R9SU-eoW822WGCX8AViBWtxM8ENZ5LM9RPKzTFO4LxgvRxt84dOjWcU_tGOrCgZmBwGnvQZ-4yrM0SzK4bUEeTL5UrfEk_Zyw7yCZAprbgA3LMjTFUx49Bjf7Ak4XpHs5AZbb7EbH1PstOh3S",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJ6UuZIi1TDDURaNChnkO5-as",
-        "rating": 2,
-        "reference": "ChIJ6UuZIi1TDDURaNChnkO5-as",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 1
-    },
-    "Unmulgyo Bridge": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Seohong-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.268987,
-                "lng": 126.5513853
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.27033682989271,
-                    "lng": 126.5527351298927
-                },
-                "southwest": {
-                    "lat": 33.26763717010727,
-                    "lng": 126.5500354701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Unmulgyo Bridge",
-        "photos": [
-            {
-                "height": 1868,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/116000119956694079533\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q5NPc86dBPok6MwyWZYCBpArNuIMXhTjPtr-4U2Fpp-3tOljuGYoAGIMa2Rul2-HLfHXPAv3Bh06b90k2x83ffKgSKSGneUOJe2DVHYMu7argPBJ4CzvUzrK5NQubfD-EgB3OE0-Hf9EOs71U2jAFjJi5HdTuJo-jeeIycVTFZPjUGF",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJ-fYP57dVDDURrXbz2Ti-_sw",
-        "rating": 4.8,
-        "reference": "ChIJ-fYP57dVDDURrXbz2Ti-_sw",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 8
     },
     "Soingook Theme Park": {
         "business_status": "OPERATIONAL",
@@ -5514,95 +4751,6 @@
         ],
         "user_ratings_total": 1206
     },
-    "Cheonjiyeon Falls": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Cheonji-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.248285,
-                "lng": 126.5542215
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24963482989272,
-                    "lng": 126.5555713298927
-                },
-                "southwest": {
-                    "lat": 33.24693517010728,
-                    "lng": 126.5528716701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Cheonjiyeon Falls",
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/103535162659289223904\">Fahad</a>"
-                ],
-                "photo_reference": "AXCi2Q5DUzgF5w-L77aEftl6rQDvkyv2vVL7XvjaXgFVKBvrPMHuLoeVcsbXAZDgF2jaFX1_YP_0XweX0juCO6jgRSECHesENCilNGSIe4esh91ESg_jsmT00gzGte_W2dYvt5wQmDr8SWQqBCKClbWRdWpYYhrXCzs4IojRiq_iHEo4aQTW",
-                "width": 3024
-            }
-        ],
-        "place_id": "ChIJ87BDlShTDDUR1ySKRaRqn_U",
-        "rating": 4.7,
-        "reference": "ChIJ87BDlShTDDUR1ySKRaRqn_U",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 6
-    },
-    "Cheonjiyeon Falls Ticket Office": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "2-15 Namseongjung-ro, Cheonji-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2447447,
-                "lng": 126.5597544
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24609452989272,
-                    "lng": 126.5611042298927
-                },
-                "southwest": {
-                    "lat": 33.24339487010727,
-                    "lng": 126.5584045701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Cheonjiyeon Falls Ticket Office",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 1872,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/115634435298849753203\">Arthur Chang</a>"
-                ],
-                "photo_reference": "AXCi2Q5qpDwU3k6zHYnAvNIlRJj-BfWXqn-YE_nHsYmblNck6yNellO7kYhmADZ_W10vQ4H5PKVbMs79_HpSId2GAlaNhv9feuFt28aT3Ko4vGM9S4gkMcuuWVsOtdetmyw_hx1end3dB4UcotR4CxtOiXtPlolz7bKpVdZDQ0iTtmmbal_w",
-                "width": 4160
-            }
-        ],
-        "place_id": "ChIJxRc78ctTDDURuBIrsmDBfZ4",
-        "rating": 5,
-        "reference": "ChIJxRc78ctTDDURuBIrsmDBfZ4",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 3
-    },
     "Jeju International Peace Centre": {
         "business_status": "OPERATIONAL",
         "formatted_address": "South Korea, Jeju-do, Seogwipo-si, \ud2b9\ubcc4\uc790\uce58\ub3c4, \uc911\ubb38\ub3d9 Jungmungwangwang-ro, 227-24 KR",
@@ -5648,72 +4796,6 @@
             "establishment"
         ],
         "user_ratings_total": 250
-    },
-    "Magsug": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "287-3 Beophwan-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.237775,
-                "lng": 126.5157941
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.23912482989273,
-                    "lng": 126.5171439298927
-                },
-                "southwest": {
-                    "lat": 33.23642517010728,
-                    "lng": 126.5144442701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Magsug",
-        "place_id": "ChIJhd4uNZJRDDURzOY-UyinT4I",
-        "rating": 0,
-        "reference": "ChIJhd4uNZJRDDURzOY-UyinT4I",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 0
-    },
-    "Gwang-Won": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "251-1 Seogwi-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2487658,
-                "lng": 126.5696728
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25011562989273,
-                    "lng": 126.5710226298927
-                },
-                "southwest": {
-                    "lat": 33.24741597010728,
-                    "lng": 126.5683229701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Gwang-Won",
-        "place_id": "ChIJ76ruHHdTDDURt5c6DqtO9IU",
-        "rating": 0,
-        "reference": "ChIJ76ruHHdTDDURt5c6DqtO9IU",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 0
     },
     "Munseom Island": {
         "business_status": "OPERATIONAL",
@@ -5853,39 +4935,6 @@
             "establishment"
         ],
         "user_ratings_total": 296
-    },
-    "\u0412\u043e\u0434\u043e\u043f\u0430\u0434 \u0440\u044f\u0434\u043e\u043c \u0441 \u0421\u043e\u0433\u0432\u0438\u043f\u0445\u043e": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Cheonji-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2472622,
-                "lng": 126.5546683
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24861202989273,
-                    "lng": 126.5560181298927
-                },
-                "southwest": {
-                    "lat": 33.24591237010728,
-                    "lng": 126.5533184701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "\u0412\u043e\u0434\u043e\u043f\u0430\u0434 \u0440\u044f\u0434\u043e\u043c \u0441 \u0421\u043e\u0433\u0432\u0438\u043f\u0445\u043e",
-        "place_id": "ChIJDZ3uWmtTDDURj7M-qU-BXSQ",
-        "rating": 0,
-        "reference": "ChIJDZ3uWmtTDDURj7M-qU-BXSQ",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 0
     },
     "Shinhwa Theme Park": {
         "business_status": "OPERATIONAL",
@@ -6120,85 +5169,6 @@
         ],
         "user_ratings_total": 5402
     },
-    "\ubc95\ud658\ud574\ub140\uccb4\ud5d8\uc13c\ud130": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "10 Choeyeong-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4 Seogwipo-si, \uc81c\uc8fc South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2341727,
-                "lng": 126.5135735
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.23552252989272,
-                    "lng": 126.5149233298927
-                },
-                "southwest": {
-                    "lat": 33.23282287010728,
-                    "lng": 126.5122236701072
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "\ubc95\ud658\ud574\ub140\uccb4\ud5d8\uc13c\ud130",
-        "place_id": "ChIJW2UvQatRDDURTiZD9FMuZ1g",
-        "rating": 0,
-        "reference": "ChIJW2UvQatRDDURTiZD9FMuZ1g",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 0
-    },
-    "Witseoreum Volcanic Cone of Hallasan Mountain": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Seoho-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2784399,
-                "lng": 126.5169922
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.27978972989272,
-                    "lng": 126.5183420298927
-                },
-                "southwest": {
-                    "lat": 33.27709007010727,
-                    "lng": 126.5156423701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Witseoreum Volcanic Cone of Hallasan Mountain",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 1620,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q5Xu5D8JyUDrRwJjfl0-Nti0DYse9TUS61RHs2pm_iAERmHpiq10NFlSwGWQVXtuERj0zfV36XsxF7cy9h65kSwRMeUCi0FjjOT1-qzF4vgskK5MRG4wKDO_WAJ1IQCqe3zEbu345k_hmZXjSBHyQESgujW3FupB2jldiR4CZZ8p81L",
-                "width": 1080
-            }
-        ],
-        "place_id": "ChIJwaU3Vb9RDDURlRgTbqeamK4",
-        "rating": 5,
-        "reference": "ChIJwaU3Vb9RDDURlRgTbqeamK4",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 1
-    },
     "Jeju herb garden": {
         "business_status": "OPERATIONAL",
         "formatted_address": "170 Donoreum-ro, Pyoseon-myeon, Seogwipo-si, Jeju-do, South Korea",
@@ -6245,49 +5215,6 @@
             "establishment"
         ],
         "user_ratings_total": 2563
-    },
-    "Cha cha": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "555 Songsan-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.239531,
-                "lng": 126.607796
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24088082989272,
-                    "lng": 126.6091458298927
-                },
-                "southwest": {
-                    "lat": 33.23818117010727,
-                    "lng": 126.6064461701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-        "icon_background_color": "#13B5C7",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-        "name": "Cha cha",
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/105082890333440597819\">Emad Karim</a>"
-                ],
-                "photo_reference": "AXCi2Q4kYxjJt7OdSw9kHt2XAjspjM7GJm09gx9Ox_AoYd9_0UZv1gt3dRGtPjzVMZ2mymaRcPMfh1ZS9AbzW8dd6HWF8oLhPp9FHQCyclaDSA3nH2XWakmOY5nsakMJeh3mPv4Lzc6ucdOdMOjwPBxmLI3QSXl9EYr0dk5H4jURWBAKJ5kf",
-                "width": 3024
-            }
-        ],
-        "place_id": "ChIJgTxgHGJTDDURtBQNkK6-1Ac",
-        "rating": 3,
-        "reference": "ChIJgTxgHGJTDDURtBQNkK6-1Ac",
-        "types": [
-            "tourist_attraction",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 1
     },
     "Seongsan Ilchulbong": {
         "business_status": "OPERATIONAL",

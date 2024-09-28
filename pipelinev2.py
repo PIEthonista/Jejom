@@ -27,6 +27,7 @@ from llama_index.core.tools import QueryEngineTool, ToolMetadata, FunctionTool
 from llama_index.agent.openai import OpenAIAgent
 from llama_index.core.schema import BaseNode
 
+from google.cloud import firestore
 
 
 load_dotenv()
@@ -310,6 +311,8 @@ class PipelineV2():
         accomodations_json: str = os.path.join('locations', 'detailed', 'hotels_detailed.json'),
         restaurants_json: str = os.path.join('locations', 'detailed', 'restaurants_detailed.json'),
         tourist_spots_json: str = os.path.join('locations', 'detailed', 'tourist_spots_detailed.json'),
+        firestore_db: firestore.Client = None,
+        firestore_db_path: str = None
         ):
         # accomodations
         accomodations_vector_store = MilvusVectorStore(uri=accomodations_vec_db_uri, dim=embed_model_size, overwrite=False)
@@ -339,6 +342,10 @@ class PipelineV2():
             self.restaurants_json_data = json.load(f)
         with open(tourist_spots_json, 'r') as f:
             self.tourist_spots_json_data = json.load(f)
+        
+        # firestore
+        self.firestore_db = firestore_db
+        self.firestore_db_path = firestore_db_path
 
 
     def check_query_detail(self, query: str):
@@ -683,15 +690,19 @@ class PipelineV2():
         if ("none" in user_time_preference):
             DESTINATIONS_PER_DAY = 3
             visiting_times = ['morning', 'afternoon', 'evening']
+            MMG_visiting_times = ['afternoon', 'evening']
         if ("dawn" in user_time_preference) and not ("night" in user_time_preference):
             DESTINATIONS_PER_DAY = 4
             visiting_times = ['dawn', 'morning', 'afternoon', 'evening']
+            MMG_visiting_times = ['afternoon', 'evening']
         if ("night" in user_time_preference) and not ("dawn" in user_time_preference):
             DESTINATIONS_PER_DAY = 4
             visiting_times = ['morning', 'afternoon', 'evening', 'night']
+            MMG_visiting_times = ['afternoon', 'evening', 'night']
         if ("dawn" in user_time_preference) and ("night" in user_time_preference):
             DESTINATIONS_PER_DAY = 5
             visiting_times = ['dawn', 'morning', 'afternoon', 'evening', 'night']
+            MMG_visiting_times = ['afternoon', 'evening', 'night']
         
         # preserve original rank
         tmp = []
@@ -837,6 +848,18 @@ class PipelineV2():
             )
 
 
+        # get firestore MMG cafes
+        docs = self.firestore_db.collection(self.firestore_db_path).get()
+        docs_formatted = {}
+        for doc in docs:
+            doc_dict = doc.to_dict()
+            doc_dict['place_id'] = str(doc.id)
+            doc_dict['isMurderMysteryCafe'] = True
+            doc_dict['Latitude'] = doc_dict.pop('lat')
+            doc_dict['Longitude'] = doc_dict.pop('long')
+            docs_formatted[doc_dict['name']] = doc_dict
+
+
         date_dict = dict()
         list_of_selected_accom_dicts = []
         valid_counter = 0
@@ -861,6 +884,8 @@ class PipelineV2():
                         dest.pop('_suitable_visiting_times')
                         dest['startDate'] = str(date)
                         dest['endDate'] = str(date)
+                        dest['visitingTime'] = str(visiting_time)
+                        dest['isMurderMysteryCafe'] = False
                         current_date_destination_list.append(dest)
                         break
             current_date_dict['destination'] = current_date_destination_list

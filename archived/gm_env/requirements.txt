@@ -49,3 +49,4 @@ langchain-huggingface==0.0.3
 langchain-openai==0.1.21
 langchain-text-splitters==0.2.2
 langchain-upstage==0.1.7
+firebase-admin==6.5.0
