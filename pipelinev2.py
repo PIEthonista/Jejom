@@ -255,6 +255,27 @@ tourist_attraction_pipeline_selection_prompt = PromptTemplate(
     """
 )
 
+generate_user_visiting_times_preferences_prompt = PromptTemplate(
+    """
+    You are given a user description, including their preferences, and a user query about planning a trip to Jeju Island. Based on this information, determine whether the user would prefer to wake up early at dawn or stay up till night to visit tourist spots.
+
+    Consider the following factors:
+    - If the user is likely to prefer visiting tourist spots at dawn but not at night, strictly output "dawn".
+    - If the user is likely to prefer visiting tourist spots at night but not at dawn, strictly output "night".
+    - If the user is likely to prefer both dawn and night, strictly output "dawn,night".
+    - If the user is likely to not prefer both dawn and night, strictly output "none".
+    - If couples are mentioned, assume visiting destinations at night is mostly suitable.
+
+    Do not include any additional text or explanation.
+
+    Here is the information about the user:  
+    - User Description: {user_specs}
+    - User Query: {user_query}
+
+    Output the suitable time(s):
+    """
+)
+
 generate_trip_title_prompt = PromptTemplate(
     """
     You are a title generating assistant. 
@@ -610,6 +631,7 @@ class PipelineV2():
                 {
                     "Name": dest_name,
                     "Description": node.metadata['description'],
+                    "_suitable_visiting_times": node.metadata['suitable_visiting_times'],  # remove before return
                     "Price": price,
                     "Address": address,
                     "Latitude": lat,
@@ -620,7 +642,7 @@ class PipelineV2():
                     "Photos": photos,
                     "GooglePlaceID": self.tourist_spots_json_data[dest_name]['place_id'],
                     "GoogleMapsURL": url,
-                    "AccomodationWebsiteURL": website
+                    "DestinationWebsiteURL": website
                 }
             )
         
@@ -655,12 +677,49 @@ class PipelineV2():
             destinations_list_of_dict = sorted(destinations_list_of_dict, key=custom_f1, reverse=True)
         
         # TODO: FIX
-        DESTINATIONS_PER_DAY = 2
+        user_time_preference = Settings.llm.complete(generate_user_visiting_times_preferences_prompt.format(user_specs=end_user_specs, user_query=end_user_query))
+        user_time_preference = str(user_time_preference).strip().lower()
+        
+        if ("none" in user_time_preference):
+            DESTINATIONS_PER_DAY = 3
+            visiting_times = ['morning', 'afternoon', 'evening']
+        if ("dawn" in user_time_preference) and not ("night" in user_time_preference):
+            DESTINATIONS_PER_DAY = 4
+            visiting_times = ['dawn', 'morning', 'afternoon', 'evening']
+        if ("night" in user_time_preference) and not ("dawn" in user_time_preference):
+            DESTINATIONS_PER_DAY = 4
+            visiting_times = ['morning', 'afternoon', 'evening', 'night']
+        if ("dawn" in user_time_preference) and ("night" in user_time_preference):
+            DESTINATIONS_PER_DAY = 5
+            visiting_times = ['dawn', 'morning', 'afternoon', 'evening', 'night']
+        
+        # preserve original rank
+        tmp = []
+        for idx, d in enumerate(destinations_list_of_dict):
+            d_ = copy.deepcopy(d)
+            d_['_rank'] = idx
+            tmp.append(d_)
+        destinations_list_of_dict = tmp
+        
+        tmp = []
         TOTAL_DESTINATIONS = len(dates)*DESTINATIONS_PER_DAY
-        if len(destinations_list_of_dict) <= TOTAL_DESTINATIONS:
-            pass
-        else:
-            destinations_list_of_dict = destinations_list_of_dict[:TOTAL_DESTINATIONS]
+        for _ in range(len(dates)):
+            for visiting_time in visiting_times:
+                for i, d in enumerate(destinations_list_of_dict):
+                    if visiting_time in d['_suitable_visiting_times']:
+                        tmp.append(destinations_list_of_dict.pop(i))
+                        break
+        destinations_list_of_dict = sorted(tmp, key=lambda x: x["_rank"])
+        for d in destinations_list_of_dict:
+            d.pop("_rank", None)  # remove _rank
+
+
+        # DESTINATIONS_PER_DAY = 
+        # TOTAL_DESTINATIONS = 
+        # if len(destinations_list_of_dict) <= TOTAL_DESTINATIONS:
+        #     pass
+        # else:
+        #     destinations_list_of_dict = destinations_list_of_dict[:TOTAL_DESTINATIONS]
         
         # custom distance function
         def haversine_distance(coord1, coord2):
@@ -684,16 +743,16 @@ class PipelineV2():
         clusters_indices = order_indices_by_values(clusters)
         destinations_list_of_dict = [destinations_list_of_dict[i] for i in clusters_indices]
 
-        # adjust destinations per day accordingly
-        if len(dates) > len(destinations_list_of_dict):
-            dates = dates[:len(destinations_list_of_dict) - 1]
-            ending_date = dates[-1]
-            DESTINATIONS_PER_DAY = 1
-        elif len(dates) == len(destinations_list_of_dict):
-            DESTINATIONS_PER_DAY = 1
-        else:
-            if (len(destinations_list_of_dict) // len(dates)) < DESTINATIONS_PER_DAY:
-                DESTINATIONS_PER_DAY = len(destinations_list_of_dict) // len(dates)
+        # # adjust destinations per day accordingly
+        # if len(dates) > len(destinations_list_of_dict):
+        #     dates = dates[:len(destinations_list_of_dict) - 1]
+        #     ending_date = dates[-1]
+        #     DESTINATIONS_PER_DAY = 1
+        # elif len(dates) == len(destinations_list_of_dict):
+        #     DESTINATIONS_PER_DAY = 1
+        # else:
+        #     if (len(destinations_list_of_dict) // len(dates)) < DESTINATIONS_PER_DAY:
+        #         DESTINATIONS_PER_DAY = len(destinations_list_of_dict) // len(dates)
 
 
         def get_lat_long_average(list_of_destination_dicts):
@@ -784,15 +843,29 @@ class PipelineV2():
         for date in dates:
             current_date_dict = dict()
             current_date_destination_list = []
-            for i in range(DESTINATIONS_PER_DAY):
-                tmp_dest_dict = destinations_list_of_dict[valid_counter]
-                tmp_dest_dict['startDate'] = str(date)
-                tmp_dest_dict['endDate'] = str(date)
-                current_date_destination_list.append(tmp_dest_dict)
-                valid_counter += 1
-            current_date_dict['destination'] = current_date_destination_list
-            destination_average_lat_long = get_lat_long_average(current_date_destination_list)
             
+            # for i in range(DESTINATIONS_PER_DAY):
+            #     tmp_dest_dict = destinations_list_of_dict[valid_counter]
+            #     tmp_dest_dict['startDate'] = str(date)
+            #     tmp_dest_dict['endDate'] = str(date)
+            #     current_date_destination_list.append(tmp_dest_dict)
+            #     valid_counter += 1
+            # current_date_dict['destination'] = current_date_destination_list
+            
+            # destinations for one day
+            for visiting_time in visiting_times:
+                # search for dest suitable for each time of day
+                for i, d in enumerate(destinations_list_of_dict[:]):
+                    if visiting_time in d['_suitable_visiting_times']:
+                        dest = destinations_list_of_dict.pop(i)
+                        dest.pop('_suitable_visiting_times')
+                        dest['startDate'] = str(date)
+                        dest['endDate'] = str(date)
+                        current_date_destination_list.append(dest)
+                        break
+            current_date_dict['destination'] = current_date_destination_list
+            
+            destination_average_lat_long = get_lat_long_average(current_date_destination_list)
             distanced_accomodations_list_of_dict = get_batch_distance(destination_average_lat_long[0], destination_average_lat_long[1], accomodations_list_of_dict)
             
             # sort according to distance first, then only by preference

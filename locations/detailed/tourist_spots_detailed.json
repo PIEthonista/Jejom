@@ -292,7 +292,12 @@
         "user_ratings_total": 7841,
         "utc_offset": 540,
         "vicinity": "329-10 Hallim-ro, Hallim-eup, Cheju",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Mysterious Road": {
         "address_components": [
@@ -588,7 +593,12 @@
         "utc_offset": 540,
         "vicinity": "2894-63 1100-ro, \ub178\ud615\ub3d9, Cheju",
         "website": "http://www.jejusi.go.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Yongduam Rock": {
         "address_components": [
@@ -878,7 +888,12 @@
         "url": "https://maps.google.com/?cid=3478115728679926704",
         "user_ratings_total": 16276,
         "utc_offset": 540,
-        "vicinity": "15 Yongduam-gil, \uc6a9\ub2f42\ub3d9, Cheju"
+        "vicinity": "15 Yongduam-gil, \uc6a9\ub2f42\ub3d9, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jejumok Gwana Government Office": {
         "address_components": [
@@ -1301,7 +1316,14 @@
         "utc_offset": 540,
         "vicinity": "13 Gwandeok-ro 7-gil, Cheju",
         "website": "http://www.jeju.go.kr/mokkwana/index.htm",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Spirited Garden": {
         "address_components": [
@@ -1847,7 +1869,12 @@
         "utc_offset": 540,
         "vicinity": "675 Nokchabunjae-ro, Hangyeong-myeon, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
         "website": "http://www.spiritedgarden.com/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Yongyeon Pond": {
         "address_components": [
@@ -2118,7 +2145,13 @@
         "url": "https://maps.google.com/?cid=10676300007768441201",
         "user_ratings_total": 2490,
         "utc_offset": 540,
-        "vicinity": "Yongdam 2(i)-dong, Jeju-si"
+        "vicinity": "Yongdam 2(i)-dong, Jeju-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening",
+            "night"
+        ]
     },
     "Geomun Oreum": {
         "address_components": [
@@ -2535,7 +2568,12 @@
         "user_ratings_total": 986,
         "utc_offset": 540,
         "vicinity": "\uc870\ucc9c\uc74d \uc120\ud758\ub9ac, \uc81c\uc8fc\uc2dc",
-        "website": "http://www.jeju.go.kr/wnhcenter/index.htm"
+        "website": "http://www.jeju.go.kr/wnhcenter/index.htm",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Gimnyeong Maze Park": {
         "address_components": [
@@ -2964,7 +3002,14 @@
         "utc_offset": 540,
         "vicinity": "122 Manjanggul-gil, Gujwa-eup, Cheju",
         "website": "http://www.jejumaze.com/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Jeolmul Natural Recreation Forest": {
         "address_components": [
@@ -3388,7 +3433,14 @@
         "utc_offset": 540,
         "vicinity": "584 Myeongnim-ro, Cheju",
         "website": "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030053",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Hallim Park": {
         "address_components": [
@@ -3821,7 +3873,14 @@
         "utc_offset": 540,
         "vicinity": "300 Hallim-ro, Hallim-eup, Cheju",
         "website": "http://www.hallimpark.co.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Nuwemaru Street (Pedestrian Shopping Street)": {
         "address_components": [
@@ -4105,7 +4164,13 @@
         "user_ratings_total": 776,
         "utc_offset": 540,
         "vicinity": "Yeondong 7-gil, \uc5f0\ub3d9, Jeju-si",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening",
+            "night"
+        ]
     },
     "Dodubong Peak": {
         "address_components": [
@@ -4379,7 +4444,12 @@
         "url": "https://maps.google.com/?cid=11372915323005898250",
         "user_ratings_total": 266,
         "utc_offset": 540,
-        "vicinity": "\uc0b01 \ub3c4\ub450\ub3d9, Cheju"
+        "vicinity": "\uc0b01 \ub3c4\ub450\ub3d9, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Light Garden": {
         "address_components": [
@@ -4809,7 +4879,10 @@
         "utc_offset": 540,
         "vicinity": "2346 Pyeonghwa-ro, Aewol-eup, Cheju",
         "website": "http://www.rosestar.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "evening"
+        ]
     },
     "Manjanggul Lava Tube": {
         "address_components": [
@@ -5060,7 +5133,12 @@
         "user_ratings_total": 11859,
         "utc_offset": 540,
         "vicinity": "182 Manjanggul-gil, Gujwa-eup, Cheju",
-        "website": "https://www.jeju.go.kr/geopark/en/intro/manganggul.htm"
+        "website": "https://www.jeju.go.kr/geopark/en/intro/manganggul.htm",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Hallasan National Park": {
         "address_components": [
@@ -5493,7 +5571,12 @@
         "utc_offset": 540,
         "vicinity": "2070-61 1100\ub85c, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
         "website": "http://www.jeju.go.kr/hallasan/index.htm#opt-lang",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeigag": {
         "address_components": [
@@ -5702,7 +5785,11 @@
         "url": "https://maps.google.com/?cid=2641614446423450402",
         "user_ratings_total": 3,
         "utc_offset": 540,
-        "vicinity": "56 Ohyeon-gil, Cheju"
+        "vicinity": "56 Ohyeon-gil, Cheju",
+        "suitable_times_list": [
+            "morning",
+            "evening"
+        ]
     },
     "Geomeun Oreum": {
         "address_components": [
@@ -5929,7 +6016,12 @@
         "user_ratings_total": 24,
         "utc_offset": 540,
         "vicinity": "\uc0b0110-1 \uc5f0\ub3d9, Cheju",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\ub450\ub9f9\uc774\uace8\ubaa9": {
         "address_components": [
@@ -6210,7 +6302,12 @@
         "url": "https://maps.google.com/?cid=12532659093962185868",
         "user_ratings_total": 212,
         "utc_offset": 540,
-        "vicinity": "1006-42 \uc77c\ub3c42\ub3d9, Cheju"
+        "vicinity": "1006-42 \uc77c\ub3c42\ub3d9, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\u0e40\u0e01\u0e32\u0e30\u0e40\u0e0b\u0e08\u0e39": {
         "address_components": [
@@ -6382,7 +6479,12 @@
         "url": "https://maps.google.com/?cid=11228946217556303533",
         "user_ratings_total": 2,
         "utc_offset": 540,
-        "vicinity": "Jeju-do"
+        "vicinity": "Jeju-do",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Gwangot": {
         "address_components": [
@@ -6617,7 +6719,12 @@
         "url": "https://maps.google.com/?cid=12337316292548675475",
         "user_ratings_total": 99,
         "utc_offset": 540,
-        "vicinity": "777-1 Sinheung-ri, Jocheon-eup, Cheju"
+        "vicinity": "777-1 Sinheung-ri, Jocheon-eup, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Chilseonglo": {
         "address_components": [
@@ -6853,7 +6960,13 @@
         "user_ratings_total": 198,
         "utc_offset": 540,
         "vicinity": "Chilseongno-gil, Ildo 1(il)-dong, Jeju-si",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "\ubd81\uc218\uad6c\uad11\uc7a5": {
         "address_components": [
@@ -7026,7 +7139,12 @@
         "url": "https://maps.google.com/?cid=5572563696550114636",
         "user_ratings_total": 3,
         "utc_offset": 540,
-        "vicinity": "1232 Ildo 1(il)-dong, Cheju"
+        "vicinity": "1232 Ildo 1(il)-dong, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Iho Tewoo beach": {
         "address_components": [
@@ -7254,7 +7372,12 @@
         "utc_offset": 540,
         "vicinity": "1665-13 Iho 1(il)-dong, Cheju",
         "website": "https://www.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007344#",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Yong-Yeonjeong": {
         "address_components": [
@@ -7536,7 +7659,12 @@
         "user_ratings_total": 6,
         "utc_offset": 540,
         "vicinity": "2581-4 \uc6a9\ub2f41\ub3d9, Cheju",
-        "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500472"
+        "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500472",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Folk Tour Town": {
         "address_components": [
@@ -7772,7 +7900,12 @@
         "user_ratings_total": 56,
         "utc_offset": 540,
         "vicinity": "885 \uc77c\ub3c42\ub3d9, Cheju",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Bukchon Dol Hareubang Park": {
         "address_components": [
@@ -8181,7 +8314,12 @@
         "url": "https://maps.google.com/?cid=10976169692640236798",
         "user_ratings_total": 559,
         "utc_offset": 540,
-        "vicinity": "70 Bukchonseo 1-gil, Jocheon-eup, Cheju"
+        "vicinity": "70 Bukchonseo 1-gil, Jocheon-eup, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\ub354\uc81c\uc8fc\uc2a4\ud1a0\ub9ac": {
         "address_components": [
@@ -8270,7 +8408,12 @@
         ],
         "url": "https://maps.google.com/?cid=15445781723419744531",
         "utc_offset": 540,
-        "vicinity": "53 Sindae-ro, Cheju"
+        "vicinity": "53 Sindae-ro, Cheju",
+        "suitable_times_list": [
+            "morning",
+            "noon",
+            "afternoon"
+        ]
     },
     "Woldaecheon": {
         "address_components": [
@@ -8551,7 +8694,12 @@
         "url": "https://maps.google.com/?cid=9157105324485572165",
         "user_ratings_total": 241,
         "utc_offset": 540,
-        "vicinity": "235-7 Oedo 2(i)-dong, Cheju"
+        "vicinity": "235-7 Oedo 2(i)-dong, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Samyang-dong Ruins": {
         "address_components": [
@@ -8946,7 +9094,12 @@
         "utc_offset": 540,
         "vicinity": "South Korea",
         "website": "http://www.jeju.go.kr/samyang/index.htm",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Si Oreum": {
         "address_components": [
@@ -9159,7 +9312,12 @@
         "url": "https://maps.google.com/?cid=9725779553693050403",
         "user_ratings_total": 86,
         "utc_offset": 540,
-        "vicinity": "Hogeun-dong, Jeju-si"
+        "vicinity": "Hogeun-dong, Jeju-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Red lighthouse": {
         "address_components": [
@@ -9378,7 +9536,12 @@
         "url": "https://maps.google.com/?cid=13437692937290654952",
         "user_ratings_total": 9,
         "utc_offset": 540,
-        "vicinity": "Geonip-dong, Jeju-si"
+        "vicinity": "Geonip-dong, Jeju-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Red Horse Lighthouse": {
         "address_components": [
@@ -9654,7 +9817,12 @@
         "utc_offset": 540,
         "vicinity": "375-43 Iho 1(il)-dong, Cheju",
         "website": "https://m.visitjeju.net/en/detail/view?contentsid=CNTS_000000000019997",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Chujado Island": {
         "address_components": [
@@ -9866,7 +10034,14 @@
         "user_ratings_total": 35,
         "utc_offset": 540,
         "vicinity": "East Sea",
-        "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000018441"
+        "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000018441",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "\uad11\uc774\uc624\ub984": {
         "address_components": [
@@ -10099,7 +10274,12 @@
         "url": "https://maps.google.com/?cid=2364176904287883528",
         "user_ratings_total": 7,
         "utc_offset": 540,
-        "vicinity": "\uc0b062 \uc5f0\ub3d9, Cheju"
+        "vicinity": "\uc0b062 \uc5f0\ub3d9, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\ud0d0\ub77c\ubb38\ud654\uad11\uc7a5": {
         "address_components": [
@@ -10302,7 +10482,12 @@
         "user_ratings_total": 3,
         "utc_offset": 540,
         "vicinity": "1478-12 Ildo 1(il)-dong, Cheju",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Gwandeokjeong": {
         "address_components": [
@@ -10722,7 +10907,12 @@
         "user_ratings_total": 1137,
         "utc_offset": 540,
         "vicinity": "19 Gwandeok-ro, Cheju",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Seopjikoji": {
         "address_components": [
@@ -11141,7 +11331,14 @@
         "utc_offset": 540,
         "vicinity": "Seopjikoji-ro, Seongsan-eup, Seogwipo-si",
         "website": "http://korean.visitkorea.or.kr/kor/bz15/where/where_main_search.jsp?cid=127813",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Tapdong Plaza": {
         "address_components": [
@@ -11416,7 +11613,12 @@
         "user_ratings_total": 1566,
         "utc_offset": 540,
         "vicinity": "Geonip-dong, Jeju-si",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Starlight World Park and Planetarium": {
         "address_components": [
@@ -11826,7 +12028,10 @@
         "utc_offset": 540,
         "vicinity": "KR, 60 Seondolmokdong-gil, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
         "website": "http://www.jejusi.go.kr/star/main.do",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "evening"
+        ]
     },
     "Jeju Teseum": {
         "address_components": [
@@ -12258,7 +12463,12 @@
         "user_ratings_total": 1095,
         "utc_offset": 540,
         "vicinity": "2159 Pyeonghwa-ro, Aewol-eup, Cheju",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\ubc29\uc120\ubb38\uacc4\uace1": {
         "address_components": [
@@ -12532,7 +12742,12 @@
         "url": "https://maps.google.com/?cid=6799290178984289769",
         "user_ratings_total": 118,
         "utc_offset": 540,
-        "vicinity": "Ora 1(il)-dong, Jeju-si"
+        "vicinity": "Ora 1(il)-dong, Jeju-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\uc6a9\ub2f4\ud3ec\uad6c": {
         "address_components": [
@@ -12813,7 +13028,12 @@
         "url": "https://maps.google.com/?cid=9119059671696503320",
         "user_ratings_total": 164,
         "utc_offset": 540,
-        "vicinity": "1092-7 \uc6a9\ub2f42\ub3d9, Cheju"
+        "vicinity": "1092-7 \uc6a9\ub2f42\ub3d9, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\ubbfc\uc624\ub984\uc785\uad6c": {
         "address_components": [
@@ -13044,7 +13264,8 @@
         "url": "https://maps.google.com/?cid=15394949108178456883",
         "user_ratings_total": 14,
         "utc_offset": 540,
-        "vicinity": "1666 Ora 2(i)-dong, Cheju"
+        "vicinity": "1666 Ora 2(i)-dong, Cheju",
+        "suitable_times_list": []
     },
     "Samda Park": {
         "address_components": [
@@ -13320,7 +13541,12 @@
         "user_ratings_total": 301,
         "utc_offset": 540,
         "vicinity": "301-1 \uc5f0\ub3d9, Cheju",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "OSHARE": {
         "address_components": [
@@ -13756,7 +13982,12 @@
         "user_ratings_total": 68,
         "utc_offset": 540,
         "vicinity": "KR 1\uce35, 1590-3 Yongdam 2(i)-dong, \ubc88\uc9c0 1\ud638, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
-        "website": "https://oshare.info/"
+        "website": "https://oshare.info/",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Halla Arboretum": {
         "address_components": [
@@ -14180,7 +14411,12 @@
         "utc_offset": 540,
         "vicinity": "72 Sumogwon-gil, Cheju",
         "website": "http://sumokwon.jeju.go.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "White Horse Lighthouse": {
         "address_components": [
@@ -14449,7 +14685,12 @@
         "utc_offset": 540,
         "vicinity": "\ub300\ud55c\ubbfc\uad6d \uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4, Iho 1(il)-dong, Cheju",
         "website": "https://m.visitjeju.net/en/detail/view?contentsid=CNTS_000000000019997",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Bijarim Forest": {
         "address_components": [
@@ -14875,7 +15116,12 @@
         "utc_offset": 540,
         "vicinity": "55 Bijasup-gil, Gujwa-eup, Cheju",
         "website": "https://www.visitjeju.net/en/detail/view?contentsid=CONT_000000000500270#",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Glass Castle": {
         "address_components": [
@@ -15126,7 +15372,11 @@
         "user_ratings_total": 2526,
         "utc_offset": 540,
         "vicinity": "462 Nokchabunjae-ro, Hangyeong-myeon, Cheju",
-        "website": "http://jejuglasscastle.com/"
+        "website": "http://jejuglasscastle.com/",
+        "suitable_times_list": [
+            "morning",
+            "evening"
+        ]
     },
     "Maimos": {
         "address_components": [
@@ -15304,7 +15554,12 @@
         ],
         "url": "https://maps.google.com/?cid=6064829128014426938",
         "utc_offset": 540,
-        "vicinity": "1956-23 \uc678\ub3c4\ub3d9, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju"
+        "vicinity": "1956-23 \uc678\ub3c4\ub3d9, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Gueom Stone Salt Flats": {
         "address_components": [
@@ -15588,7 +15843,12 @@
         "user_ratings_total": 2051,
         "utc_offset": 540,
         "vicinity": "609-1 Gueom-ri, Aewol-eup, Cheju",
-        "website": "https://m.visitjeju.net/en/detail/view?contentsid=CNTS_000000000020780"
+        "website": "https://m.visitjeju.net/en/detail/view?contentsid=CNTS_000000000020780",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Min-Oleum": {
         "address_components": [
@@ -15822,7 +16082,12 @@
         "user_ratings_total": 61,
         "utc_offset": 540,
         "vicinity": "\uc0b011 \uc624\ub77c\ub3d9, Cheju",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Shinsan Neighborhood Park": {
         "address_components": [
@@ -16108,7 +16373,12 @@
         "utc_offset": 540,
         "vicinity": "885 Ildo 2(i)-dong, Cheju",
         "website": "https://m.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000008043",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Haenyeo Museum": {
         "address_components": [
@@ -16528,7 +16798,12 @@
         "utc_offset": 540,
         "vicinity": "26 Haenyeobangmulgwan-gil, Gujwa-eup, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
         "website": "http://www.jeju.go.kr/haenyeo/index.htm",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Yacht Tour": {
         "address_components": [
@@ -16939,7 +17214,12 @@
         "user_ratings_total": 199,
         "utc_offset": 540,
         "vicinity": "28-8 Doduhang-gil, Cheju",
-        "website": "https://new.smartplace.naver.com/bizes/place/5837059?bookingBusinessId=561808"
+        "website": "https://new.smartplace.naver.com/bizes/place/5837059?bookingBusinessId=561808",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Ibsul": {
         "address_components": [
@@ -17054,7 +17334,12 @@
         "url": "https://maps.google.com/?cid=8645945446871149167",
         "user_ratings_total": 2,
         "utc_offset": 540,
-        "vicinity": "680-26 Yeon-dong, Cheju"
+        "vicinity": "680-26 Yeon-dong, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju National Museum": {
         "address_components": [
@@ -17456,7 +17741,12 @@
         "utc_offset": 540,
         "vicinity": "17 Iljudong-ro, Cheju",
         "website": "https://jeju.museum.go.kr/html/kr/index.html",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "morning",
+            "noon",
+            "afternoon"
+        ]
     },
     "\uc81c\uc8fc\ub3c4 \ubdf0 \uc88b\uc740 \uacf3": {
         "address_components": [
@@ -17689,7 +17979,12 @@
         "url": "https://maps.google.com/?cid=682279188217785775",
         "user_ratings_total": 34,
         "utc_offset": 540,
-        "vicinity": "\uc0b0132-2 \uc5f0\ub3d9, Cheju"
+        "vicinity": "\uc0b0132-2 \uc5f0\ub3d9, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Mysterious Road Point": {
         "address_components": [
@@ -17842,7 +18137,12 @@
         "url": "https://maps.google.com/?cid=8367731252450354208",
         "user_ratings_total": 1,
         "utc_offset": 540,
-        "vicinity": "291-16 Nohyeong-dong, Cheju"
+        "vicinity": "291-16 Nohyeong-dong, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Yongdam valley": {
         "address_components": [
@@ -18064,7 +18364,12 @@
         "url": "https://maps.google.com/?cid=10370111958751537192",
         "user_ratings_total": 6,
         "utc_offset": 540,
-        "vicinity": "Yonghan-ro, Jeju-si"
+        "vicinity": "Yonghan-ro, Jeju-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Handam Coastal Walk": {
         "address_components": [
@@ -18348,7 +18653,12 @@
         "user_ratings_total": 231,
         "utc_offset": 540,
         "vicinity": "1359 Gwakji-ri, Aewol-eup, Cheju",
-        "website": "https://www.visitjeju.net/u/E8N"
+        "website": "https://www.visitjeju.net/u/E8N",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Big Ball Land": {
         "address_components": [
@@ -18768,7 +19078,12 @@
         "user_ratings_total": 572,
         "utc_offset": 540,
         "vicinity": "\u97d3\u570b Jeju-do, Cheju, Aewol-eup, 15 Aewol-eup, Sallokseo-ro, Jeju-si",
-        "website": "http://www.jejuprimeleisure.co.kr/"
+        "website": "http://www.jejuprimeleisure.co.kr/",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Eoseungsaengak Trail": {
         "address_components": [
@@ -19183,7 +19498,12 @@
         "user_ratings_total": 759,
         "utc_offset": 540,
         "vicinity": "\uc0b0 220-13, Haean-dong, Cheju",
-        "website": "https://www.jeju.go.kr/hallasan/info/info/realtime/course05.htm"
+        "website": "https://www.jeju.go.kr/hallasan/info/info/realtime/course05.htm",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Yeonhwaji": {
         "address_components": [
@@ -19426,7 +19746,12 @@
         "user_ratings_total": 283,
         "utc_offset": 540,
         "vicinity": "1558-1 Haga-ri, Aewol-eup, Cheju",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Saebyeol Friends": {
         "address_components": [
@@ -19656,7 +19981,11 @@
         "user_ratings_total": 206,
         "utc_offset": 540,
         "vicinity": "4554-20 Bongseong-ri, Aewol-eup, Cheju",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "morning",
+            "evening"
+        ]
     },
     "Saebyeol Oreum": {
         "address_components": [
@@ -19892,7 +20221,12 @@
         "url": "https://maps.google.com/?cid=12035601182032581716",
         "user_ratings_total": 1263,
         "utc_offset": 540,
-        "vicinity": "Bongseong-ri, Aewol-eup, Jeju-si"
+        "vicinity": "Bongseong-ri, Aewol-eup, Jeju-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Gwetmul Oreum": {
         "address_components": [
@@ -20170,7 +20504,12 @@
         "user_ratings_total": 332,
         "utc_offset": 540,
         "vicinity": "Yusuam-ri, Aewol-eup, Jeju-si",
-        "website": "http://jejuresort.kr/"
+        "website": "http://jejuresort.kr/",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Aewol Cafe Street": {
         "address_components": [
@@ -20405,7 +20744,12 @@
         "url": "https://maps.google.com/?cid=13037914150163527",
         "user_ratings_total": 358,
         "utc_offset": 540,
-        "vicinity": "Aewol-ro 1-gil, Aewol-eup, Jeju-si"
+        "vicinity": "Aewol-ro 1-gil, Aewol-eup, Jeju-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Hwansang Forest": {
         "address_components": [
@@ -20842,7 +21186,12 @@
         "user_ratings_total": 2537,
         "utc_offset": 540,
         "vicinity": "KR, 594-1 Hangyeong-myeon, Nokchabunjae-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
-        "website": "http://www.jejupark.co.kr/"
+        "website": "http://www.jejupark.co.kr/",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Hyeopjae Cave": {
         "address_components": [
@@ -21269,7 +21618,12 @@
         "user_ratings_total": 836,
         "utc_offset": 540,
         "vicinity": "2487 Hyeopjae-ri, Hallim-eup, Cheju",
-        "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500696"
+        "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500696",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Suwolbong Observatory": {
         "address_components": [
@@ -21506,7 +21860,11 @@
         "url": "https://maps.google.com/?cid=9632218915450455817",
         "user_ratings_total": 1628,
         "utc_offset": 540,
-        "vicinity": "Gosan-ri, Hangyeong-myeon, Jeju-si"
+        "vicinity": "Gosan-ri, Hangyeong-myeon, Jeju-si",
+        "suitable_times_list": [
+            "dawn",
+            "evening"
+        ]
     },
     "Eorimok Valley": {
         "address_components": [
@@ -21727,7 +22085,12 @@
         "user_ratings_total": 138,
         "utc_offset": 540,
         "vicinity": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4, Haean-dong, Cheju",
-        "website": "https://www.visitjeju.net/s/2000000000019989"
+        "website": "https://www.visitjeju.net/s/2000000000019989",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Seogwipo Jeongbang Waterfall": {
         "address_components": [
@@ -22143,7 +22506,12 @@
         "utc_offset": 540,
         "vicinity": "37 Chilsimni-ro 214beon-gil, Seogwipo",
         "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500531",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Oedolgae": {
         "address_components": [
@@ -22424,7 +22792,12 @@
         "user_ratings_total": 3380,
         "utc_offset": 540,
         "vicinity": "791 \uc11c\ud64d\ub3d9, Seogwipo",
-        "website": "https://m.visitjeju.net/en/detail/view?contentsid=CNTS_000000000018409#:~:text=%EB%B0%94%EB%8B%A4%20%EC%9C%84%EC%97%90%20%ED%99%80%EB%A1%9C%20%EC%9A%B0%EB%9A%9D%20%EC%84%9C%EC%9E%88%EC%96%B4,%ED%95%98%EA%B2%8C%20%ED%96%88%EB%8B%A4%EB%8A%94%20%EC%84%A4%ED%99%94%EA%B0%80%20%EC%9E%88%EB%8B%A4."
+        "website": "https://m.visitjeju.net/en/detail/view?contentsid=CNTS_000000000018409#:~:text=%EB%B0%94%EB%8B%A4%20%EC%9C%84%EC%97%90%20%ED%99%80%EB%A1%9C%20%EC%9A%B0%EB%9A%9D%20%EC%84%9C%EC%9E%88%EC%96%B4,%ED%95%98%EA%B2%8C%20%ED%96%88%EB%8B%A4%EB%8A%94%20%EC%84%A4%ED%99%94%EA%B0%80%20%EC%9E%88%EB%8B%A4.",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Gotjawal Provincial Park": {
         "address_components": [
@@ -22852,7 +23225,12 @@
         "user_ratings_total": 473,
         "utc_offset": 540,
         "vicinity": "58 Boseong-ri, Daejeong-eup, Seogwipo",
-        "website": "http://jejugotjawal.or.kr/"
+        "website": "http://jejugotjawal.or.kr/",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Halla Eco Forest": {
         "address_components": [
@@ -23281,7 +23659,12 @@
         "utc_offset": 540,
         "vicinity": "KR, 2596 516-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
         "website": "http://www.jeju.go.kr/hallaecoforest/index.htm",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Ecoland": {
         "address_components": [
@@ -23723,7 +24106,12 @@
         "utc_offset": 540,
         "vicinity": "KR, 1278-169 Jocheon-eup, \ubc88\uc601\ub85c, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
         "website": "http://theme.ecolandjeju.co.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Ssangyong Cave": {
         "address_components": [
@@ -24150,7 +24538,12 @@
         "user_ratings_total": 106,
         "utc_offset": 540,
         "vicinity": "2487-3 Hyeopjae-ri, Hallim-eup, Cheju",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Yongmeori Coast": {
         "address_components": [
@@ -24582,7 +24975,12 @@
         "user_ratings_total": 4795,
         "utc_offset": 540,
         "vicinity": "112-3 Sage-ri, Andeok-myeon, Seogwipo",
-        "website": "https://www.visitjeju.net/u/E7o"
+        "website": "https://www.visitjeju.net/u/E7o",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Hwanguji Natural Pools": {
         "address_components": [
@@ -24850,7 +25248,12 @@
         "user_ratings_total": 570,
         "utc_offset": 540,
         "vicinity": "\uc11c\ud64d\ub3d9, \uc11c\uadc0\ud3ec\uc2dc",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Folk Village": {
         "address_components": [
@@ -25283,7 +25686,14 @@
         "utc_offset": 540,
         "vicinity": "631-34 Minsokhaean-ro, Pyoseon-myeon, Seogwipo",
         "website": "https://jejufolk.com/index.php",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Jusangjeollidae": {
         "address_components": [
@@ -25699,7 +26109,12 @@
         "utc_offset": 540,
         "vicinity": "Jungmun-dong, Seogwipo-si",
         "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000020476",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Alive Museum Jeju": {
         "address_components": [
@@ -26122,7 +26537,14 @@
         "utc_offset": 540,
         "vicinity": "42 Jungmungwangwang-ro, Seogwipo",
         "website": "http://en.alivemuseum.com/branch/jeju/guide_n",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Namwon Keuneong Promenade": {
         "address_components": [
@@ -26533,7 +26955,12 @@
         "user_ratings_total": 1643,
         "utc_offset": 540,
         "vicinity": "\ub0a8\uc6d0\uc74d \ub0a8\uc6d0 2\ub9ac, \uc11c\uadc0\ud3ec\uc2dc",
-        "website": "http://korean.visitkorea.or.kr/kor/bz15/where/where_main_search.jsp?cid=128795"
+        "website": "http://korean.visitkorea.or.kr/kor/bz15/where/where_main_search.jsp?cid=128795",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Soesokkak": {
         "address_components": [
@@ -26815,7 +27242,12 @@
         "user_ratings_total": 14371,
         "utc_offset": 540,
         "vicinity": "138 Soesokkak-ro, Seogwipo",
-        "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500384"
+        "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500384",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Andol Oreum": {
         "address_components": [
@@ -27058,7 +27490,12 @@
         "user_ratings_total": 188,
         "utc_offset": 540,
         "vicinity": "\uc0b066-2 Songdang-ri, Gujwa-eup, Cheju",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Sanyang Keunkot Photo Spot": {
         "address_components": [
@@ -27486,7 +27923,12 @@
         "utc_offset": 540,
         "vicinity": "956-6 Cheongsu-ri, Hangyeong-myeon, Cheju",
         "website": "https://www.instagram.com/sanyang_keunkot/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Swiss Village": {
         "address_components": [
@@ -27914,7 +28356,12 @@
         "utc_offset": 540,
         "vicinity": "566-27 Hamwa-ro, Jocheon-eup, Cheju",
         "website": "http://www.jejuswiss.com/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Lee Jung Seop Street": {
         "address_components": [
@@ -28327,7 +28774,14 @@
         "user_ratings_total": 4030,
         "utc_offset": 540,
         "vicinity": "Seogwi-dong, Seogwipo-si",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "\ud55c\ub77c\uc0b0\uad6d\ub9bd\uacf5\uc6d0 \uc601\uc2e4 \ud0d0\ubc29\ub85c": {
         "address_components": [
@@ -28571,7 +29025,12 @@
         "utc_offset": 540,
         "vicinity": "246 Yeongsil-ro, Jungmun-dong, Seogwipo",
         "website": "http://www.jeju.go.kr/hallasan/info/info/realtime/course02.htm",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Shiri": {
         "address_components": [
@@ -28797,7 +29256,12 @@
         "url": "https://maps.google.com/?cid=13605549103010636335",
         "user_ratings_total": 589,
         "utc_offset": 540,
-        "vicinity": "Saekdal-dong, Seogwipo-si"
+        "vicinity": "Saekdal-dong, Seogwipo-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Cheonjeyeon Waterfall": {
         "address_components": [
@@ -29229,7 +29693,12 @@
         "user_ratings_total": 5692,
         "utc_offset": 540,
         "vicinity": "2232 Jungmun-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
-        "website": "https://www.visitjeju.net/s/2000000000019331"
+        "website": "https://www.visitjeju.net/s/2000000000019331",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Cheonjiyeon Waterfalls": {
         "address_components": [
@@ -29648,7 +30117,12 @@
         "utc_offset": 540,
         "vicinity": "2-15 Namseongjung-ro, Seogwipo",
         "website": "https://www.visitjeju.net/u/E7n",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Dombenanggol": {
         "address_components": [
@@ -29923,7 +30397,12 @@
         "user_ratings_total": 344,
         "utc_offset": 540,
         "vicinity": "1619 Hogeun-dong, Seogwipo",
-        "website": "https://www.visitjeju.net/u/DCt"
+        "website": "https://www.visitjeju.net/u/DCt",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Eongtto Falls": {
         "address_components": [
@@ -30159,7 +30638,12 @@
         "user_ratings_total": 896,
         "utc_offset": 540,
         "vicinity": "121-4 Yeomdon-ro, Seogwipo",
-        "website": "https://www.visitjeju.net/u/101"
+        "website": "https://www.visitjeju.net/u/101",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jungmun Tourist Complex": {
         "address_components": [
@@ -30393,7 +30877,12 @@
         "utc_offset": 540,
         "vicinity": "Saekdal-dong, Seogwipo-si",
         "website": "http://jejuresort.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Seogwipo Tourist Port": {
         "address_components": [
@@ -30668,7 +31157,12 @@
         "user_ratings_total": 149,
         "utc_offset": 540,
         "vicinity": "33-1 Seogwi-dong, Seogwipo",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Sumdo": {
         "address_components": [
@@ -31022,7 +31516,14 @@
         "url": "https://maps.google.com/?cid=14770067734513166797",
         "utc_offset": 540,
         "vicinity": "8941 Iljudong-ro, Seogwipo",
-        "website": "http://www.seokbujak.com/"
+        "website": "http://www.seokbujak.com/",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "\uc18c\ub0ad\uba38\ub9ac": {
         "address_components": [
@@ -31299,7 +31800,12 @@
         "user_ratings_total": 93,
         "utc_offset": 540,
         "vicinity": "Seogwi-dong, Seogwipo-si",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Seogwipo Forest of Healing": {
         "address_components": [
@@ -31728,7 +32234,14 @@
         "utc_offset": 540,
         "vicinity": "2271 Sallongnam-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
         "website": "https://seogwipo.go.kr/healing/index.htm",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Sojeongbang Waterfall": {
         "address_components": [
@@ -32013,7 +32526,12 @@
         "utc_offset": 540,
         "vicinity": "278 Donghong-dong, Seogwipo",
         "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500373",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Sanmool Tourist Farm (Cafe, Museum, Farm)": {
         "address_components": [
@@ -32449,7 +32967,12 @@
         "user_ratings_total": 75,
         "utc_offset": 540,
         "vicinity": "KR, 90 Namwon-eup, Harye-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
-        "website": "https://smartstore.naver.com/sanmool/products/5594047689"
+        "website": "https://smartstore.naver.com/sanmool/products/5594047689",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Munseom Baby Island": {
         "address_components": [
@@ -32649,7 +33172,12 @@
         "url": "https://maps.google.com/?cid=17579957597959440943",
         "user_ratings_total": 3,
         "utc_offset": 540,
-        "vicinity": "\uc0b05 Seogwi-dong, Seogwipo"
+        "vicinity": "\uc0b05 Seogwi-dong, Seogwipo",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Seogeondo Island": {
         "address_components": [
@@ -32927,7 +33455,12 @@
         "utc_offset": 540,
         "vicinity": "\uc0b01-1 Gangjeong-dong, Seogwipo",
         "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500316",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\uc11c\uadc0\ud3ec\uce35\ud328\ub958\ud654\uc11d": {
         "address_components": [
@@ -33163,7 +33696,12 @@
         "user_ratings_total": 13,
         "utc_offset": 540,
         "vicinity": "43 Namseongjung-ro, \ucc9c\uc9c0\ub3d9, Seogwipo",
-        "website": "http://jejuresort.kr/"
+        "website": "http://jejuresort.kr/",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\ucd94\uc5b5\uc758 \uc232\uae38": {
         "address_components": [
@@ -33389,7 +33927,12 @@
         "url": "https://maps.google.com/?cid=4698067354447248226",
         "user_ratings_total": 22,
         "utc_offset": 540,
-        "vicinity": "\uc0b05-1 Hogeun-dong, Seogwipo"
+        "vicinity": "\uc0b05-1 Hogeun-dong, Seogwipo",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\uad11\uce58\uae30\ud574\ubcc0 Gwangchigi Beach": {
         "address_components": [
@@ -33688,7 +34231,12 @@
         "url": "https://maps.google.com/?cid=2141827691558427908",
         "user_ratings_total": 702,
         "utc_offset": 540,
-        "vicinity": "224-33 Goseong-ri, Seongsan-eup, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo"
+        "vicinity": "224-33 Goseong-ri, Seongsan-eup, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Seopseom": {
         "address_components": [
@@ -33932,7 +34480,12 @@
         "utc_offset": 540,
         "vicinity": "KR, \uc0b01-1 \uc1a1\uc0b0\ub3d9, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
         "website": "http://jejuresort.kr/",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Dorippal Coast": {
         "address_components": [
@@ -34212,7 +34765,12 @@
         "user_ratings_total": 5,
         "utc_offset": 540,
         "vicinity": "2600 Daepo-dong, Seogwipo",
-        "website": "https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_200000000009231"
+        "website": "https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_200000000009231",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Seongeup Folk Village": {
         "address_components": [
@@ -34462,7 +35020,12 @@
         "utc_offset": 540,
         "vicinity": "30\ubc88\uc9c0 Seongeupjeonguihyeon-ro, Pyoseon-myeon, Seogwipo",
         "website": "https://www.jeju.go.kr/seongeup/index.htm",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\uc2e0\uc120\ubc14\uc704": {
         "address_components": [
@@ -34681,7 +35244,12 @@
         "url": "https://maps.google.com/?cid=3732422247763397936",
         "user_ratings_total": 15,
         "utc_offset": 540,
-        "vicinity": "Seogwi-dong, Seogwipo-si"
+        "vicinity": "Seogwi-dong, Seogwipo-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jaguri Park": {
         "address_components": [
@@ -34964,7 +35532,12 @@
         "user_ratings_total": 1295,
         "utc_offset": 540,
         "vicinity": "38-3 \uc1a1\uc0b0\ub3d9, Seogwipo",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Saeseom Island Saeyeongyo Bridge": {
         "address_components": [
@@ -35255,7 +35828,13 @@
         "utc_offset": 540,
         "vicinity": "40 Namseongjung-ro, Seogwi-dong, Seogwipo",
         "website": "http://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500312",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening",
+            "night"
+        ]
     },
     "Hello Kitty Island": {
         "address_components": [
@@ -35687,7 +36266,14 @@
         "utc_offset": 540,
         "vicinity": "340 Hanchang-ro, Andeok-myeon, Cheju",
         "website": "http://www.hellokittyisland.co.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "\uc790\uad6c\ub9ac\ubb3c": {
         "address_components": [
@@ -35809,7 +36395,12 @@
         ],
         "url": "https://maps.google.com/?cid=1566138121423464876",
         "utc_offset": 540,
-        "vicinity": "33 Seogwi-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo"
+        "vicinity": "33 Seogwi-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Olle Trail Course 7": {
         "address_components": [
@@ -36090,7 +36681,12 @@
         "url": "https://maps.google.com/?cid=16271786809821898205",
         "user_ratings_total": 6,
         "utc_offset": 540,
-        "vicinity": "795-4 Seohong-dong, Seogwipo"
+        "vicinity": "795-4 Seohong-dong, Seogwipo",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Donnaeko Valley": {
         "address_components": [
@@ -36334,7 +36930,12 @@
         "utc_offset": 540,
         "vicinity": "1463 Sanghyo-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
         "website": "http://www.visitjeju.net/ko/tourView.jto?menuCd=DOM_000001717007000000&areaId=CONT_000000000500146",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Yeomiji Botanical Garden": {
         "address_components": [
@@ -36766,7 +37367,14 @@
         "user_ratings_total": 3514,
         "utc_offset": 540,
         "vicinity": "93 Jungmungwangwang-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "\uac00\uc744\ub3d9\ud654\uac10\uade4\ubc2d": {
         "address_components": [
@@ -36904,7 +37512,12 @@
         "url": "https://maps.google.com/?cid=12392139549761982568",
         "user_ratings_total": 1,
         "utc_offset": 540,
-        "vicinity": "1273-5 Seohong-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo"
+        "vicinity": "1273-5 Seohong-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
+        "suitable_times_list": [
+            "morning",
+            "noon",
+            "afternoon"
+        ]
     },
     "Unmulgyo Bridge": {
         "address_components": [
@@ -37128,7 +37741,12 @@
         "url": "https://maps.google.com/?cid=14771452979205863085",
         "user_ratings_total": 8,
         "utc_offset": 540,
-        "vicinity": "Seohong-dong, Seogwipo-si"
+        "vicinity": "Seohong-dong, Seogwipo-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Soingook Theme Park": {
         "address_components": [
@@ -37561,7 +38179,14 @@
         "utc_offset": 540,
         "vicinity": "347 Hwasunseodong-ro, Andeok-myeon, Seogwipo",
         "website": "http://www.soingook.com/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Seri World": {
         "address_components": [
@@ -37989,7 +38614,14 @@
         "utc_offset": 540,
         "vicinity": "97-13 Beophwansang-ro 2beon-gil, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
         "website": "https://seriworld.modoo.at/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Cheonjiyeon Falls": {
         "address_components": [
@@ -38213,7 +38845,12 @@
         "url": "https://maps.google.com/?cid=17698982314363200727",
         "user_ratings_total": 6,
         "utc_offset": 540,
-        "vicinity": "\ucc9c\uc9c0\ub3d9, \uc11c\uadc0\ud3ec\uc2dc"
+        "vicinity": "\ucc9c\uc9c0\ub3d9, \uc11c\uadc0\ud3ec\uc2dc",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Cheonjiyeon Falls Ticket Office": {
         "address_components": [
@@ -38719,7 +39356,12 @@
         "url": "https://maps.google.com/?cid=11420496851131634360",
         "user_ratings_total": 3,
         "utc_offset": 540,
-        "vicinity": "2-15 Namseongjung-ro, \ucc9c\uc9c0\ub3d9, Seogwipo"
+        "vicinity": "2-15 Namseongjung-ro, \ucc9c\uc9c0\ub3d9, Seogwipo",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju International Peace Centre": {
         "address_components": [
@@ -39156,7 +39798,14 @@
         "utc_offset": 540,
         "vicinity": "KR, 227-24 \uc911\ubb38\ub3d9 Jungmungwangwang-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
         "website": "http://www.jipc.or.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Magsug": {
         "address_components": [
@@ -39243,7 +39892,12 @@
         ],
         "url": "https://maps.google.com/?cid=9389907539727935180",
         "utc_offset": 540,
-        "vicinity": "287-3 Beophwan-dong, Seogwipo"
+        "vicinity": "287-3 Beophwan-dong, Seogwipo",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Gwang-Won": {
         "address_components": [
@@ -39325,7 +39979,12 @@
         ],
         "url": "https://maps.google.com/?cid=9652426397946910647",
         "utc_offset": 540,
-        "vicinity": "251-1 Seogwi-dong, Seogwipo"
+        "vicinity": "251-1 Seogwi-dong, Seogwipo",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Munseom Island": {
         "address_components": [
@@ -39560,7 +40219,12 @@
         "utc_offset": 540,
         "vicinity": "\uc0b04 Seogwi-dong, Seogwipo",
         "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500200#",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Saeseom": {
         "address_components": [
@@ -39963,7 +40627,12 @@
         "user_ratings_total": 171,
         "utc_offset": 540,
         "vicinity": "Seogwi-dong, Seogwipo-si",
-        "website": "http://jejuresort.kr/"
+        "website": "http://jejuresort.kr/",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Waljong Art Museum": {
         "address_components": [
@@ -40344,7 +41013,12 @@
         "user_ratings_total": 296,
         "utc_offset": 540,
         "vicinity": "\uc81c\uc8fc\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \uce60\uc2ed\ub9ac\ub85c 214\ubc88\uae38 30(\ub3d9\ud64d\ub3d9), Seogwipo",
-        "website": "http://www.walartmuseum.or.kr/"
+        "website": "http://www.walartmuseum.or.kr/",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\u0412\u043e\u0434\u043e\u043f\u0430\u0434 \u0440\u044f\u0434\u043e\u043c \u0441 \u0421\u043e\u0433\u0432\u0438\u043f\u0445\u043e": {
         "address_components": [
@@ -40424,7 +41098,12 @@
         ],
         "url": "https://maps.google.com/?cid=2620392737341354895",
         "utc_offset": 540,
-        "vicinity": "\ucc9c\uc9c0\ub3d9, \uc11c\uadc0\ud3ec\uc2dc"
+        "vicinity": "\ucc9c\uc9c0\ub3d9, \uc11c\uadc0\ud3ec\uc2dc",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Shinhwa Theme Park": {
         "address_components": [
@@ -40865,7 +41544,14 @@
         "user_ratings_total": 3293,
         "utc_offset": 540,
         "vicinity": "98 Sinhwayeoksa-ro 304beon-gil, Andeok-myeon, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Seogwipo Olle Market": {
         "address_components": [
@@ -41297,7 +41983,12 @@
         "utc_offset": 540,
         "vicinity": "18 Jungang-ro 62beon-gil, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
         "website": "https://www.facebook.com/%EC%84%9C%EA%B7%80%ED%8F%AC-%EB%A7%A4%EC%9D%BC%EC%98%AC%EB%A0%88%EC%8B%9C%EC%9E%A5-103114082376532/reviews/?ref=page_internal",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Beophwan Port": {
         "address_components": [
@@ -41572,7 +42263,12 @@
         "user_ratings_total": 1570,
         "utc_offset": 540,
         "vicinity": "Beophwan-dong, Seogwipo-si",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Camellia Hill Botanical Garden": {
         "address_components": [
@@ -42005,7 +42701,14 @@
         "utc_offset": 540,
         "vicinity": "166 Byeongak-ro, Andeok-myeon, Seogwipo",
         "website": "https://www.camelliahill.co.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Hueree Nature Life Park": {
         "address_components": [
@@ -42438,7 +43141,12 @@
         "utc_offset": 540,
         "vicinity": "256 Sillyedong-ro, Namwon-eup, Seogwipo",
         "website": "http://www.hueree.com/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\ubc95\ud658\ud574\ub140\uccb4\ud5d8\uc13c\ud130": {
         "address_components": [
@@ -42534,7 +43242,13 @@
         ],
         "url": "https://maps.google.com/?cid=6370111136054060622",
         "utc_offset": 540,
-        "vicinity": "10 Choeyeong-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo"
+        "vicinity": "10 Choeyeong-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
+        "suitable_times_list": [
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Witseoreum Volcanic Cone of Hallasan Mountain": {
         "address_components": [
@@ -42728,7 +43442,12 @@
         "url": "https://maps.google.com/?cid=12580975602956441749",
         "user_ratings_total": 1,
         "utc_offset": 540,
-        "vicinity": "Seoho-dong, Seogwipo-si"
+        "vicinity": "Seoho-dong, Seogwipo-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju herb garden": {
         "address_components": [
@@ -43161,7 +43880,12 @@
         "utc_offset": 540,
         "vicinity": "170 Donoreum-ro, Pyoseon-myeon, Seogwipo",
         "website": "http://www.herbdongsan.com/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Cha cha": {
         "address_components": [
@@ -43306,7 +44030,12 @@
         "url": "https://maps.google.com/?cid=564285510278517940",
         "user_ratings_total": 1,
         "utc_offset": 540,
-        "vicinity": "555 \uc1a1\uc0b0\ub3d9, Seogwipo"
+        "vicinity": "555 \uc1a1\uc0b0\ub3d9, Seogwipo",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Seongsan Ilchulbong": {
         "address_components": [
@@ -43709,7 +44438,12 @@
         "user_ratings_total": 4624,
         "utc_offset": 540,
         "vicinity": "78 Seongsan-ri, Seongsan-eup, Seogwipo",
-        "website": "https://www.visitjeju.net/u/949"
+        "website": "https://www.visitjeju.net/u/949",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Ilchul Land": {
         "address_components": [
@@ -44142,7 +44876,12 @@
         "utc_offset": 540,
         "vicinity": "4150-30 Jungsangandong-ro, Seongsan-eup, Seogwipo",
         "website": "http://www.ilchulland.com/?lang=ko",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Raon The Ma Park": {
         "address_components": [
@@ -44574,7 +45313,12 @@
         "utc_offset": 540,
         "vicinity": "\uc0b08 Wolrim-ri, Hallim-eup, Cheju",
         "website": "http://www.mapark.co.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\ud574\uac70\ub984\uc804\ub9dd\ub300": {
         "address_components": [
@@ -44998,7 +45742,12 @@
         "url": "https://maps.google.com/?cid=5853789797971866878",
         "user_ratings_total": 442,
         "utc_offset": 540,
-        "vicinity": "1608 Panpo-ri, Hangyeong-myeon, Cheju"
+        "vicinity": "1608 Panpo-ri, Hangyeong-myeon, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Sinchang Windmill Coastal Road": {
         "address_components": [
@@ -45291,7 +46040,12 @@
         "url": "https://maps.google.com/?cid=9093784627195456428",
         "user_ratings_total": 2491,
         "utc_offset": 540,
-        "vicinity": "1323 Sinchang-ri, Hangyeong-myeon, Cheju"
+        "vicinity": "1323 Sinchang-ri, Hangyeong-myeon, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeonmul Oreum": {
         "address_components": [
@@ -45517,7 +46271,12 @@
         "url": "https://maps.google.com/?cid=8000213385517161196",
         "user_ratings_total": 171,
         "utc_offset": 540,
-        "vicinity": "Bonggae-dong, Jeju-si"
+        "vicinity": "Bonggae-dong, Jeju-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Osulloc Tea Museum": {
         "address_components": [
@@ -45959,7 +46718,14 @@
         "utc_offset": 540,
         "vicinity": "15 Sinhwayeoksa-ro, Andeok-myeon, \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo",
         "website": "https://www.osulloc.com/kr/ko/museum",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Jeju Museum of Contemporary Art": {
         "address_components": [
@@ -46361,7 +47127,14 @@
         "utc_offset": 540,
         "vicinity": "35 Jeoji 14-gil, Cheju",
         "website": "https://www.jeju.go.kr/jejumuseum/index.htm",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Jeju Folklore and Natural History Museum": {
         "address_components": [
@@ -46763,7 +47536,14 @@
         "utc_offset": 540,
         "vicinity": "40 Samseong-ro, Cheju",
         "website": "http://www.jeju.go.kr/museum/index.htm",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Keunnokkome Oreum": {
         "address_components": [
@@ -47006,7 +47786,12 @@
         "utc_offset": 540,
         "vicinity": "\uc0b0255-4 Sogil-ri, Aewol-eup, Cheju",
         "website": "https://www.visitjeju.net/u/B1y",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju World Natural Heritage Center": {
         "address_components": [
@@ -47438,7 +48223,14 @@
         "utc_offset": 540,
         "vicinity": "569-36 Seongyo-ro, Jocheon-eup, Cheju",
         "website": "http://www.jeju.go.kr/wnhcenter/index.htm",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "noon",
+            "afternoon",
+            "evening"
+        ]
     },
     "Jeju Hangil (Anti-Japanese) Memorial Museum": {
         "address_components": [
@@ -47693,7 +48485,12 @@
         "user_ratings_total": 206,
         "utc_offset": 540,
         "vicinity": "303 Sinbuk-ro, Jocheon-eup, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Baekyaki Oreum Volcanic Cone": {
         "address_components": [
@@ -47930,7 +48727,12 @@
         "utc_offset": 540,
         "vicinity": "\uc0b01 Seongub-ri, Pyoseon-myeon, Seogwipo",
         "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500232",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju Horse Park": {
         "address_components": [
@@ -48358,7 +49160,12 @@
         "utc_offset": 540,
         "vicinity": "381-15 Noksan-ro, Pyoseon-myeon, Seogwipo",
         "website": "http://www.jejuhorsepark.co.kr/",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Ctesiphon house": {
         "address_components": [
@@ -48649,7 +49456,12 @@
         "user_ratings_total": 845,
         "utc_offset": 540,
         "vicinity": "135 Geumak-ri, Hallim-eup, Cheju",
-        "website": "http://www.heritage.go.kr/heri/cul/culSelectDetail.do?culPageNo=41&region=&searchCondition=&searchCondition2=&s_kdcd=&s_ctcd=50&ccbaKdcd=79&ccbaAsno=08120000&ccbaCtcd=50&ccbaCpno=4415008120000&ccbaCndt=&ccbaLcto=&stCcbaAsno=&endCcbaAsno=&stCcbaAsdt=&endCcbaAsdt=&ccbaPcd1=&chGubun=&header=region&returnUrl=/heri/cul/culSelectRegionList.do&pageNo__=2_1_1_1&sngl=Y&pageNo=1_1_2_0"
+        "website": "http://www.heritage.go.kr/heri/cul/culSelectDetail.do?culPageNo=41&region=&searchCondition=&searchCondition2=&s_kdcd=&s_ctcd=50&ccbaKdcd=79&ccbaAsno=08120000&ccbaCtcd=50&ccbaCpno=4415008120000&ccbaCndt=&ccbaLcto=&stCcbaAsno=&endCcbaAsno=&stCcbaAsdt=&endCcbaAsdt=&ccbaPcd1=&chGubun=&header=region&returnUrl=/heri/cul/culSelectRegionList.do&pageNo__=2_1_1_1&sngl=Y&pageNo=1_1_2_0",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Byeolbangjin Fortress": {
         "address_components": [
@@ -48940,7 +49752,12 @@
         "user_ratings_total": 596,
         "utc_offset": 540,
         "vicinity": "3354 Hado-ri, Gujwa-eup, Cheju",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "\uc783\uc5b4\ubc84\ub9b0 \ub9c8\uc744 \uace4\uc744\ub3d9 (\uace4\ud758\ub3d9 4\u00b73 \uc720\uc801\uc9c0)": {
         "address_components": [
@@ -49177,7 +49994,12 @@
         "utc_offset": 540,
         "vicinity": "4416 Hwabuk 1(il)-dong, Cheju",
         "website": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000022852",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jeju 4 \u00b7 3 Peace Park": {
         "address_components": [
@@ -49606,7 +50428,12 @@
         "utc_offset": 540,
         "vicinity": "430 Myeongnim-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4, Cheju",
         "website": "https://jeju43peace.or.kr/kor/sub05_01.do",
-        "wheelchair_accessible_entrance": true
+        "wheelchair_accessible_entrance": true,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Gimnyeong Beach Lighthouse": {
         "address_components": [
@@ -49889,7 +50716,12 @@
         "url": "https://maps.google.com/?cid=13386502442582797660",
         "user_ratings_total": 119,
         "utc_offset": 540,
-        "vicinity": "Gimnyeong-ri, Gujwa-eup, Jeju-si"
+        "vicinity": "Gimnyeong-ri, Gujwa-eup, Jeju-si",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jimibong": {
         "address_components": [
@@ -50182,7 +51014,12 @@
         "utc_offset": 540,
         "vicinity": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4, 266 Gujwa-eup, Jongdal-ri, Cheju",
         "website": "https://m.visitjeju.net/en/detail/view?contentsid=CONT_000000000500610",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Jimi Oreum": {
         "address_components": [
@@ -50566,7 +51403,12 @@
         "user_ratings_total": 237,
         "utc_offset": 540,
         "vicinity": "\uc0b03-1 Jongdal-ri, Gujwa-eup, Cheju",
-        "wheelchair_accessible_entrance": false
+        "wheelchair_accessible_entrance": false,
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     },
     "Saengi-gijeong": {
         "address_components": [
@@ -50808,6 +51650,11 @@
         "url": "https://maps.google.com/?cid=3795636480904238416",
         "user_ratings_total": 52,
         "utc_offset": 540,
-        "vicinity": "\uc0b059 Yongsu-ri, Hangyeong-myeon, Cheju"
+        "vicinity": "\uc0b059 Yongsu-ri, Hangyeong-myeon, Cheju",
+        "suitable_times_list": [
+            "dawn",
+            "morning",
+            "evening"
+        ]
     }
 }
