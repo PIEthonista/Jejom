@@ -9,7 +9,7 @@ from firebase_admin import credentials, firestore
 from llama_index.core import Settings
 from llama_index.llms.upstage import Upstage
 from llama_index.embeddings.upstage import UpstageEmbedding
-from image_generator import get_place_img
+from image_generator import add_images_to_script, get_place_img
 from scripts.script import ScriptGenerator, Translator
 from utils import read_file
 
@@ -44,8 +44,6 @@ pipeline = PipelineV2(
     firestore_db             = db,
     firestore_db_path        = 'script_restaurant'
 )
-
-
 
 @app.route('/')
 def home():
@@ -124,14 +122,14 @@ def generate_script():
             print(f"[Generate Script took {time.time() - start_time} secs]")
 
             return jsonify({
-                "eng_script": read_file(output_json_path, "json"),
-                "kor_script": read_file(output_file_path, "json"),
+                "eng_script": add_images_to_script(read_file(output_json_path, "json")),
+                "kor_script": add_images_to_script(read_file(output_file_path, "json")),
             })
 
         else:
             return jsonify({
-                "eng_script": read_file("output_folder/script.json", "json"),
-                "kor_script": read_file("output_folder/translated_output.json", "json"),
+                "eng_script": add_images_to_script(read_file("output_folder/script.json", "json")),
+                "kor_script": add_images_to_script(read_file("output_folder/translated_output.json", "json")),
             })
     except Exception as e:
         return jsonify({"error": f"Error generating script: {e}"})
