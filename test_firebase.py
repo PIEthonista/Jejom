@@ -48,12 +48,6 @@ def upload_restaurant_data():
             db.collection(collection_name).document(uuid_v4).set(restaurant_data)
             print(f"Uploaded {place_name} to Firestore.")
 
-            place_count += 1
-
-            if place_count >= 5:
-                print("Uploaded 5 places. Stopping.")
-                break
-
         except KeyError as e:
             print(f"Skipping {place_name}: Missing field {e}")
 

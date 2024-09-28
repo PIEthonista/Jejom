@@ -34,6 +34,8 @@ def generate_upstage_response(input: str):
 
 def extract_photo_reference(trip: dict):
     for key, value in trip.items():
+        if not key in ['accomodations', 'destinations']:
+            continue
         for entry in value:
             if not isinstance(entry['Photos'], list):
                 continue
@@ -42,4 +44,7 @@ def extract_photo_reference(trip: dict):
                 photo_refs.append(photo['photo_reference'])
             entry['Photos'] = photo_refs
     return trip
-            
+
+# if __name__ == '__main__':
+#     trip_dict = read_file('sample_usages/generate_trip.json', 'json')['data']
+#     print(extract_photo_reference(trip_dict))

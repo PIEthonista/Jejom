@@ -11,7 +11,7 @@ from llama_index.llms.upstage import Upstage
 from llama_index.embeddings.upstage import UpstageEmbedding
 from image_generator import add_images_to_script, get_place_img
 from scripts.script import ScriptGenerator, Translator
-from utils import read_file
+from utils import extract_photo_reference, read_file
 
 
 
@@ -79,7 +79,8 @@ def generate_trip():
         )
         trip_dict['thumbnail'] = get_place_img(trip_dict['title'])
         print(f"[Generate Trip took {time.time() - start_time} secs]")
-    return jsonify({'data': trip_dict})
+    flattened_trip_dict = extract_photo_reference(trip_dict)
+    return jsonify({'data': flattened_trip_dict})
 
 
 @app.route('/generate_script', methods=['POST'])
