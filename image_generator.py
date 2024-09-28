@@ -80,28 +80,29 @@ def get_place_img(title: str):
     return get_pexel_img(place_name)
 
 def extract_name_from_title(title: str):
-    extract_title_prompt = '''
-    You are given a title of a travel itenerary. You need to extract the name of the travel destination from the title.
-    You should generate based on the following guidelines:
-    - ONLY extract and output the name of the travel destination from the title.
+    # extract_title_prompt = '''
+    # You are given a title of a travel itenerary. You need to extract the name of the travel destination from the title.
+    # You should generate based on the following guidelines:
+    # - ONLY extract and output the name of the travel destination from the title.
     
-    For example,
-    Title: Exploring Jeju's Natural Wonders: A Week-Long Adventure
-    Response: Jeju
+    # For example,
+    # Title: Exploring Jeju's Natural Wonders: A Week-Long Adventure
+    # Response: Jeju
 
-    Title: Discovering the Hidden Gems of Seoul: A 5-Day Itinerary
-    Response: Seoul
+    # Title: Discovering the Hidden Gems of Seoul: A 5-Day Itinerary
+    # Response: Seoul
 
-    Title: Exploring the Temples of Kyoto: A Cultural Journey
-    Response: Kyoto
+    # Title: Exploring the Temples of Kyoto: A Cultural Journey
+    # Response: Kyoto
 
-    Title: {title}
-    Response: 
-    '''
-    input_text = extract_title_prompt.format(title=title)
-    response = generate_upstage_response(input_text)
+    # Title: {title}
+    # Response: 
+    # '''
+    # input_text = extract_title_prompt.format(title=title)
+    # response = generate_upstage_response(input_text)
 
-    return response
+    # return response
+    return 'Jeju'
 
 def add_images_to_script(script: dict):
     keyword_dict = generate_keyword_from_script(script['Script Planner'])
