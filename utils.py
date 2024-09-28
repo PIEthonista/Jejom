@@ -37,7 +37,7 @@ def extract_photo_reference(trip: dict):
         if not key in ['accomodations', 'destinations']:
             continue
         for entry in value:
-            if not isinstance(entry['Photos'], list):
+            if not isinstance(entry['Photos'], list) or not all(isinstance(item, dict) for item in entry['Photos']):
                 continue
             photo_refs = []
             for photo in entry['Photos']:

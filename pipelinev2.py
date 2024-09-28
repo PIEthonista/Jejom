@@ -417,9 +417,9 @@ class PipelineV2():
             num_person = 1
         
         departure_IATA = str(Settings.llm.complete(departure_airport_IATA_extraction.format(user_specs=user_specs))).strip().upper()
-        
+        print(departure_IATA)
         travel_class = int(str(Settings.llm.complete(flight_class_selection_prompt.format(user_query=query))).strip())
-        
+        print(travel_class)
         search_params = {
             "api_key": os.getenv(SERPAPI_API_KEY_VAE_NAME),
             "engine": "google_flights",
@@ -449,6 +449,7 @@ class PipelineV2():
         try:
             search = GoogleSearch(search_params)
             flights_dict = search.get_dict()
+            print(flights_dict)
         except Exception as e:
             print(f"[Get Flights] Error: {e}")
             flights_dict = None
@@ -537,7 +538,7 @@ class PipelineV2():
             elif isinstance(data, list):
                 for item in data:
                     convert_duration_to_string(item)
-        
+        print(found_departure, found_return)
         if found_departure and found_return:
             _ = departure_flight_dict.pop("price")
             price_total = return_flight_dict.pop("price")
@@ -649,7 +650,8 @@ class PipelineV2():
                     "Photos": photos,
                     "GooglePlaceID": self.tourist_spots_json_data[dest_name]['place_id'],
                     "GoogleMapsURL": url,
-                    "DestinationWebsiteURL": website
+                    "DestinationWebsiteURL": website,
+                    "id": None
                 }
             )
         
@@ -690,19 +692,19 @@ class PipelineV2():
         if ("none" in user_time_preference):
             DESTINATIONS_PER_DAY = 3
             visiting_times = ['morning', 'afternoon', 'evening']
-            MMG_visiting_times = ['afternoon', 'evening']
+            mmgc_visiting_times = ['afternoon', 'evening']
         if ("dawn" in user_time_preference) and not ("night" in user_time_preference):
             DESTINATIONS_PER_DAY = 4
             visiting_times = ['dawn', 'morning', 'afternoon', 'evening']
-            MMG_visiting_times = ['afternoon', 'evening']
+            mmgc_visiting_times = ['afternoon', 'evening']
         if ("night" in user_time_preference) and not ("dawn" in user_time_preference):
             DESTINATIONS_PER_DAY = 4
             visiting_times = ['morning', 'afternoon', 'evening', 'night']
-            MMG_visiting_times = ['afternoon', 'evening', 'night']
+            mmgc_visiting_times = ['afternoon', 'evening', 'night']
         if ("dawn" in user_time_preference) and ("night" in user_time_preference):
             DESTINATIONS_PER_DAY = 5
             visiting_times = ['dawn', 'morning', 'afternoon', 'evening', 'night']
-            MMG_visiting_times = ['afternoon', 'evening', 'night']
+            mmgc_visiting_times = ['afternoon', 'evening', 'night']
         
         # preserve original rank
         tmp = []
@@ -843,27 +845,19 @@ class PipelineV2():
                     "Rating": rating,           # possibly useful for reccomendations
                     "NumRating": num_ratings,
                     "GoogleMapsURL": url,
-                    "AccomodationWebsiteURL": website
+                    "AccomodationWebsiteURL": website,
+                    "id": None
                 }
             )
-
-
-        # get firestore MMG cafes
-        docs = self.firestore_db.collection(self.firestore_db_path).get()
-        docs_formatted = []
-        for doc in docs:
-            doc_dict = doc.to_dict()
-            doc_dict['place_id'] = str(doc.id)
-            doc_dict['isMurderMysteryCafe'] = True
-            doc_dict['Latitude'] = doc_dict.pop('lat')
-            doc_dict['Longitude'] = doc_dict.pop('long')
-            docs_formatted.append(doc_dict)
 
 
         date_dict = dict()
         list_of_selected_accom_dicts = []
         valid_counter = 0
-        for date in dates:
+        
+        date_idx_to_add_mmgc = int(random.random() * (len(dates) - 1))
+        
+        for idx, date in enumerate(dates):
             current_date_dict = dict()
             current_date_destination_list = []
             
@@ -888,11 +882,96 @@ class PipelineV2():
                         dest['isMurderMysteryCafe'] = False
                         current_date_destination_list.append(dest)
                         break
-            current_date_dict['destination'] = current_date_destination_list
+            # current_date_dict['destination'] = current_date_destination_list
             
             destination_average_lat_long = get_lat_long_average(current_date_destination_list)
             distanced_accomodations_list_of_dict = get_batch_distance(destination_average_lat_long[0], destination_average_lat_long[1], accomodations_list_of_dict)
-            distanced_docs_formatted = get_batch_distance(destination_average_lat_long[0], destination_average_lat_long[1], docs_formatted)
+            
+            if idx == date_idx_to_add_mmgc:
+                # get firestore MMG cafes
+                docs = self.firestore_db.collection(self.firestore_db_path).get()
+                mmgc_docs_formatted = []
+                for doc in docs:
+                    doc_dict = doc.to_dict()
+                    doc_dict['id'] = str(doc.id)
+                    doc_dict['isMurderMysteryCafe'] = True
+                    doc_dict['Latitude'] = float(doc_dict['geometry']['location']['lat'])
+                    doc_dict['Longitude'] = float(doc_dict['geometry']['location']['lng'])
+                    mmgc_docs_formatted.append(doc_dict)
+                distanced_mmgc_docs_formatted = get_batch_distance(destination_average_lat_long[0], destination_average_lat_long[1], mmgc_docs_formatted)
+                distanced_mmgc_docs_formatted = sorted(distanced_mmgc_docs_formatted, key=lambda x: x['_distance_from_target'], reverse=True)
+                
+                time_of_day = mmgc_visiting_times[-1]
+                new_date_destination_list = copy.deepcopy(current_date_destination_list)
+                for index, _dest in enumerate(current_date_destination_list):
+                    if time_of_day in _dest['visitingTime']:
+                        mmgc = distanced_mmgc_docs_formatted[0]
+                        mmgc.pop('_distance_from_target')
+                        
+                        id = mmgc['id']
+                        dest_name = mmgc['name']
+                        desc = mmgc['description']
+                        google_place_id = mmgc['place_id']
+                        price = "Not available"  # TODO: FIX
+                        address = str(mmgc['address'])   # formatted_address
+                        lat = float(mmgc['geometry']['location']['lat'])
+                        lng = float(mmgc['geometry']['location']['lng'])
+                        # rating
+                        if 'rating' in mmgc.keys():
+                            rating = str(mmgc['rating'])
+                        else:
+                            rating = "Not Available"
+                        # num ratings
+                        if 'user_ratings_total' in mmgc.keys():
+                            num_ratings = int(mmgc['user_ratings_total'])
+                        else:
+                            num_ratings = 0
+                        # opening hours
+                        if "current_opening_hours" in mmgc.keys():
+                            if "weekday_text" in mmgc["current_opening_hours"].keys():
+                                opening_hours = mmgc["current_opening_hours"]["weekday_text"]
+                            else:
+                                opening_hours = ['Not Available']
+                        else:
+                            opening_hours = ['Not Available']
+                        # photos
+                        if "images" in mmgc.keys():
+                            photos = mmgc["images"]
+                        else:
+                            photos = []
+                        
+                        if 'website' in mmgc.keys():
+                            website = mmgc['website']
+                        else:
+                            website = None
+                        
+                        if 'url' in mmgc.keys():
+                            url = mmgc['url']
+                        else:
+                            url = None
+                        
+                        new_date_destination_list[index] = {
+                            "Name": dest_name,
+                            "Description": desc,
+                            "Price": price,
+                            "Address": address,
+                            "Latitude": lat,
+                            "Longitude": lng,
+                            "Rating": rating,
+                            "NumRating": num_ratings,
+                            "OpeningHours": opening_hours,
+                            "Photos": photos,
+                            "GooglePlaceID": google_place_id,
+                            "GoogleMapsURL": url,
+                            "DestinationWebsiteURL": website,
+                            "id": id,
+                            'startDate': str(date),
+                            'endDate': str(date),
+                            'visitingTime': str(time_of_day),
+                            'isMurderMysteryCafe': True
+                        }
+                current_date_destination_list = new_date_destination_list
+            
             
             # sort according to distance first, then only by preference
             sorted_accomodations_list_of_dict = sorted(
