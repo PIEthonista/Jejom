@@ -73,7 +73,7 @@ def get_pexel_img(query: str):
     
     response = requests.get(url, headers=headers)
     # print(f"{query}: {response.json()['photos']}")
-    return response.json()['photos'][0]['url']   
+    return response.json()['photos'][0]['src']['original']   
 
 def get_place_img(title: str):
     place_name = extract_name_from_title(title)
@@ -111,3 +111,6 @@ def add_images_to_script(script: dict):
     script['images'] = res['images']
     
     return script
+
+if __name__ == "__main__":
+    print(get_place_img("Jeju"))
