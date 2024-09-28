@@ -31,3 +31,15 @@ def generate_upstage_response(input: str):
     )
     
     return str(response)
+
+def extract_photo_reference(trip: dict):
+    for key, value in trip.items():
+        for entry in value:
+            if not isinstance(entry['Photos'], list):
+                continue
+            photo_refs = []
+            for photo in entry['Photos']:
+                photo_refs.append(photo['photo_reference'])
+            entry['Photos'] = photo_refs
+    return trip
+            
