@@ -7,8 +7,9 @@ from dotenv import load_dotenv
 from llama_index.core import Settings
 from llama_index.llms.upstage import Upstage
 from llama_index.embeddings.upstage import UpstageEmbedding
-from scripts.script import ScriptGenerator 
-from scripts.script import Translator
+from image_generator import get_place_img
+from scripts.script import ScriptGenerator, Translator
+from utils import read_file
 
 
 app = Flask(__name__)
@@ -43,7 +44,6 @@ def home():
 def generate_script():
     try:
         start_time = time.time()
-        # Get the JSON data from the request
         data = request.json
 
         # Extract the required fields from the JSON body
@@ -65,7 +65,7 @@ def generate_script():
         # Run tasks and generate script
         output_json_path, cafe_name = script_generator.run_tasks()
 
-        translator = Translator(api_key=UPSTAGE_API_KEY)
+        translator = Translator(api_key=os.getenv('UPSTAGE_API_KEY'))
 
         
         input_directory = "output_folder"
@@ -78,10 +78,12 @@ def generate_script():
         print(f"[Generate Trip took {time.time() - start_time} secs]")
 
 
-        return 'Generated'
-
+        return jsonify({
+            "eng_script": read_file(output_json_path, "json"),
+            "kor_script": read_file(output_file_path, "json"),
+        })
     except Exception as e:
-        return jsonify({"error": f"Error generating script: {e}"}), 500
+        return jsonify({"error": f"Error generating script: {e}"})
 
 app.route('/script', methods=['POST'])
 def display_script():
@@ -156,6 +158,7 @@ def generate_trip():
             end_user_specs=str(user_properties), 
             end_user_query=str(user_query)
         )
+        trip_dict['thumbnail'] = get_place_img(trip_dict['title'])
         print(f"[Generate Trip took {time.time() - start_time} secs]")
     return jsonify({'data': trip_dict})
 
