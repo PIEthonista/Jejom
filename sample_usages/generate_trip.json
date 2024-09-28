@@ -2,123 +2,10 @@
     "data": {
         "accomodations": [
             {
-                "Address": "58, 2beon, gil 법환상로 Jeju, 제주특별자치도 South Korea",
-                "Description": "Today Seogwipo is a 4.5-star hotel located at 58, 2beon, gil 법환상로 Jeju, 제주특별자치도 South Korea. The hotel is ideal for families, couples, and business travelers, offering comfortable and clean accommodations. Guests appreciate the hotel's proximity to key landmarks, attractions, and transportation, making it an excellent choice for exploring Jeju Island. The hotel features a variety of room types and amenities, including dining options that cater to various tastes. Overall, Today Seogwipo offers great value for money and stands out for its exceptional service and welcoming atmosphere.",
-                "GooglePlaceID": "ChIJh2SbnHlRDDUROfCdcMdp39w",
-                "Latitude": 33.244682,
-                "Longitude": 126.514541,
-                "Name": "Today Seogwipo",
-                "NumRating": 2,
-                "OpeningHours": [
-                    "Not Available"
-                ],
-                "Photos": [],
-                "Price": "Not Available",
-                "Rating": "4.5",
-                "endDate": "2024-12-02",
-                "startDate": "2024-12-01"
-            },
-            {
-                "Address": "229-7, 유수암리 애월읍 제주시 제주특별자치도 South Korea",
-                "Description": "별담스테이는 제주특별자치도 제주시 애월읍 유수암리 229-7에 위치한 4.6/5 평점의 호텔입니다. 이 호텔은 아름다운 경치와 평화로운 분위기를 자랑하며, 가족, 커플, 비즈니스 여행객 모두에게 이상적인 선택입니다. 별담스테이는 아늑하고 편안한 객실을 제공하며, 호스트의 세심한 배려와 친절한 서비스로 손님들에게 좋은 평가를 받고 있습니다.\n\n이 호텔은 주변 관광지와 교통편과의 접근성이 뛰어나며, 주요 랜드마크와 명소에 쉽게 접근할 수 있습니다. 또한, 별담스테이는 손님들에게 편안하고 청결한 환경을 제공하며, 객실 내 편의 시설과 다이닝 옵션을 통해 특별한 경험을 선사합니다.\n\n별담스테이는 아름다운 경치와 평화로운 분위기, 그리고 훌륭한 서비스로 손님들에게 특별한 추억을 선사하는 호텔입니다.",
-                "GooglePlaceID": "ChIJT2wq67z3DDURR7bV6psbFis",
-                "Latitude": 33.4203095,
-                "Longitude": 126.4107443,
-                "Name": "별담스테이",
-                "NumRating": 12,
-                "OpeningHours": [
-                    "Not Available"
-                ],
-                "Photos": [
-                    {
-                        "height": 1872,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/116080182115153144212\">이정란</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7_1fS2dJN2XsS7uH9gynSvn4S87DtuLCm4jvFdnq5N9VFp7dShqQ-rVOAqls83fMbzdSeNdRKfWVVo7PL9TQowe19m4_GO_jjb7Im8gNPVFKBgnvytQrjTCG5dhuxc6ygfIHH98oGnFMySGwq1_A3kQ0XYlFpbhrERCzIZpmKQV63P",
-                        "width": 2808
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/114941165651024986464\">100미터달리기</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7vghTJhW5fNv4hanp59NFP9ulLRVGfHpDPq-cVLdCp3OdgS3eowK6TokQMFa_MWUM-LHFXsHxNwNSITo09crJzEV66pE68EBEODuEbMKcKbeKci9oaVeXKsx9onQD1LhygNIPSkLA9vCEmRkqJabB1Z44fVZIhYYlgL7TtkX7Ow_0J",
-                        "width": 4032
-                    },
-                    {
-                        "height": 599,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/116080182115153144212\">이정란</a>"
-                        ],
-                        "photo_reference": "AXCi2Q62ryzOZ3Yc_F3dU7jf3umsXYkgcD1vKE6UDnqMCH1XNZEyDPJmVZuhkBuMzdIuk6Fd1YHf1geDYoqMoIZJwg0gTmw8GZL941Zw9bs42x5ZagH8GrhMBSDy74fE6HCRuEsAlKTJUZp1yUTiT0BqhFBnTU3ecZfYZk7E2i5lhZfGlz__",
-                        "width": 824
-                    },
-                    {
-                        "height": 12000,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101919783231524047269\">Cassaundra Truax</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5ohoh8U7a_cmZFK2uzD-XmjP5Z75qVeQLtj100H9E1FAkko0kw7DGTz9bI_VJ-rrh4jQZhu1Spi_Oi9as1VgxoKfG5sfcdx0KIhwtKZtnJ834VBSoOM6t40jZULJOEravkfweSz0l6gz5-xiAsWFGim_wREZr44k8Y91-q9dLpk5Pn",
-                        "width": 9000
-                    },
-                    {
-                        "height": 12000,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101919783231524047269\">Cassaundra Truax</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7bs9Bbl8aRb2u23E3dVGPOvGpLm7Zns6WfSk6Nz9b4tgKXQ8cjJrBCOTBaZRE77U99YO4iRwPEo6p4_tATqhV0_CTsOxBxoptiFmqfhtlm82f5TvYd0ogr3YCQ97SxXa6b8D-vOrTVhfnByinMMpZVLxt-jJ3haIos5Ajv-pNJSI2d",
-                        "width": 9000
-                    },
-                    {
-                        "height": 9000,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101919783231524047269\">Cassaundra Truax</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4ml2GRV1cYOvEgH__iKQdmddxPLoPLblg4lyvoR7s1Raw283pZ9Qvm4ZHyh4JqaqcBxBF407S4ZoWknQMyKfY23k4tPIkQv2acrVbwHZzt4MZYXRgsu2ff8uKXH9WqviG57O9MeYyRcbATe-fGNOVFvJg4KT4aVDhZjld8qM2WvSlF",
-                        "width": 12000
-                    },
-                    {
-                        "height": 1944,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/116080182115153144212\">이정란</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5KJm9j9F9TXp2MSqb8YlVMR53kOQpDQZV2eZhtuz87t5II1p-4qb0zKoIg-BqDDzZUF2_nUOXQd_pO51QutwDDZbPBU_26wad-8QIvKriXA4RKDvPgasnd9dklQKudT3-iszunwMnsxpTjFSyW0Hdn2Qcm_QcxNPjblu1fgPwlpOQr",
-                        "width": 1944
-                    },
-                    {
-                        "height": 2573,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/116080182115153144212\">이정란</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5RRN_ZmOfVu6kPYViMC8PIJ30Y7klnR0FaFmTDdWUylHJ5H78ff6gNEanDAPEu0OVfRxACVbt5SfNzn58W4JlIaq5xEI8GZS1ztQMQ3IM-Age0OTh-qtzwPgG3nDVJEkd-2DQjWrIyhOa7moCy6GgFDYCedxhmBdY1DV6eHe6r2jok",
-                        "width": 2573
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/114941165651024986464\">100미터달리기</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5VjDePt5lvfUsNWXuoZZ9KgpaQGcnL3-waA76tUG8432I3OcHYLeppGWIceR9_ApqbcYajotOxjU5nhBuLxIid2ZDtQpABCsTLRzNl0hmWY7mjaSLuDHJXMEZ8y7KXd2zEmiqai1KfBr0SIAEsponHZIEDkhSn_QvfmP_50OfUn3si",
-                        "width": 4032
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/114941165651024986464\">100미터달리기</a>"
-                        ],
-                        "photo_reference": "AXCi2Q49BDrcwCizRRZ5tqRkJTPEH0ynCGthUaIPRbyU81k0RTbXctHmn5TkD82dddciDHuOA0Xu83PyT8Jg7qdDsAHSHvh61omH6XKysD1yf0WP5KslWEEMZj9coDZ804SAAJhzhi9WNOpOmFw9b1EehQtC01_MsqW2woqu3_fX1JKOfg0O",
-                        "width": 4032
-                    }
-                ],
-                "Price": "Not Available",
-                "Rating": "4.6",
-                "endDate": "2024-12-03",
-                "startDate": "2024-12-02"
-            },
-            {
+                "AccomodationWebsiteURL": null,
                 "Address": "South Korea, Jeju-do, Seogwipo, 특별자치도, 16, Jungjeong-ro, Seogwipo-si, Jeju-do, Republic of Korea 제주특별자치도 서귀포시 중정로 16 (서귀동, 호텔더그랑서귀포",
                 "Description": "Hotel The Grang Seogwipo is a highly-rated, 4.8/5 hotel in Jeju Island, South Korea. Ideal for families, couples, and business travelers, this hotel offers a prime location near the Seogwipo Market and a nearby park. Guests rave about the friendly and helpful staff, including Jay, Bruce, and Becky, who provide exceptional service. The hotel boasts spacious, clean rooms with high-quality bedding and amenities. Notable features include valet parking and a convenient location near restaurants and Tina's Cake Shop. With a 5/5 rating across multiple reviews, Hotel The Grang Seogwipo stands out for its overall value and unique characteristics, making it a top choice for visitors to Jeju Island.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=12163149286610228415",
                 "GooglePlaceID": "ChIJ1cpK_5hTDDURv9RyQtUvzKg",
                 "Latitude": 33.2473021,
                 "Longitude": 126.5581662,
@@ -212,115 +99,13 @@
                 "Price": "Not Available",
                 "Rating": "4.8",
                 "endDate": "2024-12-04",
-                "startDate": "2024-12-03"
+                "startDate": "2024-12-01"
             },
             {
-                "Address": "South Korea, Cheju, KR특별자치도 제주시 선돌목동길 56-26",
-                "Description": "HOTEL NANTA is a 4-star hotel in Jeju Island, South Korea, offering a range of amenities including a buffet restaurant, gym, lobby lounge, and event space. The hotel is ideally situated near key attractions such as Gwaneumsa Trail, Nanta Show, and Jeju Planetarium, making it a convenient choice for both leisure and business travelers.\n\nThe hotel's rooms are spacious and well-appointed, with some reviewers noting that they are good value for money. However, it's important to note that the hotel follows a green policy, meaning that single-use items such as shampoo, body wash, and toothbrushes are not provided. Guests can purchase these items from the on-site GS25 convenience store.\n\nWhile some reviewers have praised the hotel's location and facilities, others have expressed disappointment with the service and certain amenities. For example, one reviewer mentioned that the hotel's fridge was not cold and the staff had difficulty understanding their concerns. Another reviewer noted that the pillows were too flat and the complimentary beverage options were limited.\n\nOverall, HOTEL NANTA offers a mix of pros and cons, with its convenient location and spacious rooms being major selling points. However, potential guests should be aware of the hotel's green policy and the mixed reviews regarding service and amenities.",
-                "GooglePlaceID": "ChIJ4-NXVED8DDURVmA4rlxSwXs",
-                "Latitude": 33.4458341,
-                "Longitude": 126.5478944,
-                "Name": "HOTEL NANTA",
-                "NumRating": 1539,
-                "OpeningHours": [
-                    "Monday: Open 24 hours",
-                    "Tuesday: Open 24 hours",
-                    "Wednesday: Open 24 hours",
-                    "Thursday: Open 24 hours",
-                    "Friday: Open 24 hours",
-                    "Saturday: Open 24 hours",
-                    "Sunday: Open 24 hours"
-                ],
-                "Photos": [
-                    {
-                        "height": 3640,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/111658853869815322899\">호텔난타</a>"
-                        ],
-                        "photo_reference": "AXCi2Q529v7ZnG83XrVQDHTqgZCH6IIm5JFds6AgpjTbmc604KsvbL9jNQkP2jQpxXZJbhoVvHMc0x2G5HT3KUPXccmr5gWSb1QLH5zjoVRf3giTI4HAcv3ByxjGTMjosXELrLFrlvyLXXRzmEak4Ng2v8qOzbioung_Oj3pSWhbDVwpn-VW",
-                        "width": 5464
-                    },
-                    {
-                        "height": 4912,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/111658853869815322899\">호텔난타</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7l1JFGX-EgIvGq7UDIDGPxW4fQ_27DQvoMj_0STVgZfsU5pzUvKqIwIEyk7slsxqUrCx5am9VNFNxn0fPR8IN9FmfXWBZAx36TeKcfY-_4uVOSXAAK0Q8zizya7J6tn-xj9__RFU5ohZiN8kaLDnVcxUIrP3EjT5ZuJ1IQK-ycvVOP",
-                        "width": 7360
-                    },
-                    {
-                        "height": 1080,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/108280940289577639054\">黃慶榮</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7SOWDkAEA2cWuwp9s2ky8X10gg2iJnUlmseD-kQ9aO2jEeUmJDXLElNXC_CnfkQ_IyUE8kPnUaYGuoFF9DXFjdDlA_jYaa7xipkT0jxZTQQ-TrdH4XWnFbmLsM-anHjlLe5sw4s3YHKF8aZZdtGVuW-Xd9umdQKsT0o6n92-HwWKtR",
-                        "width": 1920
-                    },
-                    {
-                        "height": 4820,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/111658853869815322899\">호텔난타</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5drvTWol19NWFvx28z875OGQUHtXv4i_YW3-nXqbkAlegkcKxW6BLxJcP_KyWe3YHwie80J3I_7VMgELmCfwvB4lzoUFAxJXg-OgYsSnNb91qphOCIua2mLSF8o1kyDnPjW2nVL0ZiO2HFyPVCZv2ViRuN1UPTdVHzhPcbpY16QhJo",
-                        "width": 7222
-                    },
-                    {
-                        "height": 4912,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/111658853869815322899\">호텔난타</a>"
-                        ],
-                        "photo_reference": "AXCi2Q494EP4hAkzImtcr_H_MqSemxc_Fw5ImGYcJlDIEZo2H6ohYYWrsbnUMPhPbyaPFJHBil6LakpFxBG_AFisCmhX9mqEE-Fz-Kn6XT0fucSvFD4NgNRLSX4dYhdWAsCqeCP1GoaqRVBCVxhrqthRwRio7wBp4fpW2g2RwUnvpKUE2ocS",
-                        "width": 7360
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/111658853869815322899\">호텔난타</a>"
-                        ],
-                        "photo_reference": "AXCi2Q6LqFdSqyfGjl_ubpdnnwXA0VPP_YOwFSAx501uGGNCK8hj59SuMUeXcGsihydKLHeTtopEU4fjGIDlPRD8pAsVdnAsuxTwHJxHtVYJhrFt0j0_q_XUDE1_vIjb0ArLZN1R287d2gw98qvcwXsMN651ZRBAJRTsTt_xkn3E9S8g7Xhz",
-                        "width": 4032
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/111658853869815322899\">호텔난타</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5oD2UwuDr-QD16KQ1A42pZpUWqigTVzLr4hak76smbKLxu_ACZ0azkcLabltTJfEVxD87-TRYszBrXYJT3AUBEuJ61-zXkfRicBBJBxIrPUtjZwHFQ5TDRq2Sp3jAlTd7jh7a4C_PyttCRZGHteE84b1UJWnUTCyVQniKhS85yg7xn",
-                        "width": 4032
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/111658853869815322899\">호텔난타</a>"
-                        ],
-                        "photo_reference": "AXCi2Q6s-S0rmEA3ps0JrxCkoUsFZs2k3CAZz7YBPV5dt25BECG1sScB2TqT99TX-n6IXJFuZ7oQQIlujgMVO9-ln0reD-NcI41WPCLgVaNi6zadnPgnN9wSqxo9FPq0tj3_kEsrOz8t5yyxKVm9SBMMiqFyUqrdSRPXpXTxzVh6TJ2IjK5T",
-                        "width": 3024
-                    },
-                    {
-                        "height": 4912,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/111658853869815322899\">호텔난타</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4xGh8SGkjVfKAb6nrwVk5C0XZva7B7oVdYspmaUSfb6r-ufcujMiZ1uV71djyUphj9Il23ivwgEGVi4ue0xX0jGD7lkI-NTRNO66qFG7JRQhfUvgY3wxOAqrKDUzAvUedxo1tYDwCUkIggfbkwUbnsvWP6xWAAcSYruJmULTvo6c60",
-                        "width": 7360
-                    },
-                    {
-                        "height": 4738,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/111658853869815322899\">호텔난타</a>"
-                        ],
-                        "photo_reference": "AXCi2Q50pTr-K2wZ45mhwh5tuiHNk-2UwFQj00RqtjVvGcGh_nk1gmlnC6ULb5jw_KxPXZz1tBARE5vwJlvlTaif9KNe7uEfr8kCebKl5HvH9whybP6RCb44JRn38wyKoJ8bU50GldhG4IM-RzPWDHcPgl68IE4TZMSQvr-gUBDfCf8flso2",
-                        "width": 7100
-                    }
-                ],
-                "Price": "Not Available",
-                "Rating": "4.4",
-                "endDate": "2024-12-05",
-                "startDate": "2024-12-04"
-            },
-            {
+                "AccomodationWebsiteURL": "http://www.palmvalley.co.kr/",
                 "Address": "193 Jungsanganseo-ro, Gangjeong-dong, Seogwipo, Jeju-do, South Korea",
                 "Description": "Palm Valley Resort is a 4.5-star hotel located in Seogwipo, Jeju-do, South Korea. The hotel is ideal for families and couples seeking a peaceful getaway. The hotel features comfortable rooms and beautiful walking paths around the grounds. The hotel is also known for its great staff. However, some guests have reported issues with cleanliness and bugs in the rooms. The hotel has a small pool, but the water is cold and warm water costs extra. The hotel is not recommended for families with children due to the lack of safety measures and unattended communal pool.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=14999435067888572762",
                 "GooglePlaceID": "ChIJuc2wdBBRDDURWhkJTbmyKNA",
                 "Latitude": 33.2593949,
                 "Longitude": 126.4908125,
@@ -413,12 +198,120 @@
                 ],
                 "Price": "Not Available",
                 "Rating": "4.5",
+                "endDate": "2024-12-05",
+                "startDate": "2024-12-04"
+            },
+            {
+                "AccomodationWebsiteURL": "http://kalhotel.co.kr/",
+                "Address": "242 Chilsimni-ro, Seogwipo, Jeju-do, South Korea",
+                "Description": "The Seogwipo KAL Hotel is a 4.2-star hotel located in a central area of Seogwipo, Jeju-do, South Korea. It offers a range of amenities including dining options, saunas, a gym, indoor and outdoor pools, and beautifully maintained gardens. The hotel is suitable for families and couples, but some reviewers have noted that the rooms could use an update. The gym has received mixed reviews, with some praising the facilities while others have complained about overcharging and poor service. The hotel's location is convenient for exploring the area, and the staff is friendly and helpful. The hotel is known for its reasonable rates and excellent service, but some reviewers have noted that the pool has too many rules and the security guards do not allow for safe swimming. Overall, the Seogwipo KAL Hotel is a good choice for those looking for a comfortable and affordable stay in Seogwipo.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=15433679882893081686",
+                "GooglePlaceID": "ChIJaerOnUZTDDURVjzvFBVyL9Y",
+                "Latitude": 33.2465497,
+                "Longitude": 126.5818708,
+                "Name": "Seogwipo KAL Hotel",
+                "NumRating": 2343,
+                "OpeningHours": [
+                    "Monday: Open 24 hours",
+                    "Tuesday: Open 24 hours",
+                    "Wednesday: Open 24 hours",
+                    "Thursday: Open 24 hours",
+                    "Friday: Open 24 hours",
+                    "Saturday: Open 24 hours",
+                    "Sunday: Open 24 hours"
+                ],
+                "Photos": [
+                    {
+                        "height": 2952,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117740854106882446794\">서귀포 칼호텔</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4HowscrmHl--gHh2w9SWSvK31MGa4bIzlSztahRm2CRz1wPUT79zjQZ-CSQSRuCbGc2W64qjR9xKbEv2eCeVjW9tc7JPc0rNC-2pzj7FGqnQdK9tLQ6R3PDD_W0mhYek17wB_sN_2NVyVRlK7tfNaea0r04cy_DP3O0jRvdWYJDlb9",
+                        "width": 5636
+                    },
+                    {
+                        "height": 1067,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117740854106882446794\">서귀포 칼호텔</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7e6k2SQ1T91eLjf9qzWLcRE723uWLYkQ-w9jcRP4pmBSgYBIGQoQY4lcbktafidYzUCs8jd4_uhiyQPA-Jg3offJhPTPN0G8cb6CTS622CmbnPaCwGzsaRwbmq_gofj-yJ_8-0uja3CCloeTgbfrSZpo4bmIkEx242kc5BxZ-M-nmA",
+                        "width": 1600
+                    },
+                    {
+                        "height": 3000,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/103979116026139176592\">bera K (Be ra)</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7mAk-GTmD8MQjXENDgwjaKxQHLfX_bGVyTa4HK5nJc3UPqDstjf7-AtyfkEeAs3ixmMFL8-ctxVBpkqziowYgTznqOPNA3eiGwBTTNnlpeFDPF36JHT2DqPZ_TAvKzgWsH0v6Lpv0aSdE4q49ym7T-aSq1dsa3NGwRARmppRplaunK",
+                        "width": 4000
+                    },
+                    {
+                        "height": 3840,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117740854106882446794\">서귀포 칼호텔</a>"
+                        ],
+                        "photo_reference": "AXCi2Q53qIcO4sNNJAENm1rcN-gDOr9KunV0Fh-X6K4IW6VN_yU5gFywPio9x7SOhzawno4zNpxtMjVQ_67oeX5MUtcGV_CusYKxwYGvXWTgpA_Xb_qMBsMC_p0vaneeK77pJQoz9197YrA5xzZa0SjOga-3JJTTjH_iv0hPo2pZIOhYFgJu",
+                        "width": 5760
+                    },
+                    {
+                        "height": 1067,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117740854106882446794\">서귀포 칼호텔</a>"
+                        ],
+                        "photo_reference": "AXCi2Q6LmbcRULzdaZeiM0L6l-6aSAl8Vs5xTyp3aIeioukLByy3xkKn2hdIx6OC2JmhLGmxsSvFA0oEeF2_J5dfXcKggcEst7c1-TSBbJWTQdh_y19ZyGcD1UAC8KJs0sd5_aVlaRvOi7_ZwnWzpLB1ArI8kq0sTTFkrZtYKX7Ra9Yy367I",
+                        "width": 1600
+                    },
+                    {
+                        "height": 3840,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117740854106882446794\">서귀포 칼호텔</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4ECtynq2Cgw1EN-Nbq0psg3fdixTjqbqpBS8usfeqOZcpRTPGZY4S6lMq63YypCT_FjDshyXRdceEArIC1gZiN9Lkl2FcGhgW7-2mjTLiXHTejvP2FA-QfXb2xFuf7PZ7lamqxsaVHkaLYm1soKmAypBBSgjdvdwUk44GCCh5p4hDJ",
+                        "width": 5760
+                    },
+                    {
+                        "height": 1094,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117740854106882446794\">서귀포 칼호텔</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4w0P7zNPJXnlWrad7E56aPA-D51spXcUZM7iKj73j-9FBRlPPNjAshEpfunsci1--r1_FBFrOt5yhdwf1lK0T46JnT_DmtS9c1na6JDTNtOrE0l9wQZ2waCDrh8IUVyUCjM-VVWKHQ1nhK2K3VyORFEzSgcAkaVi7s_j0jb2forjme",
+                        "width": 1600
+                    },
+                    {
+                        "height": 1080,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117740854106882446794\">서귀포 칼호텔</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7py8fARVPXDEl8rcpY_Rid-PAc8SIXrgkqmpq6dXdAsXr-93wzsoWHntw_O98EBaYhb6taJUXODui3FDIQ0TuxDkOPIzYWuv1DJX_7vMjYzS1JyKDJx-wFhpgh_qx0ZOf07ihHJE7SRvq5YSQFC-VpnMFd1nqap2OAg2HIYnJV4ouJ",
+                        "width": 1620
+                    },
+                    {
+                        "height": 1080,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117740854106882446794\">서귀포 칼호텔</a>"
+                        ],
+                        "photo_reference": "AXCi2Q6iS11G-fDcTrdB9_wv0rIPVqne5qBv1XmoKfs8dAvvgidi24sJ_ZuIY-KLKbQZgfTRnr8JPbDbHdggcuaynClVlp4kxfwlFkb8UjDj05jRnVqXETeXvlq4Fo4uQXr7KVTwvSt9hZ9OucMuUOCK1s9itXLyEoLNZB0biyj2wcTwq4Lx",
+                        "width": 1620
+                    },
+                    {
+                        "height": 1080,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117740854106882446794\">서귀포 칼호텔</a>"
+                        ],
+                        "photo_reference": "AXCi2Q5DaSFce8YkrtuFQM0tnHqCK_Qv6qoMIakQzXMfjWpWgjY4-aJMopv9hUQBzmZmsodPpWjSfdGyEfEpkvRY4BITJgMIla9h7qclkvpErWkP3SaTqv66L-GxHQ0ZBxBVba0Q1KuKXJQpl6GwQEk-6B4oCSGqUCMAnrDG9ikm0XtFA-fU",
+                        "width": 1620
+                    }
+                ],
+                "Price": "Not Available",
+                "Rating": "4.2",
                 "endDate": "2024-12-06",
                 "startDate": "2024-12-05"
             },
             {
+                "AccomodationWebsiteURL": null,
                 "Address": "South Korea, Jeju-do, Seogwipo, 1966-34 sanroknamro,seoquiposi, Halla Mountain National Park",
                 "Description": "Ive Resort Jeju agoda is a 4.2/5-rated hotel located in South Korea, Jeju-do, Seogwipo, 1966-34 sanroknamro,seoquiposi, Halla Mountain National Park. The hotel is ideal for families and couples seeking a peaceful retreat, as it offers a great location close to Hanla mountain. The resort features comfortable and clean rooms, friendly and helpful staff, and excellent service. Guests can enjoy the value for money offered by the resort, with amenities such as dining options and room types catering to various preferences. While the hotel is a little farther away from the main town, it provides a perfect escape for those looking to relax and enjoy the natural beauty of the area.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=18035169814695632955",
                 "GooglePlaceID": "ChIJ7VMbnMtWDDURO-DHXGTLSfo",
                 "Latitude": 33.28813549999999,
                 "Longitude": 126.4969259,
@@ -511,228 +404,193 @@
                 ],
                 "Price": "Not Available",
                 "Rating": "4.2",
-                "endDate": "2024-12-09",
-                "startDate": "2024-12-08"
+                "endDate": "2024-12-07",
+                "startDate": "2024-12-06"
             },
             {
-                "Address": "South Korea, Jeju-do, Seogwipo, 1966-34 sanroknamro,seoquiposi, Halla Mountain National Park",
-                "Description": "Ive Resort Jeju agoda is a 4.2/5-rated hotel located in South Korea, Jeju-do, Seogwipo, 1966-34 sanroknamro,seoquiposi, Halla Mountain National Park. The hotel is ideal for families and couples seeking a peaceful retreat, as it offers a great location close to Hanla mountain. The resort features comfortable and clean rooms, friendly and helpful staff, and excellent service. Guests can enjoy the value for money offered by the resort, with amenities such as dining options and room types catering to various preferences. While the hotel is a little farther away from the main town, it provides a perfect escape for those looking to relax and enjoy the natural beauty of the area.",
-                "GooglePlaceID": "ChIJ7VMbnMtWDDURO-DHXGTLSfo",
-                "Latitude": 33.28813549999999,
-                "Longitude": 126.4969259,
-                "Name": "Ive Resort Jeju agoda",
-                "NumRating": 140,
+                "AccomodationWebsiteURL": "http://www.ijinhotel.com/",
+                "Address": "South Korea, Jeju-do, Cheju, 특별자치도, 연동 306-14 KR",
+                "Description": "The I-Jin Hotel is a 4.1/5-rated hotel in Jeju Island, South Korea, offering comfortable and affordable accommodations for families, couples, and business travelers. The hotel features relaxed quarters with some rooms offering balconies, a casual restaurant, and a convenient location with free parking. Guests appreciate the daily room cleaning, spacious bathrooms, and good water pressure. The hotel's proximity to bus stops and convenience stores makes it an ideal choice for travelers. The staff is friendly and helpful, providing excellent service, including loaning out items like a clothes steamer and ensuring a comfortable stay. The hotel's suite option offers a spacious living area, bedroom, and two bathrooms, including one with a jacuzzi. While some guests have noted a slight smell and limited money exchange options, overall, the I-Jin Hotel provides a quiet, clean, and comfortable stay at a great value.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=4628465756738201609",
+                "GooglePlaceID": "ChIJqYdMhQn7DDURCahwRRWdO0A",
+                "Latitude": 33.482357,
+                "Longitude": 126.494834,
+                "Name": "I-Jin Hotel",
+                "NumRating": 672,
                 "OpeningHours": [
                     "Not Available"
                 ],
                 "Photos": [
-                    {
-                        "height": 2218,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/104286918590453537243\">태홍김</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5bAyzbw2IEzsBKf_TTqAS1KTr5DnoC_5GjL9IfUI7Y6yEyDhdlvF1K_UP86J2Yq_LvqkthMc4HIvyEZEP2nvn6lnrYRHiJ3I_ZG1eg3aLtVa1ns9DzUO1DsMs3JrZz3E9btwYum7FOLXCfwai09pDW41R7bbkIggXs183hMWBOF-3K",
-                        "width": 4656
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102595169404321402949\">HanEul Lee</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7U6xYKH7MlYjBrot8_Um1PgSgoeac3CElf3reGEi5UCHfsjTtDaAXVsh2n1FRLWfmla-PDtbJnhVTdGOTbN64wW19Zu6S8Nr7sBgeCrfB25eyR2k8rHDo1LaGIOyXTNGUbrGwGDJcKzBL_Gyynx2wwfjEaLav_MSM_rnKh_2-wYaqP",
-                        "width": 4032
-                    },
                     {
                         "height": 4000,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/116235393351736169973\">김TV</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/110607080572770235422\">monching romano</a>"
                         ],
-                        "photo_reference": "AXCi2Q7NsNHinCUWdEy1zrpjNyJQUEmqjFWHyJ97AFdVMU5mGjJlgkm-PjRrp_DVeboXgkA6_PdJYWsAsy7USJ98VbLvThzGQ0YBCIEUbKEWkt1md4zkZPWhsFS6pIR-dVLT2pwA-I-6J4nrPDn3PWbsTgrHBl9RBOhrpRod1SITtGLXm_rQ",
-                        "width": 3000
+                        "photo_reference": "AXCi2Q6ajVKOqt9cmZrq5pWRr_hBe742ATppikreNcGP7iXpCTw1js97_ej9APK4z_VeCP2IeEFKwic7z-MaHn0-zGWw1cMyqMYe5b9j3u97QwctTOVlB2sbanK78vwqRhoUmBMHW-yyq68PKajnvRdjSjvRmUV_F7qkT9K9YYHUa4LN1WJ9",
+                        "width": 2252
                     },
                     {
-                        "height": 3000,
+                        "height": 2268,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/118147770736144012967\">정보경</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/102269405184248095428\">YEON KYUNG LEE (엣헴)</a>"
                         ],
-                        "photo_reference": "AXCi2Q4sZCL3_-j4OqdWY6JlKhdvbXLRGGJ4nwy1zvGxPArg5mEVdYtHkHA6vFuHG98wjjXXVY0jdNR0Kf9Ih0IUutm6pcue2H81SMxhiatRs5b7_dinzD16LRsZdcJExo0r71Z_bmiWKRYEyaSHVMJN3Wy3dJ9cC29Kd6JM5AkcUS8gJiHw",
-                        "width": 4000
+                        "photo_reference": "AXCi2Q6piljWbAq-Q-YDRxwLrjtUIUSnrJ6O76D1UYZox6qQ1yWrSTDJ1REJLpC9wpoefrig4zOgkD-bKGLy4vvH-Ysvg1lf1AQh3mudSDH6zxX6MaDpIGmZ9qRPO5dNDGzi1mpR3BpIYvfsaB6Gy7Jt_R4xH9_DffB8O81gqQF4Ad_9pQpV",
+                        "width": 4032
+                    },
+                    {
+                        "height": 2184,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/108859503871378623049\">Asaph Trapo</a>"
+                        ],
+                        "photo_reference": "AXCi2Q5shdbzLTGtY4h0EIRjPeE0cPZF8nR957rsX8wx1wqu0AadwBeB0ak269oFhkc9x8vjsgVhobKvEtCHBlfA063dCUfpcANpqJ8RpnxLYUySAPgcHlcGeZWaPx7yI5BYPQ_a_dyAkMoT0-Ltx_ZUEpYeHI2LbKvRRv2cKqloZdiwU7fI",
+                        "width": 4608
                     },
                     {
                         "height": 3024,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/117973132581290265256\">Gi Sung Kwon</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/116845841844822585168\">최지원</a>"
                         ],
-                        "photo_reference": "AXCi2Q4tyYP7CcnO6EMRx-1HnZm3A5G0lNxZYCUIZhJSEGrGk7K_bFUPpIQg6NfXmU_C-fnWM8GwylSfuX9Z3Duli5ESatX0DpxV4HLlj8KFWSRIlqjYNWl8cwLmG93dwGGPGN90g6wOES89KW23usr_Y_f1z8OAn47ATCud2-iNo9lib3rm",
-                        "width": 4032
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102911480913267125126\">김소희</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4XOSSQDxG2umj23qFM0H8UW-D_faYR2E6dfbP7wc7-HtBxjiTTkyjz0MThaNjuZf4r7FqYPO3Nqq6_bqVvHYnen26RlWlYJ-g8kreqUJ5csUOtJdOSicNjzkuHD3Z9m2je8Sa6HoQuSsVYQJfayEdoXe3Odru7beC3dPXQO9xQMjpv",
-                        "width": 4032
-                    },
-                    {
-                        "height": 1960,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/112000505928802543165\">스티브투잡스</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4Bs-Oj7_YrDMETvIryOhED4gM_YFxVogkf6URcNGw0Q587lGL9azMUUmd0Rc7prvO9inLojhH_DEGn1Ir3SEmtc4rtJNtjPO3pKd4q1iQBT47i9rtuB-9wqNr5I2g_bGMu3glJ33J28vYkiC8Gu0T99qa3R_vSEJoHwuWbhVDnzosu",
+                        "photo_reference": "AXCi2Q65gK5tOpPzdDg6nl1asQSuJsufKhUn5W_7Ht3g8-4i_lPUW7teg_JNX9CfjI5hoi-Y-YLgIbG_2-IS2fWBejMnZK4rfNZK_F-KQNJ8e4XNtuW7bNRHeUlCHRe7iO8ljoSj-WVskqc4IznV4CurMqOE7OPqkjho8oUoWtus8hOxHR1F",
                         "width": 4032
                     },
                     {
                         "height": 3024,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/109570063175483440491\">이지윤</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/113063602849872438947\">hong il nor (노짱오빠)</a>"
                         ],
-                        "photo_reference": "AXCi2Q7e_ys0if4keWzisxtrL98S7ctod8tx-dAyDF80C1h49uvhIMAGoqsl7DCs3ABBz8iFwVc_d7lTAwWAdwMjSSTdFN5_yUjioTn4nxboKECVyHhK1cGGQzqUyLZYVK1v1ExaqA56sN1fo1AM9SVv5IR6zWaRMIJgj26o2Egh4ViXgVNk",
+                        "photo_reference": "AXCi2Q4yZ2solPxtYcTkNgdZlxCr4Y-daRTE2R0QfN0dbCL-Acn108sZysePOmewfT_TYAtarg5QRR6fZV7xXqtVvZOH5OUJjvdmhVvJSCkDxEsMb3lebgrMaamCkNVivTxZA6P5Wvv2hDuZyUC_beRdyY9Dk5bYK-0ewKT7trQXRBBMXOnS",
                         "width": 4032
-                    },
-                    {
-                        "height": 3492,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/116140530853276331844\">변향선</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7H5yEWDP2BF9ZELxb_idruy7AoCgZFYsFKYLSg9sCzGbYiSDXlGfFITENAQ16FkHYQR5h15E9Zcp-6CWeTm6Du2wn1gI-IE4b5Iylh0PqRAlY1RedCC48y0Fjc6afN9mZnVlNgijK2p6ZPYaL-Vv-c60JgTky7gFRl5kAlf5ISD5q8",
-                        "width": 4656
                     },
                     {
                         "height": 3024,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/108950469731206019651\">은수기</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/112614184030978353131\">Simon Kim</a>"
                         ],
-                        "photo_reference": "AXCi2Q50nVePN4IX4ZtWgrA9bq5QlqYGScuwvGOxw2-VRe5359k8-CLN75kiuRbpW76a6KK2Q7A4WJnijgOYZJVgM1WhDH5gojkJIeci57Xhjudpu1gCOJkbD9cP_ZCFfz6xei70rlnJHncBjYKVQKQnlMNc7I0kJo5Pr5_by9H1sqP_aFVN",
+                        "photo_reference": "AXCi2Q61lhAg8mWd7AkEm3HvPcDixxFLtcCW7yGXQurBdqn6bgaQUPCA_OpxcLT2Zr4seu8HZC11x-Rx4MFb8iJTG3vE549w2RKF-31P7wclJdDL-Cd_oHJlUOjvHSr055B9abVaH3vKm1ZkFR42HVrDLdUuO5zpmRDxI5LzwI7IQnZwpS9X",
                         "width": 4032
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/108109388982067106118\">劉威志（Michael LIU）</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7VUDE2aQCy6AgSzuAdGkIfTRDapZebJMFVeNIhBTMXg8WNzbtkFtBE-ye88LlsK71cB3mA7Rsh4n4w4TCPd2krZmdQkOaPSixSUtqmlJmP4cSdeY15FH0buWi48uiBam5OSM35r46aXhH5XhasP1Ps7H3g3G_n_a4WjjWd48AgHmoe",
+                        "width": 4032
+                    },
+                    {
+                        "height": 4032,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/113076422532104414412\">Thomas Yung</a>"
+                        ],
+                        "photo_reference": "AXCi2Q6N52Mc3kQYCVZPIhj3w5mThL4L5cwlQpKhOpkW3Jtqy0w_NUSPLu5prG1b-bvdZb4eFvWNhtvMZRUhakNSppNbQPf9S9OGHoXg0dxZhcsJql5fyUL4T4RpxGsXVLpy4KnIIP57BLOu-SJM49x7oYQFf11j2AMWiEdYMtYJKK7fnjuZ",
+                        "width": 3024
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/105462602070923733117\">김태현</a>"
+                        ],
+                        "photo_reference": "AXCi2Q6Wj5bqETi_EdAqwt7wt4H0wUX98ydyfHEO68vqEc7jEhLSeA_RXnGdC4k0A5OgYwy7Hh_oJf-jJpCujmZ8O7RCXRdwYW-dBCA90elDKBxAbj-4_zwQ9g9Fjlp7aS8UTnDhOOTGfzdQ_N0oCMTxwrDYqHkSx3lCBh3cKSeyySsUsxc",
+                        "width": 4032
+                    },
+                    {
+                        "height": 4608,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/103178049184437521568\">Manes Wan</a>"
+                        ],
+                        "photo_reference": "AXCi2Q6s5X76OqGIhcBid4lBE95gTb-d-RaifzmHzgJPvsPDgl5dKlglW1dprks1_uXN_-mOGdtLcdQ8Eg-TfVkYNs7S0blSD65iEL0UA7WZne_B1_GsJW66NFyZUBXN2pJitVUVp_8E2upDYft7qWbMbv8gBBMQXw0_017LMlagSAeREcap",
+                        "width": 3456
                     }
                 ],
                 "Price": "Not Available",
-                "Rating": "4.2",
-                "endDate": "2024-12-09",
-                "startDate": "2024-12-08"
-            },
-            {
-                "Address": "28 Donnaeko-ro 67beon-gil, Seogwipo, Jeju-do, South Korea",
-                "Description": "Donnaeko Pension is a 4.4/5-rated accommodation located at 28 Donnaeko-ro 67beon-gil, Seogwipo, Jeju-do, South Korea. The hotel is ideal for families and couples seeking a comfortable and relaxing stay. The hotel offers cozy rooms with modern amenities, ensuring a pleasant experience for guests. The proximity to key landmarks and attractions, such as the nearby beach and local restaurants, makes it an excellent choice for travelers. The hotel's warm and friendly service, along with its overall value, makes Donnaeko Pension a standout option for those looking for a memorable stay in Jeju Island.",
-                "GooglePlaceID": "ChIJjQkZ6SFVDDURTZXXYNzLOiE",
-                "Latitude": 33.2970088,
-                "Longitude": 126.5886699,
-                "Name": "Donnaeko Pension",
-                "NumRating": 65,
-                "OpeningHours": [
-                    "Not Available"
-                ],
-                "Photos": [
-                    {
-                        "height": 3464,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/105426739977926811112\">박화영</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5e2OUwaX5dE9fIcTirFxQE3OR_CT4sUvsVZmN-HlzJpmfD8jbQQwMU3lPq3YJTeE5sNzjNNMuvF9Ergks4NKVP_qkEX637ZFtV3sscnK2xXsGJj3JvoAl0EY5INq5b7fyUGlkMd33CUF3tFeCAyehICyZGg-GSchFQn3n0bkXE1EW9",
-                        "width": 4618
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/104936571341339832284\">오영환</a>"
-                        ],
-                        "photo_reference": "AXCi2Q6S0yKxgHv76-4jxkzqYI7JX1Xkuc8zgBkoaySK6QLru9NjxyUtqUEGqrMgwp3nKDa8cp4cMTvoDqI9Ou8yZZIY2LfSNzaGReeStBC42tJGwZRQaOogfke3CUUGEiW3vwAw3CA2NtDHu6ODGgm-HBqDp-zCRnSsqbQ7KNkqcC4bf1Ne",
-                        "width": 4032
-                    },
-                    {
-                        "height": 1365,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/113007759601306538553\">얼번작가파</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7WZSje8oBed_Jn_qndFlppF-6VRZ55rJ8iSwiDHGVL5G3wDLGiettQc35bPOZk-wSZRnZVfhBJn6KjlncpgQjvK4oruPMbtoZaBAp5o41et8rdqdYdAwU37f-qQRNt8hZX0BZVseopExpH5AY7Tn8gQE4OzBjmE9LwAjy0RaKvHpnt",
-                        "width": 2048
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/103720299359330212778\">김진영</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4kgoUaLBN3dS2mTPDTZzd2mp5GVrABmUOr67SAZh8OYPRFRo_j0VCG0PdObttHN4ft8bMoK3je335guHmcwLmKqeQs9zONUetk5fq7AQBmbPbOS7L8ekHpoHKmhkrh7Eew48g-hwSHIu-X4qvOGHQ6ARYaOHN0Vp4LeOWAb_NPx2Yf",
-                        "width": 4032
-                    },
-                    {
-                        "height": 1365,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/113007759601306538553\">얼번작가파</a>"
-                        ],
-                        "photo_reference": "AXCi2Q68QyITj2MeFXy7itc2Cjw18ibsiLH1WSR2CXXU6fJWGBpZS7y-r_8mFmY4gYe0_PJ2B88fkVNQ8KALYLfd0Bvor7l6oeJyaZcqBi8vMfGodMAqTRPm7cOm1scn3HDgjEiTt_dZ87Z2MBEOtC6tgl33tfltb8DP6Ofuf9chmomVSk8N",
-                        "width": 2048
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/104936571341339832284\">오영환</a>"
-                        ],
-                        "photo_reference": "AXCi2Q41uUNaH5ztGwmJ5_Gr0Ei82UPyd3xanGLHQjhRZ7bDBMfIIPR-Aee7pGgl8yl0sbnoY5rRYTY7lWswBp-RE7CZVWurzPSEDCDOnTasYMs2j9CL-BPIKIU-V-dCjeF1TUrdjyVIp4ybE-nCNoGBFMyFlJkqG2_PugBh5B63gBiwBvwb",
-                        "width": 3024
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/104936571341339832284\">오영환</a>"
-                        ],
-                        "photo_reference": "AXCi2Q6CZj1Jz5aeI8CcB6Wtct33Be7JhzxOgbibgEh_B6KHFpVmXDRtA-FpX4cfysHEXdc0bv6LdD7xhjFKrnWPqqVCs-E4YTLni8tbpr4tNYWB7QYGC2U6H_PY-Hk-tfVqbGcMeCZhEhuRT87xHYjiIxWFXsWuqiabeG-tc7rHBB0j9N-Y",
-                        "width": 4032
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/115727034707989604861\">나마늘 (마늘)</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5tMH6S6jXdxkDLVtSUIspObrOKsBGfgK9pUrgPCtiC_w_RjH5dCj_Bw-oyOkx9q4fG1fKZK4E2o2gjn8TC3KLNkxVAq1OxnPBkdwbyL2FpeM3t1K23Q7dI1dzrdgPz0YyhH04lfWIF1cSf94VJTDYUKdgVZ5mX6wWnr5O-TA_3PxOO",
-                        "width": 3024
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102009275417572340287\">여름햇살</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5iH_Ai9chyWhZQN_VR90WZUYiEPRgO0DusoaFC_xXRplGtCzsXR3Y3_sT4zA_ffTrrIcCZMwaafdua1BAgR7lxQ2_rv6B2j4vdrk2ONFJFgl1MtoQNNG3h8ZHsRPFmOE_yzSBL445pk_Dh_Zgj3zmjqZ5-RIetbk7q9CTm5jUMxRs1",
-                        "width": 4032
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/116776621292048265052\">김지현</a>"
-                        ],
-                        "photo_reference": "AXCi2Q6LllHEaARZJO9S8rNTlCwjI-XXUBIsjYZz-g8GtbGHTrvF6eI7jdzdk4bRcO6oUepyX8zgYvDCIGP0l-Lzf1T93xjYS3dmTPRXGf_uZnGS68lspUwSVTmemvai_fOgRILrGrDSEJExiUZTAdxBnMNBEOm9vqG8MUa0kPODQVbw29ro",
-                        "width": 3024
-                    }
-                ],
-                "Price": "Not Available",
-                "Rating": "4.4",
+                "Rating": "4.1",
                 "endDate": "2024-12-08",
                 "startDate": "2024-12-07"
-            }
-        ],
-        "description": "\n\"Embark on a thrilling week-long journey through South Korea's breathtaking natural landscapes from Dec 1-8, 2024. This 'Exploring South Korea's Natural Wonders' adventure includes visits to the 법환해녀체험센터, a stunning waterfall near Soogwip-ho, and the picturesque Sumdo and Maimos villages. Discover the beauty of Gwang-Won, Magsug, and the enchanting 더제주스토리. Marvel at the 자구리물, explore the Witseoreum Volcanic Cone of Hallasan Mountain, and enjoy the stunning Dorippal Coast and Ibsul. Visit the Cheonjiyeon Falls Ticket Office, hike to the summit of Mount Namsan, and explore the Seopseom and Olle Trail Course 7. This trip also includes a visit to the Hanla Mountain National Park's historical trail. Immerse yourself in South Korea's natural wonders and create unforgettable memories.\"",
-        "destinations": [
+            },
             {
-                "Address": "10 Choeyeong-ro, 특별자치도 Seogwipo, 제주 South Korea",
-                "Description": "The Lawheran Haenyeo Experience Center is a unique attraction located in Seogwipo, Jeju Island, South Korea. It offers visitors a chance to learn about and experience the traditional culture of haenyeo, or female divers, who have been a significant part of the island's history and economy. Visitors can expect to see exhibits showcasing the tools, clothing, and daily life of these divers, as well as participate in hands-on activities and even try diving themselves. This attraction is ideal for families, history enthusiasts, and those interested in learning about local customs and traditions. The Lawheran Haenyeo Experience Center is easily accessible and close to other popular attractions in Seogwipo, making it a must-visit for anyone looking to immerse themselves in the rich culture of Jeju Island.",
-                "GooglePlaceID": "ChIJW2UvQatRDDURTiZD9FMuZ1g",
-                "Latitude": 33.2341727,
-                "Longitude": 126.5135735,
-                "Name": "법환해녀체험센터",
-                "NumRating": 0,
+                "AccomodationWebsiteURL": "https://charliehoteljeju.southkrhotel.com/kr/",
+                "Address": "128 Seosa-ro, Cheju, Jeju-do, South Korea",
+                "Description": "The Charlie Hotel is a centrally located budget hotel in Jeju City, South Korea, offering a pleasant and convenient stay for budget-conscious travelers and business travelers. With a 4/5 overall rating, the hotel is known for its simplicity, cleanliness, and friendly staff. The rooms are well-equipped with all the essentials, and its proximity to various city attractions and a 10-minute drive from the airport adds to its convenience. Guests can enjoy a wide selection of restaurants and convenient stores in the vicinity. The hotel's spacious rooms, big bathrooms, and Netflix-enabled TVs contribute to a comfortable and enjoyable stay. The location is conveniently situated near the Jeju bus terminal, making it easy to explore the island. The staff is highly regarded for their kindness and willingness to assist guests. While some reviews mention minor issues such as room smell and cleaning, the hotel's overall value and convenient location make it a popular choice for travelers.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=14629230130994360785",
+                "GooglePlaceID": "ChIJOYiz0Fn7DDUR0TFcj0t3Bcs",
+                "Latitude": 33.50094500000001,
+                "Longitude": 126.519649,
+                "Name": "Charlie Hotel",
+                "NumRating": 16,
                 "OpeningHours": [
                     "Not Available"
                 ],
-                "Photos": [],
-                "Price": "Not available",
-                "Rating": "Not Available",
-                "endDate": "2024-12-01",
-                "startDate": "2024-12-01"
-            },
+                "Photos": [
+                    {
+                        "height": 3472,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117374743816046953547\">ashu mishra</a>"
+                        ],
+                        "photo_reference": "AXCi2Q65En41IqrXQwl77fMrrQviAzJXE6IHv-EiHos2RyV05BTnUDGO7mUKUf9X9C3zsTqxh_yyA-OK7iDfowxMZ3H_MpE1uAbcQ7AQfge8_9GI0LSFktgj3nzsJao_Ust8ViUR2OzxBVkPVNHPDv7wDTnFzMzc-R7iSfIkUuZ-lA06ym-g",
+                        "width": 4624
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/107537624682804905789\">Non Arkara</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7jD7ciC8eMFKZP9vDWWc4nrDsNtYmYW2fzz1LSeu5WKlBzC7rKVhNVRgtscDOfBEP4KE1SP4pAdNkBlqSNa8kkhjyFIU2F9aOuvvcxSW_IfNUqbzjYNhVRB0-v-8l5hr5ob7ZHSPIqEWcMDoW8Lb_yVjSfvKDtkd6wujez9lpGFUTJ",
+                        "width": 4032
+                    },
+                    {
+                        "height": 4624,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117374743816046953547\">ashu mishra</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4vsZHNDKXmhFgNpsbxn5FLMw9vs81FWz2fkMk8Q7v4b4swpZkETFRAVAw7gkcSfjJRJm9NxZWqsc7IJxsr6sE53Li12t_L1voMHl1pwy2LN-gRRYaTqjsKRWCVg1JUHdHEnBxwnl5C-2kbL9G9QXbB8FB7gNkfjsH0lh3x5_YdJg8D",
+                        "width": 3472
+                    },
+                    {
+                        "height": 3472,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117374743816046953547\">ashu mishra</a>"
+                        ],
+                        "photo_reference": "AXCi2Q6pE9zl-2sZTitDub0BcUgzinIOxJZDHv_dWn_ZrkFVzMfb71GGy1qbuxZETbtoclL124WhKZmpXwqYFDym5HNn6qNVhumHcq4Lxnq_KgfipSmx4GrMqtzwm34P0D7kmE_YL1zPFwjKbQZW4Gpk-qzuscFJy_xlNptj2ySojy4k3Rrt",
+                        "width": 4624
+                    },
+                    {
+                        "height": 4624,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117374743816046953547\">ashu mishra</a>"
+                        ],
+                        "photo_reference": "AXCi2Q56xXVBpkXFRku-DGnmMn7BC-oiSw8LQ1KETd-DifOPuA63jOZu71gZMOmKbkM9J_7AiS9-CNCUbYJstPP64t0PvUksaZ85k-O7wQaM94oEaCPcaIlKMxlfbZoLqQ8HTUz0nEDdvx8WYCWyU934iRngVAjDvxYfBk2pFq6Ro6QO7Uir",
+                        "width": 3472
+                    },
+                    {
+                        "height": 4624,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117374743816046953547\">ashu mishra</a>"
+                        ],
+                        "photo_reference": "AXCi2Q6u-g8VUBbfnrT5Vmb-zbM8wExx2vJjDPpxlrC_rtOs2iGkdCsUXeqLwna2RLmNGamfanWxlRZvTwP17XG1EvH-L3FCV-TkS-wsMpsTn6ZMP_JWuQ8YBBzn_mwH-tIEs3u5elIlmcZGT4ZyXZQAKs9_X0PAUeqflQwPyiphgAnc1Y8T",
+                        "width": 3472
+                    },
+                    {
+                        "height": 4624,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117374743816046953547\">ashu mishra</a>"
+                        ],
+                        "photo_reference": "AXCi2Q6ASV2Ox1w_hsIAQ6muPeVNxQWg_8CAsuqfI_caYUDtraZuXMz91g3qvqj3JvTKXjr-rE1FWnBbU14WCqPyxn1ftDFBZoBUQcwHHjhJ-H-Kbapz17WKNpjFIm6WwJSN72kGyINncDOhfxfPCJnfx4n-JHpaHroGKhOAwDmAO0KuIkk1",
+                        "width": 3472
+                    }
+                ],
+                "Price": "Not Available",
+                "Rating": "4",
+                "endDate": "2024-12-09",
+                "startDate": "2024-12-08"
+            }
+        ],
+        "description": "\"Embark on a thrilling 8-day adventure through South Korea's breathtaking natural landscapes. From the cascading waterfalls near Sogwipo and Cheonjiyeon to the mesmerizing volcanic wonders of Witseoreum and Olle Trail Course 7, this trip offers an unforgettable exploration of the country's diverse beauty. Discover the stunning coastal vistas of Dorippal Coast and Jeju Island, and immerse yourself in unique experiences like the Law of the Sea Center and the enchanting Jajirimul. Don't miss the chance to witness the majestic Mount Hallasan and the picturesque Seopseom. Join us on this unforgettable journey from December 1-8, 2024.\"",
+        "destinations": [
             {
+                "AccomodationWebsiteURL": null,
                 "Address": "South Korea, 제주특별자치도 서귀포시 천지동",
                 "Description": "The Waterfall Near Sogwipho, located in Jeju-si, South Korea, is a natural landmark that offers visitors a chance to experience the beauty of nature. While there is no brief description available, the attraction is known for its scenic views and tranquil surroundings. The waterfall is ideal for nature lovers and those seeking a peaceful escape from the city.\n\nThe Waterfall Near Sogwipho is situated in the heart of Jeju Island, making it easily accessible from other popular tourist destinations. Its proximity to key landmarks such as the Seongsan Ilchulbong and the Hallasan National Park makes it a perfect addition to any itinerary.\n\nAlthough there is no overall rating or visitor reviews provided, the attraction's natural beauty and serene atmosphere are likely to make it a memorable experience for those who visit. The waterfall's unique setting and picturesque views make it a hidden gem for those seeking a more tranquil and off-the-beaten-path adventure in Jeju Island.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=2620392737341354895",
                 "GooglePlaceID": "ChIJDZ3uWmtTDDURj7M-qU-BXSQ",
                 "Latitude": 33.2472622,
                 "Longitude": 126.5546683,
@@ -748,8 +606,10 @@
                 "startDate": "2024-12-01"
             },
             {
+                "AccomodationWebsiteURL": "http://www.seokbujak.com/",
                 "Address": "8941 Iljudong-ro, Seogwipo, Jeju-do, South Korea",
                 "Description": "Sumdo is a natural landmark located in Seogwipo, Jeju-do, South Korea. While the brief description and overall rating are not available, visitors can expect to enjoy the scenic beauty of this attraction. The location is ideal for nature lovers and families, offering a peaceful escape from the city. The proximity to Iljudong-ro makes it easily accessible for tourists. Although visitor reviews are not available, the attraction's unique features and stunning views make it a must-visit destination in Jeju Island.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=14770067734513166797",
                 "GooglePlaceID": "ChIJF0z7zR1TDDURzakdcFnS-cw",
                 "Latitude": 33.25048290000001,
                 "Longitude": 126.5367012,
@@ -848,110 +708,14 @@
                 ],
                 "Price": "Not available",
                 "Rating": "Not Available",
-                "endDate": "2024-12-02",
-                "startDate": "2024-12-02"
+                "endDate": "2024-12-01",
+                "startDate": "2024-12-01"
             },
             {
-                "Address": "South Korea, Jeju-do, Cheju, 특별자치도 외도동 1956-23",
-                "Description": "Maimos is a natural landmark located in Jeju-do, South Korea, specifically in Cheju, 특별자치도 외도동 1956-23. While a brief description and overall rating are not available, visitor reviews highlight the attraction's unique beauty and scenic views. Maimos is ideal for nature lovers and families seeking a peaceful retreat. Its proximity to other popular places in Jeju Island makes it a convenient stop for tourists. The attraction offers a serene environment, perfect for those looking to escape the hustle and bustle of city life. Visitors can expect to see stunning landscapes and enjoy the tranquility of the area.",
-                "GooglePlaceID": "ChIJWwLsCefxDDUROvO9hvWZKlQ",
-                "Latitude": 33.4930195,
-                "Longitude": 126.4276205,
-                "Name": "Maimos",
-                "NumRating": 0,
-                "OpeningHours": [
-                    "Not Available"
-                ],
-                "Photos": [
-                    {
-                        "height": 3000,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/106828212379512836181\">Sophia Kim</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4weVY4SReyhe3H62P9eu-H-H9Uf66gLAV5PEMe9y3HuCZ0SgOJyHmz8R9oC5E7PTE9UbH1gsztKw0npYZ4P5Fewplw3AJ0-5VA0EUQhrbo99O251yY-3qH3_fWDpg6FHk2jTR8hypVeMT4iPuTRyCHM-w63wg6FvGTYIzt9hUZyGAp",
-                        "width": 4000
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4JwsWypmZE7DGtTevblUblLmJsiW_B7uh-kLl_t4n3QFG1aiIIM5zve1zi10XWvPd0fRAaaE7Pem1nZtqYIunGMYwx9cxwR8jqCbALLZjiswndVLpXbmGD8_rjZKgQ1ZvCMXG334C_e9AhtWmAb26V7B6hmP8JfBcT1kRwgxod-kc",
-                        "width": 4032
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
-                        ],
-                        "photo_reference": "AXCi2Q74uUlVZ4TJ59me0Fxm_p6je6sjhBTQW9wpGNENLAN1rxA7kefb2966uE2va2ug9CphKqb_FrBXepBeHHFc3aWZ_LhnKCVd-8Pm5lM8foypoz2b94gtDqTNbHXZjgQJBE1mRwuOfYbz5YFc26irIBfgJE1Dv1xSUzBAbNDADWqKHoE",
-                        "width": 4032
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4U3anyHdjPK1l2Q7Tur1d1CybfXpFNxaTFbNgiC163WwYANOxlQzXJ83Ti2Ggtddg9npiN76QkhtQL0Bf9rZRr5O73j4kZewc9Kebo_JBe5kkYn8y9JW9TABXg48Y5drp0id3zLIW82gOs5qrUGkq0c_GG6arrbLcB0hiWOvBoyTA",
-                        "width": 3024
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
-                        ],
-                        "photo_reference": "AXCi2Q46h2MCGFluF9TJW8Zs24NenUoMPFDmUVd6xEyof7q7NIfvNczujxkrXzMk8O2lEYzqAzJ_9KblFeNZ_N2DeRLPYh-419K6sUmuW_2IoPqCez6N_4U-NNhBY557mB2nskV1Ap-k_qwntvpAH9dIY2kSj8e6eryD7HIBIw08WvatrUI",
-                        "width": 4032
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5KUo531rv3_mzy6T71VB4oPt368vHgMIcGaLAR-OT6UAEGoqaEsbzKaE2-IH_1WiaiG4mwdIRu2H_oOwJUpTVU-Fo5tIU7_5JT7vPhfpEijInzGFAwgvgqQISYFi_nFtj2bxybiAs3f19wDnSKWIwPeRnd6wjLwnzElA3tvXyJE5Y",
-                        "width": 4032
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4KYNu6l3N2hqYMTYU1bxxlbBX3JeTPlVz3w-4oaPom-SKyO_dYlsP1kK6raWqZsUlTBgMKhfcpJdLyA3i_2J178z-KV41fDGBQ2bE_M5xa6RMMKV7DVdFu2bK1BTvvP4vH_7p-JwyEgfuiTmaFCo60QwadARy81D5YqEws2G1grmo",
-                        "width": 4032
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
-                        ],
-                        "photo_reference": "AXCi2Q555Bq7tLCkKahMY1azsZdxzFRL_8XRiy_0K_s9Honglf9QQHSIl00B_QIQI4bdRv6-N4g3ji4HF4FM1ZmnR0clhzoQa72XMARGlVONJ4a-fnqcxVgusDcgPNEWDBE7aTeBM1VJgmnLsNbUaLXeji2K2EqUYZA2eCwASEgCQ0zv-6U",
-                        "width": 4032
-                    },
-                    {
-                        "height": 3000,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/107630653893418083946\">SJ Sung</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7aQ1N52jfDUsXTZe5VWuUbYhRCxXVWl20pwT3ynLl143W7PaZ7BDgYdxpsir7YY8MPVQ3yiAzIi9Glaer9st8NXIzLDGvB5zv9EvJ3xCtKHU3q1yCfEWTdtWL_z1DqrJY2-bZA2xQl9OlGjJTGelApkSgTaSDeEU6IcfrPsvRdA-gx",
-                        "width": 4000
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7GNgOiXPPD3LLR9c-ZcbzyINa2dVcJgU2RZswptwkWfVQrI2lF9JJpiJU9dzjSEVx1JF-BQaqRTO6gSZM4AtPB4KuVAGaC_XVjbeGtWnJ9f8KYeeV-1A69gX7TdLYvIt-0OnXY1OVPa6uRCZzOf9KY_tjkQkMGLD4ASBQaI9Gss8E",
-                        "width": 4032
-                    }
-                ],
-                "Price": "Not available",
-                "Rating": "Not Available",
-                "endDate": "2024-12-02",
-                "startDate": "2024-12-02"
-            },
-            {
+                "AccomodationWebsiteURL": null,
                 "Address": "251-1 Seogwi-dong, Seogwipo, Jeju-do, South Korea",
                 "Description": "Gwang-Won is a natural landmark located in Seogwi-dong, Seogwipo, Jeju-do, South Korea. Visitors can expect breathtaking scenic views and a serene atmosphere. The attraction is ideal for nature lovers and families seeking a peaceful escape. Its proximity to the city makes it easily accessible, yet it offers a tranquil retreat from the hustle and bustle. While specific details about the attraction are limited, visitor experiences highlight the beauty and serenity of the area, making it a memorable destination.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=9652426397946910647",
                 "GooglePlaceID": "ChIJ76ruHHdTDDURt5c6DqtO9IU",
                 "Latitude": 33.2487658,
                 "Longitude": 126.5696728,
@@ -963,12 +727,14 @@
                 "Photos": [],
                 "Price": "Not available",
                 "Rating": "Not Available",
-                "endDate": "2024-12-03",
-                "startDate": "2024-12-03"
+                "endDate": "2024-12-02",
+                "startDate": "2024-12-02"
             },
             {
+                "AccomodationWebsiteURL": null,
                 "Address": "287-3 Beophwan-dong, Seogwipo, Jeju-do, South Korea",
                 "Description": "Magsug is a natural landmark located in Seogwipo, Jeju-do, South Korea. While specific details about the attraction are limited, visitors can expect to enjoy the scenic beauty and unique geological features of the area. The location is ideal for nature lovers and those seeking a peaceful escape from the city. Magsug is accessible and offers a memorable experience for all who visit. Its proximity to other popular landmarks in Jeju Island makes it a convenient stop for tourists exploring the region.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=9389907539727935180",
                 "GooglePlaceID": "ChIJhd4uNZJRDDURzOY-UyinT4I",
                 "Latitude": 33.237775,
                 "Longitude": 126.5157941,
@@ -980,16 +746,18 @@
                 "Photos": [],
                 "Price": "Not available",
                 "Rating": "Not Available",
-                "endDate": "2024-12-03",
-                "startDate": "2024-12-03"
+                "endDate": "2024-12-02",
+                "startDate": "2024-12-02"
             },
             {
-                "Address": "53 Sindae-ro, Cheju, Jeju-do, South Korea",
-                "Description": "TheJejuStory is a cultural site located at 53 Sindae-ro, Cheju, Jeju-do, South Korea. This attraction offers visitors a unique experience, showcasing the rich history and culture of Jeju Island. Visitors can expect to learn about the island's traditions, customs, and stories through various exhibits and interactive displays. TheJejuStory is ideal for families, history enthusiasts, and those interested in learning more about the local culture.\n\nLocated in the heart of Jeju City, TheJejuStory is easily accessible and close to other popular attractions, making it a perfect addition to any itinerary. Visitors have praised the attraction for its engaging exhibits, knowledgeable staff, and the opportunity to gain a deeper understanding of Jeju's unique heritage.\n\nWhile specific visitor reviews are not available, TheJejuStory is known for its immersive experience, which allows visitors to connect with the island's history and culture in a meaningful way. The attraction also offers guided tours, ensuring that visitors can make the most of their visit and gain valuable insights into the island's past.\n\nIn summary, TheJejuStory is a must-visit cultural site for anyone interested in learning about the rich history and culture of Jeju Island. Its central location, engaging exhibits, and knowledgeable staff make it an ideal destination for families, history enthusiasts, and those seeking a deeper understanding of the island's unique heritage.",
-                "GooglePlaceID": "ChIJAx-rmA77DDURE5mnZqRwWtY",
-                "Latitude": 33.4929462,
-                "Longitude": 126.4966306,
-                "Name": "더제주스토리",
+                "AccomodationWebsiteURL": null,
+                "Address": "10 Choeyeong-ro, 특별자치도 Seogwipo, 제주 South Korea",
+                "Description": "The Lawheran Haenyeo Experience Center is a unique attraction located in Seogwipo, Jeju Island, South Korea. It offers visitors a chance to learn about and experience the traditional culture of haenyeo, or female divers, who have been a significant part of the island's history and economy. Visitors can expect to see exhibits showcasing the tools, clothing, and daily life of these divers, as well as participate in hands-on activities and even try diving themselves. This attraction is ideal for families, history enthusiasts, and those interested in learning about local customs and traditions. The Lawheran Haenyeo Experience Center is easily accessible and close to other popular attractions in Seogwipo, making it a must-visit for anyone looking to immerse themselves in the rich culture of Jeju Island.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=6370111136054060622",
+                "GooglePlaceID": "ChIJW2UvQatRDDURTiZD9FMuZ1g",
+                "Latitude": 33.2341727,
+                "Longitude": 126.5135735,
+                "Name": "법환해녀체험센터",
                 "NumRating": 0,
                 "OpeningHours": [
                     "Not Available"
@@ -997,12 +765,14 @@
                 "Photos": [],
                 "Price": "Not available",
                 "Rating": "Not Available",
-                "endDate": "2024-12-04",
-                "startDate": "2024-12-04"
+                "endDate": "2024-12-03",
+                "startDate": "2024-12-03"
             },
             {
+                "AccomodationWebsiteURL": null,
                 "Address": "33 Seogwi-dong, 특별자치도 Seogwipo, Jeju-do, South Korea",
                 "Description": "자구리물은 대한민국 제주특별자치도 서귀포시 서귀동에 위치한 자연 명소입니다. 이 곳은 아름다운 해안 경치와 함께 맑은 바다를 감상할 수 있는 곳으로 유명합니다. 자구리물은 가족, 자연 애호가, 사진 작가 등 다양한 방문객들에게 인기가 있으며, 특히 일몰 시간에는 아름다운 노을을 감상할 수 있는 장소로 알려져 있습니다.\n\n자구리물은 제주도의 다른 인기 명소와도 가까워서 함께 방문하기 좋습니다. 이 곳은 제주도의 아름다운 자연 경관과 평화로운 분위기를 즐길 수 있는 곳으로, 방문객들에게 특별한 경험을 선사합니다. 자구리물을 방문하면 자연의 아름다움과 휴식을 동시에 느낄 수 있으며, 잊지 못할 추억을 만들 수 있을 것입니다.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=1566138121423464876",
                 "GooglePlaceID": "ChIJI1pDSABTDDURrKmk3FIKvBU",
                 "Latitude": 33.2428074,
                 "Longitude": 126.568046,
@@ -1039,84 +809,14 @@
                 ],
                 "Price": "Not available",
                 "Rating": "Not Available",
-                "endDate": "2024-12-04",
-                "startDate": "2024-12-04"
+                "endDate": "2024-12-03",
+                "startDate": "2024-12-03"
             },
             {
-                "Address": "Seoho-dong, Seogwipo-si, Jeju-do, South Korea",
-                "Description": "Witseoreum Volcanic Cone of Hallasan Mountain, located in Seoho-dong, Seogwipo-si, Jeju-do, South Korea, is a natural landmark that offers visitors a unique and memorable experience. With a perfect 5/5 overall rating, this attraction is ideal for nature lovers and adventurers seeking scenic views and a chance to explore the island's geological history.\n\nVisitors can expect to find a stunning volcanic cone formation, which is a rare and beautiful sight. The location of Witseoreum Volcanic Cone is convenient, as it is close to other popular landmarks in Jeju Island, making it easy to include in a larger itinerary.\n\nReviews from visitors highlight the beauty and accessibility of the attraction, with many praising the stunning views and the opportunity to learn about the island's volcanic history. The unique and rare wildlife found in the area is also a notable special feature, making Witseoreum Volcanic Cone a must-visit for nature enthusiasts and photographers.\n\nIn summary, Witseoreum Volcanic Cone of Hallasan Mountain is a natural landmark that offers visitors a chance to explore the island's geological history, enjoy stunning views, and encounter rare wildlife. Its ideal location and perfect overall rating make it a top choice for nature lovers and adventurers visiting Jeju Island.",
-                "GooglePlaceID": "ChIJwaU3Vb9RDDURlRgTbqeamK4",
-                "Latitude": 33.2784399,
-                "Longitude": 126.5169922,
-                "Name": "Witseoreum Volcanic Cone of Hallasan Mountain",
-                "NumRating": 1,
-                "OpeningHours": [
-                    "Monday: Open 24 hours",
-                    "Tuesday: Open 24 hours",
-                    "Wednesday: Open 24 hours",
-                    "Thursday: Open 24 hours",
-                    "Friday: Open 24 hours",
-                    "Saturday: Open 24 hours",
-                    "Sunday: Open 24 hours"
-                ],
-                "Photos": [
-                    {
-                        "height": 1620,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4JI4TSk4lO6iphEQcJyopXUzJX5vqFV_i99uu-GZMeQLp3HYJ--BuJ4k_4ZquMje3lDEMO9Ha6qqBS70AVp8yIhSdGAPTqGafm8Usensdk-3WGHG9dL38hkEVhv5pXRheuIbY68FVBrNcgBaA1WOlOLMZnCMmU3ms7KhoNzBZEdeF6",
-                        "width": 1080
-                    },
-                    {
-                        "height": 1620,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
-                        ],
-                        "photo_reference": "AXCi2Q65uuq2kB4IQx14nf9QvFCh5gyMQjCPw1Lq0ncEdGCX8SexsY_J1q62pNkQ0f2xPMdmRH4HD3FJr_08NGlUUQYyAQ7fQ5FBIbfwiEH4q9-_0wRPme6_A5TO8KUU2sw_eMiteq_qxoxt5xz8gTBc5o_NMeFnry8OfJlx1Al4RJt8bPqU",
-                        "width": 1080
-                    },
-                    {
-                        "height": 1620,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5rf3V3WJBOTu4uJhve2qkNIMYky8VxhU3soBpmrNAvss2hnYFiWYSvhySSgWAJaaIPoKjlpFjtRk4giKb1Qejc-lpkLqi6Q0-iffyVx3QUawBNEopESjfxf4E9wrQ2jeuCxSkBFp0oLuztA14SWc_Cqa8RX2mm4oDkMCj_Nf7GIZEk",
-                        "width": 1080
-                    },
-                    {
-                        "height": 1620,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
-                        ],
-                        "photo_reference": "AXCi2Q62zNVQf-DbG26TMsqI538taDppK316JNLiIXkB4PGNVudERQawSOcn8j47k3iv0WhgDlQsMvSi7FSN0gkCQUdlI3VUk5hPUY3BbbclfQnbu2DCxp_6vTWspywa2RNDon-Jj5mws7jAaFvUpFvGQlPOg2lGvUlJb__8LJgsseqWLAYv",
-                        "width": 1080
-                    },
-                    {
-                        "height": 1620,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7yNWSaSuO3iEpvSPvNpS85fziBGgGFBXtMZbJILAEYmlvyc3Wm37ByjLG9IXyT7HfIln6_xlcV9kuCKFV22CNOVeDx6_UQXArvfZ8vVins_5YXfw56qE_SQqKtJJIHVn6w4y1-kVJwOVFt2BRim0b1Bf5KPVmPmkvCVC-Zsno6L6F4",
-                        "width": 1080
-                    },
-                    {
-                        "height": 1620,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
-                        ],
-                        "photo_reference": "AXCi2Q6R4scUPXOIIv6_2gNFwLDNzDew2zN6BdJArALXUuX9ZqDTu3Dg3IFSdPLJ3cNaw6klyw1U1SyfCqG3kOHGye1eVRncIuaOL_voxW8c5D7Lach0tDRvApRJXTcL3dgLowhmaKFWyMPQETxqezXDKnTTNNFfF8HvmP_wt1aqSXfW2A_E",
-                        "width": 1080
-                    }
-                ],
-                "Price": "Not available",
-                "Rating": "5",
-                "endDate": "2024-12-05",
-                "startDate": "2024-12-05"
-            },
-            {
+                "AccomodationWebsiteURL": "https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_200000000009231",
                 "Address": "2600 Daepo-dong, Seogwipo, Jeju-do, South Korea",
                 "Description": "The Dorippal Coast, located in Seogwipo, Jeju-do, South Korea, is a natural landmark that has earned a perfect 5/5 overall rating from visitors. While a brief description is not available, the attraction's location near key landmarks and its unique features make it a must-visit destination for nature lovers and adventure seekers alike.\n\nVisitors can expect breathtaking scenic views, with the coast offering a variety of activities such as hiking, birdwatching, and photography. The area is known for its rich biodiversity, with rare wildlife and unique plant species that make for an unforgettable experience.\n\nThe Dorippal Coast is ideal for families, couples, and solo travelers who appreciate the beauty of nature. Its proximity to other popular attractions in Jeju Island makes it a convenient stop for those looking to explore the island's natural wonders.\n\nReviews from visitors highlight the coast's accessibility, with well-maintained trails and facilities that cater to all ages and fitness levels. The area's unique geological formations and picturesque landscapes make for a memorable visit, with many describing the experience as a hidden gem that should not be missed.\n\nIn addition to its natural beauty, the Dorippal Coast also offers seasonal events and guided tours, providing visitors with a more in-depth understanding of the area's history and cultural significance. With its perfect rating and rave reviews, the Dorippal Coast is a must-visit attraction for anyone looking to experience the best of Jeju Island's natural wonders.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=17479707007882026270",
                 "GooglePlaceID": "ChIJVwROmtpbDDURHt22hulklPI",
                 "Latitude": 33.2357429,
                 "Longitude": 126.4286779,
@@ -1215,29 +915,88 @@
                 ],
                 "Price": "Not available",
                 "Rating": "5",
-                "endDate": "2024-12-05",
-                "startDate": "2024-12-05"
+                "endDate": "2024-12-04",
+                "startDate": "2024-12-04"
             },
             {
-                "Address": "680-26 Yeon-dong, Cheju, Jeju-do, South Korea",
-                "Description": "Ibsul, located at 680-26 Yeon-dong, Cheju, Jeju-do, South Korea, is a highly-rated tourist attraction with a perfect 5/5 overall rating. Although a brief description is not available, visitor reviews suggest that it is a lovely place. Ibsul is ideal for nature lovers and families seeking a peaceful and picturesque destination. Its location in Jeju Island allows visitors to explore other nearby attractions and landmarks. While specific details about the attraction's features and activities are not provided, the positive reviews indicate that visitors find their experience memorable and enjoyable.",
-                "GooglePlaceID": "ChIJEYGadND7DDURbyopZJOR_Hc",
-                "Latitude": 33.4516853,
-                "Longitude": 126.4902312,
-                "Name": "Ibsul",
-                "NumRating": 2,
+                "AccomodationWebsiteURL": null,
+                "Address": "Seoho-dong, Seogwipo-si, Jeju-do, South Korea",
+                "Description": "Witseoreum Volcanic Cone of Hallasan Mountain, located in Seoho-dong, Seogwipo-si, Jeju-do, South Korea, is a natural landmark that offers visitors a unique and memorable experience. With a perfect 5/5 overall rating, this attraction is ideal for nature lovers and adventurers seeking scenic views and a chance to explore the island's geological history.\n\nVisitors can expect to find a stunning volcanic cone formation, which is a rare and beautiful sight. The location of Witseoreum Volcanic Cone is convenient, as it is close to other popular landmarks in Jeju Island, making it easy to include in a larger itinerary.\n\nReviews from visitors highlight the beauty and accessibility of the attraction, with many praising the stunning views and the opportunity to learn about the island's volcanic history. The unique and rare wildlife found in the area is also a notable special feature, making Witseoreum Volcanic Cone a must-visit for nature enthusiasts and photographers.\n\nIn summary, Witseoreum Volcanic Cone of Hallasan Mountain is a natural landmark that offers visitors a chance to explore the island's geological history, enjoy stunning views, and encounter rare wildlife. Its ideal location and perfect overall rating make it a top choice for nature lovers and adventurers visiting Jeju Island.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=12580975602956441749",
+                "GooglePlaceID": "ChIJwaU3Vb9RDDURlRgTbqeamK4",
+                "Latitude": 33.2784399,
+                "Longitude": 126.5169922,
+                "Name": "Witseoreum Volcanic Cone of Hallasan Mountain",
+                "NumRating": 1,
                 "OpeningHours": [
-                    "Not Available"
+                    "Monday: Open 24 hours",
+                    "Tuesday: Open 24 hours",
+                    "Wednesday: Open 24 hours",
+                    "Thursday: Open 24 hours",
+                    "Friday: Open 24 hours",
+                    "Saturday: Open 24 hours",
+                    "Sunday: Open 24 hours"
                 ],
-                "Photos": [],
+                "Photos": [
+                    {
+                        "height": 1620,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4JI4TSk4lO6iphEQcJyopXUzJX5vqFV_i99uu-GZMeQLp3HYJ--BuJ4k_4ZquMje3lDEMO9Ha6qqBS70AVp8yIhSdGAPTqGafm8Usensdk-3WGHG9dL38hkEVhv5pXRheuIbY68FVBrNcgBaA1WOlOLMZnCMmU3ms7KhoNzBZEdeF6",
+                        "width": 1080
+                    },
+                    {
+                        "height": 1620,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
+                        ],
+                        "photo_reference": "AXCi2Q65uuq2kB4IQx14nf9QvFCh5gyMQjCPw1Lq0ncEdGCX8SexsY_J1q62pNkQ0f2xPMdmRH4HD3FJr_08NGlUUQYyAQ7fQ5FBIbfwiEH4q9-_0wRPme6_A5TO8KUU2sw_eMiteq_qxoxt5xz8gTBc5o_NMeFnry8OfJlx1Al4RJt8bPqU",
+                        "width": 1080
+                    },
+                    {
+                        "height": 1620,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
+                        ],
+                        "photo_reference": "AXCi2Q5rf3V3WJBOTu4uJhve2qkNIMYky8VxhU3soBpmrNAvss2hnYFiWYSvhySSgWAJaaIPoKjlpFjtRk4giKb1Qejc-lpkLqi6Q0-iffyVx3QUawBNEopESjfxf4E9wrQ2jeuCxSkBFp0oLuztA14SWc_Cqa8RX2mm4oDkMCj_Nf7GIZEk",
+                        "width": 1080
+                    },
+                    {
+                        "height": 1620,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
+                        ],
+                        "photo_reference": "AXCi2Q62zNVQf-DbG26TMsqI538taDppK316JNLiIXkB4PGNVudERQawSOcn8j47k3iv0WhgDlQsMvSi7FSN0gkCQUdlI3VUk5hPUY3BbbclfQnbu2DCxp_6vTWspywa2RNDon-Jj5mws7jAaFvUpFvGQlPOg2lGvUlJb__8LJgsseqWLAYv",
+                        "width": 1080
+                    },
+                    {
+                        "height": 1620,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7yNWSaSuO3iEpvSPvNpS85fziBGgGFBXtMZbJILAEYmlvyc3Wm37ByjLG9IXyT7HfIln6_xlcV9kuCKFV22CNOVeDx6_UQXArvfZ8vVins_5YXfw56qE_SQqKtJJIHVn6w4y1-kVJwOVFt2BRim0b1Bf5KPVmPmkvCVC-Zsno6L6F4",
+                        "width": 1080
+                    },
+                    {
+                        "height": 1620,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/108234383068397811236\">Phương Khanh</a>"
+                        ],
+                        "photo_reference": "AXCi2Q6R4scUPXOIIv6_2gNFwLDNzDew2zN6BdJArALXUuX9ZqDTu3Dg3IFSdPLJ3cNaw6klyw1U1SyfCqG3kOHGye1eVRncIuaOL_voxW8c5D7Lach0tDRvApRJXTcL3dgLowhmaKFWyMPQETxqezXDKnTTNNFfF8HvmP_wt1aqSXfW2A_E",
+                        "width": 1080
+                    }
+                ],
                 "Price": "Not available",
                 "Rating": "5",
-                "endDate": "2024-12-06",
-                "startDate": "2024-12-06"
+                "endDate": "2024-12-04",
+                "startDate": "2024-12-04"
             },
             {
+                "AccomodationWebsiteURL": null,
                 "Address": "2-15 Namseongjung-ro, 천지동 Seogwipo, Jeju-do, South Korea",
                 "Description": "Cheonjiyeon Falls Ticket Office is a must-visit attraction in Jeju Island, located at 2-15 Namseongjung-ro, 천지동 Seogwipo, Jeju-do, South Korea. This natural landmark boasts a perfect 5/5 overall rating from visitors, who highly recommend it for its easy access and stunning views. The ticket office is the entrance to the Cheonjiyeon Falls, where visitors can purchase tickets for 2,000krw per adult, with discounted rates for groups, seniors, and children. The journey from the ticket office to the falls is less than 800m, making it suitable for families and nature lovers. Visitors appreciate the fast and easy signage at the ticket office, which ensures a smooth and enjoyable experience. With its picturesque scenery and convenient location, Cheonjiyeon Falls Ticket Office is an ideal spot for those looking to explore the natural beauty of Jeju Island.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=11420496851131634360",
                 "GooglePlaceID": "ChIJxRc78ctTDDURuBIrsmDBfZ4",
                 "Latitude": 33.2447447,
                 "Longitude": 126.5597544,
@@ -1288,110 +1047,14 @@
                 ],
                 "Price": "Not available",
                 "Rating": "5",
-                "endDate": "2024-12-06",
-                "startDate": "2024-12-06"
+                "endDate": "2024-12-05",
+                "startDate": "2024-12-05"
             },
             {
-                "Address": "1666 Ora 2(i)-dong, Cheju, Jeju-do, South Korea",
-                "Description": "민오름입구는 대한민국 제주특별자치도 제주시 오라2동에 위치한 아름다운 자연 명소입니다. 이 곳은 높은 평가를 받고 있으며, 방문객들은 평균 4.9/5의 평점을 주고 있습니다. 민오름입구는 푸른 숲과 아름다운 경치로 둘러싸여 있어 자연을 사랑하는 사람들에게 이상적인 장소입니다.\n\n이 곳은 가족, 모험가, 자연 애호가 등 다양한 방문객들에게 인기가 있습니다. 민오름입구는 제주도의 다른 인기 명소와 가까워서 여행 일정에 포함시키기에 편리합니다. 방문객들은 민오름입구에서 산책로를 따라 걷거나, 피크닉을 즐기거나, 야생동물을 관찰하는 등 다양한 활동을 즐길 수 있습니다.\n\n리뷰에 따르면, 민오름입구는 그 아름다움과 접근성으로 인해 많은 사람들에게 기억에 남는 경험을 선사합니다. 이곳은 계절에 따라 다양한 꽃과 식물이 피어나며, 산책로를 따라 걷는 동안 신선한 공기와 조용한 분위기를 느낄 수 있습니다. 또한, 민오름입구는 제주도의 자연 경관을 감상할 수 있는 숨겨진 보석 같은 장소로 알려져 있습니다.\n\n민오름입구는 자연 애호가들에게 평화로운 휴식과 아름다운 경치를 제공하는 특별한 장소입니다. 이곳을 방문하면 제주도의 아름다움을 더욱 깊이 느낄 수 있을 것입니다.",
-                "GooglePlaceID": "ChIJ95AHxA37DDURM5Ex4KXYpdU",
-                "Latitude": 33.4787885,
-                "Longitude": 126.5080619,
-                "Name": "민오름입구",
-                "NumRating": 14,
-                "OpeningHours": [
-                    "Not Available"
-                ],
-                "Photos": [
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101290492619215810250\">이은주</a>"
-                        ],
-                        "photo_reference": "AXCi2Q72Qb4PgkvfiraGtiwAyBG0H9JG641HnrdLwUYPeHjQwWGQp4UFX_vig0hMszmvM8b6nIKVjsAo12qP5WiuyOOomxG4DqKQ1b-hAG6Pa0cYvqNVxhrpUmjqVtpfywMLutfdQBFH5QstxUIetYwKuyewgUDX9Zq8OAp6RK8feqc2dsln",
-                        "width": 4032
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101700358679870287428\">최영지 (하모니)</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4IQ18_tgbi6bIS7k3b70xccoawRpDnQCYJixIq1BpxA96SdaMTCr68HWxkaskd-UcQ8homPkiJmQGrbqsgzGu35WFy0BmUV7NFdTX8D0aup56Nwsf7WL4XOdnXdKdG2xt17YQ92OxluOD6TxEA6LXwiFahgaf-fDyOO03HlQDlUETX",
-                        "width": 2268
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/100018765474447459687\">장짱</a>"
-                        ],
-                        "photo_reference": "AXCi2Q6qSuqAeX2HrZ3f-LP3xcXjGKGrLOMquisIeQzDZQp1ivIWe5FdVKfiLQAY-uOmSkoOpBkAkZAzMukuelf1DT0M_gNwDRoo83atHacZf3wrhV6JpmqUWqkA2s0WdzJ_00MHhXUkpANyYePabF0Bcrbo_1ecZVLn7I6xlDU4TzBvqxj2",
-                        "width": 3024
-                    },
-                    {
-                        "height": 3024,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101290492619215810250\">이은주</a>"
-                        ],
-                        "photo_reference": "AXCi2Q47UYQuWgghqXldp61dtJKTNc2YsG6BiAEyYU_RYCgF_Wh0uaj9alkUiSEP-9xdLysG0HjjvK0jWbr3czW2PmxxXT4uepu0SKa-VOy-YUDyo-pg7SP2yhTDrp8fPHGXziLcHonUIg1-od0awL08odYd8dtVRm7vdO6bVx0xb-_XPgGL",
-                        "width": 4032
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101700358679870287428\">최영지 (하모니)</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4BdXQ95upP8E1LnQD00CSVurtuLz0wBz-70cyNuRUKtXnqjxa62L5CJT3lOMq0zdLLJgdSfdd7Ft57zEDjRkt6qavPUhU_eXc1MDlfki3DIpQ7VKe5kugtvD7Hs2uDuMWobURwO2Ljq4M776YffQ9CN4pyPoIAxmtIlwpZ4iWz6kqb",
-                        "width": 2268
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101700358679870287428\">최영지 (하모니)</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5dumSYcSOXhplHkv_Lny1KhnX79XCoiIttTpWgpVyTXsOUMjL_caVUv4qRccMR4cBdosq9Sj6BQjry5qIL6i1TjMhdk06VGhETnnVqNi8_BdJPHFii7Y9wMynwoZeVuoebNxlxjNTColmvBXSMjnlTktfhtoQa0AuOQSCYgoBuC0PO",
-                        "width": 2268
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/103926914632469811153\">문동일</a>"
-                        ],
-                        "photo_reference": "AXCi2Q49HrgDnMuY6BuKc2RVk_34g20Ru3RneLxUifNmCAcwZHMA6OFuU-s4UGLSbmv_dKAlIOZPQC6k_iyQwMLHeQ-FiGuIp7zUgyjAKWiuoXfpSgk1Gm5FaIOAZgX9Eq5ZQ_kZ7f6S9JOAd0GNsayqfjll2GhTDlUkiIb_UnsFk8ig7Bg",
-                        "width": 3024
-                    },
-                    {
-                        "height": 4000,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101647625562375493647\">양원하</a>"
-                        ],
-                        "photo_reference": "AXCi2Q5tIWvcmim3oUWHUd1gLnIRoYBAXr7EqosheZiNWilpjLnZcHoJTOUm2JIlrBaAq_C1TmwAODxkASlGx5xtcg-_RtDzfMbeyOtexLmbofzc8Rc-u_xRjNdEFkl4d2iqhIVY48rkpEPBC17Rtaw9w_NpEHBtZVtwq9WX-nTbXpjDPB8p",
-                        "width": 2252
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101700358679870287428\">최영지 (하모니)</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7voAey8EU5B3LbNFr_h80_MEFY-fufm9ivrkT2ug3Q3jXK2Uz4Q6ofecih_AG7h76najAayBVva0Au1dnLsNBheGjzFVSD74oJdhXGDdoxOEryVjsNMV8AcY7Ap0msam20uoZRdU7AuhR7ci7AfFJrAY56VicSEP292J95vH2mEzoe",
-                        "width": 2268
-                    },
-                    {
-                        "height": 4032,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/103926914632469811153\">문동일</a>"
-                        ],
-                        "photo_reference": "AXCi2Q4vV828dcdEHqFBNEa2jZbQ-m3gWsVZBqCwWKUmdQKrmdKWaO04HdgF035l_H7DzzgOCuCGkXl8rszt5hPEqdgZ8GigCgGBdZADI0MP18NtMioU6j48ZNpPtgVuHBlBF4HnaFePtSB6JjegiYibyO8nlzxRGow3bqmri1OqWN3OUeA",
-                        "width": 3024
-                    }
-                ],
-                "Price": "Not available",
-                "Rating": "4.9",
-                "endDate": "2024-12-07",
-                "startDate": "2024-12-07"
-            },
-            {
+                "AccomodationWebsiteURL": "http://jejuresort.kr/",
                 "Address": "South Korea, Jeju-do, Seogwipo, 특별자치도, 송산동 산1-1 KR",
                 "Description": "Seopseom, located in South Korea's Jeju-do, Seogwipo, is a highly-rated tourist attraction with an overall rating of 4.8/5. This natural landmark is ideal for nature lovers and adventure seekers, offering breathtaking views and a unique diving experience. Visitors can expect to see stunning scenery and engage in various outdoor activities. The attraction's proximity to the Orba Cafe provides an additional perk, as the view from the cafe's second floor is a popular spot for photography. Seopseom's special feature is its status as a top diving spot, making it a must-visit for adventure enthusiasts. The attraction's reviews highlight its beauty and the memorable experiences it offers, with visitors praising the misty island's scenic views and the unique diving opportunities.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=12419099207411964050",
                 "GooglePlaceID": "ChIJ7a0CaD5TDDURkhggEO6AWaw",
                 "Latitude": 33.23015030000001,
                 "Longitude": 126.5993122,
@@ -1484,12 +1147,14 @@
                 ],
                 "Price": "Not available",
                 "Rating": "4.8",
-                "endDate": "2024-12-07",
-                "startDate": "2024-12-07"
+                "endDate": "2024-12-05",
+                "startDate": "2024-12-05"
             },
             {
+                "AccomodationWebsiteURL": null,
                 "Address": "795-4 Seohong-dong, Seogwipo, Jeju-do, South Korea",
                 "Description": "Olle Trail Course 7 is a 4.8/5-rated natural landmark located in Seohong-dong, Seogwipo, Jeju-do, South Korea. This 17 km trail offers stunning sea views and is ideal for nature lovers and families. Visitors can expect a pleasant walk along the cliffs, with the option to cut the trail short at their convenience. The trail features an amazing lookout point with stunning views, and on a sunny day, the sea breeze provides a refreshing experience. Additionally, visitors may have the chance to see local fishermen at work. While the trail includes some stairs, it is accessible and offers a beautiful way to experience the natural beauty of Jeju Island.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=16271786809821898205",
                 "GooglePlaceID": "ChIJH36r3l1TDDUR3SVSVOT_0OE",
                 "Latitude": 33.2404612,
                 "Longitude": 126.5492556,
@@ -1588,100 +1253,340 @@
                 ],
                 "Price": "Not available",
                 "Rating": "4.8",
-                "endDate": "2024-12-08",
-                "startDate": "2024-12-08"
+                "endDate": "2024-12-06",
+                "startDate": "2024-12-06"
             },
             {
-                "Address": "246 Yeongsil-ro, Jungmun-dong, Seogwipo, Jeju-do, South Korea",
-                "Description": "Hanla Mountain National Park's Yeongsil Trail is a must-visit hiking destination in Jeju Island, offering breathtaking views in all seasons. Located at 246 Yeongsil-ro, Jungmun-dong, Seogwipo, Jeju-do, South Korea, this 4.8/5-rated attraction boasts a rest area and a shelter for visitors. The trail is known for its scenic beauty, with reviewers praising its stunning views of Hallasan National Park and the challenge it presents to hikers of all levels. Visitors can expect a medium difficulty hike with plenty of stairs and a gradual pace, taking about an hour to reach Byeongpung Rock. The trail is ideal for nature lovers and adventurers, with reviewers recommending good walking shoes, a windbreaker, and plenty of water. The top offers amazing views and beautiful nature, making it a perfect spot for drone recordings. However, visitors should be prepared for the exhausting path upwards and allow 2-3 hours for the hike.",
-                "GooglePlaceID": "ChIJOb9IR92pDTURE1XJyrhAi-w",
-                "Latitude": 33.3491902,
-                "Longitude": 126.4970597,
-                "Name": "한라산국립공원 영실 탐방로",
-                "NumRating": 2013,
+                "AccomodationWebsiteURL": null,
+                "Address": "South Korea, Jeju-do, Cheju, 특별자치도 외도동 1956-23",
+                "Description": "Maimos is a natural landmark located in Jeju-do, South Korea, specifically in Cheju, 특별자치도 외도동 1956-23. While a brief description and overall rating are not available, visitor reviews highlight the attraction's unique beauty and scenic views. Maimos is ideal for nature lovers and families seeking a peaceful retreat. Its proximity to other popular places in Jeju Island makes it a convenient stop for tourists. The attraction offers a serene environment, perfect for those looking to escape the hustle and bustle of city life. Visitors can expect to see stunning landscapes and enjoy the tranquility of the area.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=6064829128014426938",
+                "GooglePlaceID": "ChIJWwLsCefxDDUROvO9hvWZKlQ",
+                "Latitude": 33.4930195,
+                "Longitude": 126.4276205,
+                "Name": "Maimos",
+                "NumRating": 0,
                 "OpeningHours": [
                     "Not Available"
                 ],
                 "Photos": [
                     {
-                        "height": 2268,
+                        "height": 3000,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/113919864493102657212\">김현수</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/106828212379512836181\">Sophia Kim</a>"
                         ],
-                        "photo_reference": "AXCi2Q437nRbOUrBlFH662gM_MCBpZccPQCimE3Ro4dRwoXJJU-mpkl3ykobmty9UjUfRyI68xu2KUOjflEV1i6V852Hcyq1e5o5krEDjYb5O8YRGfxizJEvEGyX-PtZxEtGilXuqDtHmVTrjLU5ZeQbqJ73Z-yeMNcyBRrybihN2gusz3Of",
+                        "photo_reference": "AXCi2Q4weVY4SReyhe3H62P9eu-H-H9Uf66gLAV5PEMe9y3HuCZ0SgOJyHmz8R9oC5E7PTE9UbH1gsztKw0npYZ4P5Fewplw3AJ0-5VA0EUQhrbo99O251yY-3qH3_fWDpg6FHk2jTR8hypVeMT4iPuTRyCHM-w63wg6FvGTYIzt9hUZyGAp",
+                        "width": 4000
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4JwsWypmZE7DGtTevblUblLmJsiW_B7uh-kLl_t4n3QFG1aiIIM5zve1zi10XWvPd0fRAaaE7Pem1nZtqYIunGMYwx9cxwR8jqCbALLZjiswndVLpXbmGD8_rjZKgQ1ZvCMXG334C_e9AhtWmAb26V7B6hmP8JfBcT1kRwgxod-kc",
+                        "width": 4032
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
+                        ],
+                        "photo_reference": "AXCi2Q74uUlVZ4TJ59me0Fxm_p6je6sjhBTQW9wpGNENLAN1rxA7kefb2966uE2va2ug9CphKqb_FrBXepBeHHFc3aWZ_LhnKCVd-8Pm5lM8foypoz2b94gtDqTNbHXZjgQJBE1mRwuOfYbz5YFc26irIBfgJE1Dv1xSUzBAbNDADWqKHoE",
+                        "width": 4032
+                    },
+                    {
+                        "height": 4032,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4U3anyHdjPK1l2Q7Tur1d1CybfXpFNxaTFbNgiC163WwYANOxlQzXJ83Ti2Ggtddg9npiN76QkhtQL0Bf9rZRr5O73j4kZewc9Kebo_JBe5kkYn8y9JW9TABXg48Y5drp0id3zLIW82gOs5qrUGkq0c_GG6arrbLcB0hiWOvBoyTA",
+                        "width": 3024
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
+                        ],
+                        "photo_reference": "AXCi2Q46h2MCGFluF9TJW8Zs24NenUoMPFDmUVd6xEyof7q7NIfvNczujxkrXzMk8O2lEYzqAzJ_9KblFeNZ_N2DeRLPYh-419K6sUmuW_2IoPqCez6N_4U-NNhBY557mB2nskV1Ap-k_qwntvpAH9dIY2kSj8e6eryD7HIBIw08WvatrUI",
+                        "width": 4032
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
+                        ],
+                        "photo_reference": "AXCi2Q5KUo531rv3_mzy6T71VB4oPt368vHgMIcGaLAR-OT6UAEGoqaEsbzKaE2-IH_1WiaiG4mwdIRu2H_oOwJUpTVU-Fo5tIU7_5JT7vPhfpEijInzGFAwgvgqQISYFi_nFtj2bxybiAs3f19wDnSKWIwPeRnd6wjLwnzElA3tvXyJE5Y",
+                        "width": 4032
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4KYNu6l3N2hqYMTYU1bxxlbBX3JeTPlVz3w-4oaPom-SKyO_dYlsP1kK6raWqZsUlTBgMKhfcpJdLyA3i_2J178z-KV41fDGBQ2bE_M5xa6RMMKV7DVdFu2bK1BTvvP4vH_7p-JwyEgfuiTmaFCo60QwadARy81D5YqEws2G1grmo",
+                        "width": 4032
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
+                        ],
+                        "photo_reference": "AXCi2Q555Bq7tLCkKahMY1azsZdxzFRL_8XRiy_0K_s9Honglf9QQHSIl00B_QIQI4bdRv6-N4g3ji4HF4FM1ZmnR0clhzoQa72XMARGlVONJ4a-fnqcxVgusDcgPNEWDBE7aTeBM1VJgmnLsNbUaLXeji2K2EqUYZA2eCwASEgCQ0zv-6U",
                         "width": 4032
                     },
                     {
                         "height": 3000,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/115751176120773236714\">Lisa</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/107630653893418083946\">SJ Sung</a>"
                         ],
-                        "photo_reference": "AXCi2Q6Usr1bo2p_sBr1kGPGm24ikfkhRMhqKKWxeF_V7J1f48yR4hyhobewSBL52thJ0bkZ8dp9GaBxgxBAWMzakPBVmI_hk7yUmUy_PJD3Eem1qAv-xhFwy9Rmw_AuJUZhrM_X4Pn4WJ6Pe7O6Y_8niZWOeOz8dhKBtSWWIttfy1regc-n",
+                        "photo_reference": "AXCi2Q7aQ1N52jfDUsXTZe5VWuUbYhRCxXVWl20pwT3ynLl143W7PaZ7BDgYdxpsir7YY8MPVQ3yiAzIi9Glaer9st8NXIzLDGvB5zv9EvJ3xCtKHU3q1yCfEWTdtWL_z1DqrJY2-bZA2xQl9OlGjJTGelApkSgTaSDeEU6IcfrPsvRdA-gx",
                         "width": 4000
                     },
                     {
-                        "height": 3264,
+                        "height": 3024,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/113004696614720168143\">Slevin Choi</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/102268822616506973037\">아날로그제주</a>"
                         ],
-                        "photo_reference": "AXCi2Q4PWlRrKGJuJ28QLuNYYJM-6o989rePD7CAMM8mwBB2dLSylbJVHbpSST0deg0GXY48-Rl0aw3AZSkZQJ6bS8hv9WkE9CiuQ3S9vFi54MsxDB9-_F3Xn4QDqYS50gx5lmkyKUNulw4eqcL_gpif9x3H627Y6m4LFqdl3fEIjCwEG3M",
-                        "width": 2448
+                        "photo_reference": "AXCi2Q7GNgOiXPPD3LLR9c-ZcbzyINa2dVcJgU2RZswptwkWfVQrI2lF9JJpiJU9dzjSEVx1JF-BQaqRTO6gSZM4AtPB4KuVAGaC_XVjbeGtWnJ9f8KYeeV-1A69gX7TdLYvIt-0OnXY1OVPa6uRCZzOf9KY_tjkQkMGLD4ASBQaI9Gss8E",
+                        "width": 4032
+                    }
+                ],
+                "Price": "Not available",
+                "Rating": "Not Available",
+                "endDate": "2024-12-06",
+                "startDate": "2024-12-06"
+            },
+            {
+                "AccomodationWebsiteURL": null,
+                "Address": "53 Sindae-ro, Cheju, Jeju-do, South Korea",
+                "Description": "TheJejuStory is a cultural site located at 53 Sindae-ro, Cheju, Jeju-do, South Korea. This attraction offers visitors a unique experience, showcasing the rich history and culture of Jeju Island. Visitors can expect to learn about the island's traditions, customs, and stories through various exhibits and interactive displays. TheJejuStory is ideal for families, history enthusiasts, and those interested in learning more about the local culture.\n\nLocated in the heart of Jeju City, TheJejuStory is easily accessible and close to other popular attractions, making it a perfect addition to any itinerary. Visitors have praised the attraction for its engaging exhibits, knowledgeable staff, and the opportunity to gain a deeper understanding of Jeju's unique heritage.\n\nWhile specific visitor reviews are not available, TheJejuStory is known for its immersive experience, which allows visitors to connect with the island's history and culture in a meaningful way. The attraction also offers guided tours, ensuring that visitors can make the most of their visit and gain valuable insights into the island's past.\n\nIn summary, TheJejuStory is a must-visit cultural site for anyone interested in learning about the rich history and culture of Jeju Island. Its central location, engaging exhibits, and knowledgeable staff make it an ideal destination for families, history enthusiasts, and those seeking a deeper understanding of the island's unique heritage.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=15445781723419744531",
+                "GooglePlaceID": "ChIJAx-rmA77DDURE5mnZqRwWtY",
+                "Latitude": 33.4929462,
+                "Longitude": 126.4966306,
+                "Name": "더제주스토리",
+                "NumRating": 0,
+                "OpeningHours": [
+                    "Not Available"
+                ],
+                "Photos": [],
+                "Price": "Not available",
+                "Rating": "Not Available",
+                "endDate": "2024-12-07",
+                "startDate": "2024-12-07"
+            },
+            {
+                "AccomodationWebsiteURL": null,
+                "Address": "680-26 Yeon-dong, Cheju, Jeju-do, South Korea",
+                "Description": "Ibsul, located at 680-26 Yeon-dong, Cheju, Jeju-do, South Korea, is a highly-rated tourist attraction with a perfect 5/5 overall rating. Although a brief description is not available, visitor reviews suggest that it is a lovely place. Ibsul is ideal for nature lovers and families seeking a peaceful and picturesque destination. Its location in Jeju Island allows visitors to explore other nearby attractions and landmarks. While specific details about the attraction's features and activities are not provided, the positive reviews indicate that visitors find their experience memorable and enjoyable.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=8645945446871149167",
+                "GooglePlaceID": "ChIJEYGadND7DDURbyopZJOR_Hc",
+                "Latitude": 33.4516853,
+                "Longitude": 126.4902312,
+                "Name": "Ibsul",
+                "NumRating": 2,
+                "OpeningHours": [
+                    "Not Available"
+                ],
+                "Photos": [],
+                "Price": "Not available",
+                "Rating": "5",
+                "endDate": "2024-12-07",
+                "startDate": "2024-12-07"
+            },
+            {
+                "AccomodationWebsiteURL": null,
+                "Address": "1666 Ora 2(i)-dong, Cheju, Jeju-do, South Korea",
+                "Description": "민오름입구는 대한민국 제주특별자치도 제주시 오라2동에 위치한 아름다운 자연 명소입니다. 이 곳은 높은 평가를 받고 있으며, 방문객들은 평균 4.9/5의 평점을 주고 있습니다. 민오름입구는 푸른 숲과 아름다운 경치로 둘러싸여 있어 자연을 사랑하는 사람들에게 이상적인 장소입니다.\n\n이 곳은 가족, 모험가, 자연 애호가 등 다양한 방문객들에게 인기가 있습니다. 민오름입구는 제주도의 다른 인기 명소와 가까워서 여행 일정에 포함시키기에 편리합니다. 방문객들은 민오름입구에서 산책로를 따라 걷거나, 피크닉을 즐기거나, 야생동물을 관찰하는 등 다양한 활동을 즐길 수 있습니다.\n\n리뷰에 따르면, 민오름입구는 그 아름다움과 접근성으로 인해 많은 사람들에게 기억에 남는 경험을 선사합니다. 이곳은 계절에 따라 다양한 꽃과 식물이 피어나며, 산책로를 따라 걷는 동안 신선한 공기와 조용한 분위기를 느낄 수 있습니다. 또한, 민오름입구는 제주도의 자연 경관을 감상할 수 있는 숨겨진 보석 같은 장소로 알려져 있습니다.\n\n민오름입구는 자연 애호가들에게 평화로운 휴식과 아름다운 경치를 제공하는 특별한 장소입니다. 이곳을 방문하면 제주도의 아름다움을 더욱 깊이 느낄 수 있을 것입니다.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=15394949108178456883",
+                "GooglePlaceID": "ChIJ95AHxA37DDURM5Ex4KXYpdU",
+                "Latitude": 33.4787885,
+                "Longitude": 126.5080619,
+                "Name": "민오름입구",
+                "NumRating": 14,
+                "OpeningHours": [
+                    "Not Available"
+                ],
+                "Photos": [
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/101290492619215810250\">이은주</a>"
+                        ],
+                        "photo_reference": "AXCi2Q72Qb4PgkvfiraGtiwAyBG0H9JG641HnrdLwUYPeHjQwWGQp4UFX_vig0hMszmvM8b6nIKVjsAo12qP5WiuyOOomxG4DqKQ1b-hAG6Pa0cYvqNVxhrpUmjqVtpfywMLutfdQBFH5QstxUIetYwKuyewgUDX9Zq8OAp6RK8feqc2dsln",
+                        "width": 4032
                     },
                     {
-                        "height": 3000,
+                        "height": 4032,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/113532272164509943972\">Yongsoo Jeong</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/101700358679870287428\">최영지 (하모니)</a>"
                         ],
-                        "photo_reference": "AXCi2Q74VkDPLskuFbXsdCBIhxLni9Yan7IyzeUjAtjyXCQk2ehRPfgMPtZ1KEDU78NM7_4SncWjYzRNeHjNLCzC7kY8X8-eA9jVGD1wQrkK1x6tEIvz41B7v1x6sXBepGGxPIgw_3DTyQ_rLuCcHDposr68I32mauQS742RQKwyDcyk8fqp",
-                        "width": 4000
+                        "photo_reference": "AXCi2Q4IQ18_tgbi6bIS7k3b70xccoawRpDnQCYJixIq1BpxA96SdaMTCr68HWxkaskd-UcQ8homPkiJmQGrbqsgzGu35WFy0BmUV7NFdTX8D0aup56Nwsf7WL4XOdnXdKdG2xt17YQ92OxluOD6TxEA6LXwiFahgaf-fDyOO03HlQDlUETX",
+                        "width": 2268
                     },
                     {
-                        "height": 9000,
+                        "height": 4032,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/106431216236464758533\">정규헌</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/100018765474447459687\">장짱</a>"
                         ],
-                        "photo_reference": "AXCi2Q6hg7mwoUoWSQdYzHkjFfAMYqgzsVjMZq6zaYmxJD7VCFWsxmVzvci8FdufQD6mWBlpedHUNuyHcdjl1SyfKDy5Zh0jwtC1ds6wibBaUhX6Ed2K8VsbJwDHlmMlhNQbouWB8GYu-SuOypeJKasSVNA9ILCKuniisKV52CeiNjilURDA",
-                        "width": 12000
-                    },
-                    {
-                        "height": 16320,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/114894739040402094992\">Younkwan Lee</a>"
-                        ],
-                        "photo_reference": "AXCi2Q6OO3yUi4KgRbyYaTewLlAPqChtY2Gez2VHbWHw-JaN2MrK4HEvJuQS1qAJGmsbSHWBAENjhHCFihM54OHcQi1-LNPcRwulCw1WqqjJQBGALNs-8ovIWExDqz0PH40sryk7gwLTcw-jOeCYhch8zJOLhvDqrkEGIkl_jFSs_Cf2cYv0",
-                        "width": 12240
+                        "photo_reference": "AXCi2Q6qSuqAeX2HrZ3f-LP3xcXjGKGrLOMquisIeQzDZQp1ivIWe5FdVKfiLQAY-uOmSkoOpBkAkZAzMukuelf1DT0M_gNwDRoo83atHacZf3wrhV6JpmqUWqkA2s0WdzJ_00MHhXUkpANyYePabF0Bcrbo_1ecZVLn7I6xlDU4TzBvqxj2",
+                        "width": 3024
                     },
                     {
                         "height": 3024,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/116050770632957058061\">Teddy Lee</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/101290492619215810250\">이은주</a>"
                         ],
-                        "photo_reference": "AXCi2Q7dQ9xBDAQxTzmf_KZ9tmTuZsiUlmozLUR-4LUF5LOONDPXiY0XD1yptWEmQOa6-b0QTfODOUTTcAJJfh-wRiPcBb7KVCcrs1HjQREwrwtrZQjIIwmjolIwo-M-rEynPViKGGv-Q9_do1w8FbMEtb-g_RqLjdoXuOUPw-oSlQDmHChe",
+                        "photo_reference": "AXCi2Q47UYQuWgghqXldp61dtJKTNc2YsG6BiAEyYU_RYCgF_Wh0uaj9alkUiSEP-9xdLysG0HjjvK0jWbr3czW2PmxxXT4uepu0SKa-VOy-YUDyo-pg7SP2yhTDrp8fPHGXziLcHonUIg1-od0awL08odYd8dtVRm7vdO6bVx0xb-_XPgGL",
+                        "width": 4032
+                    },
+                    {
+                        "height": 4032,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/101700358679870287428\">최영지 (하모니)</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4BdXQ95upP8E1LnQD00CSVurtuLz0wBz-70cyNuRUKtXnqjxa62L5CJT3lOMq0zdLLJgdSfdd7Ft57zEDjRkt6qavPUhU_eXc1MDlfki3DIpQ7VKe5kugtvD7Hs2uDuMWobURwO2Ljq4M776YffQ9CN4pyPoIAxmtIlwpZ4iWz6kqb",
+                        "width": 2268
+                    },
+                    {
+                        "height": 4032,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/101700358679870287428\">최영지 (하모니)</a>"
+                        ],
+                        "photo_reference": "AXCi2Q5dumSYcSOXhplHkv_Lny1KhnX79XCoiIttTpWgpVyTXsOUMjL_caVUv4qRccMR4cBdosq9Sj6BQjry5qIL6i1TjMhdk06VGhETnnVqNi8_BdJPHFii7Y9wMynwoZeVuoebNxlxjNTColmvBXSMjnlTktfhtoQa0AuOQSCYgoBuC0PO",
+                        "width": 2268
+                    },
+                    {
+                        "height": 4032,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/103926914632469811153\">문동일</a>"
+                        ],
+                        "photo_reference": "AXCi2Q49HrgDnMuY6BuKc2RVk_34g20Ru3RneLxUifNmCAcwZHMA6OFuU-s4UGLSbmv_dKAlIOZPQC6k_iyQwMLHeQ-FiGuIp7zUgyjAKWiuoXfpSgk1Gm5FaIOAZgX9Eq5ZQ_kZ7f6S9JOAd0GNsayqfjll2GhTDlUkiIb_UnsFk8ig7Bg",
+                        "width": 3024
+                    },
+                    {
+                        "height": 4000,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/101647625562375493647\">양원하</a>"
+                        ],
+                        "photo_reference": "AXCi2Q5tIWvcmim3oUWHUd1gLnIRoYBAXr7EqosheZiNWilpjLnZcHoJTOUm2JIlrBaAq_C1TmwAODxkASlGx5xtcg-_RtDzfMbeyOtexLmbofzc8Rc-u_xRjNdEFkl4d2iqhIVY48rkpEPBC17Rtaw9w_NpEHBtZVtwq9WX-nTbXpjDPB8p",
+                        "width": 2252
+                    },
+                    {
+                        "height": 4032,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/101700358679870287428\">최영지 (하모니)</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7voAey8EU5B3LbNFr_h80_MEFY-fufm9ivrkT2ug3Q3jXK2Uz4Q6ofecih_AG7h76najAayBVva0Au1dnLsNBheGjzFVSD74oJdhXGDdoxOEryVjsNMV8AcY7Ap0msam20uoZRdU7AuhR7ci7AfFJrAY56VicSEP292J95vH2mEzoe",
+                        "width": 2268
+                    },
+                    {
+                        "height": 4032,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/103926914632469811153\">문동일</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4vV828dcdEHqFBNEa2jZbQ-m3gWsVZBqCwWKUmdQKrmdKWaO04HdgF035l_H7DzzgOCuCGkXl8rszt5hPEqdgZ8GigCgGBdZADI0MP18NtMioU6j48ZNpPtgVuHBlBF4HnaFePtSB6JjegiYibyO8nlzxRGow3bqmri1OqWN3OUeA",
+                        "width": 3024
+                    }
+                ],
+                "Price": "Not available",
+                "Rating": "4.9",
+                "endDate": "2024-12-08",
+                "startDate": "2024-12-08"
+            },
+            {
+                "AccomodationWebsiteURL": null,
+                "Address": "Geonip-dong, Jeju-si, Jeju-do, South Korea",
+                "Description": "The Red Lighthouse, located in Geonip-dong, Jeju-si, Jeju-do, South Korea, is a natural landmark that offers breathtaking views of the sunrise and sunset. With an overall rating of 4.8/5, visitors highly recommend this attraction for its scenic beauty and tranquil atmosphere. The lighthouse is particularly popular for its proximity to Tapdong Plaza seafront walking/running track, making it an ideal spot for nature lovers and fitness enthusiasts. Additionally, visitors can enjoy watching planes land at the nearby airport, adding an extra layer of excitement to their visit. The Red Lighthouse is a hidden gem in Jeju Island, offering a unique and memorable experience for all who visit.",
+                "GoogleMapsURL": "https://maps.google.com/?cid=13437692937290654952",
+                "GooglePlaceID": "ChIJNc3bdbDjDDUR6CT8z4dGfLo",
+                "Latitude": 33.5226221,
+                "Longitude": 126.5300842,
+                "Name": "Red lighthouse",
+                "NumRating": 9,
+                "OpeningHours": [
+                    "Not Available"
+                ],
+                "Photos": [
+                    {
+                        "height": 4000,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/113383097006621227677\">Stella</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7fQm2jxPi6uUzWbDrpnaPFoAf48KYVxotXhvrn4gpHy20gV1QCqRJ2gptPZDceDlGpFgbbFmRnKypoUFBNCL4ad7kxpKRiaphBlQKuQxNLlpsWE5m7TfafNAMJk7hByXOO1TaFcQsqOJOPyZ5XY2l1RnMzhI2_wR7kYrCQzgqqE9pO",
+                        "width": 1868
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117055561658170374738\">Can Can</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7fQEjwtsLnbBmeB-2iBhOQpyqWurhu_0b8-SzXZDSv54hHw20uNkB-MvQCnPKOx5M_aixvzfAPo8SajmW3183cBcyHqHidUgbsTHCo9N5OmpO1v_FG-HGgmIryAW3VZ9aCHpwT7QnIb0PzSLe2brR6Vjs_EICRn4Z7qCBuyNbQNjU6",
                         "width": 4032
                     },
                     {
                         "height": 3024,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/101047066526892877168\">Bear Hwang</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/116526529375026088511\">Yinye Chen</a>"
                         ],
-                        "photo_reference": "AXCi2Q4Fhh1WS0ofuSxupBSDFRt5TS5Eu8LwhoX16lU-WlQ6LW1HTrxx-CwFi6apYLCxl92lZlWpmZErAzN-gTfs4X04TR7K1UcjkyY7lHa-yn0UGIF_hxzJfd-JhY90k6P7poVM35yYzzL4XaYRxuJzUI5PsUiIhl7m8Um5ZXS-vwZ3-u8i",
+                        "photo_reference": "AXCi2Q5N797Xujtah81k-fKFkAqbQ56Y_hI0SgXvDlAEW8Wf_VWVfk-z_uGDsiMJMSRYJ-btkkxdxhfqBDT5zbmlUALdDDTEWaGMTFR91HJuwLShAwefsiIXKw7G04L5hZDlMMyc8Oir4lVjm2BR1yp-BRlXZBaDTGIzzcKATBr3HLl_taYM",
                         "width": 4032
-                    },
-                    {
-                        "height": 960,
-                        "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/106091125145133148211\">차세대</a>"
-                        ],
-                        "photo_reference": "AXCi2Q7_VyC-3YPeDMjxS0EfhUCfYiAwJkDpqQYt9_NP1VRoTMzujS_B0jBmsDHamghxhz50OhCvF8HLL6wNWW7s21eG1suuiD9QmU3hhB3s0yQ7z-RfRfvqZsAyPomY7DLnp-J_bwE8-9OIB8TIctdgOytPPxA6bVd1_8y2iDdkMlC_cuEd",
-                        "width": 1280
                     },
                     {
                         "height": 3024,
                         "html_attributions": [
-                            "<a href=\"https://maps.google.com/maps/contrib/106311868388197832913\">Atlas LIM</a>"
+                            "<a href=\"https://maps.google.com/maps/contrib/101756662777873103838\">Stuart Ralls</a>"
                         ],
-                        "photo_reference": "AXCi2Q7wn_X0dW7j4EQGgDwqz1iLOVtsqN-jpo4TDv43rqDz7KItwqOH47FfOg6ya0cCnYYd9UdLe4eVdvx5RbZu4wGv7_Oqmcyt9iGnW5C2FRHR9k6zducf4K2DR6EWtp6MPz4iLWoSnaTmTLyeOOb1--ruE7_qg_jwrR4SoWJkggPi3XsW",
+                        "photo_reference": "AXCi2Q5EXQ459oXRvRYtlGKludZElC_xL7xjFw06j5cmYNnD2e-m9c8bcDiHt0vWUkqcmcfb__uSTVeJ_XIjiT0sigfVsKyoofQpPSEMcdgAZgJS7dZOLbMX5C9GCFqZyfqbsUnoVhDq7WPvD41toqfC6r85XaKRj04d3yAziG6-Iq7M5VkL",
                         "width": 4032
+                    },
+                    {
+                        "height": 4032,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117055561658170374738\">Can Can</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4Di3xWtnHB-KI_BfCXzjmFrYYJudZGLebKR3zgALbP5EWssO7hF50_H7lMvtgVEvm32aN7puPJJtA_sLH3GPTxJ_1ASIZMiJkvucXsIEz005HQKvXP3ukUzYwgbItB6vJ6HOEJdx9Rk10k1Jgrm9PCZn8a9Erheyqz0znOTJc62QjH",
+                        "width": 3024
+                    },
+                    {
+                        "height": 4032,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117055561658170374738\">Can Can</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4PadBblcGZB6aP3jA1VeDslFmynqhO9-R5Xo7yUsc8kl8H6lpQB8dQzeCT-8_3p8ZR-zCOxf0-qlEbmtH1ia-XDoaP7hTF2ddG5VFp6GzpVe771J64092h0I08utP-5XLMNbPQtSl60U-bfOi_PqROUisSoQypUt582XkZZO-wffQE",
+                        "width": 3024
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117055561658170374738\">Can Can</a>"
+                        ],
+                        "photo_reference": "AXCi2Q65LNpLI6t4cVGJfua0nl-lNEPFLFBo1ehnIQk4auULsWiujkCaw2LQgCA1e6UexRZFrcU_AMIG_ity162_VPTTV2f4tHbbMMD5E13AfvvvgwqdKSwJsbvCXb8vpgJQa94v0-YKwkHu79vUuesnHnO8CFPg21-YEaVWjoEjFOvYiYnS",
+                        "width": 4032
+                    },
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/117055561658170374738\">Can Can</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7aAqCTeo5r0q_zd9l4oc37P9ozcd4qyXTkhHP_n7FKKW2vcn4noDBrFQkyDN0KPAr90GFBX40nR6L-T6xRfTWFTBHZoYHZ6aPslKAPEvLMQ-xKJJlKpVpKS0X6j84qtsrPEKeubiPA9NpnPRR0OuCsYqJG325CdpvJmYbUFP9X3WH7",
+                        "width": 4032
+                    },
+                    {
+                        "height": 2172,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/101756662777873103838\">Stuart Ralls</a>"
+                        ],
+                        "photo_reference": "AXCi2Q4HFYbao0LmtOofTiIVgQTK2oDKBGxZXRp93J9iYZ0xmrsv0Hj-kr3wOFlNtax1rmQ_I2bOOUKgPEWGdWjKFMOZ7Ttn8Y_0zvNAsEt503O5qwjrMnXnsZ_NVRPxQveTlTd7Ky9bsUFxzHr-Ff-etOYVrQ23YDVKlWJlP9r5oeQa9JNW",
+                        "width": 3086
+                    },
+                    {
+                        "height": 4000,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/108808614122611898566\">K T Lim</a>"
+                        ],
+                        "photo_reference": "AXCi2Q7Dae7KBL8FM_27_bb7vukF1P7I17kKTZOG5kyFZfOaxp0_FssWehFbMgID6t_4PymakJdiyB9PYrlVn6KF4UNI4v5a5kAx5zhAQXqKcPJh_ePw4anJfctKGtJSpbZpDiR13ww2E_6tag2UlPPi2zZeJLk9eNf6NPg-QiLiyQr9blq9",
+                        "width": 3000
                     }
                 ],
                 "Price": "Not available",
@@ -1695,205 +1600,149 @@
             "departureFlight": {
                 "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
                 "carbon_emissions": {
-                    "this_flight": 9937000
+                    "this_flight": 5510000
                 },
-                "departure_token": "WyJDalJJTURGVGVWSjROUzB4WWtWQlJWOWlUa0ZDUnkwdExTMHRMUzB0TFMxMmQzRnlOa0ZCUVVGQlIySXljbG93UXpoVE9YVkJFaEZUVVRNeU1YeFRVVFl3T0h3M1F6RXlNeG9NQ0tUdDNCRVFBQm9EUzFKWE9CeHdqWWF0QVE9PSIsW1siTEhSIiwiMjAyNC0xMS0zMCIsIlNJTiIsbnVsbCwiU1EiLCIzMjEiXSxbIlNJTiIsIjIwMjQtMTItMDIiLCJJQ04iLG51bGwsIlNRIiwiNjA4Il0sWyJHTVAiLCIyMDI0LTEyLTAyIiwiQ0pVIixudWxsLCI3QyIsIjEyMyJdXV0=",
+                "departure_token": "WyJDalJJY1RkR2VqWTBRbFJxTjI5QlJYUXliSGRDUnkwdExTMHRMUzB0TFMxNWJHdHNPVUZCUVVGQlIySXpWRTFOUmxkNFVWbEJFZ3REV0RJMU5ueFZUelkzTmhvTUNKVFdqUXNRQUJvRFMxSlhPQnh3aE1CcyIsW1siTEhSIiwiMjAyNC0xMS0zMCIsIkhLRyIsbnVsbCwiQ1giLCIyNTYiXSxbIkhLRyIsIjIwMjQtMTItMDIiLCJDSlUiLG51bGwsIlVPIiwiNjc2Il1dXQ==",
                 "flights": [
                     {
-                        "airline": "Singapore Airlines",
-                        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
-                        "airplane": "Boeing 777",
+                        "airline": "Cathay Pacific",
+                        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                        "airplane": "Airbus A350",
                         "arrival_airport": {
-                            "id": "SIN",
-                            "name": "Singapore Changi Airport",
-                            "time": "2024-12-01 19:00"
+                            "id": "HKG",
+                            "name": "Hong Kong International Airport",
+                            "time": "2024-12-01 16:55"
                         },
                         "departure_airport": {
                             "id": "LHR",
                             "name": "Heathrow Airport",
-                            "time": "2024-11-30 22:05"
+                            "time": "2024-11-30 20:15"
                         },
-                        "duration": "12 hr 55 min",
+                        "duration": "12 hr 40 min",
                         "extensions": [
                             "Extra reclining seat",
-                            "Free Wi-Fi",
+                            "Wi-Fi for a fee",
                             "In-seat power & USB outlets",
                             "On-demand video",
-                            "Carbon emissions estimate: 8222 kg"
+                            "Carbon emissions estimate: 4789 kg"
                         ],
-                        "flight_number": "SQ 321",
+                        "flight_number": "CX 256",
                         "often_delayed_by_over_30_min": true,
                         "overnight": true,
                         "travel_class": "Premium Economy"
                     },
                     {
-                        "airline": "Singapore Airlines",
-                        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
-                        "airplane": "Boeing 787",
-                        "arrival_airport": {
-                            "id": "ICN",
-                            "name": "Incheon International Airport",
-                            "time": "2024-12-02 07:25"
-                        },
-                        "departure_airport": {
-                            "id": "SIN",
-                            "name": "Singapore Changi Airport",
-                            "time": "2024-12-02 00:10"
-                        },
-                        "duration": "6 hr 15 min",
-                        "extensions": [
-                            "Above average legroom (32 in)",
-                            "Free Wi-Fi",
-                            "In-seat power & USB outlets",
-                            "On-demand video",
-                            "Carbon emissions estimate: 1389 kg"
-                        ],
-                        "flight_number": "SQ 608",
-                        "legroom": "32 in",
-                        "overnight": true,
-                        "travel_class": "Economy"
-                    },
-                    {
-                        "airline": "Jeju Air",
-                        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/7C.png",
-                        "airplane": "Boeing 737",
+                        "airline": "Hong Kong Express",
+                        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UO.png",
+                        "airplane": "Airbus A321",
                         "arrival_airport": {
                             "id": "CJU",
                             "name": "Jeju International Airport",
-                            "time": "2024-12-02 14:50"
+                            "time": "2024-12-02 06:40"
                         },
                         "departure_airport": {
-                            "id": "GMP",
-                            "name": "Gimpo International Airport",
-                            "time": "2024-12-02 13:40"
+                            "id": "HKG",
+                            "name": "Hong Kong International Airport",
+                            "time": "2024-12-02 02:50"
                         },
-                        "duration": "1 hr 10 min",
+                        "duration": "2 hr 50 min",
                         "extensions": [
                             "Below average legroom (29 in)",
-                            "Carbon emissions estimate: 325 kg"
+                            "Carbon emissions estimate: 720 kg"
                         ],
-                        "flight_number": "7C 123",
+                        "flight_number": "UO 676",
                         "legroom": "29 in",
+                        "overnight": true,
+                        "ticket_also_sold_by": [
+                            "Cathay Pacific"
+                        ],
                         "travel_class": "Economy"
                     }
                 ],
                 "layovers": [
                     {
-                        "duration": "5 hr 10 min",
-                        "id": "SIN",
-                        "name": "Singapore Changi Airport"
-                    },
-                    {
-                        "duration": "6 hr 15 min",
-                        "id": "ICN",
-                        "name": "Gimpo International Airport"
+                        "duration": "9 hr 55 min",
+                        "id": "HKG",
+                        "name": "Hong Kong International Airport",
+                        "overnight": true
                     }
                 ],
-                "total_duration": "31 hr 45 min",
+                "total_duration": "25 hr 25 min",
                 "type": "Round trip"
             },
-            "priceTotal": 37172900,
+            "priceTotal": 23292692,
             "returnFlight": {
                 "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-                "booking_token": "WyJDalJJYUdwdWNub3dNMmhZWldOQlJHWXpUbmRDUnkwdExTMHRMUzB0TFhsc1puWXhNVUZCUVVGQlIySXljbUpCU2swM2VHTkJFaE0zUXpFd09IeFRVVFl3TVh4VFVUTXdOaU14R2d3SXBPM2NFUkFBR2dOTFVsYzRISENOaHEwQiIsW1siTEhSIiwiMjAyNC0xMS0zMCIsIlNJTiIsbnVsbCwiU1EiLCIzMjEiXSxbIlNJTiIsIjIwMjQtMTItMDIiLCJJQ04iLG51bGwsIlNRIiwiNjA4Il0sWyJHTVAiLCIyMDI0LTEyLTAyIiwiQ0pVIixudWxsLCI3QyIsIjEyMyJdXSxbWyJDSlUiLCIyMDI0LTEyLTA5IiwiR01QIixudWxsLCI3QyIsIjEwOCJdLFsiSUNOIiwiMjAyNC0xMi0wOSIsIlNJTiIsbnVsbCwiU1EiLCI2MDEiXSxbIlNJTiIsIjIwMjQtMTItMTAiLCJMSFIiLG51bGwsIlNRIiwiMzA2Il1dXQ==",
+                "booking_token": "WyJDalJJTlZGTE5GbHhaSE5DUTAxQlJIZHVlbWRDUnkwdExTMHRMUzB0Y0dwaVkyMHlORUZCUVVGQlIySXpWRTFuUkhadllsRkJFZzFWVHpZM04zeERXREkxTlNNeEdnd0lsTmFOQ3hBQUdnTkxVbGM0SEhDRXdHdz0iLFtbIkxIUiIsIjIwMjQtMTEtMzAiLCJIS0ciLG51bGwsIkNYIiwiMjU2Il0sWyJIS0ciLCIyMDI0LTEyLTAyIiwiQ0pVIixudWxsLCJVTyIsIjY3NiJdXSxbWyJDSlUiLCIyMDI0LTEyLTA5IiwiSEtHIixudWxsLCJVTyIsIjY3NyJdLFsiSEtHIiwiMjAyNC0xMi0wOSIsIkxIUiIsbnVsbCwiQ1giLCIyNTUiXV1d",
                 "carbon_emissions": {
-                    "this_flight": 9963000
+                    "this_flight": 7074000
                 },
                 "flights": [
                     {
-                        "airline": "Jeju Air",
-                        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/7C.png",
-                        "airplane": "Boeing 737",
+                        "airline": "Hong Kong Express",
+                        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UO.png",
+                        "airplane": "Airbus A321",
                         "arrival_airport": {
-                            "id": "GMP",
-                            "name": "Gimpo International Airport",
-                            "time": "2024-12-09 11:35"
+                            "id": "HKG",
+                            "name": "Hong Kong International Airport",
+                            "time": "2024-12-09 10:20"
                         },
                         "departure_airport": {
                             "id": "CJU",
                             "name": "Jeju International Airport",
-                            "time": "2024-12-09 10:25"
+                            "time": "2024-12-09 07:55"
                         },
-                        "duration": "1 hr 10 min",
+                        "duration": "3 hr 25 min",
                         "extensions": [
                             "Below average legroom (29 in)",
-                            "Carbon emissions estimate: 325 kg"
+                            "Carbon emissions estimate: 720 kg"
                         ],
-                        "flight_number": "7C 108",
+                        "flight_number": "UO 677",
                         "legroom": "29 in",
-                        "travel_class": "Economy"
-                    },
-                    {
-                        "airline": "Singapore Airlines",
-                        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
-                        "airplane": "Boeing 787",
-                        "arrival_airport": {
-                            "id": "SIN",
-                            "name": "Singapore Changi Airport",
-                            "time": "2024-12-09 22:20"
-                        },
-                        "departure_airport": {
-                            "id": "ICN",
-                            "name": "Incheon International Airport",
-                            "time": "2024-12-09 16:45"
-                        },
-                        "duration": "6 hr 35 min",
-                        "extensions": [
-                            "Above average legroom (32 in)",
-                            "Free Wi-Fi",
-                            "In-seat power & USB outlets",
-                            "On-demand video",
-                            "Carbon emissions estimate: 1389 kg"
+                        "ticket_also_sold_by": [
+                            "Cathay Pacific"
                         ],
-                        "flight_number": "SQ 601",
-                        "legroom": "32 in",
                         "travel_class": "Economy"
                     },
                     {
-                        "airline": "Singapore Airlines",
-                        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                        "airline": "Cathay Pacific",
+                        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
                         "airplane": "Boeing 777",
                         "arrival_airport": {
                             "id": "LHR",
                             "name": "Heathrow Airport",
-                            "time": "2024-12-10 07:25"
+                            "time": "2024-12-10 06:20"
                         },
                         "departure_airport": {
-                            "id": "SIN",
-                            "name": "Singapore Changi Airport",
-                            "time": "2024-12-10 01:10"
+                            "id": "HKG",
+                            "name": "Hong Kong International Airport",
+                            "time": "2024-12-09 23:35"
                         },
-                        "duration": "14 hr 15 min",
+                        "duration": "14 hr 45 min",
                         "extensions": [
                             "Extra reclining seat",
-                            "Free Wi-Fi",
+                            "Wi-Fi for a fee",
                             "In-seat power & USB outlets",
                             "On-demand video",
-                            "Carbon emissions estimate: 8248 kg"
+                            "Carbon emissions estimate: 6353 kg"
                         ],
-                        "flight_number": "SQ 306",
-                        "often_delayed_by_over_30_min": true,
+                        "flight_number": "CX 255",
                         "overnight": true,
                         "travel_class": "Premium Economy"
                     }
                 ],
                 "layovers": [
                     {
-                        "duration": "5 hr 10 min",
-                        "id": "GMP",
-                        "name": "Incheon International Airport"
-                    },
-                    {
-                        "duration": "2 hr 50 min",
-                        "id": "SIN",
-                        "name": "Singapore Changi Airport"
+                        "duration": "13 hr 15 min",
+                        "id": "HKG",
+                        "name": "Hong Kong International Airport"
                     }
                 ],
-                "total_duration": "30 hr 0 min",
+                "total_duration": "31 hr 25 min",
                 "type": "Round trip"
             }
         },
         "startDate": "2024-12-01",
-        "title": "\n    \"Exploring South Korea's Natural Wonders: A Week-Long Adventure (Dec 1-8, 2024)\""
+        "title": "\n    \"Exploring South Korea's Natural Wonders: Waterfalls, Volcanoes, and Coastal Beauty (Dec 1-8, 2024)\""
     }
 }

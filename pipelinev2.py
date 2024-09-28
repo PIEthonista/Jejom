@@ -596,6 +596,16 @@ class PipelineV2():
             else:
                 photos = []
             
+            if 'website' in self.tourist_spots_json_data[dest_name].keys():
+                website = self.tourist_spots_json_data[dest_name]['website']
+            else:
+                website = None
+            
+            if 'url' in self.tourist_spots_json_data[dest_name].keys():
+                url = self.tourist_spots_json_data[dest_name]['url']
+            else:
+                url = None
+            
             destinations_list_of_dict.append(
                 {
                     "Name": dest_name,
@@ -608,7 +618,9 @@ class PipelineV2():
                     "NumRating": num_ratings,
                     "OpeningHours": opening_hours,
                     "Photos": photos,
-                    "GooglePlaceID": self.tourist_spots_json_data[dest_name]['place_id']
+                    "GooglePlaceID": self.tourist_spots_json_data[dest_name]['place_id'],
+                    "GoogleMapsURL": url,
+                    "AccomodationWebsiteURL": website
                 }
             )
         
@@ -739,6 +751,17 @@ class PipelineV2():
                 num_ratings = int(self.accomodations_json_data[accom_name]['user_ratings_total'])
             else:
                 num_ratings = 0
+            
+            if 'website' in self.accomodations_json_data[accom_name].keys():
+                website = self.accomodations_json_data[accom_name]['website']
+            else:
+                website = None
+            
+            if 'url' in self.accomodations_json_data[accom_name].keys():
+                url = self.accomodations_json_data[accom_name]['url']
+            else:
+                url = None
+
             accomodations_list_of_dict.append(
                 {
                     "Name": accom_name,
@@ -749,6 +772,8 @@ class PipelineV2():
                     "Longitude": lng,
                     "Rating": rating,           # possibly useful for reccomendations
                     "NumRating": num_ratings,
+                    "GoogleMapsURL": url,
+                    "AccomodationWebsiteURL": website
                 }
             )
 
