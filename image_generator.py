@@ -73,7 +73,9 @@ def get_pexel_img(query: str):
     
     response = requests.get(url, headers=headers)
     # print(f"{query}: {response.json()['photos']}")
-    return response.json()['photos'][0]['src']['original']   
+    if response.json() and len(response.json().get('photos', [])) > 0:
+        return response.json().get('photos', [])[0].get('src', {}).get('original', {})
+    return '' 
 
 def get_place_img(title: str):
     place_name = extract_name_from_title(title)

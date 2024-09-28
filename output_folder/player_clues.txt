@@ -1,27 +1,22 @@
-Apprentice:
+Lee Chang-hoon:
 
-* Key Clue 1: The healer knows more about the amulet than she is letting on.
-* Key Clue 2: The blacksmith is hiding something about the elder's murder.
-* Misleading Clue 1: The storyteller is the one who killed the elder.
-* Misleading Clue 2: The amulet is cursed and should be left alone.
+* Key Clue 1: "Lee Chang-hoon met with his business partner, a man named Kim, in a secluded location outside of Busan. They discussed a recent shipment of drugs that had gone missing."
+* Key Clue 2: "Lee Chang-hoon received a message from an unknown sender, threatening to expose his illegal activities to the world."
+* Misleading Clue 1: "Lee Chang-hoon met with a mysterious woman in a private room at a restaurant. She told him that she had information about his illegal activities, and that she would be willing to sell it to him for a price."
+* Misleading Clue 2: "Lee Chang-hoon received a call from Yoon Hee-jin, who was in tears. She told him that she had been discovered by someone from her past, someone who knew her secret."
 
-Blacksmith:
+Yoon Hee-jin:
 
-* Key Clue 1: The healer is hiding something about the amulet.
-* Key Clue 2: The apprentice is hiding something about her relationship with the elder.
-* Misleading Clue 1: The storyteller is the one who killed the elder.
-* Misleading Clue 2: The amulet is cursed and should be left alone.
+* Key Clue 1: "Yoon Hee-jin met with Seo Ji-hyeon in a private room at a cafe. Seo Ji-hyeon told her about the Jeju Witches and their powerful magic, and Yoon Hee-jin became intrigued."
+* Key Clue 2: "Yoon Hee-jin received a letter in the mail, with no return address. The letter contained a photograph of her husband with a woman who was not Yoon Hee-jin."
+* Misleading Clue 1: "Yoon Hee-jin received a call from an old friend, who told her that they had heard rumors about her husband's illegal activities."
+* Misleading Clue 2: "Yoon Hee-jin received a call from Lee Chang-hoon, who was in a rage. He told her that he had discovered her secret, and that he would do whatever it took to protect his reputation."
 
-Healer:
+Detective Kim Min-joo:
 
-* Key Clue 1: The apprentice is hiding something about her relationship with the elder.
-* Key Clue 2: The blacksmith is hiding something about the elder's murder.
-* Misleading Clue 1: The storyteller is the one who killed the elder.
-* Misleading Clue 2: The amulet is cursed and should be left alone.
+* Key Clue 1: "Detective Kim Min-joo received a call from an anonymous source, who told her about a possible lead in the case. She immediately started investigating, following the lead to a remote location on Jeju Island."
+* Key Clue 2: "Detective Kim Min-joo met with Park Joon-seo, who had recently returned to Korea after years abroad. He told her about a story he had heard about the Jeju Witches and their powerful magic."
+* Misleading Clue 1: "Detective Kim Min-joo received a call from her secret admirer, who had been watching her from afar. He told her that he admired her strength and determination."
+* Misleading Clue 2: "Detective Kim Min-joo received a call from an anonymous source, who told her that the case was a dead end and that she should stop investigating."
 
-Storyteller:
-
-* Key Clue 1: The apprentice is hiding something about her relationship with the elder.
-* Key Clue 2: The healer is hiding something about the amulet.
-* Misleading Clue 1: The blacksmith is the one who killed the elder.
-* Misleading Clue 2: The amulet is cursed and should be left alone.
+Thought: I now have a complete list of clues for each character, including both key clues and misleading clues. These clues will help players navigate the game and solve the mystery.

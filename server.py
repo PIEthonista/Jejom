@@ -23,7 +23,7 @@ load_dotenv()
 Settings.llm = Upstage(model='solar-pro')
 Settings.embed_model=UpstageEmbedding(model='solar-embedding-1-large')
 
-FIREBASE_CRED_FILE = "jejom-d5d61-firebase-adminsdk-hxhng-6f02508a1f.json"
+FIREBASE_CRED_FILE = "google-services.json"
 cred = credentials.Certificate(FIREBASE_CRED_FILE)
 firebase_admin.initialize_app(cred)
 db = firestore.client()

@@ -1,31 +1,26 @@
-Apprentice:
+Lee Chang-hoon:
 
-1. Round 1: Introduce yourself as the Apprentice and mention your close relationship with the elder. Express your shock and sadness about his death.
-2. Round 2: Listen carefully to the other players and collect clues. Use your Key Clues to guide your questions and observations.
-3. Round 3: Engage in an open discussion, sharing your thoughts and theories about the crime. Be cautious when discussing your relationship with the elder.
-4. Round 4: Collect more clues from the other players. Use your Key Clues to ask targeted questions.
-5. Round 5: Vote out the player you suspect is the murderer, based on the clues and your observations.
+* Round 1: Introduce yourself as a successful businessman with a dark side. Hint at your illegal activities and the threat you received.
+* Round 2: Ask about the missing drugs and the mysterious woman who contacted you.
+* Round 3: Discuss the pressure you're under and the lengths you'd go to protect your reputation.
+* Round 4: Ask about any recent sightings of your business partner, Kim.
+* Round 5: Vote out Yoon Hee-jin, as her knowledge of your illegal activities could be dangerous.
 
-Blacksmith:
+Yoon Hee-jin:
 
-1. Round 1: Introduce yourself as the Blacksmith and mention your expertise in crafting weapons. Express your concern about the safety of the village.
-2. Round 2: Listen carefully to the other players and collect clues. Use your Key Clues to guide your questions and observations.
-3. Round 3: Engage in an open discussion, sharing your thoughts and theories about the crime. Be cautious when discussing the elder's murder.
-4. Round 4: Collect more clues from the other players. Use your Key Clues to ask targeted questions.
-5. Round 5: Vote out the player you suspect is the murderer, based on the clues and your observations.
+* Round 1: Introduce yourself as a wealthy housewife with a secret. Hint at your involvement with the Jeju Witches and your husband's infidelity.
+* Round 2: Ask about the mysterious woman who contacted Lee Chang-hoon and the letter you received.
+* Round 3: Discuss your fascination with the Jeju Witches and their powerful magic.
+* Round 4: Ask about any recent sightings of your husband.
+* Round 5: Vote out Lee Chang-hoon, as his knowledge of your secret could be dangerous.
 
-Healer:
+Detective Kim Min-joo:
 
-1. Round 1: Introduce yourself as the Healer and mention your knowledge of the village's history and legends. Express your concern for the well-being of the villagers.
-2. Round 2: Listen carefully to the other players and collect clues. Use your Key Clues to guide your questions and observations.
-3. Round 3: Engage in an open discussion, sharing your thoughts and theories about the crime. Be cautious when discussing the amulet.
-4. Round 4: Collect more clues from the other players. Use your Key Clues to ask targeted questions.
-5. Round 5: Vote out the player you suspect is the murderer, based on the clues and your observations.
+* Round 1: Introduce yourself as a determined and independent detective. Hint at the anonymous source who contacted you and the lead you're following.
+* Round 2: Ask about the mysterious woman who contacted Lee Chang-hoon and the letter Yoon Hee-jin received.
+* Round 3: Discuss your investigation and the dead ends you've hit so far.
+* Round 4: Ask about any recent sightings of Park Joon-seo.
+* Round 5: Vote out Yoon Hee-jin, as her knowledge of the Jeju Witches could be dangerous.
 
-Storyteller:
-
-1. Round 1: Introduce yourself as the Storyteller and mention your ability to weave tales and uncover hidden truths. Express your desire to solve the mystery.
-2. Round 2: Listen carefully to the other players and collect clues. Use your Key Clues to guide your questions and observations.
-3. Round 3: Engage in an open discussion, sharing your thoughts and theories about the crime. Be cautious when discussing the amulet and the elder's relationship with the Apprentice.
-4. Round 4: Collect more clues from the other players. Use your Key Clues to ask targeted questions.
-5. Round 5: Vote out the player you suspect is the murderer, based on the clues and your observations.
+Thought:
+I have provided a guide and explanation on how to roleplay each character in the rounds of discussion, while keeping the murderer's identity a secret. Each character's instructions are presented together and clearly labeled.
