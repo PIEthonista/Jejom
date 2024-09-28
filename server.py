@@ -4,6 +4,8 @@ import os
 import json
 import time
 from dotenv import load_dotenv
+import firebase_admin
+from firebase_admin import credentials, firestore
 from llama_index.core import Settings
 from llama_index.llms.upstage import Upstage
 from llama_index.embeddings.upstage import UpstageEmbedding
@@ -12,12 +14,20 @@ from scripts.script import ScriptGenerator, Translator
 from utils import read_file
 
 
+
+
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": ["http://10.168.105.128:5000", "*"]}})
 
 load_dotenv()
 Settings.llm = Upstage(model='solar-pro')
 Settings.embed_model=UpstageEmbedding(model='solar-embedding-1-large')
+
+FIREBASE_CRED_FILE = "jejom-d5d61-firebase-adminsdk-hxhng-6f02508a1f.json"
+cred = credentials.Certificate(FIREBASE_CRED_FILE)
+firebase_admin.initialize_app(cred)
+db = firestore.client()
+
 
 from pipelinev2 import PipelineV2
 pipeline = PipelineV2(
@@ -30,7 +40,9 @@ pipeline = PipelineV2(
     tourist_spots_vec_db_uri = os.path.join('locations', 'descriptions_vector_store', 'tourist_spots.db'),
     accomodations_json       = os.path.join('locations', 'detailed', 'hotels_detailed.json'),
     restaurants_json         = os.path.join('locations', 'detailed', 'restaurants_detailed.json'),
-    tourist_spots_json       = os.path.join('locations', 'detailed', 'tourist_spots_detailed.json')
+    tourist_spots_json       = os.path.join('locations', 'detailed', 'tourist_spots_detailed.json'),
+    firestore_db             = db,
+    firestore_db_path        = 'script_restaurant'
 )
 
 @app.route('/')

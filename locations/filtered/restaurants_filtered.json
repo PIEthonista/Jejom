@@ -643,92 +643,6 @@
         ],
         "user_ratings_total": 245
     },
-    "Wind Jeju Cafe & Pension": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "68 Sagye-ro, Andeok-myeon, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.237251,
-                "lng": 126.297727
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.23860082989273,
-                    "lng": 126.2990768298927
-                },
-                "southwest": {
-                    "lat": 33.23590117010728,
-                    "lng": 126.2963771701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Wind Jeju Cafe & Pension",
-        "photos": [
-            {
-                "height": 744,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/112393219008468475211\">Nilda</a>"
-                ],
-                "photo_reference": "AXCi2Q6t6vVHU5kIyRSmhhgUPrePYb4nawfOtsyxSEb_pzW1DmKXzYYSvXh2d3shpydMQm7SJERLUAm1ikXZGfvUqD1pBZ4pAqJrwrQZjixdJ9ZeoMiAbBojin5K5YEg76weM7EvLiFYgpSsEfQVy4SZgjlpITSCljKHCPkq1BEb-WBqY0_A",
-                "width": 715
-            }
-        ],
-        "place_id": "ChIJn6MhXfhCDDUR_eQKkm5Ncx4",
-        "rating": 5,
-        "reference": "ChIJn6MhXfhCDDUR_eQKkm5Ncx4",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 2
-    },
-    "Jejudaeseong Rest Village Pension": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "684-45 Haso-ro, Aewol-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4212281,
-                "lng": 126.3932606
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.42257792989273,
-                    "lng": 126.3946104298927
-                },
-                "southwest": {
-                    "lat": 33.41987827010728,
-                    "lng": 126.3919107701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "icon_background_color": "#909CE1",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-        "name": "Jejudaeseong Rest Village Pension",
-        "photos": [
-            {
-                "height": 3000,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100004447196654372947\">\uae40\uc885\uc11d</a>"
-                ],
-                "photo_reference": "AXCi2Q6IIFepTYOh6JRK-VfxsKJtMKAgcwcumgAUGF9LymswvegRWcP1_aPBRaDiglpC7M8Ut4XhOhGf_IM-LlZgX5oBnvb31LoOtMmgzEqQS3WMnL5SdYTwJTKvKqIil7bRzHsXfIRtqYtEEMc4NK13kXBngSvMKZeFV8e78agGtVkeHUEZ",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJo2-ItoX3DDUR0sv5TM3UJXE",
-        "rating": 5,
-        "reference": "ChIJo2-ItoX3DDUR0sv5TM3UJXE",
-        "types": [
-            "lodging",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 1
-    },
     "First Time Jeju": {
         "business_status": "OPERATIONAL",
         "formatted_address": "1132-1 Jangjeon-ri, Aewol-eup, Jeju-si, Jeju-do, South Korea",
@@ -2654,57 +2568,6 @@
         ],
         "user_ratings_total": 207
     },
-    "cafe joa in jeju": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Floor 2, Cafe Joa, 39 Yeono-ro, Ora 3(sam)-dong, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4898029,
-                "lng": 126.5020655
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.49115272989273,
-                    "lng": 126.5034153298927
-                },
-                "southwest": {
-                    "lat": 33.48845307010728,
-                    "lng": 126.5007156701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "cafe joa in jeju",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 3456,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/116645538715219675795\">\ud30c\ub9c1</a>"
-                ],
-                "photo_reference": "AXCi2Q5rFVJLLZd_KzKoA-b4SWOrcSggeBovDVSZoZiVm7i-z-ChSJd1NlE5_DX2EvvQB8kuehFmwshntFFdcp1-8LesqX6Iou4WdoqFwK71j62_3YllQJ8lIhrROwg7jSokcEdWapoT4hNiasdGO8febBNXMckNn8SuO_2dMRH0xmTkGIFr",
-                "width": 4608
-            }
-        ],
-        "place_id": "ChIJ62WgJW37DDURQ9A10p8sC7Y",
-        "rating": 4.9,
-        "reference": "ChIJ62WgJW37DDURQ9A10p8sC7Y",
-        "types": [
-            "cafe",
-            "bar",
-            "bakery",
-            "restaurant",
-            "point_of_interest",
-            "store",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 7
-    },
     "Cafe Ri": {
         "business_status": "OPERATIONAL",
         "formatted_address": "39 Pyeongdae 2-gil, Gujwa-eup, \ud2b9\ubcc4\uc790\uce58\ub3c4 Jeju-si, Jeju-do, South Korea",
@@ -3851,53 +3714,6 @@
         ],
         "user_ratings_total": 78
     },
-    "Cafe Aewol-ro 11 \uc560\uc6d4\ub85c11": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "11 Aewol-ro, Aewol-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4600513,
-                "lng": 126.3113009
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.46140112989272,
-                    "lng": 126.3126507298927
-                },
-                "southwest": {
-                    "lat": 33.45870147010727,
-                    "lng": 126.3099510701072
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Cafe Aewol-ro 11 \uc560\uc6d4\ub85c11",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100608449042252669818\">\uc591\ud6b0</a>"
-                ],
-                "photo_reference": "AXCi2Q6XbLQkCSfHs6O7QLIeuaDa93NKfukkfIyCMKDej4K-mwYG_-y0OOfyXgjkiugbZq2fnzOtkAydiMupxdMG0xlW08hRqTdIFsHwseVz6BSoXnoS6oONV7L2uRtgrfYLss7ea387HWfQEUab6bF7rHkDxhBR8BZhqEuBVkkztaaU1aCp",
-                "width": 3024
-            }
-        ],
-        "place_id": "ChIJuybNsAv1DDUREFuyrJHyOIM",
-        "rating": 4.4,
-        "reference": "ChIJuybNsAv1DDUREFuyrJHyOIM",
-        "types": [
-            "cafe",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 7
-    },
     "Bonkape": {
         "business_status": "OPERATIONAL",
         "formatted_address": "177 Aewolhaean-ro, Aewol-eup, \ud2b9\ubcc4\uc790\uce58\ub3c4 Jeju-si, Jeju-do, South Korea",
@@ -3945,51 +3761,6 @@
             "establishment"
         ],
         "user_ratings_total": 324
-    },
-    "All that coffee jeju": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "2532 aewol-ri, Aewol-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4625333,
-                "lng": 126.3100524
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.46388312989272,
-                    "lng": 126.3114022298927
-                },
-                "southwest": {
-                    "lat": 33.46118347010728,
-                    "lng": 126.3087025701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "All that coffee jeju",
-        "photos": [
-            {
-                "height": 2930,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100623775938682729071\">\u4e01\u51f1\u5a77</a>"
-                ],
-                "photo_reference": "AXCi2Q6MBG2144lYHot6TengjHT7EdQU80Ef51jQocRYjToaPTrrgq96w5TeVMpSAx5lEoS52dt25pIBHuuS7JGWjDleJa_DWDc6MQbXoVIS7_ba3pSp1362wmrLcA3b13ISxiZYGfaSu9pwW04T3DTmPoZ85c4fgKI9hC6mBdFQ5G1i2AQr",
-                "width": 3907
-            }
-        ],
-        "place_id": "ChIJncQh3mv1DDURoAh5P4UIiCY",
-        "rating": 5,
-        "reference": "ChIJncQh3mv1DDURoAh5P4UIiCY",
-        "types": [
-            "cafe",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 7
     },
     "Colline Jeju": {
         "business_status": "OPERATIONAL",
@@ -4233,53 +4004,6 @@
         ],
         "user_ratings_total": 493
     },
-    "Tuaewol": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "14 Aewol-ro 1-gil, Aewol-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4627547,
-                "lng": 126.3108123
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.46410452989272,
-                    "lng": 126.3121621298927
-                },
-                "southwest": {
-                    "lat": 33.46140487010728,
-                    "lng": 126.3094624701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Tuaewol",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/104718196976940620838\">\uc774\uc8fc\uad11</a>"
-                ],
-                "photo_reference": "AXCi2Q7NA8ToF1-yh0GxxK9GbcmTODMOZhLSeTx8iZAEroTzKouO2uom6l8Tr7r_JRVE2D9rG3pjh9vEI2NC29955jiyzauAKln7ZxWUXCh4QAJhfTm9FQSx_8cW99l-8M18aQPxCw4tc8w9Op2M-TR08vvA_Dw8xvlh9pmfHVNuLwpp4adO",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJSyHIzpT1DDURGcIfraz8MAM",
-        "rating": 4.8,
-        "reference": "ChIJSyHIzpT1DDURGcIfraz8MAM",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 4
-    },
     "High End Jeju": {
         "business_status": "OPERATIONAL",
         "formatted_address": "56 Aewolbukseo-gil, Aewol-eup, Jeju-si, Jeju-do, South Korea",
@@ -4518,52 +4242,6 @@
             "establishment"
         ],
         "user_ratings_total": 929
-    },
-    "Saemool \uce74\ud398": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "954 Sineom-ri, Aewol-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4784761,
-                "lng": 126.3694554
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.47982592989273,
-                    "lng": 126.3708052298927
-                },
-                "southwest": {
-                    "lat": 33.47712627010728,
-                    "lng": 126.3681055701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Saemool \uce74\ud398",
-        "opening_hours": {},
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/118108983178788543414\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q4kCivoo7RWwXJWHpXPEezUafh-BZsZwafsOS1znYD2HoSAhofSWNhRM2cVhOWH3kvsAnApLn8Bu4FH6ggoshjZ7J4JCfHgxZyPZvsXg4xZKwXyLh-NHSUV7ZQ6iXMDq8wtfbJfVpMi7cBTL34fLEwwZyjXh9v05Wsaentz0zQUNYto",
-                "width": 3024
-            }
-        ],
-        "place_id": "ChIJP9qmc3L3DDURwfWV8QCK4qU",
-        "rating": 4.3,
-        "reference": "ChIJP9qmc3L3DDURwfWV8QCK4qU",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "food",
-            "store",
-            "establishment"
-        ],
-        "user_ratings_total": 4
     },
     "Saemool": {
         "business_status": "OPERATIONAL",
@@ -7050,41 +6728,6 @@
         ],
         "user_ratings_total": 136
     },
-    "the Venti Coffee": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "293 Seogwi-dong, \ud2b9\ubcc4\uc790\uce58\ub3c4 Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2480787,
-                "lng": 126.5620175
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24942852989272,
-                    "lng": 126.5633673298927
-                },
-                "southwest": {
-                    "lat": 33.24672887010728,
-                    "lng": 126.5606676701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "the Venti Coffee",
-        "place_id": "ChIJb2a6n6lTDDURzDp69QtWNg4",
-        "rating": 4.7,
-        "reference": "ChIJb2a6n6lTDDURzDp69QtWNg4",
-        "types": [
-            "cafe",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 3
-    },
     "\uce74\ud398\ucc28\ub871": {
         "business_status": "OPERATIONAL",
         "formatted_address": "288 Gamsan-ri, Andeok-myeon, Seogwipo-si, Jeju-do, South Korea",
@@ -7937,51 +7580,6 @@
         ],
         "user_ratings_total": 142
     },
-    "Millmullee": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "2439-3 Jungmun-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2498817,
-                "lng": 126.430261
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25123152989272,
-                    "lng": 126.4316108298927
-                },
-                "southwest": {
-                    "lat": 33.24853187010728,
-                    "lng": 126.4289111701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Millmullee",
-        "photos": [
-            {
-                "height": 2992,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/105784205491753698817\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q5wTkNxZkr-ZBkjbtXt0K_i7EoqDAzbZz9qqkPiAmeisb93L9Wjddhian2rGgnCtvW3tcQPMO3eErC8Z6vm6lw1z5uyWVdpkrHBCDpdY-a7oVqOSqf9F9GeyG_q0cb_T14RKs6nceBzJMK_ublFl0gdj2p3P-bRjObV3b4yXyra11-C",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJ2zzMHABbDDURwp5uNnwUyYc",
-        "rating": 5,
-        "reference": "ChIJ2zzMHABbDDURwp5uNnwUyYc",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "store",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 2
-    },
     "MuChaeSaek Cafe": {
         "business_status": "OPERATIONAL",
         "formatted_address": "1737-5 Jungmun-dong, Seogwipo-si, Jeju-do, South Korea",
@@ -8076,51 +7674,6 @@
             "establishment"
         ],
         "user_ratings_total": 26
-    },
-    "\uce74\ud3982742": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "103-15 Cheonjeyeon-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4 Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.255829,
-                "lng": 126.4164994
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25717882989272,
-                    "lng": 126.4178492298927
-                },
-                "southwest": {
-                    "lat": 33.25447917010728,
-                    "lng": 126.4151495701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "\uce74\ud3982742",
-        "photos": [
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100010591098222578248\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q4c8P3u3Nr8ZevD_dTWKvD2alYoxuuqEftwMseQY4N42Lhfm3JUgSL1Boz9NQsaYA-JIjIYJJZRISvZ4v1uMtkD-6pb1WiTepgjmkqtt8y5pmvrLvvV1T1Jl3sobFv1mvOFS0qlMlJbcH5bZPXMx4PjS0m9PAgNdAE7d5zbANVcsq5G",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJpZ6o_dBbDDURb5tZXWrjoaY",
-        "rating": 5,
-        "reference": "ChIJpZ6o_dBbDDURb5tZXWrjoaY",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "store",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 1
     },
     "Cutlass Cafe (gar bread)": {
         "business_status": "OPERATIONAL",
@@ -8597,228 +8150,6 @@
         ],
         "user_ratings_total": 35
     },
-    "\uc6b0\uc9c0\ucee4\ud53c \uc81c\uc8fc\uc911\ubb38\uc810": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "South Korea, Jeju-do, Seogwipo-si, Cheonjeyeon-ro, 167-1 2 \uce35",
-        "geometry": {
-            "location": {
-                "lat": 33.2520806,
-                "lng": 126.4227143
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25343042989272,
-                    "lng": 126.4240641298927
-                },
-                "southwest": {
-                    "lat": 33.25073077010727,
-                    "lng": 126.4213644701072
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "\uc6b0\uc9c0\ucee4\ud53c \uc81c\uc8fc\uc911\ubb38\uc810",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/101437170697440535984\">\uacfd\uc7ac\ud658</a>"
-                ],
-                "photo_reference": "AXCi2Q63cM1CgnlD1l6GWyQnqUAhkD7QM0-X7TPoOYZcJiCZ_Z7MITvlbqbX5TfEWWWlZ6uexG2ccTSfqkKffR1qpOOJM3n1wKq9JfMopFDGxUCk8Loai7IiDZk-TYcXaiuwb1_tXTwYxy27VROEt8iymTzVzFl-WVmxAkfpKNFth4vR-ZJQ",
-                "width": 3024
-            }
-        ],
-        "place_id": "ChIJMVyPwO9bDDUR9OHFmZz3H7A",
-        "rating": 4.5,
-        "reference": "ChIJMVyPwO9bDDUR9OHFmZz3H7A",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "store",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 2
-    },
-    "Irony Ivory": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Saekdal-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2451802,
-                "lng": 126.4051864
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24653002989273,
-                    "lng": 126.4065362298927
-                },
-                "southwest": {
-                    "lat": 33.24383037010728,
-                    "lng": 126.4038365701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Irony Ivory",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 3472,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/112314078003034111421\">Damian Frick</a>"
-                ],
-                "photo_reference": "AXCi2Q5I97zZWVqxyt0myfIuhx9gu9mSREh2LO9JHsfxG9iC6PVAWJG5pnFkBZ7lfF4-7gwrOglWoI0kTV0_ooLNtPHHBVhP2JwVuB1vEE0bqaCG-r5VMk_cCsRp1qUMGO3klgPjKqKSM0qSuOYEqfVVAdUn7kk9zbI3LgRknI-C8XfLbHMf",
-                "width": 4624
-            }
-        ],
-        "place_id": "ChIJR21EXwBbDDUREIvbKTZ7d9Q",
-        "rating": 4,
-        "reference": "ChIJR21EXwBbDDUREIvbKTZ7d9Q",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "store",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 1
-    },
-    "Uyeon": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "2167-14 Jungmun-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2525427,
-                "lng": 126.4218939
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25389252989272,
-                    "lng": 126.4232437298927
-                },
-                "southwest": {
-                    "lat": 33.25119287010728,
-                    "lng": 126.4205440701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Uyeon",
-        "opening_hours": {
-            "open_now": true
-        },
-        "place_id": "ChIJyeotJ5ZaDDUR-DbrZ_iH6Q8",
-        "rating": 4.5,
-        "reference": "ChIJyeotJ5ZaDDUR-DbrZ_iH6Q8",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 2
-    },
-    "Cafe 224": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "South Korea, Jeju-do, Seogwipo-si, \uc911\ubb38\ub3d9 2699",
-        "geometry": {
-            "location": {
-                "lat": 33.2410323,
-                "lng": 126.4240435
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24238212989272,
-                    "lng": 126.4253933298927
-                },
-                "southwest": {
-                    "lat": 33.23968247010728,
-                    "lng": 126.4226936701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Cafe 224",
-        "photos": [
-            {
-                "height": 3000,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100512910759987741431\">100512910759987741431</a>"
-                ],
-                "photo_reference": "AXCi2Q5GQgvdy3bIfRYuFloBy2wMKXMXk23-GKXYFrxHJ7Wz9J57Uh72y3GDVqxLzNMmm5TDa4_EnpHe_bbqr2CyDvCsCcj0aXoHnxMKmvygSm-frM0HEQP26ERbvdSt2YbuYimWXBjuZeaH0TMYdgIDuwK787oXUh1OWPMRweZCJxGlP9g0",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJjWdWIM1bDDURo6v79bl2b1w",
-        "rating": 5,
-        "reference": "ChIJjWdWIM1bDDURo6v79bl2b1w",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "store",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 2
-    },
-    "\uce74\ud398\uce74\ub178\ud478\uc2a4": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "2563-1\ubc88\uc9c0 \uc911\ubb38\ub3d9 \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2429044,
-                "lng": 126.4204352
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24425422989272,
-                    "lng": 126.4217850298927
-                },
-                "southwest": {
-                    "lat": 33.24155457010728,
-                    "lng": 126.4190853701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "\uce74\ud398\uce74\ub178\ud478\uc2a4",
-        "photos": [
-            {
-                "height": 2992,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100942966843638670532\">\uac15\ub2e4\uc5f0</a>"
-                ],
-                "photo_reference": "AXCi2Q57Bybfd6x55sajBQQR9V6tgoIYZGQWvlndFvcJLQSv58TugD7YbcAwOxxlNHjpUevI8NwtKVoNS0zFsLhmMpSkwhL2g0ffwnCJYvT26LRbub42Z_ab6CaPv6at8WfTcAg5M36g032gDpJl5ENGhAtBMzRUUbccjz_xWWj3NXWtarCm",
-                "width": 2992
-            }
-        ],
-        "place_id": "ChIJywCKq7BaDDUREihNWhR0gHY",
-        "rating": 4.5,
-        "reference": "ChIJywCKq7BaDDUREihNWhR0gHY",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 2
-    },
     "Red Brown": {
         "business_status": "OPERATIONAL",
         "formatted_address": "49-50 Nandeureu-ro, Andeok-myeon, Seogwipo-si, Jeju-do, South Korea",
@@ -8962,51 +8293,6 @@
             "establishment"
         ],
         "user_ratings_total": 15
-    },
-    "Yeong-Geulaem": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "273-22 Cheonjeyeon-ro, \ud2b9\ubcc4\uc790\uce58\ub3c4 Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.252864,
-                "lng": 126.4339835
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25421382989271,
-                    "lng": 126.4353333298927
-                },
-                "southwest": {
-                    "lat": 33.25151417010727,
-                    "lng": 126.4326336701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Yeong-Geulaem",
-        "opening_hours": {},
-        "photos": [
-            {
-                "height": 2252,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/110863956082578299625\">\uc774\ud55c\uc218</a>"
-                ],
-                "photo_reference": "AXCi2Q4-Q1fbPLmOdl1fcHAapAg_8JN2kDPxZpxMvpxQmeV8gOlWEre6SoQoq-KKWjMRelxiFoQxdgh16DlAMYsfj1fvp8Nwvx_sVlmU9w4oAgC3Q3zIQ8q1fhE1RSHT9nYtFbij93eNnPUllUDFN2hIxNJth9_jALzqq6E_cLIQzfx-gTkI",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJid-eBvJbDDUR0EOgQsD7dDA",
-        "rating": 4.3,
-        "reference": "ChIJid-eBvJbDDUR0EOgQsD7dDA",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 3
     },
     "\uc18c\ubcf4\ub9ac\ub2f9\ub85c222": {
         "business_status": "OPERATIONAL",
@@ -9193,145 +8479,6 @@
             "establishment"
         ],
         "user_ratings_total": 703
-    },
-    "Cafe": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Cheju, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4982726,
-                "lng": 126.5325455
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.49962242989272,
-                    "lng": 126.5338953298927
-                },
-                "southwest": {
-                    "lat": 33.49692277010728,
-                    "lng": 126.5311956701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Cafe",
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/115725397054379396982\">\ubc15\ub3d9\uc9c4</a>"
-                ],
-                "photo_reference": "AXCi2Q43K_o6T3iiHoCFbiVif6QbP0PO_lJPAZPAlc777eQoJHSmOgZ63XcEWiHWYm1wMISXsw1sAyhqVxrmseTO2F81YJG9ZkbS6E8KurkBKKSZtZ_2cfrRfJMFAlnD3dKucsZUvurh3PqebH2QQyENYboz-AgGElURFhhx6AyNBLtqNMT9",
-                "width": 3024
-            }
-        ],
-        "place_id": "ChIJ5ZLvwK_8DDURvDuIJI40bqM",
-        "rating": 5,
-        "reference": "ChIJ5ZLvwK_8DDURvDuIJI40bqM",
-        "types": [
-            "cafe",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 1
-    },
-    "Haehwatang": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "5855 Iljuseo-ro, Hallim-eup, \ud2b9\ubcc4\uc790\uce58\ub3c4 Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4433921,
-                "lng": 126.2915933
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.44474192989272,
-                    "lng": 126.2929431298927
-                },
-                "southwest": {
-                    "lat": 33.44204227010728,
-                    "lng": 126.2902434701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Haehwatang",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 2268,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/103478193615794880115\">\u66b4\u541b\u718a</a>"
-                ],
-                "photo_reference": "AXCi2Q5MCvoIIHbDjZKL2j7tk64Sj8okybMeeBLSCClXxGMybPehjhaO07AQW1dh442HlNHx62pgooofKiEbpYKPoN7Gkt0knvgqkDqcYtf7iWhNnzajE2YnqchiPAFz8pXUwG_b9j8F2q-zF50CHQefvTr7YoKlx7kLEfT7Bir3knHvaLdx",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJoQVFUQD1DDURZUmp8Ap-Rdk",
-        "rating": 3.5,
-        "reference": "ChIJoQVFUQD1DDURZUmp8Ap-Rdk",
-        "types": [
-            "cafe",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 4
-    },
-    "Jeju Meow": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1178-1 Haemajihaean-ro, Gujwa-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.5291668,
-                "lng": 126.8538817
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.53051662989272,
-                    "lng": 126.8552315298927
-                },
-                "southwest": {
-                    "lat": 33.52781697010728,
-                    "lng": 126.8525318701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-        "name": "Jeju Meow",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/111168652605041599097\">Sang-Young Kim</a>"
-                ],
-                "photo_reference": "AXCi2Q5CODFk-kiVg6fd5fmZQKpuLMtXPhjRU8gBQsn2OG4SFEq4LX481f4dr-LWVZoQjVneImkwyU_YiHvwVJSOC_JlwwEBmvEPovOk_ogh9QLLWOemAdWIYBuXYfD7aD6i_4yGslplLPkuIR9rwqXIk_n_0VZShOnKw3vupgsXcq_cQ1LZ",
-                "width": 3024
-            }
-        ],
-        "place_id": "ChIJWWB6M-MXDTURxJEy0DupgWo",
-        "rating": 4.8,
-        "reference": "ChIJWWB6M-MXDTURxJEy0DupgWo",
-        "types": [
-            "cafe",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 8
     },
     "Miel de Sehwa": {
         "business_status": "OPERATIONAL",
@@ -12803,50 +11950,6 @@
         ],
         "user_ratings_total": 488
     },
-    "Aewol Cafe": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1404-1 Gwakji-ri, Aewol-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.45586,
-                "lng": 126.3096
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.45720982989272,
-                    "lng": 126.3109498298927
-                },
-                "southwest": {
-                    "lat": 33.45451017010728,
-                    "lng": 126.3082501701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Aewol Cafe",
-        "photos": [
-            {
-                "height": 1920,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/115551281874578877306\">kiki lin</a>"
-                ],
-                "photo_reference": "AXCi2Q7Z9P2KVUllP1U3tHE4VWA9IOXx3lRxT0PPLNkLv6owkk0yfzndGLa9b1-YgUifsn5tTJHKF8De3lH0vGHMBTKo941Dla_jB1sWNAK1ZwMPL-gz2OjS3XlAAbAmXmq6xKvh3-kV1U3xjZtzsRpMu-pGGdIQZdLdBU43hZwmy_-LK0kB",
-                "width": 1080
-            }
-        ],
-        "place_id": "ChIJtQeChjn1DDURNo3qRiljT2E",
-        "rating": 5,
-        "reference": "ChIJtQeChjn1DDURNo3qRiljT2E",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 2
-    },
     "Sukseongdo Aewol": {
         "business_status": "OPERATIONAL",
         "formatted_address": "24-16 Aewol-ro 1-gil, Aewol-eup, Jeju-si, Jeju-do, South Korea",
@@ -12982,53 +12085,6 @@
         ],
         "user_ratings_total": 91
     },
-    "Lan's Kitchen": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "57 Hagwidongnam 1-gil, Aewol-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4866096,
-                "lng": 126.4171551
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.48795942989273,
-                    "lng": 126.4185049298927
-                },
-                "southwest": {
-                    "lat": 33.48525977010729,
-                    "lng": 126.4158052701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Lan's Kitchen",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 1440,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/116026871917094378121\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q5GBBAH2BQ8Wva1pEITuNqGOzgVXTqlbsKQNJK-xIlmTGd-j7C3bSYDaqu68sf4m7bpiJxs-66CZmMb82lsznqKsx68PwOioH8Bb5Yy2cjak8CiBbLiVKuD8bollP3cxetycjtbq8WGht6sJMNrEAE2GPk_NABmg6pOmNMlLaPBhgs0",
-                "width": 1081
-            }
-        ],
-        "place_id": "ChIJNc51JFfxDDUREkXpEyJux60",
-        "rating": 4.8,
-        "reference": "ChIJNc51JFfxDDUREkXpEyJux60",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 10
-    },
     "Nolman": {
         "business_status": "OPERATIONAL",
         "formatted_address": "24 Aewol-ro 1-gil, Aewol-eup, \ud2b9\ubcc4\uc790\uce58\ub3c4, Jeju-si, Jeju-do, South Korea",
@@ -13123,53 +12179,6 @@
             "establishment"
         ],
         "user_ratings_total": 381
-    },
-    "Vegan Table Baram": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1794-1 Napeup-ri, Aewol-eup, \ud2b9\ubcc4\uc790\uce58\ub3c4, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4422949,
-                "lng": 126.3286587
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.44364472989272,
-                    "lng": 126.3300085298927
-                },
-                "southwest": {
-                    "lat": 33.44094507010728,
-                    "lng": 126.3273088701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Vegan Table Baram",
-        "opening_hours": {
-            "open_now": false
-        },
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/117242586093844576132\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q5FBPVtrnazNq0qDFPmqcWMNqqFRPye6FMleau2jge0cU9CzyRvEZUxH0jTntc0qQkpKT_9Ra5ME334nPFbsMApv5XSSi_itREJhZW6mfQ264iD1SukU4iXwDAI0MxwS4_5fcYHmcPSFH32MItYasY2sms5zgtAws4hs4KzCPMDF-39",
-                "width": 3024
-            }
-        ],
-        "place_id": "ChIJY3pLxG31DDURi80ZzxVMOEY",
-        "rating": 5,
-        "reference": "ChIJY3pLxG31DDURi80ZzxVMOEY",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 10
     },
     "Sumbida": {
         "business_status": "OPERATIONAL",
@@ -13407,100 +12416,6 @@
             "establishment"
         ],
         "user_ratings_total": 3396
-    },
-    "Baun jeju restaurant": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1902 Cheongsu-ri, Hangyeong-myeon, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.328987,
-                "lng": 126.2431049
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.33033682989272,
-                    "lng": 126.2444547298927
-                },
-                "southwest": {
-                    "lat": 33.32763717010727,
-                    "lng": 126.2417550701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Baun jeju restaurant",
-        "opening_hours": {
-            "open_now": false
-        },
-        "photos": [
-            {
-                "height": 2988,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/108160874392848906939\">\uc11c\uc740\uc11d</a>"
-                ],
-                "photo_reference": "AXCi2Q7tpH1ODX4tIAcZ6D0gnnRGKpcI2FI7haE_E6LXAtr45sLfao2Am0xXIxMbJvZGGrHUhaVkj9gzP-ME0V4DLbTvUNBKI4a-olpnGB4SFToRp8R__lvCwezH94Fq_2Gm3OblmdM_uC1Rk8WHZkHZjA_AkeR857266cyyJ1UL0HADC-g",
-                "width": 5312
-            }
-        ],
-        "place_id": "ChIJjSlcEZ9nDDURGWxfxqiRWVE",
-        "rating": 4.7,
-        "reference": "ChIJjSlcEZ9nDDURGWxfxqiRWVE",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 9
-    },
-    "Cooking Carpenter Jeju": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1235 Gueom-ri, Aewol-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4811838,
-                "lng": 126.3741822
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.48253362989271,
-                    "lng": 126.3755320298927
-                },
-                "southwest": {
-                    "lat": 33.47983397010727,
-                    "lng": 126.3728323701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Cooking Carpenter Jeju",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 1440,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/103957879972571937978\">\uc2e0\uc2b9\uad00</a>"
-                ],
-                "photo_reference": "AXCi2Q6Sc0qn43ZVgrDCwd44xXBqVwfevDDdTIAkXj2AeVwp2dwIu-WgC3aBC9v2lr_T-sfK8hcKIO3Mxktpy9gVhtTwv7HPCq-gQZU83jHjmeRXBmeX6ySy40f6dDkSSbfBfHxDtbLzZE3MqLZ3CeMlENpWCYtQoWsPV-1M91PszdmDr5oN",
-                "width": 2560
-            }
-        ],
-        "place_id": "ChIJUyn-4cr2DDURVZGze2Wc1so",
-        "rating": 4.1,
-        "reference": "ChIJUyn-4cr2DDURVZGze2Wc1so",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 7
     },
     "Landing Dining": {
         "business_status": "OPERATIONAL",
@@ -17298,97 +16213,6 @@
         ],
         "user_ratings_total": 383
     },
-    "Sin Woosung Town": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "Saekdal-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.250024,
-                "lng": 126.4120666
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25137382989272,
-                    "lng": 126.4134164298927
-                },
-                "southwest": {
-                    "lat": 33.24867417010728,
-                    "lng": 126.4107167701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Sin Woosung Town",
-        "photos": [
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/112735098010851642789\">Peter Lum</a>"
-                ],
-                "photo_reference": "AXCi2Q6jHtmwgezrBJSS7uPR33iXEYLDagIxfJZgH_rzMnGyc6h4n_yNpGbp3l0yURZbZkTMQVSpRyqk_EGM-lY7ScU_o8jqKVI3KmYpBRLO6ycWcUdivFq8F7PzCAwEC8zVDf9jPwZbbH0FZqhkPDaUtnXRMjCKRzpCKegvbUA8kkImv90k",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJ0SGp2MZaDDUR_-ewmFWbxR0",
-        "rating": 4.3,
-        "reference": "ChIJ0SGp2MZaDDUR_-ewmFWbxR0",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 4
-    },
-    "Geumhwadeog": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "166 Cheonjeyeon-ro, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2518948,
-                "lng": 126.4224038
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25324462989272,
-                    "lng": 126.4237536298927
-                },
-                "southwest": {
-                    "lat": 33.25054497010728,
-                    "lng": 126.4210539701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Geumhwadeog",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 1440,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/113838345044171965960\">\ubc30\uc2b9\uc6b1</a>"
-                ],
-                "photo_reference": "AXCi2Q6-wGviU52NbvPNPdWIoPKOphQUXz2VYGh9kbqKiJCTrYC44WY3RpAlAYZSubItuZVG_D5qjJQn_hgHYvjiAyuoS6lTxJErV7P5YRqw131Ya6KPU3ed-Ta7Ln2SOTf01ltuWbk5RJU5uEeS9Cgq3wY-C0jstt3qyHEj84eqHYIHKYeA",
-                "width": 1440
-            }
-        ],
-        "place_id": "ChIJneSfLaVbDDURvNgRk3kckpg",
-        "rating": 5,
-        "reference": "ChIJneSfLaVbDDURvNgRk3kckpg",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 4
-    },
     "\ud070\ub3c8\uac00 \uc911\ubb38\uc810": {
         "business_status": "OPERATIONAL",
         "formatted_address": "89 Cheonjeyeon-ro, Saekdal-dong, Seogwipo-si, Jeju-do, South Korea",
@@ -17530,100 +16354,6 @@
             "establishment"
         ],
         "user_ratings_total": 509
-    },
-    "Jungmun Restaurant": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "13\ubc88\uc9c0 2167 \uc911\ubb38\ub3d9 \ud2b9\ubcc4\uc790\uce58\ub3c4, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2529013,
-                "lng": 126.4220098
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25425112989272,
-                    "lng": 126.4233596298927
-                },
-                "southwest": {
-                    "lat": 33.25155147010728,
-                    "lng": 126.4206599701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Jungmun Restaurant",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 4284,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/116044716776032105753\">Tim Xu</a>"
-                ],
-                "photo_reference": "AXCi2Q7F04WlQxHv46NLgzF_THJxtjOBr84gKs5YPPIMZwmV-wudNVcYYn00x1WR4Q-vfiBzcBrrQO2C-e4OSqrRvqdv7wLEf50pp3wiPeOTpIPyIeQ3_Cc3OX5bDCY7PSWpsY_a5686Q8c41YXA8dDrD9Ox7QuULZqcTdFAlmZ9erLhLfQt",
-                "width": 5712
-            }
-        ],
-        "place_id": "ChIJu1XwJJZaDDURPr4bhPoOxhQ",
-        "rating": 4.7,
-        "reference": "ChIJu1XwJJZaDDURPr4bhPoOxhQ",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 3
-    },
-    "\ud398\ub2cc\uc290\ub77c": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "2812-4 Saekdal-dong, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.2484577,
-                "lng": 126.4106042
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.24980752989272,
-                    "lng": 126.4119540298927
-                },
-                "southwest": {
-                    "lat": 33.24710787010727,
-                    "lng": 126.4092543701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "\ud398\ub2cc\uc290\ub77c",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 3000,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/103472125405762688743\">\ub098\ub3c4\uc601</a>"
-                ],
-                "photo_reference": "AXCi2Q62KxFC-uE1B-E32xn6VculrlmL3lA4_mNFojOdJUNCD6dGpK5-9XMvLPMmf38hbtVxSYeXm2jLn7hR6Ijx1EVgfW3FEUc0sPZT-iNe_irTonAUPjuP9nWj4Y4nm1CwRvCkIiThr_WozY2GmU5qRIyD3mk6pvSGgbTLq07LbGmgluGk",
-                "width": 4000
-            }
-        ],
-        "place_id": "ChIJaw-6Z8ZaDDURfE9T47ViWPs",
-        "rating": 4.5,
-        "reference": "ChIJaw-6Z8ZaDDURfE9T47ViWPs",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 4
     },
     "\uc911\ubb38\ud574\ubb3c\ub77c\uba74\uc624\ube60\ub124\ubcf8\uc810": {
         "business_status": "OPERATIONAL",
@@ -18096,53 +16826,6 @@
         ],
         "user_ratings_total": 22
     },
-    "Sulgolae": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "South Korea, Jeju-do, Seogwipo-si, \ud2b9\ubcc4\uc790\uce58\ub3c4, \uc911\ubb38\ub3d9 Jungmunsang-ro 17beon-gil, 4 KR",
-        "geometry": {
-            "location": {
-                "lat": 33.2505072,
-                "lng": 126.4237934
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25185702989273,
-                    "lng": 126.4251432298927
-                },
-                "southwest": {
-                    "lat": 33.24915737010728,
-                    "lng": 126.4224435701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Sulgolae",
-        "opening_hours": {
-            "open_now": false
-        },
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/108038180028939391141\">Elaine Kang</a>"
-                ],
-                "photo_reference": "AXCi2Q6HEW-kqNna02n6WmDJslMA9Sqlbft37x98J_v2tkBjJsrKzJcpGFvRHiWhmfWLLbcUAvlbl1zDzAKS9JWgXX56heAgOEp_nI3HlKris91LFSELgZ3BATLVjECtafY75WAuAzPzG0uMmZ84kIOUVbSdiSxFoVR3LKBGKeAUETZ3gTL8",
-                "width": 1816
-            }
-        ],
-        "place_id": "ChIJ-Ve1p25bDDURBk-jn0hADQM",
-        "rating": 4.8,
-        "reference": "ChIJ-Ve1p25bDDURBk-jn0hADQM",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 6
-    },
     "\uc778\uc0ac\uc774\ub4dc\uc9c0\ubbf8\ud638 (IN SIDE JIMIHO Pub&Bar)": {
         "business_status": "OPERATIONAL",
         "formatted_address": "South Korea, Jeju-do, Seogwipo-si, Cheonjeyeon-ro, 167 \uc9c0\ud558 1\uce35",
@@ -18284,50 +16967,6 @@
             "establishment"
         ],
         "user_ratings_total": 85
-    },
-    "\uac11\uc21c\uc774\ub124": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "2116-1 \uc911\ubb38\ub3d9 Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.251749,
-                "lng": 126.4228567
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.25309882989272,
-                    "lng": 126.4242065298927
-                },
-                "southwest": {
-                    "lat": 33.25039917010728,
-                    "lng": 126.4215068701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "\uac11\uc21c\uc774\ub124",
-        "photos": [
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/117862361824513977449\">A Google User</a>"
-                ],
-                "photo_reference": "AXCi2Q7VTPyC9LYTKfXoS0b1v0nubz46YJNfU4U4cyVXqS4mNtw5Tkp0hxCRQV9iy1tKkW0L1pf0Ym1gYxtpwgTe2FfkhaLI0kQ2fptYvx_p5MFCF12dTsnSKvPTe7cr2pSDulfHt2VEn7PMzY_CLJLlo9vFiir4RACyCGIGWmHscsZ4BlHx",
-                "width": 4032
-            }
-        ],
-        "place_id": "ChIJoZ5a8qBbDDURO5_Bzz9rlZc",
-        "rating": 4.9,
-        "reference": "ChIJoZ5a8qBbDDURO5_Bzz9rlZc",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 8
     },
     "\uc81c\uc8fc\uc2e0\ub77c\ud638\ud154 \ucc9c\uc9c0": {
         "business_status": "OPERATIONAL",
@@ -18944,43 +17583,6 @@
         ],
         "user_ratings_total": 583
     },
-    "\ucc28\ub871\ub0c9\uc0bc": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "34 Dongmun-ro, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.418364,
-                "lng": 126.2643121
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.41971382989271,
-                    "lng": 126.2656619298927
-                },
-                "southwest": {
-                    "lat": 33.41701417010727,
-                    "lng": 126.2629622701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "\ucc28\ub871\ub0c9\uc0bc",
-        "opening_hours": {
-            "open_now": false
-        },
-        "place_id": "ChIJrexgNQBfDDUR--G2tpdReIU",
-        "rating": 0,
-        "reference": "ChIJrexgNQBfDDUR--G2tpdReIU",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 0
-    },
     "Restaurant Milieu": {
         "business_status": "OPERATIONAL",
         "formatted_address": "537 Minsokhaean-ro, Pyoseon-myeon, Seogwipo-si, Jeju-do, South Korea",
@@ -19122,53 +17724,6 @@
             "establishment"
         ],
         "user_ratings_total": 34
-    },
-    "Hallim Kalguksu": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "1371-26 Hanrim-ri, Hallim-eup, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.4131434,
-                "lng": 126.2614961
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.41449322989272,
-                    "lng": 126.2628459298927
-                },
-                "southwest": {
-                    "lat": 33.41179357010728,
-                    "lng": 126.2601462701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Hallim Kalguksu",
-        "opening_hours": {
-            "open_now": true
-        },
-        "photos": [
-            {
-                "height": 4000,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/110537875373245380759\">Adriel Siew</a>"
-                ],
-                "photo_reference": "AXCi2Q60qQvo1X9QLOJQpjk5XSCFedcsJ4U1NL7ikl5uJJPn3ORh1weGm4DTD4d9lGo8A5ZCiOvHSKj6b94tsj_TbbTyETkXeJydKtIC0a9TrPXzob9e1pe9xAcIVQCvN7srSojCjHZScF5F4CnTlVs8j_RN6wpVEgFyOQPtcSvUrIgR_XH-",
-                "width": 3000
-            }
-        ],
-        "place_id": "ChIJP4knF09hDDURN8hB76449jU",
-        "rating": 0,
-        "reference": "ChIJP4knF09hDDURN8hB76449jU",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 0
     },
     "Cheesus": {
         "business_status": "OPERATIONAL",
@@ -19648,40 +18203,6 @@
         ],
         "user_ratings_total": 17
     },
-    "Hallasan a rae cheot maeul Jeju Folk Village branch": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "631-46 Minsokhaean-ro, Pyoseon-myeon, Seogwipo-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.3243028,
-                "lng": 126.8431951
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.32565262989272,
-                    "lng": 126.8445449298927
-                },
-                "southwest": {
-                    "lat": 33.32295297010727,
-                    "lng": 126.8418452701072
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "Hallasan a rae cheot maeul Jeju Folk Village branch",
-        "place_id": "ChIJU-SZQgAPDTURKMbHnHH7g7g",
-        "rating": 0,
-        "reference": "ChIJU-SZQgAPDTURKMbHnHH7g7g",
-        "types": [
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ],
-        "user_ratings_total": 0
-    },
     "Stone Restaurant": {
         "business_status": "OPERATIONAL",
         "formatted_address": "1624-3 Seongeup-ri, Pyoseon-myeon, Seogwipo-si, Jeju-do, South Korea",
@@ -19729,43 +18250,6 @@
             "establishment"
         ],
         "user_ratings_total": 480
-    },
-    "The blue": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "66 Tapdong-ro, Samdo-dong, Jeju-si, Jeju-do, South Korea",
-        "geometry": {
-            "location": {
-                "lat": 33.5185924,
-                "lng": 126.5175016
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.51994222989272,
-                    "lng": 126.5188514298927
-                },
-                "southwest": {
-                    "lat": 33.51724257010728,
-                    "lng": 126.5161517701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "The blue",
-        "opening_hours": {
-            "open_now": true
-        },
-        "place_id": "ChIJTzVpwC7lDDUR8tMA_oRncp4",
-        "rating": 5,
-        "reference": "ChIJTzVpwC7lDDUR8tMA_oRncp4",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 2
     },
     "Tomtom Curry(Halal)": {
         "business_status": "OPERATIONAL",
@@ -19909,50 +18393,6 @@
             "establishment"
         ],
         "user_ratings_total": 560
-    },
-    "The First Village Under Hallasan": {
-        "business_status": "OPERATIONAL",
-        "formatted_address": "South Korea, Jeju-do, Seogwipo-si, \ud2b9\ubcc4\uc790\uce58\ub3c4, Pyoseon-myeon, Pyoseon-ri, 40-1",
-        "geometry": {
-            "location": {
-                "lat": 33.3223451,
-                "lng": 126.8414874
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 33.32369492989272,
-                    "lng": 126.8428372298927
-                },
-                "southwest": {
-                    "lat": 33.32099527010728,
-                    "lng": 126.8401375701073
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "icon_background_color": "#FF9E67",
-        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-        "name": "The First Village Under Hallasan",
-        "photos": [
-            {
-                "height": 4032,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100078917190348305549\">Rei Rendon</a>"
-                ],
-                "photo_reference": "AXCi2Q6-vR_V4bn11pIFpAn6YNvTWvwHYG0E8qeUJMBg-TFmJnGLgkwIexLrSfMton19mYI5NnI2UQF39Id4RP3Y47L-9G1qSRFBvDVcluoPSR_rGe1GEg7bPPE9FarVN31pKATvCcbFAY_XenV4_HF8rDOdVEFSBz8sI-bcPEZE45qv2Sza",
-                "width": 3024
-            }
-        ],
-        "place_id": "ChIJ1UKbpjQJDTUR7wfzIKsAlnk",
-        "rating": 4.7,
-        "reference": "ChIJ1UKbpjQJDTUR7wfzIKsAlnk",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 3
     },
     "Jangseungpo Restaurant": {
         "business_status": "OPERATIONAL",
