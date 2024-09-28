@@ -850,14 +850,14 @@ class PipelineV2():
 
         # get firestore MMG cafes
         docs = self.firestore_db.collection(self.firestore_db_path).get()
-        docs_formatted = {}
+        docs_formatted = []
         for doc in docs:
             doc_dict = doc.to_dict()
             doc_dict['place_id'] = str(doc.id)
             doc_dict['isMurderMysteryCafe'] = True
             doc_dict['Latitude'] = doc_dict.pop('lat')
             doc_dict['Longitude'] = doc_dict.pop('long')
-            docs_formatted[doc_dict['name']] = doc_dict
+            docs_formatted.append(doc_dict)
 
 
         date_dict = dict()
@@ -892,6 +892,7 @@ class PipelineV2():
             
             destination_average_lat_long = get_lat_long_average(current_date_destination_list)
             distanced_accomodations_list_of_dict = get_batch_distance(destination_average_lat_long[0], destination_average_lat_long[1], accomodations_list_of_dict)
+            distanced_docs_formatted = get_batch_distance(destination_average_lat_long[0], destination_average_lat_long[1], docs_formatted)
             
             # sort according to distance first, then only by preference
             sorted_accomodations_list_of_dict = sorted(

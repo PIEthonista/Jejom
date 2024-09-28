@@ -13,6 +13,8 @@ docs = db.collection('script_restaurant').get()
 for doc in docs:
     print(f'{doc.id} => {doc.to_dict()}\n\n')
 
+print(len(docs))
+
 # tnpUaddZLYrK7gAv6Skn => 
 # {
 #     'description': "Warm scones and a cup of coffee, paired with an idyllic view of Jeju's western coastline - can you imagine a more calming scene? That's exactly what you'll get at Biyangnol, a charming cafe with wide glass windows made for you to sit by, as you sip on your coffee and soak in views of the west coast, as well as of Biyangdo, a small island located across the waters.", 
