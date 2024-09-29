@@ -2,14 +2,17 @@
 Create a file named <code>.env</code> at the same directory level as this <code>README.md</code>, and define the below:
 - <code>UPSTAGE_API_KEY = "<a href='https://developers.upstage.ai/docs/getting-started/quick-start'>get_your_upstage_api_key_here</a>"</code>
 - <code>SERPAPI_API_KEY = "<a href='https://serpapi.com/integrations/python'>get_your_serp_api_key_here</a>"</code>
+- <code>PEXELS_API_KEY = "<a href='https://www.pexels.com/api/'>get_your_pexel_api_key_here</a>"</code>
 
+
+## Firebase Credentials
+Placse the firebase credential <code>json</code> file at the same directory level as this <code>README.md</code> file.
+- <a href='https://drive.google.com/drive/folders/1MGRiSJsZaHOxXGeLiFpqjMPfK_gpVoaa?usp=sharing'>jejom-d5d61-firebase-adminsdk-hxhng-6f02508a1f.json</a>
 
 <br/>
 
 ## Python: Conda ENV Setup
-- <code>cconda env create -n jejom-llama --file environment.yml</code>
-
-Due to different compatibility from machine to machine, if you happen to face any conflicts while resolving the above environment, please head to <code>requirements.txt</code> and install the dependencies one by one.
+- <code>conda env create -n jejom-llama --file environment.yml</code>
 
 
 
@@ -38,7 +41,7 @@ We have run the scripts necessary to create the knowledge base where the pipelin
 
 <br/>
 
-2. Indexing the filtered locations. In <code>build_locations_index.py</code>, set all three <code>GENERATE_DESC</code>, <code>GENERATE_VECTOR_INDEX</code>, and <code>TEST_VECTOR_INDEX</code> to <code>True</code>. Then run the below:
+2. Indexing the filtered locations. In <code>build_locations_index.py</code>, set all three <code>GENERATE_DESC</code>, <code>GENERATE_SUITABLE_TIMES</code>, <code>GENERATE_VECTOR_INDEX</code>, and <code>TEST_VECTOR_INDEX</code> to <code>True</code>. Then run the below:
     - <code>python build_locations_index.py</code>
 
 <br/>
